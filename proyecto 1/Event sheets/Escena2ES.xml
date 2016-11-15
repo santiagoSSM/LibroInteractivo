@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Escena2ES</name>
+    <events>
+        <include>iguES</include>
+        <include>ptoES</include>
+        <include>gllES</include>
+    </events>
+</c2eventsheet>
