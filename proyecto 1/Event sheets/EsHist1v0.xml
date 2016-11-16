@@ -3,9 +3,9 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EsHist1v0</name>
     <events>
-        <include>soundEH1v0ES</include>
-        <include>reprEH1v0ES</include>
-        <include>prevEH1v0ES</include>
-        <include>nextEH1v0ES</include>
+        <include>soundEH1v0</include>
+        <include>reprEH1v0</include>
+        <include>prevEH1v0</include>
+        <include>nextEH1v0</include>
     </events>
 </c2eventsheet>

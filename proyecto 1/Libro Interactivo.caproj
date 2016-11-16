@@ -1003,11 +1003,97 @@
                     <plugin id="TiledBg" />
                     <texture original-source="M:\imagenes\1,2 cuadr-01.jpg" />
                 </object-type>
+                <object-type name="siguiente" sid="3535300449874072">
+                    <plugin id="Button" />
+                </object-type>
+                <object-type name="previous" sid="9247700998085818">
+                    <plugin id="Button" />
+                </object-type>
             </object-folder>
             <object-folder name="EsHist1v5">
                 <object-type name="EsHist1v5" sid="3337037634259415">
                     <plugin id="TiledBg" />
                     <texture original-source="M:\imagenes\1,5 contorno-01.jpg" />
+                </object-type>
+                <object-type name="nextEH1v5" sid="2626602476965357">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8577783888642007" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton cont.png">
+                                <collision-poly>
+                                    <point x="0.202703" y="0.227273" />
+                                    <point x="0.5" y="0.0757576" />
+                                    <point x="0.797297" y="0.227273" />
+                                    <point x="0.878378" y="0.5" />
+                                    <point x="0.783784" y="0.757576" />
+                                    <point x="0.5" y="0.893939" />
+                                    <point x="0.216216" y="0.757576" />
+                                    <point x="0.121622" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="prevEH1v5" sid="4505268282448531">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4130939498976456" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton retro.png">
+                                <collision-poly>
+                                    <point x="0.189189" y="0.21875" />
+                                    <point x="0.5" y="0.0625" />
+                                    <point x="0.783784" y="0.25" />
+                                    <point x="0.851351" y="0.5" />
+                                    <point x="0.77027" y="0.734375" />
+                                    <point x="0.5" y="0.90625" />
+                                    <point x="0.202703" y="0.765625" />
+                                    <point x="0.0945946" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="reprEH1v5" sid="4772174664801732">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6960586662577723" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\botón repit.png">
+                                <collision-poly>
+                                    <point x="0.177419" y="0.189655" />
+                                    <point x="0.5" y="0.0517241" />
+                                    <point x="0.806452" y="0.206897" />
+                                    <point x="0.919355" y="0.5" />
+                                    <point x="0.790323" y="0.775862" />
+                                    <point x="0.5" y="0.913793" />
+                                    <point x="0.193548" y="0.793103" />
+                                    <point x="0.0483871" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="soundEH1v5" sid="989338476955468">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1806969320072509" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton audio.png">
+                                <collision-poly>
+                                    <point x="0.181818" y="0.193548" />
+                                    <point x="0.5" y="0.0483871" />
+                                    <point x="0.818182" y="0.193548" />
+                                    <point x="0.924242" y="0.5" />
+                                    <point x="0.80303" y="0.790323" />
+                                    <point x="0.5" y="0.919355" />
+                                    <point x="0.19697" y="0.790323" />
+                                    <point x="0.0757576" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="EsHist2">
@@ -1078,12 +1164,8 @@
             <layout-folder name="EsHist1" />
             <layout-folder name="EsHist1v0" />
             <layout-folder name="EsHist1v1" />
-            <layout-folder name="EsHist1v2">
-                <layout>EsHist1v2.xml</layout>
-            </layout-folder>
-            <layout-folder name="EsHist1v5">
-                <layout>EsHist1v5.xml</layout>
-            </layout-folder>
+            <layout-folder name="EsHist1v2" />
+            <layout-folder name="EsHist1v5" />
             <layout-folder name="EsHist2">
                 <layout>EsHist2.xml</layout>
             </layout-folder>
@@ -1117,6 +1199,8 @@
             <layout>EsHist1.xml</layout>
             <layout>EsHist1v0.xml</layout>
             <layout>EsHist1v1.xml</layout>
+            <layout>EsHist1v2.xml</layout>
+            <layout>EsHist1v5.xml</layout>
         </layout-folder>
         <layout>Escena1.xml</layout>
         <layout>Escena2.xml</layout>
@@ -1143,30 +1227,34 @@
         <event-folder name="HistES">
             <event-folder name="EsHist1">
                 <event-sheet>EsHist1.xml</event-sheet>
-                <event-sheet>nextEH1ES.xml</event-sheet>
-                <event-sheet>prevEH1ES.xml</event-sheet>
-                <event-sheet>reprEH1ES.xml</event-sheet>
-                <event-sheet>soundEH1ES.xml</event-sheet>
+                <event-sheet>nextEH1.xml</event-sheet>
+                <event-sheet>prevEH1.xml</event-sheet>
+                <event-sheet>reprEH1.xml</event-sheet>
+                <event-sheet>soundEH1.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist1v0">
                 <event-sheet>EsHist1v0.xml</event-sheet>
-                <event-sheet>nextEH1v0ES.xml</event-sheet>
-                <event-sheet>prevEH1v0ES.xml</event-sheet>
-                <event-sheet>reprEH1v0ES.xml</event-sheet>
-                <event-sheet>soundEH1v0ES.xml</event-sheet>
+                <event-sheet>nextEH1v0.xml</event-sheet>
+                <event-sheet>prevEH1v0.xml</event-sheet>
+                <event-sheet>reprEH1v0.xml</event-sheet>
+                <event-sheet>soundEH1v0.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist1v1">
                 <event-sheet>EsHist1v1.xml</event-sheet>
-                <event-sheet>nextEH1v1ES.xml</event-sheet>
-                <event-sheet>prevEH1v1ES.xml</event-sheet>
-                <event-sheet>reprEH1v1ES.xml</event-sheet>
-                <event-sheet>soundEH1v1ES.xml</event-sheet>
+                <event-sheet>nextEH1v1.xml</event-sheet>
+                <event-sheet>prevEH1v1.xml</event-sheet>
+                <event-sheet>reprEH1v1.xml</event-sheet>
+                <event-sheet>soundEH1v1.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist1v2">
                 <event-sheet>EsHist1v2.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist1v5">
                 <event-sheet>EsHist1v5.xml</event-sheet>
+                <event-sheet>nextEH1v5.xml</event-sheet>
+                <event-sheet>prevEH1v5.xml</event-sheet>
+                <event-sheet>reprEH1v5.xml</event-sheet>
+                <event-sheet>soundEH1v5.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist2">
                 <event-sheet>EsHist2.xml</event-sheet>
