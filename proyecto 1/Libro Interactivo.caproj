@@ -1419,6 +1419,7 @@
             <layout>EsHist1v5.xml</layout>
             <layout>EsHist2.xml</layout>
             <layout>EsHist2v1.xml</layout>
+            <layout>EstHist11.xml</layout>
         </layout-folder>
         <layout>Escena1.xml</layout>
         <layout>Escena2.xml</layout>
@@ -1514,6 +1515,9 @@
             </event-folder>
             <event-folder name="EsHist10">
                 <event-sheet>EsHist10.xml</event-sheet>
+            </event-folder>
+            <event-folder name="EsHist11">
+                <event-sheet>EsHist11.xml</event-sheet>
             </event-folder>
         </event-folder>
     </event-folder>
