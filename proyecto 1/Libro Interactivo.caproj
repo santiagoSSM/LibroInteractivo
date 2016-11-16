@@ -1101,17 +1101,237 @@
                     <plugin id="TiledBg" />
                     <texture original-source="M:\imagenes\2 imagen-01.jpg" />
                 </object-type>
+                <object-type name="nextEH2" sid="7813332496962326">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="90960438434123" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton cont.png">
+                                <collision-poly>
+                                    <point x="0.202703" y="0.227273" />
+                                    <point x="0.5" y="0.0757576" />
+                                    <point x="0.797297" y="0.227273" />
+                                    <point x="0.878378" y="0.5" />
+                                    <point x="0.783784" y="0.757576" />
+                                    <point x="0.5" y="0.893939" />
+                                    <point x="0.216216" y="0.757576" />
+                                    <point x="0.121622" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="prevEH2" sid="2856018587551649">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1546715177339975" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton retro.png">
+                                <collision-poly>
+                                    <point x="0.189189" y="0.21875" />
+                                    <point x="0.5" y="0.0625" />
+                                    <point x="0.783784" y="0.25" />
+                                    <point x="0.851351" y="0.5" />
+                                    <point x="0.77027" y="0.734375" />
+                                    <point x="0.5" y="0.90625" />
+                                    <point x="0.202703" y="0.765625" />
+                                    <point x="0.0945946" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="soundEH2" sid="2552376094892064">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7082470778498248" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton audio.png">
+                                <collision-poly>
+                                    <point x="0.181818" y="0.193548" />
+                                    <point x="0.5" y="0.0483871" />
+                                    <point x="0.818182" y="0.193548" />
+                                    <point x="0.924242" y="0.5" />
+                                    <point x="0.80303" y="0.790323" />
+                                    <point x="0.5" y="0.919355" />
+                                    <point x="0.19697" y="0.790323" />
+                                    <point x="0.0757576" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="EsHist2v1">
                 <object-type name="EsHist2v1" sid="1273030314854535">
                     <plugin id="TiledBg" />
                     <texture original-source="M:\imagenes\2 imagen-01-01.jpg" />
                 </object-type>
+                <object-type name="nextEH2v1" sid="2846076474543396">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5880109913983412" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton cont.png">
+                                <collision-poly>
+                                    <point x="0.202703" y="0.227273" />
+                                    <point x="0.5" y="0.0757576" />
+                                    <point x="0.797297" y="0.227273" />
+                                    <point x="0.878378" y="0.5" />
+                                    <point x="0.783784" y="0.757576" />
+                                    <point x="0.5" y="0.893939" />
+                                    <point x="0.216216" y="0.757576" />
+                                    <point x="0.121622" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="reprEH2v1" sid="4551787885164374">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9688635584952765" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\botón repit.png">
+                                <collision-poly>
+                                    <point x="0.181818" y="0.193548" />
+                                    <point x="0.5" y="0.0483871" />
+                                    <point x="0.818182" y="0.193548" />
+                                    <point x="0.924242" y="0.5" />
+                                    <point x="0.80303" y="0.790323" />
+                                    <point x="0.5" y="0.919355" />
+                                    <point x="0.19697" y="0.790323" />
+                                    <point x="0.0757576" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="prevEH2v1" sid="3946783038332632">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4685973157092858" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton retro.png">
+                                <collision-poly>
+                                    <point x="0.189189" y="0.21875" />
+                                    <point x="0.5" y="0.0625" />
+                                    <point x="0.783784" y="0.25" />
+                                    <point x="0.851351" y="0.5" />
+                                    <point x="0.77027" y="0.734375" />
+                                    <point x="0.5" y="0.90625" />
+                                    <point x="0.202703" y="0.765625" />
+                                    <point x="0.0945946" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="soundEH2v1" sid="1459163444094566">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7746693609830737" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton audio.png">
+                                <collision-poly>
+                                    <point x="0.181818" y="0.193548" />
+                                    <point x="0.5" y="0.0483871" />
+                                    <point x="0.818182" y="0.193548" />
+                                    <point x="0.924242" y="0.5" />
+                                    <point x="0.80303" y="0.790323" />
+                                    <point x="0.5" y="0.919355" />
+                                    <point x="0.19697" y="0.790323" />
+                                    <point x="0.0757576" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="EsHist3">
                 <object-type name="EsHist3" sid="91483824151617">
                     <plugin id="TiledBg" />
                     <texture original-source="M:\imagenes\3 cuad-01.jpg" />
+                </object-type>
+                <object-type name="nextEH3" sid="2672798583333708">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4177499367812201" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton cont.png">
+                                <collision-poly>
+                                    <point x="0.202703" y="0.227273" />
+                                    <point x="0.5" y="0.0757576" />
+                                    <point x="0.797297" y="0.227273" />
+                                    <point x="0.878378" y="0.5" />
+                                    <point x="0.783784" y="0.757576" />
+                                    <point x="0.5" y="0.893939" />
+                                    <point x="0.216216" y="0.757576" />
+                                    <point x="0.121622" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="reprEH3" sid="5014158335158429">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6158280388914317" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\botón repit.png">
+                                <collision-poly>
+                                    <point x="0.177419" y="0.189655" />
+                                    <point x="0.5" y="0.0517241" />
+                                    <point x="0.806452" y="0.206897" />
+                                    <point x="0.919355" y="0.5" />
+                                    <point x="0.790323" y="0.775862" />
+                                    <point x="0.5" y="0.913793" />
+                                    <point x="0.193548" y="0.793103" />
+                                    <point x="0.0483871" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="prevEH3" sid="242808369343319">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3512759631897707" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton retro.png">
+                                <collision-poly>
+                                    <point x="0.189189" y="0.21875" />
+                                    <point x="0.5" y="0.0625" />
+                                    <point x="0.783784" y="0.25" />
+                                    <point x="0.851351" y="0.5" />
+                                    <point x="0.77027" y="0.734375" />
+                                    <point x="0.5" y="0.90625" />
+                                    <point x="0.202703" y="0.765625" />
+                                    <point x="0.0945946" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="soundEH3" sid="2590240927720771">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3186494309939415" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton audio.png">
+                                <collision-poly>
+                                    <point x="0.181818" y="0.193548" />
+                                    <point x="0.5" y="0.0483871" />
+                                    <point x="0.818182" y="0.193548" />
+                                    <point x="0.924242" y="0.5" />
+                                    <point x="0.80303" y="0.790323" />
+                                    <point x="0.5" y="0.919355" />
+                                    <point x="0.19697" y="0.790323" />
+                                    <point x="0.0757576" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="EsHist4">
@@ -1166,12 +1386,8 @@
             <layout-folder name="EsHist1v1" />
             <layout-folder name="EsHist1v2" />
             <layout-folder name="EsHist1v5" />
-            <layout-folder name="EsHist2">
-                <layout>EsHist2.xml</layout>
-            </layout-folder>
-            <layout-folder name="EsHist2v1">
-                <layout>EsHist2v1.xml</layout>
-            </layout-folder>
+            <layout-folder name="EsHist2" />
+            <layout-folder name="EsHist2v1" />
             <layout-folder name="EsHist3">
                 <layout>EsHist3.xml</layout>
             </layout-folder>
@@ -1201,6 +1417,8 @@
             <layout>EsHist1v1.xml</layout>
             <layout>EsHist1v2.xml</layout>
             <layout>EsHist1v5.xml</layout>
+            <layout>EsHist2.xml</layout>
+            <layout>EsHist2v1.xml</layout>
         </layout-folder>
         <layout>Escena1.xml</layout>
         <layout>Escena2.xml</layout>
@@ -1258,12 +1476,23 @@
             </event-folder>
             <event-folder name="EsHist2">
                 <event-sheet>EsHist2.xml</event-sheet>
+                <event-sheet>nextEH2.xml</event-sheet>
+                <event-sheet>prevEH2.xml</event-sheet>
+                <event-sheet>soundEH2.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist2v1">
                 <event-sheet>EsHist2v1.xml</event-sheet>
+                <event-sheet>nextEH2v1.xml</event-sheet>
+                <event-sheet>prevEH2v1.xml</event-sheet>
+                <event-sheet>soundEH2v1.xml</event-sheet>
+                <event-sheet>reprEH2v1.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist3">
                 <event-sheet>EsHist3.xml</event-sheet>
+                <event-sheet>nextEH3.xml</event-sheet>
+                <event-sheet>prevEH3.xml</event-sheet>
+                <event-sheet>reprEH3.xml</event-sheet>
+                <event-sheet>soundEH3.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist4">
                 <event-sheet>EsHist4.xml</event-sheet>
