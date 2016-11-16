@@ -1370,6 +1370,12 @@
                     <texture original-source="M:\imagenes\9 contorno-01.jpg" />
                 </object-type>
             </object-folder>
+            <object-folder name="EsHis11">
+                <object-type name="EsHist11" sid="2763791023005464">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\11 contorno-01.jpg" />
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-type name="Mouse" sid="9655845622935735">
             <plugin id="Mouse" />
@@ -1419,7 +1425,7 @@
             <layout>EsHist1v5.xml</layout>
             <layout>EsHist2.xml</layout>
             <layout>EsHist2v1.xml</layout>
-            <layout>EstHist11.xml</layout>
+            <layout>EsHist11.xml</layout>
         </layout-folder>
         <layout>Escena1.xml</layout>
         <layout>Escena2.xml</layout>

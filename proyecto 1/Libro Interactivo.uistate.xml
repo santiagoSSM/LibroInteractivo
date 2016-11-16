@@ -11,7 +11,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">EsHist3</layout>
-        <layout active="1" order="3">EstHist11</layout>
+        <layout active="1" order="3">EsHist11</layout>
         <event-sheet order="1">reprEH2v1</event-sheet>
         <event-sheet order="2">reprEH3</event-sheet>
     </open-tabs>
@@ -56,13 +56,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist1v5/" />
         <folder expanded="0" path="object-folder/Hist/EsHist2/" />
         <folder expanded="0" path="object-folder/Hist/EsHist2v1/" />
-        <folder expanded="1" path="object-folder/Hist/EsHist3/" />
+        <folder expanded="0" path="object-folder/Hist/EsHist3/" />
         <folder expanded="0" path="object-folder/Hist/EsHist4/" />
         <folder expanded="0" path="object-folder/Hist/EsHist5/" />
         <folder expanded="0" path="object-folder/Hist/EsHist6/" />
         <folder expanded="0" path="object-folder/Hist/EsHist7/" />
         <folder expanded="0" path="object-folder/Hist/EsHist8/" />
         <folder expanded="0" path="object-folder/Hist/EsHist9/" />
+        <folder expanded="1" path="object-folder/Hist/EsHis11/" />
         <folder expanded="0" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Hist/" />
         <folder expanded="1" path="layout-folder/Hist/EsHist1/" />
@@ -99,7 +100,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist8/" />
         <folder expanded="0" path="event-folder/HistES/EsHist9/" />
         <folder expanded="0" path="event-folder/HistES/EsHist10/" />
-        <folder expanded="1" path="event-folder/HistES/EsHist11/" />
+        <folder expanded="0" path="event-folder/HistES/EsHist11/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
