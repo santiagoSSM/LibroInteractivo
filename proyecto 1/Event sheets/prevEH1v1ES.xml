@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>prevEH1v1ES</name>
+    <events>
+        <event-block sid="2711211236600673">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1626415938409605" type="Mouse">
+                    <param id="0" name="Object">prevEH1v1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8689324879461778" type="prevEH1v1">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4054927138087964">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="7750485364573167" type="Mouse">
+                    <param id="0" name="Object">prevEH1v1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="5167918772550201" type="prevEH1v1">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9321159943493594">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3602601413291763" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">prevEH1v1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9753585386797398" type="System">
+                    <param id="0" name="Layout">EsHist1v0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

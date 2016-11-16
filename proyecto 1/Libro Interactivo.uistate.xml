@@ -10,24 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Escena1</layout>
-        <layout order="1">EsHist1</layout>
-        <layout order="3">EsHist1v0</layout>
-        <layout order="4">EsHist1v1</layout>
-        <layout order="5">EsHist1v2</layout>
-        <layout order="6">EsHist1v5</layout>
-        <layout order="7">EsHist2</layout>
-        <layout order="8">EsHist2v1</layout>
-        <layout order="9">EsHist3</layout>
-        <layout order="10">EsHist5</layout>
-        <layout order="11">EsHist4</layout>
-        <layout order="13">EsHist6</layout>
-        <layout order="14">EsHist7</layout>
-        <layout order="15">EsHist8</layout>
-        <layout order="16">EsHist9</layout>
-        <layout active="1" order="17">EsHist10</layout>
-        <event-sheet order="2">EsHist1</event-sheet>
-        <event-sheet order="12">EsHist5</event-sheet>
+        <layout active="1" order="0">EsHist1v1</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -65,7 +48,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/Hist/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v0/" />
-        <folder expanded="0" path="object-folder/Hist/EsHist1v1/" />
+        <folder expanded="1" path="object-folder/Hist/EsHist1v1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v2/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v5/" />
         <folder expanded="0" path="object-folder/Hist/EsHist2/" />
@@ -79,9 +62,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist9/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Hist/" />
-        <folder expanded="0" path="layout-folder/Hist/EsHist1/" />
-        <folder expanded="0" path="layout-folder/Hist/EsHist1v0/" />
-        <folder expanded="0" path="layout-folder/Hist/EsHist1v1/" />
+        <folder expanded="1" path="layout-folder/Hist/EsHist1/" />
+        <folder expanded="1" path="layout-folder/Hist/EsHist1v0/" />
+        <folder expanded="1" path="layout-folder/Hist/EsHist1v1/" />
         <folder expanded="0" path="layout-folder/Hist/EsHist1v2/" />
         <folder expanded="0" path="layout-folder/Hist/EsHist1v5/" />
         <folder expanded="0" path="layout-folder/Hist/EsHist2/" />
@@ -100,7 +83,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="event-folder/HistES/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v0/" />
-        <folder expanded="0" path="event-folder/HistES/EsHist1v1/" />
+        <folder expanded="1" path="event-folder/HistES/EsHist1v1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v2/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v5/" />
         <folder expanded="0" path="event-folder/HistES/EsHist2/" />
@@ -157,5 +140,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/iguHb/" />
         <folder expanded="1" path="animation-folder/plagIgu/" />
         <folder expanded="1" path="animation-folder/SerpBrill/" />
+        <folder expanded="1" path="animation-folder/nextEH1/" />
+        <folder expanded="1" path="animation-folder/prevEH1/" />
+        <folder expanded="1" path="animation-folder/reprEH1/" />
+        <folder expanded="1" path="animation-folder/soundEH1/" />
+        <folder expanded="1" path="animation-folder/nextEH1v0/" />
+        <folder expanded="1" path="animation-folder/prevEH1v0/" />
+        <folder expanded="1" path="animation-folder/reprEH1v0/" />
+        <folder expanded="1" path="animation-folder/soundEH1v0/" />
+        <folder expanded="1" path="animation-folder/nextEH1v1/" />
+        <folder expanded="1" path="animation-folder/prevEH1v1/" />
+        <folder expanded="1" path="animation-folder/reprEH1v1/" />
+        <folder expanded="1" path="animation-folder/soundEH1v1/" />
     </folders-expanded>
 </c2uistate>
