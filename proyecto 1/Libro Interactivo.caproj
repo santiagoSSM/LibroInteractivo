@@ -1394,9 +1394,7 @@
             <layout-folder name="EsHist1v5" />
             <layout-folder name="EsHist2" />
             <layout-folder name="EsHist2v1" />
-            <layout-folder name="EsHist3">
-                <layout>EsHist3.xml</layout>
-            </layout-folder>
+            <layout-folder name="EsHist3" />
             <layout-folder name="EsHist4">
                 <layout>EsHist4.xml</layout>
             </layout-folder>
@@ -1426,6 +1424,7 @@
             <layout>EsHist2.xml</layout>
             <layout>EsHist2v1.xml</layout>
             <layout>EsHist11.xml</layout>
+            <layout>EsHist3.xml</layout>
         </layout-folder>
         <layout>Escena1.xml</layout>
         <layout>Escena2.xml</layout>
