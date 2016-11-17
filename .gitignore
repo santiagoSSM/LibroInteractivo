@@ -1,5 +1,10 @@
 # files
-*.caproj
+
 *.autosave
 *.backup*
-Libro Interactivo.uistate.xml
+
+
+# archivos importantes de layouts
+
+#*.caproj
+#Libro Interactivo.uistate.xml
