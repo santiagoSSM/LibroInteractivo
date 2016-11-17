@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ventanaFrtES</name>
+    <events>
+        <event-block sid="3194201713993302">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="3953070334362492" type="Mouse">
+                    <param id="0" name="Object">ventanaFrt</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3432676501489565" type="ventanaFrt">
+                    <param id="0" name="Instance variable">brill</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4464351493702641" type="ventanaFrt">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="5958153335210278" type="ventanaFrt">
+                    <param id="0" name="Animation">&quot;ventanaFrtBrill&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="1647997268395466" type="ventanaFrt">
+                    <param id="0" name="Instance variable">brill</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="9652343753562915" type="cs">
+                    <param id="0" name="Animation">&quot;animar&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5341684102911541">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="4309612299552898" type="Mouse">
+                    <param id="0" name="Object">ventanaFrt</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4698384923944657" type="ventanaFrt">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="4983345899512902" type="ventanaFrt">
+                    <param id="0" name="Animation">&quot;ventanaFrt&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="8195025328674619" type="ventanaFrt">
+                    <param id="0" name="Instance variable">brill</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7989649969103292">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7628972847698109" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ventanaFrt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3874760924439619" type="ventanaFrt">
+                    <param id="0" name="Animation">&quot;ventanaFrtCerr&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4627144480616611" type="ventanaFrt">
+                    <param id="0" name="Instance variable">finProc</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

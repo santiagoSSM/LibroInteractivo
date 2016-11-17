@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>reprEH3</name>
+    <events>
+        <event-block sid="6425225010040335">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8470609709854962" type="Mouse">
+                    <param id="0" name="Object">reprEH3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8311381245900967" type="reprEH3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="485980634809213">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="9911588526113242" type="Mouse">
+                    <param id="0" name="Object">reprEH3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7806849312672174" type="reprEH3">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

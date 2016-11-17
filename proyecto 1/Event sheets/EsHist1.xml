@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EsHist1</name>
+    <events>
+        <include>reprEH1</include>
+        <include>prevEH1</include>
+        <include>nextEH1</include>
+        <include>soundEH1</include>
+    </events>
+</c2eventsheet>

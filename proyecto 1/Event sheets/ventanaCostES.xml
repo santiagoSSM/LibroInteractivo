@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ventanaCostES</name>
+    <events>
+        <event-block sid="6758041363530047">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8353406305549538" type="Mouse">
+                    <param id="0" name="Object">ventanaCost</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3549673985636434" type="ventanaCost">
+                    <param id="0" name="Instance variable">brill</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1298198864812219" type="ventanaCost">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="663354508138193" type="ventanaCost">
+                    <param id="0" name="Animation">&quot;ventanaCostBrill&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4629025998823036" type="ventanaCost">
+                    <param id="0" name="Instance variable">brill</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="7710722047596494" type="cs">
+                    <param id="0" name="Animation">&quot;animar&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9411653935342041">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="8363146257968237" type="Mouse">
+                    <param id="0" name="Object">ventanaCost</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4390907245687761" type="ventanaCost">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9734101501583671" type="ventanaCost">
+                    <param id="0" name="Animation">&quot;ventanaCost&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="2556884488019264" type="ventanaCost">
+                    <param id="0" name="Instance variable">brill</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5959358487749156">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4788902006217808" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ventanaCost</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9142380497914269" type="ventanaCost">
+                    <param id="0" name="Animation">&quot;ventanaCostCerr&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="7467020267844936" type="ventanaCost">
+                    <param id="0" name="Instance variable">finProc</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

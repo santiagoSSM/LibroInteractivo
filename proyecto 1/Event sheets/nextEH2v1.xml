@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>nextEH2v1</name>
+    <events>
+        <event-block sid="5116908126574441">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="4026938738884027" type="Mouse">
+                    <param id="0" name="Object">nextEH2v1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="536263892712598" type="nextEH2v1">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1344974535030518">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="8544127160899998" type="Mouse">
+                    <param id="0" name="Object">nextEH2v1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="5010743837755981" type="nextEH2v1">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6695616846033147">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="85179404867607" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">nextEH2v1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4131684720893601" type="System">
+                    <param id="0" name="Layout">EsHist3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

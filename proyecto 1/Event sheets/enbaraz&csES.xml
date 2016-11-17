@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>enbaraz&amp;csES</name>
+    <events>
+        <event-block sid="7539424192961944">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="4381221822807778" type="Mouse">
+                    <param id="0" name="Object">embarz</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5659333975005108" type="cs">
+                    <param id="0" name="Instance variable">embarFinProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="2812923643051227" type="embarz">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2466077296970982" type="embarzBrill">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="9865201861319495" type="cs">
+                    <param id="0" name="Animation">&quot;animar&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4272632676104739">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="1032647995441069" type="Mouse">
+                    <param id="0" name="Object">embarzBrill</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9643493470950465" type="cs">
+                    <param id="0" name="Instance variable">embarFinProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="6719896581102524" type="embarzBrill">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2930269268934997" type="embarz">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9570861960731747">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="6987915055425596" type="embarzBrill" />
+                <condition id="1" name="Is overlapping another object" sid="3619338476825998" type="embarzBrill">
+                    <param id="0" name="Object">cs</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3602956171914699" type="cs">
+                    <param id="0" name="Animation">&quot;inicio&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="5420783337966221" type="humo">
+                    <param id="0" name="Animation">&quot;animar&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="9134794907874186" type="cs">
+                    <param id="0" name="Instance variable">embarFinProc</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="4648971922722266" type="embarz" />
+                <action id="-9" name="Destroy" sid="5293655748842911" type="embarzBrill" />
+            </actions>
+        </event-block>
+        <event-block sid="4219043904454377">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="9971062877570854" type="embarzBrill" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="3199654097994677" type="embarzBrill">
+                    <param id="0" name="X">embarz.X</param>
+                    <param id="1" name="Y">embarz.Y</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
