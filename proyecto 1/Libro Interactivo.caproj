@@ -1351,6 +1351,12 @@
                     <plugin id="TiledBg" />
                     <texture original-source="M:\imagenes\6 contorno-01-01.jpg" />
                 </object-type>
+                <object-type name="sig" sid="4927168285561438">
+                    <plugin id="Button" />
+                </object-type>
+                <object-type name="prev" sid="9019303035946839">
+                    <plugin id="Button" />
+                </object-type>
             </object-folder>
             <object-folder name="EsHist7">
                 <object-type name="EsHist7" sid="1823493559977346">
@@ -1377,11 +1383,12 @@
                 </object-type>
             </object-folder>
         </object-folder>
-        <object-folder name="Generic">
+        <object-folder name="ReusObj">
             <object-type name="botonNext" sid="7138583894614831">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7652266099530035" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton cont.png">
                             <collision-poly>
                                 <point x="0.202703" y="0.227273" />
@@ -1394,7 +1401,6 @@
                                 <point x="0.121622" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1402,6 +1408,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7475084108962992" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton retro.png">
                             <collision-poly>
                                 <point x="0.189189" y="0.21875" />
@@ -1414,7 +1421,6 @@
                                 <point x="0.0945946" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1422,6 +1428,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2054541370367556" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\botón repit.png">
                             <collision-poly>
                                 <point x="0.177419" y="0.189655" />
@@ -1434,7 +1441,6 @@
                                 <point x="0.0483871" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1476,7 +1482,6 @@
             <layout>EsHist1v5.xml</layout>
             <layout>EsHist2.xml</layout>
             <layout>EsHist2v1.xml</layout>
-            <layout>EsHist11.xml</layout>
             <layout>EsHist3.xml</layout>
             <layout>EsHist4.xml</layout>
             <layout>EsHist5.xml</layout>
@@ -1485,6 +1490,7 @@
             <layout>EsHist8.xml</layout>
             <layout>EsHist9.xml</layout>
             <layout>EsHist10.xml</layout>
+            <layout>EsHist11.xml</layout>
         </layout-folder>
         <layout>Escena1.xml</layout>
         <layout>Escena2.xml</layout>
@@ -1561,22 +1567,42 @@
                 <event-sheet>soundEH3.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist4">
+                <event-sheet>prevEH4.xml</event-sheet>
+                <event-sheet>nextEH4.xml</event-sheet>
+                <event-sheet>reprEH4.xml</event-sheet>
+                <event-sheet>soundEH4.xml</event-sheet>
                 <event-sheet>EsHist4.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist5">
                 <event-sheet>EsHist5.xml</event-sheet>
+                <event-sheet>nextEH5.xml</event-sheet>
+                <event-sheet>prevEH5.xml</event-sheet>
+                <event-sheet>reprEH5.xml</event-sheet>
+                <event-sheet>soundEH5.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist6">
                 <event-sheet>EsHist6.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist7">
                 <event-sheet>EsHist7.xml</event-sheet>
+                <event-sheet>nextEH7.xml</event-sheet>
+                <event-sheet>prevEH7.xml</event-sheet>
+                <event-sheet>reprEH7.xml</event-sheet>
+                <event-sheet>soundEH7.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist8">
                 <event-sheet>EsHist8.xml</event-sheet>
+                <event-sheet>nextEH8.xml</event-sheet>
+                <event-sheet>prevEH8.xml</event-sheet>
+                <event-sheet>reprEH8.xml</event-sheet>
+                <event-sheet>soundEH8.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist9">
                 <event-sheet>EsHist9.xml</event-sheet>
+                <event-sheet>nextEH9.xml</event-sheet>
+                <event-sheet>prevEH9.xml</event-sheet>
+                <event-sheet>reprEH9.xml</event-sheet>
+                <event-sheet>soundEH9.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist10">
                 <event-sheet>EsHist10.xml</event-sheet>
@@ -1584,6 +1610,11 @@
             <event-folder name="EsHist11">
                 <event-sheet>EsHist11.xml</event-sheet>
             </event-folder>
+        </event-folder>
+        <event-folder name="ReusES">
+            <event-sheet>nextReus.xml</event-sheet>
+            <event-sheet>prevReus.xml</event-sheet>
+            <event-sheet>reprReus.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>
