@@ -1377,88 +1377,6 @@
                 </object-type>
             </object-folder>
         </object-folder>
-        <object-folder name="Generic">
-            <object-type name="botonNext" sid="7138583894614831">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7652266099530035" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton cont.png">
-                            <collision-poly>
-                                <point x="0.202703" y="0.227273" />
-                                <point x="0.5" y="0.0757576" />
-                                <point x="0.797297" y="0.227273" />
-                                <point x="0.878378" y="0.5" />
-                                <point x="0.783784" y="0.757576" />
-                                <point x="0.5" y="0.893939" />
-                                <point x="0.216216" y="0.757576" />
-                                <point x="0.121622" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="botonPrev" sid="4938747179131086">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7475084108962992" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton retro.png">
-                            <collision-poly>
-                                <point x="0.189189" y="0.21875" />
-                                <point x="0.5" y="0.0625" />
-                                <point x="0.783784" y="0.25" />
-                                <point x="0.851351" y="0.5" />
-                                <point x="0.77027" y="0.734375" />
-                                <point x="0.5" y="0.90625" />
-                                <point x="0.202703" y="0.765625" />
-                                <point x="0.0945946" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="botonRepr" sid="7155778560025964">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2054541370367556" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\botón repit.png">
-                            <collision-poly>
-                                <point x="0.177419" y="0.189655" />
-                                <point x="0.5" y="0.0517241" />
-                                <point x="0.806452" y="0.206897" />
-                                <point x="0.919355" y="0.5" />
-                                <point x="0.790323" y="0.775862" />
-                                <point x="0.5" y="0.913793" />
-                                <point x="0.193548" y="0.793103" />
-                                <point x="0.0483871" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="botonSound" sid="4085325772649339">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7830113480087013" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton audio.png">
-                            <collision-poly>
-                                <point x="0.181818" y="0.193548" />
-                                <point x="0.5" y="0.0483871" />
-                                <point x="0.818182" y="0.193548" />
-                                <point x="0.924242" y="0.5" />
-                                <point x="0.80303" y="0.790323" />
-                                <point x="0.5" y="0.919355" />
-                                <point x="0.19697" y="0.790323" />
-                                <point x="0.0757576" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-        </object-folder>
         <object-type name="Mouse" sid="9655845622935735">
             <plugin id="Mouse" />
         </object-type>
@@ -1469,6 +1387,35 @@
     <families />
     <layout-folder>
         <layout-folder name="Hist">
+            <layout-folder name="EsHist1" />
+            <layout-folder name="EsHist1v0" />
+            <layout-folder name="EsHist1v1" />
+            <layout-folder name="EsHist1v2" />
+            <layout-folder name="EsHist1v5" />
+            <layout-folder name="EsHist2" />
+            <layout-folder name="EsHist2v1" />
+            <layout-folder name="EsHist3" />
+            <layout-folder name="EsHist4">
+                <layout>EsHist4.xml</layout>
+            </layout-folder>
+            <layout-folder name="EsHist5">
+                <layout>EsHist5.xml</layout>
+            </layout-folder>
+            <layout-folder name="EsHist6">
+                <layout>EsHist6.xml</layout>
+            </layout-folder>
+            <layout-folder name="EsHist7">
+                <layout>EsHist7.xml</layout>
+            </layout-folder>
+            <layout-folder name="EsHist8">
+                <layout>EsHist8.xml</layout>
+            </layout-folder>
+            <layout-folder name="EsHist9">
+                <layout>EsHist9.xml</layout>
+            </layout-folder>
+            <layout-folder name="EsHist10">
+                <layout>EsHist10.xml</layout>
+            </layout-folder>
             <layout>EsHist1.xml</layout>
             <layout>EsHist1v0.xml</layout>
             <layout>EsHist1v1.xml</layout>
@@ -1478,13 +1425,6 @@
             <layout>EsHist2v1.xml</layout>
             <layout>EsHist11.xml</layout>
             <layout>EsHist3.xml</layout>
-            <layout>EsHist4.xml</layout>
-            <layout>EsHist5.xml</layout>
-            <layout>EsHist6.xml</layout>
-            <layout>EsHist7.xml</layout>
-            <layout>EsHist8.xml</layout>
-            <layout>EsHist9.xml</layout>
-            <layout>EsHist10.xml</layout>
         </layout-folder>
         <layout>Escena1.xml</layout>
         <layout>Escena2.xml</layout>
