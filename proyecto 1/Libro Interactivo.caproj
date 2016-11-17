@@ -1458,14 +1458,6 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="prueba" sid="5838394207673015">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212975092367692" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
         </object-folder>
         <object-type name="Mouse" sid="9655845622935735">
             <plugin id="Mouse" />
