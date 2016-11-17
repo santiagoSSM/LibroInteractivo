@@ -20,7 +20,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="0" path="object-folder/ObjetosES1/" />
         <folder expanded="0" path="object-folder/ObjetosES1/PuertCs/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/" />
@@ -45,7 +45,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES2/igu/iguana/" />
         <folder expanded="0" path="object-folder/ObjetosES2/igu/botella/" />
         <folder expanded="1" path="object-folder/ObjetosES2/Serp/" />
-        <folder expanded="1" path="object-folder/Hist/" />
+        <folder expanded="0" path="object-folder/Hist/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v0/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v1/" />
@@ -53,7 +53,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist1v5/" />
         <folder expanded="0" path="object-folder/Hist/EsHist2/" />
         <folder expanded="0" path="object-folder/Hist/EsHist2v1/" />
-        <folder expanded="1" path="object-folder/Hist/EsHist3/" />
+        <folder expanded="0" path="object-folder/Hist/EsHist3/" />
         <folder expanded="0" path="object-folder/Hist/EsHist4/" />
         <folder expanded="0" path="object-folder/Hist/EsHist5/" />
         <folder expanded="0" path="object-folder/Hist/EsHist6/" />
@@ -61,35 +61,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist8/" />
         <folder expanded="0" path="object-folder/Hist/EsHist9/" />
         <folder expanded="0" path="object-folder/Hist/EsHis11/" />
-        <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Hist/" />
-        <folder expanded="1" path="layout-folder/Hist/EsHist1/" />
-        <folder expanded="1" path="layout-folder/Hist/EsHist1v0/" />
-        <folder expanded="1" path="layout-folder/Hist/EsHist1v1/" />
-        <folder expanded="1" path="layout-folder/Hist/EsHist1v2/" />
-        <folder expanded="1" path="layout-folder/Hist/EsHist1v5/" />
-        <folder expanded="1" path="layout-folder/Hist/EsHist2/" />
-        <folder expanded="1" path="layout-folder/Hist/EsHist2v1/" />
-        <folder expanded="1" path="layout-folder/Hist/EsHist3/" />
-        <folder expanded="0" path="layout-folder/Hist/EsHist4/" />
-        <folder expanded="0" path="layout-folder/Hist/EsHist5/" />
-        <folder expanded="0" path="layout-folder/Hist/EsHist6/" />
-        <folder expanded="0" path="layout-folder/Hist/EsHist7/" />
-        <folder expanded="0" path="layout-folder/Hist/EsHist8/" />
-        <folder expanded="0" path="layout-folder/Hist/EsHist9/" />
-        <folder expanded="0" path="layout-folder/Hist/EsHist10/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="object-folder/Generic/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Hist/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
-        <folder expanded="1" path="event-folder/HistES/" />
+        <folder expanded="0" path="event-folder/HistES/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v0/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v2/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v5/" />
         <folder expanded="0" path="event-folder/HistES/EsHist2/" />
-        <folder expanded="1" path="event-folder/HistES/EsHist2v1/" />
-        <folder expanded="1" path="event-folder/HistES/EsHist3/" />
+        <folder expanded="0" path="event-folder/HistES/EsHist2v1/" />
+        <folder expanded="0" path="event-folder/HistES/EsHist3/" />
         <folder expanded="0" path="event-folder/HistES/EsHist4/" />
         <folder expanded="0" path="event-folder/HistES/EsHist5/" />
         <folder expanded="0" path="event-folder/HistES/EsHist6/" />
@@ -169,5 +155,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/reprEH3/" />
         <folder expanded="1" path="animation-folder/prevEH3/" />
         <folder expanded="1" path="animation-folder/soundEH3/" />
+        <folder expanded="1" path="animation-folder/botonNext/" />
+        <folder expanded="1" path="animation-folder/botonPrev/" />
+        <folder expanded="1" path="animation-folder/botonRepr/" />
+        <folder expanded="1" path="animation-folder/botonSound/" />
     </folders-expanded>
 </c2uistate>
