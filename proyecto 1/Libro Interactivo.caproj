@@ -378,8 +378,9 @@
                 <object-type name="bosque" sid="2833661753110303">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3691120562732676" speed="5">
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3691120562732676" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\1 int imagenes\bosque.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -848,10 +849,6 @@
                 </object-type>
                 <object-type name="prev1" sid="4259297013334527">
                     <plugin id="Button" />
-                </object-type>
-                <object-type name="EsHist10" sid="9510067186362866">
-                    <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\10 contorno-01.jpg" />
                 </object-type>
             </object-folder>
         </object-folder>
