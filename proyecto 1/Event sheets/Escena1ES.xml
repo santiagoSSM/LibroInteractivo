@@ -14,16 +14,6 @@
         <include>puertaCsES</include>
         <include>nextES1</include>
         <include>nextReusAmar</include>
-        <event-block sid="3011834203317298">
-            <conditions>
-                <condition id="0" name="On clicked" sid="8899306022476085" type="Button" />
-            </conditions>
-            <actions>
-                <action id="-43" name="Go to next/previous layout" sid="5213557479390213" type="System">
-                    <param id="0" name="Which">0</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="551376652784499">
             <conditions>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="5998310391067694" type="Mouse">
@@ -43,6 +33,21 @@
                 <action id="4" name="Set animation" sid="2249363509907021" type="cs">
                     <param id="0" name="Animation">&quot;inicio&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9491127226386516">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="105908881426184" type="Mouse">
+                    <param id="0" name="Object">puertCober</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2730779492274067" type="Mouse">
+                    <param id="0" name="Object">reg</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="1455274910611639" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
                 </action>
             </actions>
         </event-block>

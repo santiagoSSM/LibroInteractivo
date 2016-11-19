@@ -254,18 +254,25 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="regVolt" pingpong="0" repeatcount="1" repeatto="0" sid="8119620272829609" speed="5">
-                        <frame duration="1" hotspotX="0.839286" hotspotY="0.204545" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\reg incl.png" />
+                        <frame duration="1" hotspotX="0.839286" hotspotY="0.204545" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\reg incl.png">
+                            <collision-poly>
+                                <point x="0.633929" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.973214" y="0.477273" />
+                                <point x="0.633929" y="0.477273" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="regVoltReg" pingpong="0" repeatcount="1" repeatto="0" sid="3849028910320947" speed="5">
                         <frame duration="1" hotspotX="0.857143" hotspotY="0.181818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\reg ag.png">
                             <collision-poly>
-                                <point x="0.410714" y="0.522727" />
-                                <point x="0.5" y="0.397727" />
-                                <point x="0.982143" y="0.0227273" />
-                                <point x="0.616071" y="0.511364" />
-                                <point x="0.5" y="0.943182" />
-                                <point x="0.0714286" y="0.909091" />
-                                <point x="0.428571" y="0.5" />
+                                <point x="0.589286" y="0" />
+                                <point x="0.696429" y="0.0113636" />
+                                <point x="1" y="2.6077e-008" />
+                                <point x="1" y="0.443182" />
+                                <point x="0.830358" y="0.454546" />
+                                <point x="0.598214" y="0.454546" />
+                                <point x="0.589285" y="0.318182" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -345,10 +352,10 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="llave" sid="6338714322745823">
+            <object-type name="cursor" sid="6338714322745823">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3357176251895953" speed="5">
+                    <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3357176251895953" speed="0">
                         <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\llv.png">
                             <collision-poly>
                                 <point x="0.266667" y="0.428571" />
@@ -358,6 +365,30 @@
                                 <point x="0.488889" y="0.714286" />
                                 <point x="0.2" y="0.678571" />
                                 <point x="0.0222222" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.513514" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\1 int imagenes\guant.png">
+                            <collision-poly>
+                                <point x="0.405405" y="0.394737" />
+                                <point x="0.486486" y="0.157895" />
+                                <point x="0.783784" y="0.210526" />
+                                <point x="0.810811" y="0.5" />
+                                <point x="0.675676" y="0.684211" />
+                                <point x="0.486486" y="0.973684" />
+                                <point x="0.297297" y="0.710526" />
+                                <point x="0.405405" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.513514" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\1 int imagenes\guant cerr.png">
+                            <collision-poly>
+                                <point x="0.351351" y="0.342105" />
+                                <point x="0.486486" y="0.289474" />
+                                <point x="0.675676" y="0.315789" />
+                                <point x="0.783784" y="0.5" />
+                                <point x="0.702703" y="0.710526" />
+                                <point x="0.486486" y="0.973684" />
+                                <point x="0.324324" y="0.684211" />
+                                <point x="0.27027" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -384,14 +415,14 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\1 int imagenes\nube.jpg" />
                         <frame duration="1" hotspotX="0.478873" hotspotY="0.128736" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\nube lluviet.png">
                             <collision-poly>
-                                <point x="0.169014" y="0.165517" />
+                                <point x="0.133803" y="0.00459776" />
                                 <point x="0.5" y="0.00689655" />
-                                <point x="0.793427" y="0.202299" />
-                                <point x="0.861502" y="0.498851" />
-                                <point x="0.800469" y="0.804598" />
-                                <point x="0.5" y="0.898851" />
-                                <point x="0.164319" y="0.83908" />
-                                <point x="0.056338" y="0.498851" />
+                                <point x="0.859154" y="0.00689689" />
+                                <point x="0.856807" y="0.202299" />
+                                <point x="0.687793" y="0.202299" />
+                                <point x="0.514084" y="0.209196" />
+                                <point x="0.333333" y="0.204597" />
+                                <point x="0.131455" y="0.206897" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -913,9 +944,6 @@
                 <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\3int imagenes\fondo 3.jpg" />
             </object-type>
         </object-folder>
-        <object-type name="Button" sid="2818004342576905">
-            <plugin id="Button" />
-        </object-type>
     </object-folder>
     <families />
     <layout-folder>

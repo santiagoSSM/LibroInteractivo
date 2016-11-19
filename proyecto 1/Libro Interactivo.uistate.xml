@@ -99,7 +99,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/reg/" />
         <folder expanded="1" path="animation-folder/puertCs/" />
         <folder expanded="1" path="animation-folder/palm/" />
-        <folder expanded="1" path="animation-folder/llave/" />
+        <folder expanded="1" path="animation-folder/cursor/" />
         <folder expanded="1" path="animation-folder/puertCober/" />
         <folder expanded="1" path="animation-folder/nube/" />
         <folder expanded="1" path="animation-folder/fumidr/" />
