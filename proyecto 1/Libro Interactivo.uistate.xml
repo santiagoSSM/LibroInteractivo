@@ -12,6 +12,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Escena1</layout>
         <layout active="1" order="1">EsHist12</layout>
+        <layout order="2">EsHist13</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -63,7 +64,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist9/" />
         <folder expanded="0" path="object-folder/Hist/EsHis11/" />
         <folder expanded="0" path="object-folder/Hist/ESHist10/" />
-        <folder expanded="1" path="object-folder/Hist/EsHis12/" />
+        <folder expanded="0" path="object-folder/Hist/EsHis12/" />
+        <folder expanded="1" path="object-folder/Hist/EsHist13/" />
         <folder expanded="0" path="object-folder/ReusObj/" />
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="1" path="layout-folder/" />
