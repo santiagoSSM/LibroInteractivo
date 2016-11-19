@@ -3,40 +3,16 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>prevEH3</name>
     <events>
-        <event-block sid="197765968260599">
+        <event-block sid="2038405898396586">
             <conditions>
-                <condition id="7" name="Cursor is over object" sid="9778186325165157" type="Mouse">
-                    <param id="0" name="Object">prevEH3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="5" name="Set frame" sid="7387648200950258" type="prevEH3">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="4687544450049505">
-            <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="1096262060283289" type="Mouse">
-                    <param id="0" name="Object">prevEH3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="5" name="Set frame" sid="1342188997924479" type="prevEH3">
-                    <param id="0" name="Frame number">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="6227681242495663">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="6023324486882208" type="Mouse">
+                <condition id="6" name="On object clicked" sid="4008550938229695" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">prevEH3</param>
+                    <param id="2" name="Object clicked">botonPrev</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="7189063532729372" type="System">
+                <action id="-2" name="Go to layout" sid="8104812340590239" type="System">
                     <param id="0" name="Layout">EsHist2v1</param>
                 </action>
             </actions>

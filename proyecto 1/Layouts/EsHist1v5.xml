@@ -68,18 +68,18 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="nextEH1v5" uid="91">
+                <instance type="botonNext" uid="85">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
+                        <initial-frame>2</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>981.49987793</x>
-                        <y>710.500732422</y>
+                        <x>981.5</x>
+                        <y>710.500976563</y>
                         <z>0</z>
                         <width>74</width>
                         <height>66</height>
@@ -90,7 +90,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="prevEH1v5" uid="92">
+                <instance type="botonPrev" uid="86">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -100,8 +100,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>41.500045776</x>
-                        <y>712.499450684</y>
+                        <x>41.5</x>
+                        <y>712.499023438</y>
                         <z>0</z>
                         <width>74</width>
                         <height>64</height>
@@ -112,7 +112,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="reprEH1v5" uid="93">
+                <instance type="botonRepr" uid="87">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -134,7 +134,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="soundEH1v5" uid="94">
+                <instance type="botonSound" uid="88">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

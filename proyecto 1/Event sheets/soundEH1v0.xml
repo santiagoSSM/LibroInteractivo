@@ -3,35 +3,35 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>soundEH1v0</name>
     <events>
-        <event-block sid="5368726924617862">
+        <event-block sid="9421862047577481">
             <conditions>
-                <condition id="6" name="On object clicked" sid="5915133727471326" type="Mouse">
+                <condition id="6" name="On object clicked" sid="4137111670260497" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">soundEH1v0</param>
+                    <param id="2" name="Object clicked">botonSound</param>
                 </condition>
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="8791689238230315">
+                <event-block sid="5786258723166751">
                     <conditions>
-                        <condition id="3" name="Compare frame" sid="4342150332650742" type="soundEH1v0">
+                        <condition id="3" name="Compare frame" sid="3746135990080558" type="botonSound">
                             <param id="0" name="Comparison">0</param>
                             <param id="1" name="Number">0</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="6441486447729696" type="soundEH1v0">
+                        <action id="5" name="Set frame" sid="1141099752864105" type="botonSound">
                             <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="2781368439142417">
+                <event-block sid="3141792142872636">
                     <conditions>
-                        <condition id="-22" name="Else" sid="2233066129683482" type="System" />
+                        <condition id="-22" name="Else" sid="6119324563558812" type="System" />
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="9019377806956558" type="soundEH1v0">
+                        <action id="5" name="Set frame" sid="3726665127751887" type="botonSound">
                             <param id="0" name="Frame number">0</param>
                         </action>
                     </actions>

@@ -68,17 +68,17 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="nextEH2" uid="95">
+                <instance type="botonNext" uid="91">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
+                        <initial-frame>2</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>986.499938965</x>
+                        <x>986.5</x>
                         <y>710.5</y>
                         <z>0</z>
                         <width>74</width>
@@ -90,7 +90,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="prevEH2" uid="96">
+                <instance type="botonPrev" uid="92">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -100,8 +100,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>46.250015259</x>
-                        <y>712.499755859</y>
+                        <x>46.500160217</x>
+                        <y>712.500976563</y>
                         <z>0</z>
                         <width>74</width>
                         <height>64</height>
@@ -112,7 +112,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="soundEH2" uid="97">
+                <instance type="botonSound" uid="93">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

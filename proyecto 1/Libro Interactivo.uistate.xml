@@ -10,7 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">EsHist15</layout>
+        <layout active="1" order="0">EsHist3</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -20,7 +20,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/ObjetosES1/" />
         <folder expanded="0" path="object-folder/ObjetosES1/PuertCs/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/" />
@@ -45,7 +45,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES2/igu/iguana/" />
         <folder expanded="0" path="object-folder/ObjetosES2/igu/botella/" />
         <folder expanded="0" path="object-folder/ObjetosES2/Serp/" />
-        <folder expanded="0" path="object-folder/Hist/" />
+        <folder expanded="1" path="object-folder/Hist/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v0/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v1/" />
@@ -65,7 +65,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ReusObj/" />
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Hist/" />
+        <folder expanded="1" path="layout-folder/Hist/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
@@ -136,33 +136,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/iguHb/" />
         <folder expanded="1" path="animation-folder/plagIgu/" />
         <folder expanded="1" path="animation-folder/SerpBrill/" />
-        <folder expanded="1" path="animation-folder/nextEH1/" />
-        <folder expanded="1" path="animation-folder/prevEH1/" />
-        <folder expanded="1" path="animation-folder/reprEH1/" />
-        <folder expanded="1" path="animation-folder/soundEH1/" />
-        <folder expanded="1" path="animation-folder/nextEH1v0/" />
-        <folder expanded="1" path="animation-folder/prevEH1v0/" />
-        <folder expanded="1" path="animation-folder/reprEH1v0/" />
-        <folder expanded="1" path="animation-folder/soundEH1v0/" />
-        <folder expanded="1" path="animation-folder/nextEH1v1/" />
-        <folder expanded="1" path="animation-folder/prevEH1v1/" />
-        <folder expanded="1" path="animation-folder/reprEH1v1/" />
-        <folder expanded="1" path="animation-folder/soundEH1v1/" />
-        <folder expanded="1" path="animation-folder/nextEH1v5/" />
-        <folder expanded="1" path="animation-folder/prevEH1v5/" />
-        <folder expanded="1" path="animation-folder/reprEH1v5/" />
-        <folder expanded="1" path="animation-folder/soundEH1v5/" />
-        <folder expanded="1" path="animation-folder/nextEH2/" />
-        <folder expanded="1" path="animation-folder/prevEH2/" />
-        <folder expanded="1" path="animation-folder/soundEH2/" />
-        <folder expanded="1" path="animation-folder/nextEH2v1/" />
-        <folder expanded="1" path="animation-folder/reprEH2v1/" />
-        <folder expanded="1" path="animation-folder/prevEH2v1/" />
-        <folder expanded="1" path="animation-folder/soundEH2v1/" />
-        <folder expanded="1" path="animation-folder/nextEH3/" />
-        <folder expanded="1" path="animation-folder/reprEH3/" />
-        <folder expanded="1" path="animation-folder/prevEH3/" />
-        <folder expanded="1" path="animation-folder/soundEH3/" />
         <folder expanded="1" path="animation-folder/botonNext/" />
         <folder expanded="1" path="animation-folder/botonPrev/" />
         <folder expanded="1" path="animation-folder/botonRepr/" />

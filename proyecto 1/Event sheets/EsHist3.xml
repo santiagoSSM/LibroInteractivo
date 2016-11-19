@@ -7,5 +7,8 @@
         <include>reprEH3</include>
         <include>prevEH3</include>
         <include>nextEH3</include>
+        <include>reprReus</include>
+        <include>prevReus</include>
+        <include>nextReus</include>
     </events>
 </c2eventsheet>
