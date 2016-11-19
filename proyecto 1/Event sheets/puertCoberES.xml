@@ -8,14 +8,20 @@
                 <condition id="7" name="Cursor is over object" sid="7346639465065084" type="Mouse">
                     <param id="0" name="Object">puertCober</param>
                 </condition>
-                <condition id="-9" inverted="1" name="Is visible" sid="4995316433207556" type="puertCoberCerr" />
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3390747282138154" type="puertCober">
+                    <param id="0" name="Instance variable">brill</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6594875940905094" type="puertCober">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="4650353913992492" type="puertCober">
-                    <param id="0" name="Visibility">0</param>
+                <action id="5" name="Set frame" sid="4650353913992492" type="puertCober">
+                    <param id="0" name="Frame number">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="1368316450579622" type="puertCoberBrill">
-                    <param id="0" name="Visibility">1</param>
+                <action id="-13" name="Set boolean" sid="6864229105134842" type="puertCober">
+                    <param id="0" name="Instance variable">brill</param>
+                    <param id="1" name="Value">1</param>
                 </action>
                 <action id="1" name="Set cursor from sprite" sid="9927436257719596" type="Mouse">
                     <param id="0" name="Sprite">llave</param>
@@ -24,17 +30,20 @@
         </event-block>
         <event-block sid="9101844748058447">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="9267728807581182" type="Mouse">
-                    <param id="0" name="Object">puertCoberBrill</param>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="7397267967899307" type="Mouse">
+                    <param id="0" name="Object">puertCober</param>
                 </condition>
-                <condition id="-9" inverted="1" name="Is visible" sid="2286895149141153" type="puertCoberCerr" />
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7408763300201102" type="puertCober">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="3361713694320827" type="puertCoberBrill">
-                    <param id="0" name="Visibility">0</param>
+                <action id="5" name="Set frame" sid="8022259849803463" type="puertCober">
+                    <param id="0" name="Frame number">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="8022259849803463" type="puertCober">
-                    <param id="0" name="Visibility">1</param>
+                <action id="-13" name="Set boolean" sid="8056125768348896" type="puertCober">
+                    <param id="0" name="Instance variable">brill</param>
+                    <param id="1" name="Value">0</param>
                 </action>
                 <action id="0" name="Set cursor style" sid="5968736644314139" type="Mouse">
                     <param id="0" name="Cursor style">0</param>
@@ -43,19 +52,24 @@
         </event-block>
         <event-block sid="9691264565105863">
             <conditions>
-                <condition id="3" name="On button released" sid="1834320271366157" type="Mouse">
+                <condition id="6" name="On object clicked" sid="2032344235199146" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
-                </condition>
-                <condition id="7" name="Cursor is over object" sid="2174149012799673" type="Mouse">
-                    <param id="0" name="Object">puertCoberBrill</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">puertCober</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="5205550617031786" type="puertCoberCerr">
-                    <param id="0" name="Visibility">1</param>
+                <action id="5" name="Set frame" sid="8783538629244621" type="puertCober">
+                    <param id="0" name="Frame number">2</param>
                 </action>
-                <action id="-9" name="Destroy" sid="2218393773880783" type="puertCoberBrill" />
-                <action id="-9" name="Destroy" sid="8783538629244621" type="puertCober" />
+                <action id="-3" name="Set position" sid="4617575391087237" type="puertCober">
+                    <param id="0" name="X">184.518</param>
+                    <param id="1" name="Y">219.151</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="9493946285959935" type="puertCober">
+                    <param id="0" name="Instance variable">finProc</param>
+                    <param id="1" name="Value">1</param>
+                </action>
                 <action id="0" name="Set cursor style" sid="4821715382805204" type="Mouse">
                     <param id="0" name="Cursor style">0</param>
                 </action>

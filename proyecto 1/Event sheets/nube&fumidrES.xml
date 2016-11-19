@@ -10,14 +10,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="3813143184873325" type="nubeLlov">
-                    <param id="0" name="Visibility">1</param>
+                <action id="5" name="Set frame" sid="3813143184873325" type="nube">
+                    <param id="0" name="Frame number">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="5141636529946905" type="fumidrAct">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="8190477335023268" type="fumidrInac">
-                    <param id="0" name="Visibility">1</param>
+                <action id="5" name="Set frame" sid="5141636529946905" type="fumidrAct">
+                    <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
         </event-block>
@@ -28,14 +25,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="1380539421347461" type="nubeLlov">
-                    <param id="0" name="Visibility">0</param>
+                <action id="5" name="Set frame" sid="1380539421347461" type="nube">
+                    <param id="0" name="Frame number">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="5708310842175716" type="fumidrAct">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-15" name="Set visible" sid="9972498915771897" type="fumidrInac">
-                    <param id="0" name="Visibility">0</param>
+                <action id="5" name="Set frame" sid="5708310842175716" type="fumidrAct">
+                    <param id="0" name="Frame number">0</param>
                 </action>
             </actions>
         </event-block>
