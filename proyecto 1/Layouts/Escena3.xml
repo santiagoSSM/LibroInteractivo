@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>EsHist6</name>
-    <sid>9325537445638133</sid>
-    <event-sheet>EsHist6</event-sheet>
+    <name>Escena3</name>
+    <sid>8812303338577419</sid>
+    <event-sheet>Escena3ES</event-sheet>
     <size>
         <width>1024</width>
         <height>768</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="fondo" sid="6359180572301164">
+        <layer name="fondo" sid="2270262120558299">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="EsHist6" uid="73">
+                <instance type="FondoES3" uid="135">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -40,7 +40,7 @@
                         <x>0</x>
                         <y>0</y>
                         <z>0</z>
-                        <width>1024</width>
+                        <width>1026</width>
                         <height>768</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -52,7 +52,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Capa1" sid="6622252402323508">
+        <layer name="Capa1" sid="7823549131505032">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -68,28 +68,26 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="sig" uid="115">
+                <instance type="botonNext" uid="136">
                     <properties>
-                        <type>Button</type>
-                        <text>Siguiente</text>
-                        <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
-                        <enabled>Yes</enabled>
-                        <auto-font-size>Yes</auto-font-size>
-                        <id-optional></id-optional>
-                        <checked>No</checked>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>853</x>
-                        <y>350</y>
+                        <x>955</x>
+                        <y>701</y>
                         <z>0</z>
-                        <width>72</width>
-                        <height>24</height>
+                        <width>68</width>
+                        <height>64</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

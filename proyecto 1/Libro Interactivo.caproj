@@ -1382,13 +1382,44 @@
                     <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\11 contorno-01.jpg" />
                 </object-type>
             </object-folder>
+            <object-folder name="ESHist10">
+                <object-type name="sig1" sid="9721000949180713">
+                    <plugin id="Button" />
+                </object-type>
+                <object-type name="prev1" sid="4259297013334527">
+                    <plugin id="Button" />
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-folder name="ReusObj">
             <object-type name="botonNext" sid="7138583894614831">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7652266099530035" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7652266099530035" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton inact 1.png">
+                            <collision-poly>
+                                <point x="0.191176" y="0.203125" />
+                                <point x="0.5" y="0.046875" />
+                                <point x="0.808824" y="0.203125" />
+                                <point x="0.911765" y="0.5" />
+                                <point x="0.779412" y="0.765625" />
+                                <point x="0.5" y="0.890625" />
+                                <point x="0.220588" y="0.765625" />
+                                <point x="0.0882353" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton inact.png">
+                            <collision-poly>
+                                <point x="0.185714" y="0.203125" />
+                                <point x="0.5" y="0.046875" />
+                                <point x="0.814286" y="0.203125" />
+                                <point x="0.9" y="0.5" />
+                                <point x="0.785714" y="0.765625" />
+                                <point x="0.5" y="0.890625" />
+                                <point x="0.214286" y="0.765625" />
+                                <point x="0.1" y="0.5" />
+                            </collision-poly>
+                        </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton cont.png">
                             <collision-poly>
                                 <point x="0.202703" y="0.227273" />
@@ -1401,6 +1432,7 @@
                                 <point x="0.121622" y="0.5" />
                             </collision-poly>
                         </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1408,7 +1440,6 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7475084108962992" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton retro.png">
                             <collision-poly>
                                 <point x="0.189189" y="0.21875" />
@@ -1421,6 +1452,7 @@
                                 <point x="0.0945946" y="0.5" />
                             </collision-poly>
                         </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1428,7 +1460,6 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2054541370367556" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\botón repit.png">
                             <collision-poly>
                                 <point x="0.177419" y="0.189655" />
@@ -1441,6 +1472,7 @@
                                 <point x="0.0483871" y="0.5" />
                             </collision-poly>
                         </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1464,10 +1496,16 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Mouse" sid="9655845622935735">
+                <plugin id="Mouse" />
+            </object-type>
         </object-folder>
-        <object-type name="Mouse" sid="9655845622935735">
-            <plugin id="Mouse" />
-        </object-type>
+        <object-folder name="ObjetosES3">
+            <object-type name="FondoES3" sid="4316311359791953">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\3int imagenes\fondo 3.jpg" />
+            </object-type>
+        </object-folder>
         <object-type name="Button" sid="2818004342576905">
             <plugin id="Button" />
         </object-type>
@@ -1491,9 +1529,14 @@
             <layout>EsHist9.xml</layout>
             <layout>EsHist10.xml</layout>
             <layout>EsHist11.xml</layout>
+            <layout>EsHist12.xml</layout>
+            <layout>EsHist13.xml</layout>
+            <layout>EsHist14.xml</layout>
+            <layout>EsHist15.xml</layout>
         </layout-folder>
         <layout>Escena1.xml</layout>
         <layout>Escena2.xml</layout>
+        <layout>Escena3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Escena1ES">
@@ -1507,12 +1550,14 @@
             <event-sheet>bosqueES.xml</event-sheet>
             <event-sheet>niños&amp;csES.xml</event-sheet>
             <event-sheet>reg&amp;palmES.xml</event-sheet>
+            <event-sheet>nextES1.xml</event-sheet>
         </event-folder>
         <event-folder name="Escena2ES">
             <event-sheet>Escena2ES.xml</event-sheet>
             <event-sheet>gllES.xml</event-sheet>
             <event-sheet>ptoES.xml</event-sheet>
             <event-sheet>iguES.xml</event-sheet>
+            <event-sheet>nextES2.xml</event-sheet>
         </event-folder>
         <event-folder name="HistES">
             <event-folder name="EsHist1">
@@ -1609,12 +1654,33 @@
             </event-folder>
             <event-folder name="EsHist11">
                 <event-sheet>EsHist11.xml</event-sheet>
+                <event-sheet>nextEH11.xml</event-sheet>
+                <event-sheet>prevEH11.xml</event-sheet>
+                <event-sheet>reprEH11.xml</event-sheet>
+                <event-sheet>soundEH11.xml</event-sheet>
+            </event-folder>
+            <event-folder name="EsHist12">
+                <event-sheet>EsHist12.xml</event-sheet>
+            </event-folder>
+            <event-folder name="EsHist13">
+                <event-sheet>EsHist13.xml</event-sheet>
+            </event-folder>
+            <event-folder name="EsHist14">
+                <event-sheet>EsHist14.xml</event-sheet>
+            </event-folder>
+            <event-folder name="EsHist15">
+                <event-sheet>EsHist15.xml</event-sheet>
             </event-folder>
         </event-folder>
         <event-folder name="ReusES">
             <event-sheet>nextReus.xml</event-sheet>
             <event-sheet>prevReus.xml</event-sheet>
             <event-sheet>reprReus.xml</event-sheet>
+            <event-sheet>nextReusVerd.xml</event-sheet>
+            <event-sheet>nextReusAmar.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Escena3ES">
+            <event-sheet>Escena3ES.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

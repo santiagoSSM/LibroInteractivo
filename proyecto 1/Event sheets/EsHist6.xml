@@ -3,16 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EsHist6</name>
     <events>
-        <event-block sid="423578846332261">
-            <conditions>
-                <condition id="0" name="On clicked" sid="2249456558196208" type="prev" />
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="5641949929288034" type="System">
-                    <param id="0" name="Layout">EsHist5</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="5362243853591879">
             <conditions>
                 <condition id="0" name="On clicked" sid="9031437169914874" type="sig" />

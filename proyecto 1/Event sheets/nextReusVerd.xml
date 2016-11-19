@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>nextReus</name>
+    <name>nextReusVerd</name>
     <events>
-        <event-block sid="1047708163097458">
+        <event-block sid="5476605179036529">
             <conditions>
-                <condition id="7" name="Cursor is over object" sid="2106781667869392" type="Mouse">
+                <condition id="7" name="Cursor is over object" sid="6772712027235963" type="Mouse">
                     <param id="0" name="Object">botonNext</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="9232897553687224" type="botonNext">
+                <action id="5" name="Set frame" sid="8813712069337382" type="botonNext">
                     <param id="0" name="Frame number">2</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="3772862629285091">
+        <event-block sid="2702716451238663">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="8992726117510709" type="Mouse">
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2483099107408624" type="Mouse">
                     <param id="0" name="Object">botonNext</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="5959669181444342" type="botonNext">
-                    <param id="0" name="Frame number">3</param>
+                <action id="5" name="Set frame" sid="5459438423329273" type="botonNext">
+                    <param id="0" name="Frame number">0</param>
                 </action>
             </actions>
         </event-block>

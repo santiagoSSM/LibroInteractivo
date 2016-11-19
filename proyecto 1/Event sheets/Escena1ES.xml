@@ -12,6 +12,8 @@
         <include>nube&amp;fumidrES</include>
         <include>puertCoberES</include>
         <include>puertaCsES</include>
+        <include>nextES1</include>
+        <include>nextReusAmar</include>
         <event-block sid="3011834203317298">
             <conditions>
                 <condition id="0" name="On clicked" sid="8899306022476085" type="Button" />
