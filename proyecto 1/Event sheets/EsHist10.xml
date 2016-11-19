@@ -3,8 +3,25 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EsHist10</name>
     <events>
-        <include>reprReus</include>
-        <include>prevReus</include>
-        <include>nextReus</include>
+        <event-block sid="6414775399449047">
+            <conditions>
+                <condition id="0" name="On clicked" sid="3587177025630776" type="sig1" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9003031555084529" type="System">
+                    <param id="0" name="Layout">Escena2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="84438148320656">
+            <conditions>
+                <condition id="0" name="On clicked" sid="1240764903830981" type="prev1" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8107852774770497" type="System">
+                    <param id="0" name="Layout">EsHist9</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -24,23 +24,23 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="8961422696414841">
+        <event-block sid="551376652784499">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="3273842633164525" type="Mouse">
+                <condition id="7" inverted="1" name="Cursor is over object" sid="5998310391067694" type="Mouse">
                     <param id="0" name="Object">embarz</param>
                 </condition>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="9781746499857643" type="Mouse">
+                <condition id="7" inverted="1" name="Cursor is over object" sid="1436490484393985" type="Mouse">
                     <param id="0" name="Object">niños</param>
                 </condition>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="5505361584617499" type="Mouse">
+                <condition id="7" inverted="1" name="Cursor is over object" sid="9273846903436676" type="Mouse">
                     <param id="0" name="Object">ventanaCost</param>
                 </condition>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="1973863527812619" type="Mouse">
+                <condition id="7" inverted="1" name="Cursor is over object" sid="3331294966723027" type="Mouse">
                     <param id="0" name="Object">ventanaFrt</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="9912232130063846" type="cs">
+                <action id="4" name="Set animation" sid="2249363509907021" type="cs">
                     <param id="0" name="Animation">&quot;inicio&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
