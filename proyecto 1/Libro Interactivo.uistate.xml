@@ -11,8 +11,36 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Escena1</layout>
-        <layout active="1" order="1">EsHist12</layout>
+        <layout order="1">EsHist12</layout>
         <layout order="2">EsHist13</layout>
+        <layout order="3">EsHist14</layout>
+        <layout order="4">EsHist15</layout>
+        <layout order="5">EsHist9</layout>
+        <layout order="6">EsHist11</layout>
+        <layout order="7">EsHist10</layout>
+        <layout order="8">EsHist7</layout>
+        <layout order="9">EsHist3</layout>
+        <layout order="10">EsHist2v1</layout>
+        <layout order="11">EsHist2</layout>
+        <layout order="12">EsHist1v5</layout>
+        <layout order="13">EsHist1v2</layout>
+        <layout order="14">EsHist1</layout>
+        <layout order="25">EsHist8</layout>
+        <layout order="26">EsHist6</layout>
+        <event-sheet order="15">EsHist10</event-sheet>
+        <event-sheet order="16">EsHist11</event-sheet>
+        <event-sheet order="17">nextEH11</event-sheet>
+        <event-sheet order="18">prevEH11</event-sheet>
+        <event-sheet order="19">reprEH11</event-sheet>
+        <event-sheet order="20">soundEH11</event-sheet>
+        <event-sheet order="21">nextEH10</event-sheet>
+        <event-sheet order="22">prevEH10</event-sheet>
+        <event-sheet order="23">reprEH10</event-sheet>
+        <event-sheet order="24">soundEH10</event-sheet>
+        <event-sheet order="27">nextEH12</event-sheet>
+        <event-sheet order="28">prevEH12</event-sheet>
+        <event-sheet order="29">reprEH12</event-sheet>
+        <event-sheet active="1" order="30">soundEH12</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -47,7 +75,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES2/igu/iguana/" />
         <folder expanded="0" path="object-folder/ObjetosES2/igu/botella/" />
         <folder expanded="0" path="object-folder/ObjetosES2/Serp/" />
-        <folder expanded="1" path="object-folder/Hist/" />
+        <folder expanded="0" path="object-folder/Hist/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v0/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v1/" />
@@ -65,8 +93,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHis11/" />
         <folder expanded="0" path="object-folder/Hist/ESHist10/" />
         <folder expanded="0" path="object-folder/Hist/EsHis12/" />
-        <folder expanded="1" path="object-folder/Hist/EsHist13/" />
-        <folder expanded="0" path="object-folder/ReusObj/" />
+        <folder expanded="0" path="object-folder/Hist/EsHist13/" />
+        <folder expanded="0" path="object-folder/Hist/EsHist14/" />
+        <folder expanded="0" path="object-folder/Hist/EsHis15/" />
+        <folder expanded="1" path="object-folder/ReusObj/" />
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Hist/" />
@@ -89,8 +119,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist8/" />
         <folder expanded="0" path="event-folder/HistES/EsHist9/" />
         <folder expanded="0" path="event-folder/HistES/EsHist10/" />
-        <folder expanded="0" path="event-folder/HistES/EsHist11/" />
-        <folder expanded="0" path="event-folder/HistES/EsHist12/" />
+        <folder expanded="1" path="event-folder/HistES/EsHist11/" />
+        <folder expanded="1" path="event-folder/HistES/EsHist12/" />
         <folder expanded="0" path="event-folder/HistES/EsHist13/" />
         <folder expanded="0" path="event-folder/HistES/EsHist14/" />
         <folder expanded="0" path="event-folder/HistES/EsHist15/" />

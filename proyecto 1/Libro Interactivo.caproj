@@ -157,7 +157,7 @@
                 <object-type name="embarz" sid="500895370111982">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3069043111791589" speed="5">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3069043111791589" speed="5">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.502924" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\embarz.png">
                                 <collision-poly>
                                     <point x="0.459259" y="0.373494" />
@@ -168,18 +168,6 @@
                                     <point x="0.496296" y="0.981928" />
                                     <point x="0.0740741" y="0.939759" />
                                     <point x="0.0444444" y="0.5" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.502924" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\embarz brill.png">
-                                <collision-poly>
-                                    <point x="0.445313" y="0.333333" />
-                                    <point x="0.5" y="0.0994152" />
-                                    <point x="0.875" y="0.0935673" />
-                                    <point x="0.976563" y="0.497076" />
-                                    <point x="0.757813" y="0.818713" />
-                                    <point x="0.5" y="0.964912" />
-                                    <point x="0.0546875" y="0.959064" />
-                                    <point x="0.0078125" y="0.497076" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -409,7 +397,7 @@
                 <object-type name="niños" sid="1242526387157892">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6423210616881595" speed="5">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6423210616881595" speed="5">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.505618" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\1 int imagenes\niñs.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.224719" />
@@ -418,16 +406,6 @@
                                     <point x="0.985" y="0.966292" />
                                     <point x="0.135" y="0.696629" />
                                     <point x="0.135" y="0.494382" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.505618" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\niñs brill.png">
-                                <collision-poly>
-                                    <point x="0.1" y="0.224719" />
-                                    <point x="0.915" y="0.191011" />
-                                    <point x="0.985" y="0.494382" />
-                                    <point x="0.985" y="0.966292" />
-                                    <point x="0.135" y="0.696629" />
-                                    <point x="0.13" y="0.494382" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -889,6 +867,18 @@
                     <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\13 contorno-01.jpg" />
                 </object-type>
             </object-folder>
+            <object-folder name="EsHist14">
+                <object-type name="EsHis14" sid="2554399487440195">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\14 contornos-01.jpg" />
+                </object-type>
+            </object-folder>
+            <object-folder name="EsHis15">
+                <object-type name="EsHis15" sid="5978112577793048">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\15 contorno-01.jpg" />
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-folder name="ReusObj">
             <object-type name="botonNext" sid="7138583894614831">
@@ -1150,6 +1140,10 @@
             </event-folder>
             <event-folder name="EsHist10">
                 <event-sheet>EsHist10.xml</event-sheet>
+                <event-sheet>nextEH10.xml</event-sheet>
+                <event-sheet>prevEH10.xml</event-sheet>
+                <event-sheet>reprEH10.xml</event-sheet>
+                <event-sheet>soundEH10.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist11">
                 <event-sheet>EsHist11.xml</event-sheet>
@@ -1160,6 +1154,10 @@
             </event-folder>
             <event-folder name="EsHist12">
                 <event-sheet>EsHist12.xml</event-sheet>
+                <event-sheet>nextEH12.xml</event-sheet>
+                <event-sheet>prevEH12.xml</event-sheet>
+                <event-sheet>reprEH12.xml</event-sheet>
+                <event-sheet>soundEH12.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist13">
                 <event-sheet>EsHist13.xml</event-sheet>

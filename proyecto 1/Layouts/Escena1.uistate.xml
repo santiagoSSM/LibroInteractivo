@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>503.505</position-x>
-        <position-y>449.217</position-y>
+        <position-x>550.284</position-x>
+        <position-y>426.958</position-y>
         <position-z>125</position-z>
-        <lookat-x>503.505</lookat-x>
-        <lookat-y>449.217</lookat-y>
+        <lookat-x>550.284</lookat-x>
+        <lookat-y>426.958</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -23,16 +23,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="ObjetosBrill__LVL1" />
+    <active-layer name="Objetos2_LVL1" />
     <layers>
         <layer locked="1" name="Fondo" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="ObjetosBrill_LVL2" parallax-in-editor="0" visible="0" />
-        <layer locked="0" name="Objetos1_LVL2" parallax-in-editor="0" visible="0" />
+        <layer locked="0" name="Objetos1_LVL2" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Objetos2_LVL2" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="Objetos1_LVL1" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="ObjetosBrill__LVL1" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="Objetos2_LVL1" parallax-in-editor="0" visible="0" />
-        <layer locked="0" name="Objetos1_LVL0" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Objetos1_LVL0" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="ObjetosBrill_LVL0" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="Objetos2_LVL0" parallax-in-editor="0" visible="0" />
     </layers>
