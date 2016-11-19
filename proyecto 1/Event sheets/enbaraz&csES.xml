@@ -11,6 +11,9 @@
                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1078752923984704" type="cs">
                     <param id="0" name="Instance variable">embarFinProc</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8245629279416602" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="61679133869895" type="embarz">
@@ -57,17 +60,46 @@
                     <param id="0" name="Instance variable">embarFinProc</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="1126699408336813" type="embarz" />
+                <action id="-9" name="Destroy" sid="8689024465462001" type="embarz" />
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="2936239357731104" type="niños">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="9816704983851639" type="reg">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="3018596520795826" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="8836053378287088">
             <conditions>
                 <condition behavior="DragDrop" id="2" name="On drop" sid="9439304317442026" type="embarz" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="5387078552324937" type="cs">
+                    <param id="0" name="Object">embarz</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="105890541065379" type="embarz">
                     <param id="0" name="X">948.122</param>
                     <param id="1" name="Y">472.313</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="3646450568641194" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5493207049176365">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="5843443089432043" type="embarz" />
+            </conditions>
+            <actions>
+                <action id="-24" name="Move to top" sid="3300408614702017" type="embarz" />
+                <action id="-13" name="Set boolean" sid="1908293118450647" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>

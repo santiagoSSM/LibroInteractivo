@@ -14,6 +14,9 @@
                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6594875940905094" type="puertCober">
                     <param id="0" name="Instance variable">finProc</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6566941432666631" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="4650353913992492" type="puertCober">
@@ -56,6 +59,9 @@
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">puertCober</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5027882658587886" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
                 </condition>
             </conditions>
             <actions>

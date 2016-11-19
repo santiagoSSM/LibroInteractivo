@@ -11,6 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout active="1" order="0">Escena1</layout>
+        <event-sheet order="1">enbaraz&amp;csES</event-sheet>
+        <event-sheet order="2">niños&amp;csES</event-sheet>
+        <event-sheet order="3">Escena1ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -21,7 +24,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/" />
+        <folder expanded="1" path="object-folder/ObjetosES1/" />
         <folder expanded="1" path="object-folder/ObjetosES1/cs/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/humo/" />
         <folder expanded="0" path="object-folder/ObjetosES1/casc/" />
@@ -52,15 +55,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/ESHist10/" />
         <folder expanded="0" path="object-folder/Hist/EsHis12/" />
         <folder expanded="0" path="object-folder/Hist/EsHist13/" />
-        <folder expanded="1" path="object-folder/ReusObj/" />
+        <folder expanded="0" path="object-folder/ReusObj/" />
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Hist/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Escena1ES/" />
+        <folder expanded="1" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
-        <folder expanded="1" path="event-folder/HistES/" />
-        <folder expanded="1" path="event-folder/HistES/EsHist1/" />
+        <folder expanded="0" path="event-folder/HistES/" />
+        <folder expanded="0" path="event-folder/HistES/EsHist1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v0/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v2/" />
@@ -74,7 +77,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist7/" />
         <folder expanded="0" path="event-folder/HistES/EsHist8/" />
         <folder expanded="0" path="event-folder/HistES/EsHist9/" />
-        <folder expanded="1" path="event-folder/HistES/EsHist10/" />
+        <folder expanded="0" path="event-folder/HistES/EsHist10/" />
         <folder expanded="0" path="event-folder/HistES/EsHist11/" />
         <folder expanded="0" path="event-folder/HistES/EsHist12/" />
         <folder expanded="0" path="event-folder/HistES/EsHist13/" />

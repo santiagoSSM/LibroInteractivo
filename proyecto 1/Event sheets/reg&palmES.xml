@@ -8,6 +8,9 @@
                 <condition id="7" name="Cursor is over object" sid="5671646633457581" type="Mouse">
                     <param id="0" name="Object">reg</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8049248423724114" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="5051985124209263" type="reg">
@@ -37,18 +40,23 @@
         </event-block>
         <event-block sid="6487183943661469">
             <conditions>
-                <condition behavior="DragDrop" id="0" name="Is dragging" sid="8445951491038014" type="reg" />
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="8445951491038014" type="reg" />
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="4074537463168297" type="reg">
                     <param id="0" name="Animation">&quot;regVolt&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action id="-24" name="Move to top" sid="6387279911045362" type="reg" />
                 <action id="5" name="Set frame" sid="4409935468350722" type="cursor">
                     <param id="0" name="Frame number">2</param>
                 </action>
                 <action id="1" name="Set cursor from sprite" sid="7183237640351482" type="Mouse">
                     <param id="0" name="Sprite">cursor</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="1187237432105529" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -60,6 +68,10 @@
                 <action id="-3" name="Set position" sid="8226607424055225" type="reg">
                     <param id="0" name="X">992.162</param>
                     <param id="1" name="Y">358.631</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="9636568989757377" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>

@@ -8,6 +8,9 @@
                 <condition id="7" name="Cursor is over object" sid="8757345411854529" type="Mouse">
                     <param id="0" name="Object">bosque</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9917146667367719" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="8018994802862223" type="bosque">

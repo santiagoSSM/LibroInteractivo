@@ -11,6 +11,9 @@
                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5046924099961111" type="cs">
                     <param id="0" name="Instance variable">niñosFinProc</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9364589469692658" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="1857873904649572" type="niños">
@@ -58,16 +61,45 @@
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="-9" name="Destroy" sid="5092388236806377" type="niños" />
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="8533907578050433" type="embarz">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="9910419673084964" type="reg">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="3572102074085711" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="537511147584418">
             <conditions>
                 <condition behavior="DragDrop" id="2" name="On drop" sid="9928969253227608" type="niños" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="4324067509303792" type="cs">
+                    <param id="0" name="Object">niños</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="4873848748157427" type="niños">
                     <param id="0" name="X">415</param>
                     <param id="1" name="Y">254</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4835575575073332" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7777323830825895">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="4577282862954802" type="niños" />
+            </conditions>
+            <actions>
+                <action id="-24" name="Move to top" sid="2565054812077737" type="niños" />
+                <action id="-13" name="Set boolean" sid="949850357069613" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>

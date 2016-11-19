@@ -51,5 +51,27 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="67622671323838">
+            <conditions>
+                <condition id="4" name="On finished" sid="9647582819481414" type="humo">
+                    <param id="0" name="Animation">&quot;animar&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="9375275206136972" type="embarz">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="188425331811967" type="niños">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="9687226942642344" type="reg">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="2662362445221498" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
