@@ -13,7 +13,7 @@
                 <action id="5" name="Set frame" sid="3813143184873325" type="nube">
                     <param id="0" name="Frame number">1</param>
                 </action>
-                <action id="5" name="Set frame" sid="5141636529946905" type="fumidrAct">
+                <action id="5" name="Set frame" sid="5141636529946905" type="fumidr">
                     <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
@@ -28,7 +28,7 @@
                 <action id="5" name="Set frame" sid="1380539421347461" type="nube">
                     <param id="0" name="Frame number">0</param>
                 </action>
-                <action id="5" name="Set frame" sid="5708310842175716" type="fumidrAct">
+                <action id="5" name="Set frame" sid="5708310842175716" type="fumidr">
                     <param id="0" name="Frame number">0</param>
                 </action>
             </actions>

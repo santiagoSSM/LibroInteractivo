@@ -200,60 +200,6 @@
                     </animation-folder>
                 </object-type>
             </object-folder>
-            <object-folder name="nube">
-                <object-type name="nube" sid="7371590727015995">
-                    <plugin id="Sprite" />
-                    <animation-folder>
-                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3424362668614343" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\1 int imagenes\nube.jpg" />
-                            <frame duration="1" hotspotX="0.478873" hotspotY="0.128736" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\nube lluviet.png">
-                                <collision-poly>
-                                    <point x="0.169014" y="0.165517" />
-                                    <point x="0.5" y="0.00689655" />
-                                    <point x="0.793427" y="0.202299" />
-                                    <point x="0.861502" y="0.498851" />
-                                    <point x="0.800469" y="0.804598" />
-                                    <point x="0.5" y="0.898851" />
-                                    <point x="0.164319" y="0.83908" />
-                                    <point x="0.056338" y="0.498851" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                    </animation-folder>
-                </object-type>
-            </object-folder>
-            <object-folder name="fumidr">
-                <object-type name="fumidrAct" sid="7311843122323275">
-                    <plugin id="Sprite" />
-                    <animation-folder>
-                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4288243927382185" speed="0">
-                            <frame duration="1" hotspotX="0.208029" hotspotY="0.237548" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\fumidr act.png">
-                                <collision-poly>
-                                    <point x="0.0364963" y="0.0383142" />
-                                    <point x="0.5" y="0.544061" />
-                                    <point x="0.492701" y="0.532567" />
-                                    <point x="0.467153" y="0.498084" />
-                                    <point x="0.791971" y="0.781609" />
-                                    <point x="0.5" y="0.816092" />
-                                    <point x="0.335766" y="0.64751" />
-                                    <point x="0.335766" y="0.498084" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\fumidr inact.png">
-                                <collision-poly>
-                                    <point x="0.0803571" y="0.0737705" />
-                                    <point x="0.5" y="0.0491803" />
-                                    <point x="0.589286" y="0.377049" />
-                                    <point x="0.785714" y="0.5" />
-                                    <point x="0.571429" y="0.606557" />
-                                    <point x="0.5" y="0.95082" />
-                                    <point x="0.0803571" y="0.92623" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                    </animation-folder>
-                </object-type>
-            </object-folder>
             <object-type name="FondoES1" sid="7378267326331784">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\fondo.jpg" />
@@ -496,6 +442,56 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\1 int imagenes\puerta cobertizo.jpg" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\puerta brilla cober.jpg" />
                         <frame duration="1" hotspotX="0.509434" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\puerta cerrada cober.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="nube" sid="7371590727015995">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3424362668614343" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\1 int imagenes\nube.jpg" />
+                        <frame duration="1" hotspotX="0.478873" hotspotY="0.128736" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\nube lluviet.png">
+                            <collision-poly>
+                                <point x="0.169014" y="0.165517" />
+                                <point x="0.5" y="0.00689655" />
+                                <point x="0.793427" y="0.202299" />
+                                <point x="0.861502" y="0.498851" />
+                                <point x="0.800469" y="0.804598" />
+                                <point x="0.5" y="0.898851" />
+                                <point x="0.164319" y="0.83908" />
+                                <point x="0.056338" y="0.498851" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="fumidr" sid="7311843122323275">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4288243927382185" speed="0">
+                        <frame duration="1" hotspotX="0.208029" hotspotY="0.237548" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\fumidr act.png">
+                            <collision-poly>
+                                <point x="0.0364963" y="0.0383142" />
+                                <point x="0.5" y="0.544061" />
+                                <point x="0.492701" y="0.532567" />
+                                <point x="0.467153" y="0.498084" />
+                                <point x="0.791971" y="0.781609" />
+                                <point x="0.5" y="0.816092" />
+                                <point x="0.335766" y="0.64751" />
+                                <point x="0.335766" y="0.498084" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\fumidr inact.png">
+                            <collision-poly>
+                                <point x="0.0803571" y="0.0737705" />
+                                <point x="0.5" y="0.0491803" />
+                                <point x="0.589286" y="0.377049" />
+                                <point x="0.785714" y="0.5" />
+                                <point x="0.571429" y="0.606557" />
+                                <point x="0.5" y="0.95082" />
+                                <point x="0.0803571" y="0.92623" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
