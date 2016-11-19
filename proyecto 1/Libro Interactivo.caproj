@@ -850,6 +850,10 @@
                 <object-type name="prev1" sid="4259297013334527">
                     <plugin id="Button" />
                 </object-type>
+                <object-type name="EsHist10" sid="9510067186362866">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\10 contorno-01.jpg" />
+                </object-type>
             </object-folder>
         </object-folder>
         <object-folder name="ReusObj">
