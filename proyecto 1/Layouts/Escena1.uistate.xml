@@ -5,10 +5,10 @@ It is entirely optional and the project will load without it.  If you are placin
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
         <position-x>550.284</position-x>
-        <position-y>417.967</position-y>
+        <position-y>449.217</position-y>
         <position-z>125</position-z>
         <lookat-x>550.284</lookat-x>
-        <lookat-y>417.967</lookat-y>
+        <lookat-y>449.217</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -27,7 +27,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <layers>
         <layer locked="1" name="Fondo" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="ObjetosBrill_LVL2" parallax-in-editor="0" visible="0" />
-        <layer locked="0" name="Objetos1_LVL2" parallax-in-editor="0" visible="0" />
+        <layer locked="0" name="Objetos1_LVL2" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Objetos2_LVL2" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="Objetos1_LVL1" parallax-in-editor="0" visible="0" />
         <layer locked="0" name="ObjetosBrill__LVL1" parallax-in-editor="0" visible="0" />
