@@ -16,10 +16,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="5890471389384314">
-            <conditions />
-            <actions />
-        </event-block>
         <event-block sid="1655588244352346">
             <conditions>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="5613364397869891" type="Mouse">

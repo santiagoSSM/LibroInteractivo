@@ -26,11 +26,11 @@
         </event-block>
         <event-block sid="8961422696414841">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="5653477979288425" type="Mouse">
-                    <param id="0" name="Object">embarzBrill</param>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="3273842633164525" type="Mouse">
+                    <param id="0" name="Object">embarz</param>
                 </condition>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="3724198515517615" type="Mouse">
-                    <param id="0" name="Object">niñosBrill</param>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="9781746499857643" type="Mouse">
+                    <param id="0" name="Object">niños</param>
                 </condition>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="5505361584617499" type="Mouse">
                     <param id="0" name="Object">ventanaCost</param>

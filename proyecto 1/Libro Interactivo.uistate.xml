@@ -10,9 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Escena1</layout>
-        <layout active="1" order="1">EsHist12</layout>
-        <layout order="2">EsHist13</layout>
+        <layout active="1" order="0">Escena1</layout>
+        <event-sheet order="1">nube&amp;fumidrES</event-sheet>
+        <event-sheet order="2">reg&amp;palmES</event-sheet>
+        <event-sheet order="3">Escena1ES</event-sheet>
+        <event-sheet order="4">enbaraz&amp;csES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -23,22 +25,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/PuertCs/" />
+        <folder expanded="1" path="object-folder/ObjetosES1/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/humo/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/embarz/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/cober/" />
         <folder expanded="0" path="object-folder/ObjetosES1/casc/" />
         <folder expanded="0" path="object-folder/ObjetosES1/nube/" />
         <folder expanded="0" path="object-folder/ObjetosES1/fumidr/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/ventanaCost/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/ventanaFrt/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/bosque/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/niños/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/llave/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/reg/" />
-        <folder expanded="0" path="object-folder/ObjetosES1/palm/" />
         <folder expanded="0" path="object-folder/ObjetosES2/" />
         <folder expanded="0" path="object-folder/ObjetosES2/pto/" />
         <folder expanded="0" path="object-folder/ObjetosES2/gll/" />
@@ -47,7 +39,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES2/igu/iguana/" />
         <folder expanded="0" path="object-folder/ObjetosES2/igu/botella/" />
         <folder expanded="0" path="object-folder/ObjetosES2/Serp/" />
-        <folder expanded="1" path="object-folder/Hist/" />
+        <folder expanded="0" path="object-folder/Hist/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v0/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v1/" />
@@ -65,15 +57,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHis11/" />
         <folder expanded="0" path="object-folder/Hist/ESHist10/" />
         <folder expanded="0" path="object-folder/Hist/EsHis12/" />
-        <folder expanded="1" path="object-folder/Hist/EsHist13/" />
+        <folder expanded="0" path="object-folder/Hist/EsHist13/" />
         <folder expanded="0" path="object-folder/ReusObj/" />
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Hist/" />
+        <folder expanded="0" path="layout-folder/Hist/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
-        <folder expanded="1" path="event-folder/HistES/" />
+        <folder expanded="0" path="event-folder/HistES/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v0/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v1/" />
@@ -100,32 +92,25 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/puertCs/" />
         <folder expanded="1" path="animation-folder/humo/" />
         <folder expanded="1" path="animation-folder/cs/" />
-        <folder expanded="1" path="animation-folder/embarz/" />
-        <folder expanded="1" path="animation-folder/embarzBrill/" />
-        <folder expanded="1" path="animation-folder/puertCoberBrill/" />
-        <folder expanded="1" path="animation-folder/puertCober/" />
-        <folder expanded="1" path="animation-folder/puertCoberCerr/" />
+        <folder expanded="1" path="animation-folder/ventanaCost/" />
+        <folder expanded="1" path="animation-folder/ventanaFrt/" />
         <folder expanded="1" path="animation-folder/casc1/" />
         <folder expanded="1" path="animation-folder/casc2/" />
         <folder expanded="1" path="animation-folder/casc3/" />
         <folder expanded="1" path="animation-folder/casc4/" />
         <folder expanded="1" path="animation-folder/cascF/" />
-        <folder expanded="1" path="animation-folder/nubeLlov/" />
         <folder expanded="1" path="animation-folder/nube/" />
         <folder expanded="1" path="animation-folder/fumidrAct/" />
-        <folder expanded="1" path="animation-folder/fumidrInac/" />
-        <folder expanded="1" path="animation-folder/ventanaCost/" />
-        <folder expanded="1" path="animation-folder/ventanaFrt/" />
         <folder expanded="1" path="animation-folder/bosque/" />
-        <folder expanded="1" path="animation-folder/bosqueBrill/" />
-        <folder expanded="1" path="animation-folder/niños/" />
-        <folder expanded="1" path="animation-folder/niñosBrill/" />
-        <folder expanded="1" path="animation-folder/llave/" />
         <folder expanded="1" path="animation-folder/reg/" />
+        <folder expanded="1" path="animation-folder/puertCs/" />
         <folder expanded="1" path="animation-folder/palm/" />
+        <folder expanded="1" path="animation-folder/niños/" />
+        <folder expanded="1" path="animation-folder/llave/" />
+        <folder expanded="1" path="animation-folder/embarz/" />
+        <folder expanded="1" path="animation-folder/puertCober/" />
         <folder expanded="1" path="animation-folder/ptoBrilla/" />
         <folder expanded="1" path="animation-folder/ptoLleno/" />
         <folder expanded="1" path="animation-folder/ptoVacio/" />

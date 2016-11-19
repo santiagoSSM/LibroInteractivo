@@ -3,78 +3,71 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>niños&amp;csES</name>
     <events>
-        <event-block sid="1321938011046627">
+        <event-block sid="6893227203905877">
             <conditions>
-                <condition id="7" name="Cursor is over object" sid="1543028997926153" type="Mouse">
+                <condition id="7" name="Cursor is over object" sid="8756252375644727" type="Mouse">
                     <param id="0" name="Object">niños</param>
                 </condition>
-                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8728339305714394" type="cs">
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4615940292711239" type="cs">
                     <param id="0" name="Instance variable">niñosFinProc</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="8873785136905446" type="niños">
-                    <param id="0" name="Visibility">0</param>
+                <action id="5" name="Set frame" sid="7218956025777839" type="niños">
+                    <param id="0" name="Frame number">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="6208917868242952" type="niñosBrill">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="4" name="Set animation" sid="3573455329017199" type="cs">
+                <action id="4" name="Set animation" sid="1755140962922478" type="cs">
                     <param id="0" name="Animation">&quot;animar&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="335390485412317">
+        <event-block sid="3005094029186194">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="125395879357946" type="Mouse">
-                    <param id="0" name="Object">niñosBrill</param>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="4608336560307405" type="Mouse">
+                    <param id="0" name="Object">niños</param>
                 </condition>
-                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4128039292771736" type="cs">
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4790494502488715" type="cs">
                     <param id="0" name="Instance variable">niñosFinProc</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="3095881714018136" type="niñosBrill">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="7774672923254161" type="niños">
-                    <param id="0" name="Visibility">1</param>
+                <action id="5" name="Set frame" sid="8304505355943625" type="niños">
+                    <param id="0" name="Frame number">0</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="5440699880638176">
+        <event-block sid="6958747168998852">
             <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="1278127126801884" type="niñosBrill" />
-                <condition id="1" name="Is overlapping another object" sid="454451648411813" type="niñosBrill">
-                    <param id="0" name="Object">cs</param>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="7586102389698952" type="niños" />
+                <condition id="1" name="Is overlapping another object" sid="7164113175104957" type="cs">
+                    <param id="0" name="Object">niños</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="7282024961116327" type="cs">
+                <action id="4" name="Set animation" sid="700252285567742" type="cs">
                     <param id="0" name="Animation">&quot;inicio&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
-                <action id="4" name="Set animation" sid="9600412893529314" type="humo">
+                <action id="4" name="Set animation" sid="5763065155889102" type="humo">
                     <param id="0" name="Animation">&quot;animar&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="4392235907692309" type="cs">
+                <action id="-13" name="Set boolean" sid="551752564882903" type="cs">
                     <param id="0" name="Instance variable">niñosFinProc</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="4928974319255377" type="niños" />
-                <action id="-9" name="Destroy" sid="8481995867032151" type="niñosBrill" />
+                <action id="-9" name="Destroy" sid="8575853551599784" type="niños" />
             </actions>
         </event-block>
-        <event-block sid="2776821633047837">
+        <event-block sid="4115046136236275">
             <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="236483680929261" type="niñosBrill" />
+                <condition behavior="DragDrop" id="2" name="On drop" sid="3311280754825875" type="niños" />
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="1035578785403447" type="niñosBrill">
-                    <param id="0" name="X">niños.X</param>
-                    <param id="1" name="Y">niños.Y</param>
+                <action id="-3" name="Set position" sid="1832843531007631" type="niños">
+                    <param id="0" name="X">415</param>
+                    <param id="1" name="Y">254</param>
                 </action>
             </actions>
         </event-block>
