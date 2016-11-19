@@ -854,6 +854,12 @@
                     <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\10 contorno-01.jpg" />
                 </object-type>
             </object-folder>
+            <object-folder name="EsHis12">
+                <object-type name="EsHist12" sid="1888553592954617">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\12 contorno-01.jpg" />
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-folder name="ReusObj">
             <object-type name="botonNext" sid="7138583894614831">
