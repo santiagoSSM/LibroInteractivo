@@ -805,12 +805,6 @@
                 </object-type>
             </object-folder>
             <object-folder name="ESHist10">
-                <object-type name="sig1" sid="9721000949180713">
-                    <plugin id="Button" />
-                </object-type>
-                <object-type name="prev1" sid="4259297013334527">
-                    <plugin id="Button" />
-                </object-type>
                 <object-type name="EsHist10" sid="9510067186362866">
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\10 contorno-01.jpg" />
@@ -1086,6 +1080,10 @@
             </event-folder>
             <event-folder name="EsHist10">
                 <event-sheet>EsHist10.xml</event-sheet>
+                <event-sheet>nextEH10.xml</event-sheet>
+                <event-sheet>prevEH10.xml</event-sheet>
+                <event-sheet>reprEH10.xml</event-sheet>
+                <event-sheet>soundEH10.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist11">
                 <event-sheet>EsHist11.xml</event-sheet>
