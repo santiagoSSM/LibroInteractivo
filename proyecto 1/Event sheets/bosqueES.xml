@@ -16,6 +16,10 @@
                 <action id="5" name="Set frame" sid="8018994802862223" type="bosque">
                     <param id="0" name="Frame number">1</param>
                 </action>
+                <action id="-13" name="Set boolean" sid="7870478884131269" type="bosque">
+                    <param id="0" name="Instance variable">finProc</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="630382661299792">

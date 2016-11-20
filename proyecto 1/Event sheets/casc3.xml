@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>casc3</name>
+    <events>
+        <event-block sid="502665952201071">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="8033596007962882" type="cs">
+                    <param id="0" name="Instance variable">embarFinProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="9689010657903002" type="cs">
+                    <param id="0" name="Instance variable">niñosFinProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="476271544259579" type="ventanaCost">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="4787714674619704" type="ventanaFrt">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="9868273089887318" type="puertCober">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="1154520988872045" type="puertCs">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8622723384877604" type="System">
+                    <param id="0" name="Variable">totalPalms</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="2939542834609212" type="casc3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="325159414625114">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="7438808929202822" type="cs">
+                    <param id="0" name="Instance variable">embarFinProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="6732295333207853" type="cs">
+                    <param id="0" name="Instance variable">niñosFinProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="855399776624715" type="ventanaCost">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="8117709949735804" type="ventanaFrt">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="4681452350081503" type="puertCober">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="7150594147744478" type="puertCs">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="395370852491655" type="bosque">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="4745707430857931" type="casc3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8771500658142543">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="4784005675724524" type="cs">
+                    <param id="0" name="Instance variable">embarFinProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="3331256642248799" type="cs">
+                    <param id="0" name="Instance variable">niñosFinProc</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2462503891399008" type="System">
+                    <param id="0" name="Variable">totalPalms</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="6724579591274031" type="bosque">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="2653194597835822" type="casc3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2026986397383847">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="6754047544644327" type="ventanaCost">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="1036238921133671" type="ventanaFrt">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="8785997624937681" type="puertCober">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="9834135928313627" type="puertCs">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="4963196882415973" type="System">
+                    <param id="0" name="Variable">totalPalms</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="9720372815338072" type="bosque">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="9566751475110518" type="casc3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

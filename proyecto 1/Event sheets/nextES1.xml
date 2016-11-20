@@ -10,6 +10,7 @@
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonNext</param>
                 </condition>
+                <condition id="-9" name="Is visible" sid="200543843656207" type="cascF" />
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="9054309288806381" type="System">

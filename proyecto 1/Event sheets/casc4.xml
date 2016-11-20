@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>casc4</name>
+    <events>
+        <event-block sid="3048292648742105">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="2794068958037778" type="cs">
+                    <param id="0" name="Instance variable">embarFinProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="1074805272346678" type="cs">
+                    <param id="0" name="Instance variable">niñosFinProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="8331428997933688" type="ventanaCost">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="9267254453826432" type="ventanaFrt">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="2710943404835497" type="puertCober">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="2272202545039817" type="puertCs">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="6254046266085499" type="System">
+                    <param id="0" name="Variable">totalPalms</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="8670538786276343" type="bosque">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="9032132207272644" type="casc4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8721345086574302">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="8168633547488766" type="casc4" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="7562713091412943" type="cascF">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7552586003200322" type="botonNext">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

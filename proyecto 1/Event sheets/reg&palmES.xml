@@ -11,6 +11,11 @@
                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8049248423724114" type="cursor">
                     <param id="0" name="Instance variable">blockCursor</param>
                 </condition>
+                <condition id="-14" inverted="1" name="Compare variable" sid="883050464706668" type="System">
+                    <param id="0" name="Variable">totalPalms</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="5051985124209263" type="reg">
@@ -72,6 +77,9 @@
                 <action id="-13" name="Set boolean" sid="9636568989757377" type="cursor">
                     <param id="0" name="Instance variable">blockCursor</param>
                     <param id="1" name="Value">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="2393731418795856" type="reg">
+                    <param id="0" name="State">0</param>
                 </action>
             </actions>
         </event-block>
