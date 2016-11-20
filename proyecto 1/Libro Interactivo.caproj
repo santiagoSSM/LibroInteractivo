@@ -206,6 +206,9 @@
             </object-type>
             <object-type name="bosque" sid="2833661753110303">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="finProc" sid="5544982394409882" type="boolean" />
+                </instance-variables>
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3691120562732676" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\1 int imagenes\bosque.jpg" />
@@ -983,6 +986,10 @@
             <event-sheet>niños&amp;csES.xml</event-sheet>
             <event-sheet>reg&amp;palmES.xml</event-sheet>
             <event-sheet>nextES1.xml</event-sheet>
+            <event-sheet>casc1.xml</event-sheet>
+            <event-sheet>casc2.xml</event-sheet>
+            <event-sheet>casc3.xml</event-sheet>
+            <event-sheet>casc4.xml</event-sheet>
         </event-folder>
         <event-folder name="Escena2ES">
             <event-sheet>Escena2ES.xml</event-sheet>
