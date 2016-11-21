@@ -10,7 +10,6 @@
     <unique-id>36208eown3epl</unique-id>
     <saved-with-version>22700</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -819,15 +818,13 @@
                 </object-type>
             </object-folder>
             <object-folder name="EsHist1v2">
-                <object-type name="EsHist1v2" sid="7165574247698302">
-                    <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\1,2 cuadr-01.jpg" />
-                </object-type>
-                <object-type name="siguiente" sid="3535300449874072">
-                    <plugin id="Button" />
-                </object-type>
-                <object-type name="previous" sid="9247700998085818">
-                    <plugin id="Button" />
+                <object-type name="EsHist1v2" sid="3480834350128025">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5310204755995422" speed="1">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="EsHist1v5">
@@ -871,12 +868,6 @@
                     <plugin id="TiledBg" />
                     <texture original-source="M:\imagenes\6 contorno-01-01.jpg" />
                 </object-type>
-                <object-type name="sig" sid="4927168285561438">
-                    <plugin id="Button" />
-                </object-type>
-                <object-type name="prev" sid="9019303035946839">
-                    <plugin id="Button" />
-                </object-type>
             </object-folder>
             <object-folder name="EsHist7">
                 <object-type name="EsHist7" sid="1823493559977346">
@@ -885,7 +876,7 @@
                 </object-type>
             </object-folder>
             <object-folder name="EsHist8">
-                <object-type name="TiledBackground" sid="8924174381916338">
+                <object-type name="EsHist8" sid="8924174381916338">
                     <plugin id="TiledBg" />
                     <texture original-source="M:\imagenes\8 contorno-01.jpg" />
                 </object-type>
@@ -1152,6 +1143,8 @@
             </event-folder>
             <event-folder name="EsHist1v2">
                 <event-sheet>EsHist1v2.xml</event-sheet>
+                <event-sheet>nextEH1v2.xml</event-sheet>
+                <event-sheet>prevEH1v2.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist1v5">
                 <event-sheet>EsHist1v5.xml</event-sheet>
@@ -1196,6 +1189,10 @@
             </event-folder>
             <event-folder name="EsHist6">
                 <event-sheet>EsHist6.xml</event-sheet>
+                <event-sheet>nextEH6.xml</event-sheet>
+                <event-sheet>prevEH6.xml</event-sheet>
+                <event-sheet>reprEH6.xml</event-sheet>
+                <event-sheet>soundEH6.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist7">
                 <event-sheet>EsHist7.xml</event-sheet>
