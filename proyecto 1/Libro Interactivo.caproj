@@ -828,6 +828,18 @@
                     <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\13 contorno-01.jpg" />
                 </object-type>
             </object-folder>
+            <object-folder name="EsHist14">
+                <object-type name="EsHist14" sid="3173390609036103">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\14 contornos-01.jpg" />
+                </object-type>
+            </object-folder>
+            <object-folder name="EsHist15">
+                <object-type name="EsHist15" sid="6573636929330101">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\15 contorno-01.jpg" />
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-folder name="ReusObj">
             <object-type name="botonNext" sid="7138583894614831">
