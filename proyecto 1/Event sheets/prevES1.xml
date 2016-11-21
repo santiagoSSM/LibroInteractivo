@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>prevES1</name>
+    <events>
+        <event-block sid="7140243066031147">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8659965755719087" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botonPrev</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="3586841717231469" type="cascF" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4505626781204528" type="System">
+                    <param id="0" name="Layout">EsHist5</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

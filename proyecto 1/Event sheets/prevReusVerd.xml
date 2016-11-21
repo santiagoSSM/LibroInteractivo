@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>prevReusVerd</name>
+    <events>
+        <event-block sid="7967791294731385">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="3427333799784559" type="Mouse">
+                    <param id="0" name="Object">botonPrev</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="3693505336778907" type="botonPrev">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1150447965234824">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="4998264172307231" type="Mouse">
+                    <param id="0" name="Object">botonPrev</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="9864658500565014" type="botonPrev">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -532,6 +532,84 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="abi" sid="5691558217190192">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1727419019780785" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.502146" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\Abi n.png">
+                            <collision-poly>
+                                <point x="0.115385" y="0.128755" />
+                                <point x="0.5" y="0.0128755" />
+                                <point x="0.811538" y="0.2103" />
+                                <point x="0.996154" y="0.497854" />
+                                <point x="0.807692" y="0.785408" />
+                                <point x="0.5" y="0.828326" />
+                                <point x="0.223077" y="0.751073" />
+                                <point x="0.0230769" y="0.497854" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Fredy" sid="3696273593407285">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5282297168697187" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.502793" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\Freddy N.png">
+                            <collision-poly>
+                                <point x="0.0607477" y="0.0726257" />
+                                <point x="0.5" y="0.273743" />
+                                <point x="0.925234" y="0.0893855" />
+                                <point x="0.733645" y="0.497207" />
+                                <point x="0.841121" y="0.810056" />
+                                <point x="0.5" y="0.782123" />
+                                <point x="0.434579" y="0.480447" />
+                                <point x="0.443925" y="0.497207" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.502793" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\freddy brll.png">
+                            <collision-poly>
+                                <point x="0.0607477" y="0.0726257" />
+                                <point x="0.5" y="0.273743" />
+                                <point x="0.925234" y="0.0893855" />
+                                <point x="0.733645" y="0.497207" />
+                                <point x="0.841121" y="0.810056" />
+                                <point x="0.5" y="0.782123" />
+                                <point x="0.434579" y="0.480447" />
+                                <point x="0.443925" y="0.497207" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tiky" sid="1392100242586241">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3133145250064891" speed="5">
+                        <frame duration="1" hotspotX="0.503226" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\tik n.png">
+                            <collision-poly>
+                                <point x="0.212903" y="0.112245" />
+                                <point x="0.496774" y="0.0102041" />
+                                <point x="0.767742" y="0.122449" />
+                                <point x="0.606452" y="0.5" />
+                                <point x="0.529032" y="0.751701" />
+                                <point x="0.496774" y="0.92517" />
+                                <point x="0.212903" y="0.887755" />
+                                <point x="0.277419" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="FredyAbyTiqui" sid="5567144951292492">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9632214890988621" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\Freddy habl niñs.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\Freddy prub ganad.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="ObjetosES2">
             <object-folder name="pto">
@@ -903,7 +981,7 @@
             <object-type name="botonPrev" sid="4938747179131086">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7475084108962992" speed="0">
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7475084108962992" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton retro.png">
                             <collision-poly>
                                 <point x="0.189189" y="0.21875" />
@@ -917,6 +995,30 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.544118" hotspotY="0.546875" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton inact retro.png">
+                            <collision-poly>
+                                <point x="0.220588" y="0.234375" />
+                                <point x="0.5" y="0.109375" />
+                                <point x="0.779412" y="0.234375" />
+                                <point x="0.911765" y="0.5" />
+                                <point x="0.808824" y="0.796875" />
+                                <point x="0.5" y="0.953125" />
+                                <point x="0.191176" y="0.796875" />
+                                <point x="0.0882353" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.528571" hotspotY="0.546875" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton inact1 retro.png">
+                            <collision-poly>
+                                <point x="0.214286" y="0.234375" />
+                                <point x="0.5" y="0.109375" />
+                                <point x="0.785714" y="0.234375" />
+                                <point x="0.9" y="0.5" />
+                                <point x="0.814286" y="0.796875" />
+                                <point x="0.5" y="0.953125" />
+                                <point x="0.185714" y="0.796875" />
+                                <point x="0.1" y="0.5" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1016,6 +1118,8 @@
             <event-sheet>casc2.xml</event-sheet>
             <event-sheet>casc3.xml</event-sheet>
             <event-sheet>casc4.xml</event-sheet>
+            <event-sheet>Fredy.xml</event-sheet>
+            <event-sheet>prevES1.xml</event-sheet>
         </event-folder>
         <event-folder name="Escena2ES">
             <event-sheet>Escena2ES.xml</event-sheet>
@@ -1147,6 +1251,8 @@
             <event-sheet>reprReus.xml</event-sheet>
             <event-sheet>nextReusVerd.xml</event-sheet>
             <event-sheet>nextReusAmar.xml</event-sheet>
+            <event-sheet>prevReusAmar.xml</event-sheet>
+            <event-sheet>prevReusVerd.xml</event-sheet>
         </event-folder>
         <event-folder name="Escena3ES">
             <event-sheet>Escena3ES.xml</event-sheet>

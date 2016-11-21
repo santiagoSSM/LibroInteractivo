@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Fredy</name>
+    <events>
+        <event-block sid="6015042061529094">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5066477693629187" type="Mouse">
+                    <param id="0" name="Object">Fredy</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6367168262512898" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7722508629379933" type="Fredy">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8456874201131074">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="6005137964054342" type="Mouse">
+                    <param id="0" name="Object">Fredy</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="9079540547420063" type="Fredy">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
