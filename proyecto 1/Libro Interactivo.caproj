@@ -629,8 +629,22 @@
                     <object-type name="igu" sid="8693862365982104">
                         <plugin id="Sprite" />
                         <animation-folder>
-                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4640476788045761" speed="5">
+                            <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4640476788045761" speed="5">
                                 <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\igu.jpg" />
+                                <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\igu A.jpg" />
+                                <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\igu hb.png">
+                                    <collision-poly>
+                                        <point x="0.30254" y="0.476364" />
+                                        <point x="0.498845" y="0.48" />
+                                        <point x="0.630485" y="0.581818" />
+                                        <point x="0.531178" y="0.498182" />
+                                        <point x="0.819861" y="0.716364" />
+                                        <point x="0.498845" y="0.730909" />
+                                        <point x="0.212471" y="0.665455" />
+                                        <point x="0.221709" y="0.498182" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\igu plag.jpg" />
                             </animation>
                         </animation-folder>
                     </object-type>
