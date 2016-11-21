@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>gllES</name>
+    <name>SerpES</name>
     <events>
-        <event-block sid="6849979783726844">
+        <event-block sid="330053206535476">
             <conditions>
-                <condition id="7" name="Cursor is over object" sid="4773883732001892" type="Mouse">
-                    <param id="0" name="Object">gll</param>
+                <condition id="7" name="Cursor is over object" sid="7806406225521196" type="Mouse">
+                    <param id="0" name="Object">Serp</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="3099804082628069" type="gll">
+                <action id="5" name="Set frame" sid="7688740341727719" type="Serp">
                     <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="6400612688537611">
+        <event-block sid="9177464093686463">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="1985621164972554" type="Mouse">
-                    <param id="0" name="Object">gll</param>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="7806520179044007" type="Mouse">
+                    <param id="0" name="Object">Serp</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="9399840682440101" type="gll">
+                <action id="5" name="Set frame" sid="4551773941398126" type="Serp">
                     <param id="0" name="Frame number">0</param>
                 </action>
             </actions>

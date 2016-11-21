@@ -8,14 +8,10 @@
                 <condition id="7" name="Cursor is over object" sid="7235977021749184" type="Mouse">
                     <param id="0" name="Object">plagIgu</param>
                 </condition>
-                <condition id="-9" inverted="1" name="Is visible" sid="3284156223389687" type="iguA" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="8939383317277978" type="igu">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="4417610632252273" type="iguPlag">
-                    <param id="0" name="Visibility">1</param>
+                <action id="5" name="Set frame" sid="8939383317277978" type="igu">
+                    <param id="0" name="Frame number">3</param>
                 </action>
             </actions>
         </event-block>
@@ -24,36 +20,11 @@
                 <condition id="7" inverted="1" name="Cursor is over object" sid="5121307373556224" type="Mouse">
                     <param id="0" name="Object">plagIgu</param>
                 </condition>
-                <condition id="-9" inverted="1" name="Is visible" sid="9038336544054515" type="iguA" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="4967003672177099" type="iguPlag">
-                    <param id="0" name="Visibility">0</param>
+                <action id="5" name="Set frame" sid="8391917867410882" type="igu">
+                    <param id="0" name="Frame number">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="8391917867410882" type="igu">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block disabled="1" sid="8959525716065284">
-            <conditions>
-                <condition id="0" name="On click" sid="304125958992326" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                </condition>
-                <condition id="7" name="Cursor is over object" sid="6763343542802505" type="Mouse">
-                    <param id="0" name="Object">ptoLleno</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="4638490467093733" type="ptoBrilla">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="9971788952304649" type="ptoVacio">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-9" name="Destroy" sid="2251752561298938" type="ptoBrilla" />
-                <action id="-9" name="Destroy" sid="6225477029627283" type="ptoLleno" />
             </actions>
         </event-block>
     </events>

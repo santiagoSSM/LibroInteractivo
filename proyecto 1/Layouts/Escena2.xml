@@ -49,70 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="ObjetosBrill_LVL0" sid="8045920626604639">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="ptoBrilla" uid="6">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>379.899993896</x>
-                        <y>164.899993896</y>
-                        <z>0</z>
-                        <width>118</width>
-                        <height>74</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="iguPlag" uid="46">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>777</x>
-                        <y>588</y>
-                        <z>0</z>
-                        <width>433</width>
-                        <height>275</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501154721</hotspotX>
-                        <hotspotY>0.50181818</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="SerpBrill" uid="50">
+                <instance type="brj" uid="41">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -122,14 +59,80 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>184</x>
-                        <y>282</y>
+                        <x>978</x>
+                        <y>67</y>
                         <z>0</z>
-                        <width>276</width>
-                        <height>454</height>
+                        <width>75</width>
+                        <height>94</height>
                         <depth>0</depth>
-                        <hotspotX>0.503623188</hotspotX>
-                        <hotspotY>0.50220263</hotspotY>
+                        <hotspotX>0.50666666</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="brjBase1" uid="42">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>1</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>839</x>
+                        <y>65</y>
+                        <z>0</z>
+                        <width>59</width>
+                        <height>57</height>
+                        <depth>0</depth>
+                        <hotspotX>0.508474588</hotspotX>
+                        <hotspotY>0.508771956</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="brjBase2" uid="43">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>1</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>903</x>
+                        <y>65</y>
+                        <z>0</z>
+                        <width>59</width>
+                        <height>57</height>
+                        <depth>0</depth>
+                        <hotspotX>0.508474588</hotspotX>
+                        <hotspotY>0.508771956</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="botonNext" uid="11">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>959</x>
+                        <y>704</y>
+                        <z>0</z>
+                        <width>68</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -137,7 +140,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Objetos1_LVL0" sid="845450758235548">
+        <layer name="Capa1" sid="845450758235548">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -153,7 +156,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="ptoLleno" uid="7">
+                <instance type="pto" uid="7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -175,7 +178,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="gllQuiet" uid="10">
+                <instance type="gll" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -241,197 +244,24 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="Objetos2_LVL0" sid="5062300381901">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="iguHb" uid="48">
+                <instance type="Serp" uid="50">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
+                        <initial-frame>1</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>777</x>
-                        <y>588</y>
+                        <x>178</x>
+                        <y>287</y>
                         <z>0</z>
-                        <width>433</width>
-                        <height>275</height>
+                        <width>276</width>
+                        <height>454</height>
                         <depth>0</depth>
-                        <hotspotX>0.501154721</hotspotX>
-                        <hotspotY>0.50181818</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="ptoVacio" uid="8">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>382.249786377</x>
-                        <y>163.999816895</y>
-                        <z>0</z>
-                        <width>110</width>
-                        <height>70</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="gllCant" uid="9">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>887.900024414</x>
-                        <y>180.899993896</y>
-                        <z>0</z>
-                        <width>140</width>
-                        <height>87</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.505747139</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="brj" uid="41">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>978</x>
-                        <y>67</y>
-                        <z>0</z>
-                        <width>75</width>
-                        <height>94</height>
-                        <depth>0</depth>
-                        <hotspotX>0.50666666</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="brjBase1" uid="42">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>839</x>
-                        <y>65</y>
-                        <z>0</z>
-                        <width>59</width>
-                        <height>57</height>
-                        <depth>0</depth>
-                        <hotspotX>0.508474588</hotspotX>
-                        <hotspotY>0.508771956</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="brjBase2" uid="43">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>903</x>
-                        <y>65</y>
-                        <z>0</z>
-                        <width>59</width>
-                        <height>57</height>
-                        <depth>0</depth>
-                        <hotspotX>0.508474588</hotspotX>
-                        <hotspotY>0.508771956</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="iguA" uid="47">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>777</x>
-                        <y>588</y>
-                        <z>0</z>
-                        <width>433</width>
-                        <height>275</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501154721</hotspotX>
-                        <hotspotY>0.50181818</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="botonNext" uid="11">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>959</x>
-                        <y>704</y>
-                        <z>0</z>
-                        <width>68</width>
-                        <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.503623188</hotspotX>
+                        <hotspotY>0.546255529</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
