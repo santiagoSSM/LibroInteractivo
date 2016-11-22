@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>soundEH15</name>
+    <events>
+        <event-block sid="5383754688085995">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1062312333218669" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botonSound</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="608283912683539">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="3645384098649875" type="botonSound">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="6655552610833957" type="botonSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2275163483759765">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="2336540409317288" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="4749637849327314" type="botonSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

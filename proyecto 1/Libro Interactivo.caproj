@@ -1380,9 +1380,17 @@
             </event-folder>
             <event-folder name="EsHist14">
                 <event-sheet>EsHist14.xml</event-sheet>
+                <event-sheet>reprEH14.xml</event-sheet>
+                <event-sheet>nextEH14.xml</event-sheet>
+                <event-sheet>soundEH14.xml</event-sheet>
+                <event-sheet>prevEH14.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist15">
                 <event-sheet>EsHist15.xml</event-sheet>
+                <event-sheet>prevEH15.xml</event-sheet>
+                <event-sheet>nextEH15.xml</event-sheet>
+                <event-sheet>soundEH15.xml</event-sheet>
+                <event-sheet>reprEH15.xml</event-sheet>
             </event-folder>
         </event-folder>
         <event-folder name="ReusES">
