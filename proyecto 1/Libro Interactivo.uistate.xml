@@ -11,7 +11,24 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Escena2</layout>
-        <event-sheet active="1" order="1">fondo</event-sheet>
+        <layout order="12">EsHist12</layout>
+        <layout order="13">EsHist1</layout>
+        <layout order="16">EsHist13</layout>
+        <layout order="17">EsHist14</layout>
+        <layout order="18">EsHist9</layout>
+        <event-sheet order="1">fondo</event-sheet>
+        <event-sheet order="2">EsHist11</event-sheet>
+        <event-sheet order="3">nextEH11</event-sheet>
+        <event-sheet order="4">prevEH11</event-sheet>
+        <event-sheet order="5">reprEH11</event-sheet>
+        <event-sheet order="6">soundEH11</event-sheet>
+        <event-sheet order="7">prevEH12</event-sheet>
+        <event-sheet order="8">soundEH12</event-sheet>
+        <event-sheet order="9">reprEH12</event-sheet>
+        <event-sheet order="10">nextEH12</event-sheet>
+        <event-sheet order="11">EsHist12</event-sheet>
+        <event-sheet active="1" order="14">nextEH10</event-sheet>
+        <event-sheet order="15">prevEH10</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
