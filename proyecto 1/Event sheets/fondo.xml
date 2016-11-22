@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>fondo</name>
+    <events>
+        <event-block sid="8072812518062244">
+            <conditions>
+                <condition id="4" name="On finished" sid="6682706819259262" type="EsHist1v2">
+                    <param id="0" name="Animation">&quot;f1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3191134949757416" type="EsHist1v2">
+                    <param id="0" name="Animation">&quot;f1&quot;</param>
+                    <param id="1" name="From">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8150972564953058">
+            <conditions>
+                <condition disabled="1" id="4" name="On finished" sid="2817683311827721" type="EsHist1v2">
+                    <param id="0" name="Animation">&quot;f1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="4" name="Set animation" sid="3059393801668426" type="EsHist1v2">
+                    <param id="0" name="Animation">&quot;f1&quot;</param>
+                    <param id="1" name="From">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
