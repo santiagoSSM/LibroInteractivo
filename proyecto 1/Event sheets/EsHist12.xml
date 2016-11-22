@@ -2,13 +2,5 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EsHist12</name>
-    <events>
-        <include>soundEH12</include>
-        <include>reprEH12</include>
-        <include>prevEH12</include>
-        <include>nextEH12</include>
-        <include>reprReus</include>
-        <include>prevReus</include>
-        <include>nextReus</include>
-    </events>
+    <events />
 </c2eventsheet>

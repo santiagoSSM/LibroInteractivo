@@ -26,7 +26,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES2/" />
         <folder expanded="0" path="object-folder/ObjetosES2/brj/" />
         <folder expanded="0" path="object-folder/ObjetosES2/igu/" />
-        <folder expanded="0" path="object-folder/ObjetosES2/igu/botella/" />
+        <folder expanded="0" path="object-folder/ObjetosES2/cab/" />
+        <folder expanded="0" path="object-folder/ObjetosES2/ard/" />
+        <folder expanded="0" path="object-folder/ObjetosES2/rat/" />
         <folder expanded="0" path="object-folder/Hist/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v0/" />
@@ -107,8 +109,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/brj/" />
         <folder expanded="1" path="animation-folder/brjBase1/" />
         <folder expanded="1" path="animation-folder/brjBase2/" />
-        <folder expanded="1" path="animation-folder/plagIgu/" />
         <folder expanded="1" path="animation-folder/igu/" />
+        <folder expanded="1" path="animation-folder/botIgu/" />
+        <folder expanded="1" path="animation-folder/cab/" />
+        <folder expanded="1" path="animation-folder/botCab/" />
+        <folder expanded="1" path="animation-folder/ard/" />
+        <folder expanded="1" path="animation-folder/botArd/" />
+        <folder expanded="1" path="animation-folder/rat/" />
+        <folder expanded="1" path="animation-folder/botRat/" />
         <folder expanded="1" path="animation-folder/gll/" />
         <folder expanded="1" path="animation-folder/Serp/" />
         <folder expanded="1" path="animation-folder/pto/" />
