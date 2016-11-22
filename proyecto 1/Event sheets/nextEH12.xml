@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>nextEH11</name>
+    <name>nextEH12</name>
     <events>
-        <event-block sid="7542880417630941">
+        <event-block sid="4949228491304569">
             <conditions>
-                <condition id="6" name="On object clicked" sid="2596101672636332" type="Mouse">
+                <condition id="6" name="On object clicked" sid="9677342982395754" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonNext</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="4069918994904913" type="System">
-                    <param id="0" name="Layout">EsHist12</param>
+                <action id="-2" name="Go to layout" sid="985345172036345" type="System">
+                    <param id="0" name="Layout">EsHist13</param>
                 </action>
             </actions>
         </event-block>
