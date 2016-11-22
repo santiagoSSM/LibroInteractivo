@@ -163,6 +163,10 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <brill>false</brill>
+                        <finProc>false</finProc>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -248,20 +252,40 @@
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>1</initial-frame>
+                        <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>178</x>
-                        <y>287</y>
+                        <x>177</x>
+                        <y>289</y>
                         <z>0</z>
-                        <width>276</width>
-                        <height>454</height>
+                        <width>275</width>
+                        <height>289</height>
                         <depth>0</depth>
-                        <hotspotX>0.503623188</hotspotX>
-                        <hotspotY>0.546255529</hotspotY>
+                        <hotspotX>0.49818182</hotspotX>
+                        <hotspotY>0.505190313</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PosteES2" uid="6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>398</width>
+                        <height>578</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

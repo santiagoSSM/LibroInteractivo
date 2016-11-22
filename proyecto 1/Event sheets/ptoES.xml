@@ -8,10 +8,20 @@
                 <condition id="7" name="Cursor is over object" sid="4985457430241003" type="Mouse">
                     <param id="0" name="Object">pto</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9156350324004519" type="pto">
+                    <param id="0" name="Instance variable">brill</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5942544961242136" type="pto">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="7713051791938594" type="pto">
                     <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="1096360681099727" type="pto">
+                    <param id="0" name="Instance variable">brill</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -20,25 +30,36 @@
                 <condition id="7" inverted="1" name="Cursor is over object" sid="1786117048147178" type="Mouse">
                     <param id="0" name="Object">pto</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8218110201230924" type="pto">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="4634355053378996" type="pto">
                     <param id="0" name="Frame number">0</param>
                 </action>
+                <action id="-13" name="Set boolean" sid="8153162217521906" type="pto">
+                    <param id="0" name="Instance variable">brill</param>
+                    <param id="1" name="Value">0</param>
+                </action>
             </actions>
         </event-block>
-        <event-block disabled="1" sid="7096668421332696">
+        <event-block sid="7096668421332696">
             <conditions>
-                <condition id="0" name="On click" sid="7149930473770332" type="Mouse">
+                <condition id="6" name="On object clicked" sid="7149930473770332" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                </condition>
-                <condition id="7" name="Cursor is over object" sid="4174345544271042" type="Mouse">
-                    <param id="0" name="Object">pto</param>
+                    <param id="2" name="Object clicked">pto</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="8524440936912038" type="pto" />
+                <action id="5" name="Set frame" sid="8524440936912038" type="pto">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="2078130630565997" type="pto">
+                    <param id="0" name="Instance variable">finProc</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
     </events>
