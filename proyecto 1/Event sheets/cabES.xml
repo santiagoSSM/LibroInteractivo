@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>iguES</name>
+    <name>cabES</name>
     <events>
-        <event-block sid="6483135256472395">
+        <event-block sid="5034827898671344">
             <conditions>
-                <condition id="7" name="Cursor is over object" sid="7235977021749184" type="Mouse">
-                    <param id="0" name="Object">botIgu</param>
+                <condition id="7" name="Cursor is over object" sid="7881931873093811" type="Mouse">
+                    <param id="0" name="Object">botCab</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="8939383317277978" type="igu">
+                <action id="5" name="Set frame" sid="738387954624795" type="cab">
                     <param id="0" name="Frame number">3</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="9329133741769785">
+        <event-block sid="7819282041750292">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="5121307373556224" type="Mouse">
-                    <param id="0" name="Object">botIgu</param>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2561365553207334" type="Mouse">
+                    <param id="0" name="Object">botCab</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="8391917867410882" type="igu">
+                <action id="5" name="Set frame" sid="7560271332543402" type="cab">
                     <param id="0" name="Frame number">0</param>
                 </action>
             </actions>

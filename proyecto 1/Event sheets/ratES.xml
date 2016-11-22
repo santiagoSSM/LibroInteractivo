@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ratES</name>
+    <events>
+        <event-block sid="4791609545271013">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="55133264969312" type="Mouse">
+                    <param id="0" name="Object">botRat</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="1000503489260655" type="rat">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="394281083142661">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="441557596632654" type="Mouse">
+                    <param id="0" name="Object">botRat</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="1033103155843517" type="rat">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

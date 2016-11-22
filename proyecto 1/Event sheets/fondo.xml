@@ -16,18 +16,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="8150972564953058">
-            <conditions>
-                <condition disabled="1" id="4" name="On finished" sid="2817683311827721" type="EsHist1v2">
-                    <param id="0" name="Animation">&quot;f1&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action disabled="1" id="4" name="Set animation" sid="3059393801668426" type="EsHist1v2">
-                    <param id="0" name="Animation">&quot;f1&quot;</param>
-                    <param id="1" name="From">0</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>
