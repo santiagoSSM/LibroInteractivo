@@ -726,8 +726,10 @@
                 <object-type name="EsHist1v2" sid="3480834350128025">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5310204755995422" speed="1">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <animation framecount="3" loop="0" name="f1" pingpong="0" repeatcount="1" repeatto="0" sid="5310204755995422" speed="1">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\Karol\imagenes\1,2 cuadr-01.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\Karol\imagenes\1,3 cuadr-01.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\Karol\imagenes\1,4 cuadr-01.jpg" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -1096,6 +1098,7 @@
                 <event-sheet>EsHist1v2.xml</event-sheet>
                 <event-sheet>nextEH1v2.xml</event-sheet>
                 <event-sheet>prevEH1v2.xml</event-sheet>
+                <event-sheet>fondo.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist1v5">
                 <event-sheet>EsHist1v5.xml</event-sheet>
