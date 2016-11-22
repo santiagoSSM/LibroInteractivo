@@ -9,7 +9,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs />
+    <open-tabs>
+        <layout order="0">Escena2</layout>
+        <event-sheet order="1">iguES</event-sheet>
+        <event-sheet order="2">cabES</event-sheet>
+        <event-sheet order="3">ardES</event-sheet>
+        <event-sheet active="1" order="4">Escena2ES</event-sheet>
+    </open-tabs>
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
@@ -26,7 +32,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES2/" />
         <folder expanded="0" path="object-folder/ObjetosES2/brj/" />
         <folder expanded="0" path="object-folder/ObjetosES2/igu/" />
-        <folder expanded="0" path="object-folder/ObjetosES2/igu/botella/" />
+        <folder expanded="0" path="object-folder/ObjetosES2/cab/" />
+        <folder expanded="0" path="object-folder/ObjetosES2/ard/" />
         <folder expanded="0" path="object-folder/Hist/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v0/" />
@@ -107,8 +114,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/brj/" />
         <folder expanded="1" path="animation-folder/brjBase1/" />
         <folder expanded="1" path="animation-folder/brjBase2/" />
-        <folder expanded="1" path="animation-folder/plagIgu/" />
         <folder expanded="1" path="animation-folder/igu/" />
+        <folder expanded="1" path="animation-folder/botIgu/" />
+        <folder expanded="1" path="animation-folder/cab/" />
+        <folder expanded="1" path="animation-folder/botCab/" />
+        <folder expanded="1" path="animation-folder/ard/" />
         <folder expanded="1" path="animation-folder/gll/" />
         <folder expanded="1" path="animation-folder/Serp/" />
         <folder expanded="1" path="animation-folder/pto/" />

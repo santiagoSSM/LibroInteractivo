@@ -570,7 +570,7 @@
                 <object-type name="brj" sid="8167970209383512">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4838778429058302" speed="5">
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4838778429058302" speed="0">
                             <frame duration="1" hotspotX="0.506667" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\brj gris.jpg" />
                             <frame duration="1" hotspotX="0.506667" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\brj.jpg" />
                         </animation>
@@ -596,16 +596,6 @@
                 </object-type>
             </object-folder>
             <object-folder name="igu">
-                <object-folder name="botella">
-                    <object-type name="plagIgu" sid="1717446346155924">
-                        <plugin id="Sprite" />
-                        <animation-folder>
-                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4456221909093947" speed="5">
-                                <frame duration="1" hotspotX="0.52381" hotspotY="0.521739" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\plag igu.jpg" />
-                            </animation>
-                        </animation-folder>
-                    </object-type>
-                </object-folder>
                 <object-type name="igu" sid="8693862365982104">
                     <plugin id="Sprite" />
                     <animation-folder>
@@ -625,6 +615,143 @@
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\igu plag.jpg" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="botIgu" sid="1717446346155924">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4456221909093947" speed="0">
+                            <frame duration="1" hotspotX="0.526316" hotspotY="0.512821" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag igu.jpg">
+                                <collision-poly>
+                                    <point x="0.407895" y="0.298077" />
+                                    <point x="0.5" y="0.230769" />
+                                    <point x="0.921053" y="0.0576923" />
+                                    <point x="0.868421" y="0.5" />
+                                    <point x="0.5" y="0.951923" />
+                                    <point x="0.144737" y="0.894231" />
+                                    <point x="0.25" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Gplag igu.png">
+                                <collision-poly>
+                                    <point x="0.407895" y="0.298077" />
+                                    <point x="0.5" y="0.230769" />
+                                    <point x="0.921053" y="0.0576923" />
+                                    <point x="0.868421" y="0.5" />
+                                    <point x="0.5" y="0.951923" />
+                                    <point x="0.144737" y="0.894231" />
+                                    <point x="0.25" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="cab">
+                <object-type name="cab" sid="1154091559375051">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5230278476402228" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\cab.png">
+                                <collision-poly>
+                                    <point x="0.229798" y="0.274096" />
+                                    <point x="0.5" y="0.26506" />
+                                    <point x="0.85101" y="0.177711" />
+                                    <point x="0.95202" y="0.5" />
+                                    <point x="0.757576" y="0.710843" />
+                                    <point x="0.5" y="0.731928" />
+                                    <point x="0.237374" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\cab Aa.png">
+                                <collision-poly>
+                                    <point x="0.229798" y="0.274096" />
+                                    <point x="0.5" y="0.26506" />
+                                    <point x="0.85101" y="0.177711" />
+                                    <point x="0.95202" y="0.5" />
+                                    <point x="0.757576" y="0.710843" />
+                                    <point x="0.5" y="0.731928" />
+                                    <point x="0.237374" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\cab hb.png">
+                                <collision-poly>
+                                    <point x="0.229798" y="0.274096" />
+                                    <point x="0.5" y="0.26506" />
+                                    <point x="0.85101" y="0.177711" />
+                                    <point x="0.949495" y="0.5" />
+                                    <point x="0.757576" y="0.710843" />
+                                    <point x="0.5" y="0.731928" />
+                                    <point x="0.237374" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\cab garr.png">
+                                <collision-poly>
+                                    <point x="0.0808081" y="0.0963855" />
+                                    <point x="0.5" y="0.243976" />
+                                    <point x="0.85101" y="0.177711" />
+                                    <point x="0.984848" y="0.5" />
+                                    <point x="0.765152" y="0.71988" />
+                                    <point x="0.5" y="0.737952" />
+                                    <point x="0.234848" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="botCab" sid="8109125416008747">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7280173836974185" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag cab.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Gplag cab.png">
+                                <collision-poly>
+                                    <point x="0.222222" y="0.0851064" />
+                                    <point x="0.5" y="0.0319149" />
+                                    <point x="0.666667" y="0.12766" />
+                                    <point x="0.972222" y="0.5" />
+                                    <point x="0.861111" y="0.946809" />
+                                    <point x="0.5" y="0.978723" />
+                                    <point x="0.111111" y="0.957447" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="ard">
+                <object-type name="ard" sid="3716307881839444">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9958556076775358" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\ard nm.jpg">
+                                <collision-poly>
+                                    <point x="0.480952" y="0.42437" />
+                                    <point x="0.5" y="0.109244" />
+                                    <point x="0.77619" y="0.197479" />
+                                    <point x="0.833333" y="0.5" />
+                                    <point x="0.595238" y="0.642857" />
+                                    <point x="0.5" y="0.57563" />
+                                    <point x="0.490476" y="0.567227" />
+                                    <point x="0.457143" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\ard  A.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\ard hb.png">
+                                <collision-poly>
+                                    <point x="0.480952" y="0.42437" />
+                                    <point x="0.5" y="0.109244" />
+                                    <point x="0.77619" y="0.197479" />
+                                    <point x="0.833333" y="0.5" />
+                                    <point x="0.595238" y="0.642857" />
+                                    <point x="0.5" y="0.57563" />
+                                    <point x="0.490476" y="0.567227" />
+                                    <point x="0.457143" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\ard fum.jpg" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -683,7 +810,7 @@
                                 <point x="0.209091" y="0.671429" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\pto llen brill (1).png">
+                        <frame duration="1" hotspotX="0.491525" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\pto llen brill (1).png">
                             <collision-poly>
                                 <point x="0.0932203" y="0.148649" />
                                 <point x="0.5" y="0.283784" />
@@ -694,7 +821,7 @@
                                 <point x="0.211864" y="0.662162" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\pto vac.jpg" />
+                        <frame duration="1" hotspotX="0.490909" hotspotY="0.514286" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\pto vac.jpg" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1071,6 +1198,9 @@
             <event-sheet>iguES.xml</event-sheet>
             <event-sheet>nextES2.xml</event-sheet>
             <event-sheet>SerpES.xml</event-sheet>
+            <event-sheet>cabES.xml</event-sheet>
+            <event-sheet>prevES2.xml</event-sheet>
+            <event-sheet>ardES.xml</event-sheet>
         </event-folder>
         <event-folder name="HistES">
             <event-folder name="EsHist1">
