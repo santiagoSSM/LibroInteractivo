@@ -725,7 +725,7 @@
                 <object-type name="ard" sid="3716307881839444">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9958556076775358" speed="5">
+                        <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9958556076775358" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\ard nm.jpg">
                                 <collision-poly>
                                     <point x="0.480952" y="0.42437" />
@@ -752,6 +752,56 @@
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\ard fum.jpg" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="botArd" sid="7548454520749368">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3932105555240526" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag ard.jpg" />
+                            <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Gplag ard.png">
+                                <collision-poly>
+                                    <point x="0.0447761" y="0.0258621" />
+                                    <point x="0.492537" y="0.0517241" />
+                                    <point x="0.910448" y="0.0517241" />
+                                    <point x="0.970149" y="0.5" />
+                                    <point x="0.925373" y="0.956897" />
+                                    <point x="0.492537" y="0.991379" />
+                                    <point x="0.0746269" y="0.956897" />
+                                    <point x="0.0149254" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="rat">
+                <object-type name="rat" sid="2482756878717867">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4851801768518758" speed="0">
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.506173" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag az rts.jpg" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="botRat" sid="1237526185539017">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2343142073021598" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag az.jpg" />
+                            <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Gplag ard.png">
+                                <collision-poly>
+                                    <point x="0.0447761" y="0.0258621" />
+                                    <point x="0.492537" y="0.0517241" />
+                                    <point x="0.910448" y="0.0517241" />
+                                    <point x="0.970149" y="0.5" />
+                                    <point x="0.925373" y="0.956897" />
+                                    <point x="0.492537" y="0.991379" />
+                                    <point x="0.0746269" y="0.956897" />
+                                    <point x="0.0149254" y="0.5" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -1201,6 +1251,7 @@
             <event-sheet>cabES.xml</event-sheet>
             <event-sheet>prevES2.xml</event-sheet>
             <event-sheet>ardES.xml</event-sheet>
+            <event-sheet>ratES.xml</event-sheet>
         </event-folder>
         <event-folder name="HistES">
             <event-folder name="EsHist1">

@@ -2,5 +2,30 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ardES</name>
-    <events />
+    <events>
+        <event-block sid="1667233621206008">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="2983230987879277" type="Mouse">
+                    <param id="0" name="Object">botArd</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="1007369089691558" type="ard">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1326667418862579">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2517935589422171" type="Mouse">
+                    <param id="0" name="Object">botArd</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8719083104194292" type="ard">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
