@@ -23,10 +23,15 @@
                 <condition id="-8" name="Is boolean instance variable set" sid="9921424468124706" type="puertCs">
                     <param id="0" name="Instance variable">finProc</param>
                 </condition>
+                <condition id="-9" inverted="1" name="Is visible" sid="6577862895761691" type="casc2" />
             </conditions>
             <actions>
                 <action id="-15" name="Set visible" sid="6448610419662566" type="casc2">
                     <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="7014098033019461" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -43,10 +48,15 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-9" inverted="1" name="Is visible" sid="350807185091064" type="casc2" />
             </conditions>
             <actions>
                 <action id="-15" name="Set visible" sid="3376749482110634" type="casc2">
                     <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="269117862318053" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -69,10 +79,15 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-9" inverted="1" name="Is visible" sid="6294277836664739" type="casc2" />
             </conditions>
             <actions>
                 <action id="-15" name="Set visible" sid="2190072489193847" type="casc2">
                     <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="5437771221280969" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -87,10 +102,15 @@
                 <condition id="-8" name="Is boolean instance variable set" sid="8608784510373019" type="bosque">
                     <param id="0" name="Instance variable">finProc</param>
                 </condition>
+                <condition id="-9" inverted="1" name="Is visible" sid="2651838656771277" type="casc2" />
             </conditions>
             <actions>
                 <action id="-15" name="Set visible" sid="2900933519127321" type="casc2">
                     <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="6056752292449722" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -111,10 +131,15 @@
                 <condition id="-8" name="Is boolean instance variable set" sid="8716327896697046" type="bosque">
                     <param id="0" name="Instance variable">finProc</param>
                 </condition>
+                <condition id="-9" inverted="1" name="Is visible" sid="6298769742385588" type="casc2" />
             </conditions>
             <actions>
                 <action id="-15" name="Set visible" sid="7082273209864475" type="casc2">
                     <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="9285369853529239" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -128,10 +153,15 @@
                 <condition id="-8" name="Is boolean instance variable set" sid="8772592571649468" type="bosque">
                     <param id="0" name="Instance variable">finProc</param>
                 </condition>
+                <condition id="-9" inverted="1" name="Is visible" sid="1558820207745996" type="casc2" />
             </conditions>
             <actions>
                 <action id="-15" name="Set visible" sid="6572580198291141" type="casc2">
                     <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="9920323358423784" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>

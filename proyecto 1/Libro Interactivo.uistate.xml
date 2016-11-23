@@ -28,7 +28,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES2/igu/" />
         <folder expanded="0" path="object-folder/ObjetosES2/cab/" />
         <folder expanded="0" path="object-folder/ObjetosES2/ard/" />
-        <folder expanded="0" path="object-folder/ObjetosES2/rat/" />
+        <folder expanded="1" path="object-folder/ObjetosES2/rat/" />
         <folder expanded="0" path="object-folder/Hist/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v0/" />
@@ -52,8 +52,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist15/" />
         <folder expanded="0" path="object-folder/ReusObj/" />
         <folder expanded="0" path="object-folder/ObjetosES3/" />
-        <folder expanded="0" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Hist/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/Hist/" />
         <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
@@ -120,6 +120,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/gll/" />
         <folder expanded="1" path="animation-folder/Serp/" />
         <folder expanded="1" path="animation-folder/pto/" />
+        <folder expanded="1" path="animation-folder/basurero/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Tiki/" />
         <folder expanded="1" path="animation-folder/EsHist1v2/" />
         <folder expanded="1" path="animation-folder/botonNext/" />
         <folder expanded="1" path="animation-folder/botonPrev/" />

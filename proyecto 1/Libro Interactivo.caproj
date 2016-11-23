@@ -559,8 +559,12 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9632214890988621" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\Freddy habl niñs.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\Freddy prub ganad.jpg" />
+                    </animation>
+                    <animation framecount="2" loop="0" name="Hablando" pingpong="1" repeatcount="1" repeatto="1" sid="3105858062261449" speed="1">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\Freddy habl niñs.jpg" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -879,6 +883,34 @@
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v4\escena 2\poste.png" />
             </object-type>
+            <object-type name="basurero" sid="5987821671354336">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6933044692174144" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.502924" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\bsro.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite" sid="6706142577300227">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512944934709481" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\nña h.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Abi sr.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Abi A.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tiki" sid="2275925119927989">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5363202846600544" speed="0">
+                        <frame duration="1" hotspotX="0.502645" hotspotY="0.501767" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\nño h.jpg" />
+                        <frame duration="1" hotspotX="0.502645" hotspotY="0.501767" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Tiki sr.jpg" />
+                        <frame duration="1" hotspotX="0.502645" hotspotY="0.501767" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\tiki A.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Hist">
             <object-folder name="EsHist1">
@@ -950,7 +982,7 @@
             <object-folder name="EsHist6">
                 <object-type name="EsHist6" sid="2523186761963326">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\6 contorno-01-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v4\6 imagen-01.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist7">

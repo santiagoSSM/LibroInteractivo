@@ -52,6 +52,13 @@
                 <action id="-15" name="Set visible" sid="7155678940851345" type="botonPrev">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="4" name="Set animation" sid="8915772904017267" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="1458154231144619" type="FredyAbyTiqui">
+                    <param id="0" name="Frame number">1</param>
+                </action>
             </actions>
         </event-block>
     </events>
