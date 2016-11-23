@@ -72,17 +72,17 @@
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
+                        <initial-frame>2</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>987</x>
-                        <y>710</y>
+                        <x>986.500488281</x>
+                        <y>710.500976563</y>
                         <z>0</z>
-                        <width>68</width>
-                        <height>64</height>
+                        <width>74</width>
+                        <height>66</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -100,8 +100,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>48</x>
-                        <y>712</y>
+                        <x>46.500091553</x>
+                        <y>712.499450684</y>
                         <z>0</z>
                         <width>74</width>
                         <height>64</height>
@@ -122,8 +122,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>840</x>
-                        <y>605</y>
+                        <x>840.299987793</x>
+                        <y>604.5</y>
                         <z>0</z>
                         <width>62</width>
                         <height>58</height>
@@ -144,8 +144,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>988</x>
-                        <y>48</y>
+                        <x>986.5</x>
+                        <y>47.5</y>
                         <z>0</z>
                         <width>66</width>
                         <height>62</height>

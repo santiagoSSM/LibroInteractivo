@@ -8,7 +8,7 @@
         <include>prevEH6</include>
         <include>nextEH6</include>
         <include>reprReus</include>
-        <include>prevReusVerd</include>
-        <include>nextReusVerd</include>
+        <include>prevReus</include>
+        <include>nextReus</include>
     </events>
 </c2eventsheet>
