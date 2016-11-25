@@ -10,9 +10,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="3191134949757416" type="EsHist1v2">
-                    <param id="0" name="Animation">&quot;f1&quot;</param>
-                    <param id="1" name="From">0</param>
+                <action id="-15" name="Set visible" sid="9933754805136705" type="botonNext">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2964262626406252" type="botonPrev">
+                    <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>

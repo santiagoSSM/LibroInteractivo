@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EsHist1v2</name>
     <events>
+        <include>fondo</include>
         <include>prevEH1v2</include>
         <include>nextEH1v2</include>
         <include>prevReusVerd</include>
