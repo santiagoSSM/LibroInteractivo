@@ -10,5 +10,24 @@
         <include>reprReus</include>
         <include>prevReus</include>
         <include>nextReus</include>
+        <event-block sid="1779883560550648">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2219770428801915" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="5059088576217812" type="Audio">
+                    <param id="0" name="Audio file">168005__villaperros__lluvia0</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;2&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="1534110196239034" type="Audio">
+                    <param id="0" name="Audio file">7715__dobroide__bin-window</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
