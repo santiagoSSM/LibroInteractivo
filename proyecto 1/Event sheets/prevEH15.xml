@@ -15,6 +15,7 @@
                 <action id="-2" name="Go to layout" sid="5329876895054365" type="System">
                     <param id="0" name="Layout">EsHist14</param>
                 </action>
+                <action id="33" name="Stop all" sid="3538570280741895" type="Audio" />
             </actions>
         </event-block>
     </events>

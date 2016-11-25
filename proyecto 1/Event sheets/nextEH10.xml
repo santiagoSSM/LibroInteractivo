@@ -15,6 +15,7 @@
                 <action id="-2" name="Go to layout" sid="754411205406812" type="System">
                     <param id="0" name="Layout">Escena2</param>
                 </action>
+                <action id="33" name="Stop all" sid="6208089853900053" type="Audio" />
             </actions>
         </event-block>
     </events>
