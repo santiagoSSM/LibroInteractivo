@@ -9,7 +9,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs />
+    <open-tabs>
+        <layout active="1" order="0">EsHist1</layout>
+    </open-tabs>
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
@@ -52,8 +54,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist15/" />
         <folder expanded="0" path="object-folder/ReusObj/" />
         <folder expanded="0" path="object-folder/ObjetosES3/" />
-        <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Hist/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Hist/" />
         <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
@@ -68,7 +70,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist3/" />
         <folder expanded="0" path="event-folder/HistES/EsHist4/" />
         <folder expanded="0" path="event-folder/HistES/EsHist5/" />
-        <folder expanded="1" path="event-folder/HistES/EsHist6/" />
+        <folder expanded="0" path="event-folder/HistES/EsHist6/" />
         <folder expanded="0" path="event-folder/HistES/EsHist7/" />
         <folder expanded="0" path="event-folder/HistES/EsHist8/" />
         <folder expanded="0" path="event-folder/HistES/EsHist9/" />
@@ -84,6 +86,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="sound-folder/SonEH1/" />
         <folder expanded="1" path="animation-folder/humo/" />
         <folder expanded="1" path="animation-folder/cs/" />
         <folder expanded="1" path="animation-folder/ventanaCost/" />

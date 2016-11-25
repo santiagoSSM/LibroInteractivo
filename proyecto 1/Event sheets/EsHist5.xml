@@ -10,5 +10,24 @@
         <include>reprReus</include>
         <include>prevReus</include>
         <include>nextReus</include>
+        <event-block sid="983375003117387">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="940077947131284" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="1236211590083269" type="Audio">
+                    <param id="0" name="Audio file">Viento</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;SFondo&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="3728122432494038" type="Audio">
+                    <param id="0" name="Audio file">7715__dobroide__bin-window</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

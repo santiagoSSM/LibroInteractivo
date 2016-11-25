@@ -3,9 +3,9 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>soundEH1v0</name>
     <events>
-        <event-block sid="9421862047577481">
+        <event-block sid="3207065679134512">
             <conditions>
-                <condition id="6" name="On object clicked" sid="4137111670260497" type="Mouse">
+                <condition id="6" name="On object clicked" sid="3368006398144522" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonSound</param>
@@ -13,26 +13,35 @@
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="5786258723166751">
+                <event-block sid="7177848624755959">
                     <conditions>
-                        <condition id="3" name="Compare frame" sid="3746135990080558" type="botonSound">
+                        <condition id="3" name="Compare frame" sid="717735550826329" type="botonSound">
                             <param id="0" name="Comparison">0</param>
                             <param id="1" name="Number">0</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="1141099752864105" type="botonSound">
+                        <action id="5" name="Set frame" sid="2366651829569141" type="botonSound">
                             <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="6" name="Stop" sid="9606177390635985" type="Audio">
+                            <param id="0" name="Tag">&quot;SFondo&quot;</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="3141792142872636">
+                <event-block sid="4071192557184485">
                     <conditions>
-                        <condition id="-22" name="Else" sid="6119324563558812" type="System" />
+                        <condition id="-22" name="Else" sid="1642238024503426" type="System" />
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="3726665127751887" type="botonSound">
+                        <action id="5" name="Set frame" sid="2518969506190605" type="botonSound">
                             <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="8249615107068891" type="Audio">
+                            <param id="0" name="Audio file">Viento</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;SFondo&quot;</param>
                         </action>
                     </actions>
                 </event-block>

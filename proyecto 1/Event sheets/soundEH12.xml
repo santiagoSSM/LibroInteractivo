@@ -24,6 +24,9 @@
                         <action id="5" name="Set frame" sid="9237715998119023" type="botonSound">
                             <param id="0" name="Frame number">1</param>
                         </action>
+                        <action id="6" name="Stop" sid="935025559246466" type="Audio">
+                            <param id="0" name="Tag">&quot;SFondo&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="6853839321082837">
@@ -33,6 +36,12 @@
                     <actions>
                         <action id="5" name="Set frame" sid="5530303738078712" type="botonSound">
                             <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="3029334328491686" type="Audio">
+                            <param id="0" name="Audio file">Viento</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;SFondo&quot;</param>
                         </action>
                     </actions>
                 </event-block>

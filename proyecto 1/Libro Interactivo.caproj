@@ -1462,10 +1462,13 @@
         </global-instance>
     </global-instances>
     <sounds-folder>
+        <sound-folder name="SonEH1" />
         <file name="7715__dobroide__bin-window.m4a" />
         <file name="7715__dobroide__bin-window.ogg" />
         <file name="168005__villaperros__lluvia0.m4a" />
         <file name="168005__villaperros__lluvia0.ogg" />
+        <file name="Viento.m4a" />
+        <file name="Viento.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
