@@ -10,6 +10,7 @@
         <include>iguES</include>
         <include>ptoES</include>
         <include>gllES</include>
+        <include>prevES2</include>
         <include>nextES2</include>
         <include>prevReusVerd</include>
         <include>nextReusVerd</include>

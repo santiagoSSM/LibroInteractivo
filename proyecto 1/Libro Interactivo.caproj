@@ -1440,6 +1440,8 @@
         </event-folder>
         <event-folder name="Escena3ES">
             <event-sheet>Escena3ES.xml</event-sheet>
+            <event-sheet>next3ES.xml</event-sheet>
+            <event-sheet>prev3ES.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>
