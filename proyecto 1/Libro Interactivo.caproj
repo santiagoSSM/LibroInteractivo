@@ -10,6 +10,7 @@
     <unique-id>36208eown3epl</unique-id>
     <saved-with-version>22700</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -1217,6 +1218,9 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Audio" sid="8759958066419734">
+                <plugin id="Audio" />
+            </object-type>
         </object-folder>
         <object-folder name="ObjetosES3">
             <object-type name="FondoES3" sid="4316311359791953">
@@ -1440,8 +1444,25 @@
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="2" />
+        <global-instance type="Audio" uid="165">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="7715__dobroide__bin-window.m4a" />
+        <file name="7715__dobroide__bin-window.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">

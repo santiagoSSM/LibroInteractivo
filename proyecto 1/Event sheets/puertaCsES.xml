@@ -69,6 +69,24 @@
                     <param id="0" name="Instance variable">finProc</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="0" name="Play" sid="2126077917080469" type="Audio">
+                    <param id="0" name="Audio file">7715__dobroide__bin-window</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1526400627701679">
+            <conditions>
+                <condition id="0" name="On ended" sid="1911260225192026" type="Audio">
+                    <param id="0" name="Tag">&quot;1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="6908691146649183" type="cascF">
+                    <param id="0" name="Visibility">1</param>
+                </action>
             </actions>
         </event-block>
     </events>
