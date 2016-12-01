@@ -983,19 +983,19 @@
             <object-folder name="EsHist1">
                 <object-type name="EsHis1" sid="779934035061341">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\1 contorno-01.jpg" />
+                    <texture original-source="C:\Users\Oscar\Desktop\1 cuadro-01.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist1v0">
                 <object-type name="EsHist1v0" sid="5126446197756907">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\1,0-01.jpg" />
+                    <texture original-source="C:\Users\Oscar\Desktop\1,0 contorno-01.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist1v1">
                 <object-type name="EsHist1v1" sid="6788356344841066">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\1,1  cuad-01-01.jpg" />
+                    <texture original-source="C:\Users\Oscar\Downloads\1%2c1 cuadr-01.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist1v2">
