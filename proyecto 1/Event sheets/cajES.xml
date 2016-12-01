@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>cajES</name>
+    <events>
+        <event-block sid="954795316501327">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="7583140091709563" type="Mouse">
+                    <param id="0" name="Object">caj</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4475923865591085" type="caj">
+                    <param id="0" name="Instance variable">brill</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5201314343182498" type="caj">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7806372686496685" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="4430882417647744" type="caj">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="5216451089862078" type="caj">
+                    <param id="0" name="Instance variable">brill</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8017184646949038">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2696092208563621" type="Mouse">
+                    <param id="0" name="Object">caj</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="801665998822012" type="caj">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8481356745132992" type="caj">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="7764001032532127" type="caj">
+                    <param id="0" name="Instance variable">brill</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9013452501334247">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3342835139926451" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">caj</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1277720956098515" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8169421507618928" type="caj">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="2247165588516385" type="caj">
+                    <param id="0" name="Instance variable">finProc</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

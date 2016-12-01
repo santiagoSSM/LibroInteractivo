@@ -9,9 +9,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs>
-        <layout active="1" order="0">EsHist1</layout>
-    </open-tabs>
+    <open-tabs />
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
@@ -30,7 +28,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES2/igu/" />
         <folder expanded="0" path="object-folder/ObjetosES2/cab/" />
         <folder expanded="0" path="object-folder/ObjetosES2/ard/" />
-        <folder expanded="1" path="object-folder/ObjetosES2/rat/" />
+        <folder expanded="0" path="object-folder/ObjetosES2/rat/" />
         <folder expanded="0" path="object-folder/Hist/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v0/" />
@@ -132,5 +130,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/botonRepr/" />
         <folder expanded="1" path="animation-folder/botonSound/" />
         <folder expanded="1" path="animation-folder/cursor/" />
+        <folder expanded="1" path="animation-folder/CyoAmig/" />
+        <folder expanded="1" path="animation-folder/FondoES3/" />
+        <folder expanded="1" path="animation-folder/btlla/" />
+        <folder expanded="1" path="animation-folder/caj/" />
+        <folder expanded="1" path="animation-folder/esfVidri/" />
+        <folder expanded="1" path="animation-folder/Lyl/" />
+        <folder expanded="1" path="animation-folder/tb/" />
+        <folder expanded="1" path="animation-folder/grz/" />
+        <folder expanded="1" path="animation-folder/log/" />
+        <folder expanded="1" path="animation-folder/AbyTiky/" />
+        <folder expanded="1" path="animation-folder/canBall/" />
+        <folder expanded="1" path="animation-folder/canBot/" />
+        <folder expanded="1" path="animation-folder/canAbej/" />
     </folders-expanded>
 </c2uistate>

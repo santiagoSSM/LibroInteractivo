@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>tbES</name>
+    <events>
+        <event-block sid="4185210456632442">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8333557465208743" type="Mouse">
+                    <param id="0" name="Object">tb</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="2303518263231555" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4225615638753868" type="tb">
+                    <param id="0" name="Instance variable">botella</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="2972147182362157" type="tb">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7529254648610778">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="9993374229646921" type="Mouse">
+                    <param id="0" name="Object">tb</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="163432223443438" type="tb">
+                    <param id="0" name="Instance variable">botella</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="7430052787505825" type="Mouse">
+                    <param id="0" name="Object">btlla</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="1323175940882545" type="tb">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5562020920446772">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3932566562528991" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tb</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6596003431134129" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="6015307167649461" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="1980236796842877" type="tb">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-3" name="Set position" sid="4477111610739339" type="tb">
+                    <param id="0" name="X">194</param>
+                    <param id="1" name="Y">491</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9355488553356067">
+            <conditions>
+                <condition id="3" name="On button released" sid="5579615995936211" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="8410206517859312" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="7184617516795054" type="tb">
+                    <param id="0" name="X">194</param>
+                    <param id="1" name="Y">461</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
