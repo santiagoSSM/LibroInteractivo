@@ -10,5 +10,30 @@
         <include>prev3ES</include>
         <include>prevReusVerd</include>
         <include>nextReusVerd</include>
+        <event-block sid="5371420336022181">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="5431289437182104" type="FondoES3">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8048426148821363" type="log">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="4797385308876723" type="AbyTiky" />
+                <action id="-9" name="Destroy" sid="3365946716008025" type="caj" />
+                <action id="-9" name="Destroy" sid="5011028450088498" type="canAbej" />
+                <action id="-9" name="Destroy" sid="158296343852723" type="canBall" />
+                <action id="-9" name="Destroy" sid="8148314793137678" type="canBot" />
+                <action id="-9" name="Destroy" sid="8791455035238829" type="CyoAmig" />
+                <action id="-9" name="Destroy" sid="4621621792319599" type="esfVidri" />
+                <action id="-15" name="Set visible" sid="1477830358484547" type="grz">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="4151395657367494" type="Nda" />
+                <action id="-9" name="Destroy" sid="4632140537725652" type="tb" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

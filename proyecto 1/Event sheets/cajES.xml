@@ -57,6 +57,9 @@
                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1277720956098515" type="cursor">
                     <param id="0" name="Instance variable">blockCursor</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4144599483963614" type="caj">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="8169421507618928" type="caj">
@@ -65,6 +68,12 @@
                 <action id="-13" name="Set boolean" sid="2247165588516385" type="caj">
                     <param id="0" name="Instance variable">finProc</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="189996866119579" type="canAbej">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="7320041001655212" type="FondoES3">
+                    <param id="0" name="Frame number">FondoES3.AnimationFrame+1</param>
                 </action>
             </actions>
         </event-block>

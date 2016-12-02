@@ -146,7 +146,7 @@
                                     <param id="1" name="Y">338.001</param>
                                 </action>
                                 <action id="5" name="Set frame" sid="3606077918713524" type="FondoES3">
-                                    <param id="0" name="Frame number">1</param>
+                                    <param id="0" name="Frame number">FondoES3.AnimationFrame+1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -424,7 +424,7 @@
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action id="5" name="Set frame" sid="6185339784329242" type="FondoES3">
-                    <param id="0" name="Frame number">2</param>
+                    <param id="0" name="Frame number">FondoES3.AnimationFrame+1</param>
                 </action>
             </actions>
         </event-block>

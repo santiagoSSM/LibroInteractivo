@@ -522,7 +522,7 @@
                                 <point x="0.443925" y="0.497207" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.502146" hotspotY="0.504505" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v6\Freddy.png">
+                        <frame duration="1" hotspotX="0.483051" hotspotY="0.572727" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v8\Freddy.png">
                             <collision-poly>
                                 <point x="0.0607477" y="0.0726257" />
                                 <point x="0.5" y="0.273743" />
@@ -849,7 +849,7 @@
                 <animation-folder>
                     <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1335875049915111" speed="0">
                         <frame duration="1" hotspotX="0.498182" hotspotY="0.50519" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\serp.jpg" />
-                        <frame duration="1" hotspotX="0.503623" hotspotY="0.546256" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\serp brill.png">
+                        <frame duration="1" hotspotX="0.502463" hotspotY="0.547085" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v8\serp reluciente.png">
                             <collision-poly>
                                 <point x="0.485507" y="0.295154" />
                                 <point x="0.5" y="0.284141" />
@@ -861,8 +861,28 @@
                                 <point x="0.623188" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.501818" hotspotY="0.50173" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\serp hb.jpg" />
-                        <frame duration="1" hotspotX="0.501818" hotspotY="0.50173" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\serp A.jpg" />
+                        <frame duration="1" hotspotX="0.501529" hotspotY="0.501424" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v8\serp hb.png">
+                            <collision-poly>
+                                <point x="0.672783" y="0.626781" />
+                                <point x="0.498471" y="0.592593" />
+                                <point x="0.856269" y="0.133903" />
+                                <point x="0.819572" y="0.831909" />
+                                <point x="0.498471" y="0.863248" />
+                                <point x="0.146789" y="0.863248" />
+                                <point x="0.66055" y="0.498576" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.501529" hotspotY="0.501424" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v8\serp A.png">
+                            <collision-poly>
+                                <point x="0.672783" y="0.626781" />
+                                <point x="0.498471" y="0.592593" />
+                                <point x="0.856269" y="0.133903" />
+                                <point x="0.816514" y="0.82906" />
+                                <point x="0.498471" y="0.863248" />
+                                <point x="0.146789" y="0.863248" />
+                                <point x="0.66055" y="0.498576" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
