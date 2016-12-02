@@ -138,6 +138,13 @@
                                 <action id="-15" name="Set visible" sid="7240169039153315" type="canBall">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
+                                <action id="5" name="Set frame" sid="7630702170826517" type="CyoAmig">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="3521152167714808" type="CyoAmig">
+                                    <param id="0" name="X">208</param>
+                                    <param id="1" name="Y">338.001</param>
+                                </action>
                                 <action id="5" name="Set frame" sid="3606077918713524" type="FondoES3">
                                     <param id="0" name="Frame number">1</param>
                                 </action>

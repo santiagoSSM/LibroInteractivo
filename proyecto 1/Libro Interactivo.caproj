@@ -730,8 +730,8 @@
                 <object-type name="ard" sid="3716307881839444">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9958556076775358" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\ard nm.jpg">
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9958556076775358" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v7\ard ser.png">
                                 <collision-poly>
                                     <point x="0.480952" y="0.42437" />
                                     <point x="0.5" y="0.109244" />
@@ -743,8 +743,7 @@
                                     <point x="0.457143" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\ard  A.jpg" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\ard hb.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v7\ard feliz.png">
                                 <collision-poly>
                                     <point x="0.480952" y="0.42437" />
                                     <point x="0.5" y="0.109244" />
@@ -756,7 +755,18 @@
                                     <point x="0.457143" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\ard fum.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v7\ard fum.png">
+                                <collision-poly>
+                                    <point x="0.238095" y="0.210084" />
+                                    <point x="0.5" y="0.109244" />
+                                    <point x="0.77619" y="0.197479" />
+                                    <point x="0.833333" y="0.5" />
+                                    <point x="0.72381" y="0.756303" />
+                                    <point x="0.5" y="0.789916" />
+                                    <point x="0.380952" y="0.663866" />
+                                    <point x="0.357143" y="0.5" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -764,7 +774,17 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3932105555240526" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag ard.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.507937" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v7\plag ard 1.png">
+                                <collision-poly>
+                                    <point x="0.45" y="0.285714" />
+                                    <point x="0.55" y="0.285714" />
+                                    <point x="0.6" y="0.492063" />
+                                    <point x="0.6" y="0.746032" />
+                                    <point x="0.5" y="0.809524" />
+                                    <point x="0.35" y="0.777778" />
+                                    <point x="0.475" y="0.492063" />
+                                </collision-poly>
+                            </frame>
                             <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Gplag ard.png">
                                 <collision-poly>
                                     <point x="0.0447761" y="0.0258621" />
@@ -2005,7 +2025,6 @@
             <event-sheet>btlla&amp;Tb&amp;EsfVirdES.xml</event-sheet>
             <event-sheet>cajES.xml</event-sheet>
             <event-sheet>LylES.xml</event-sheet>
-            <event-sheet>btllaFinTbES.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>
