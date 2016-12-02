@@ -1311,13 +1311,16 @@
             </object-type>
             <object-type name="btlla" sid="685984781350176">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="finProc" sid="1703877744419657" type="boolean" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="DragDrop" sid="9844114492858367">
                         <behavior id="DragnDrop" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9001127597904638" speed="0">
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9001127597904638" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\btlla fd.jpg" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.505495" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\btlla incl.png">
                             <collision-poly>
@@ -1341,7 +1344,7 @@
                                 <point x="0.0263158" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.506849" hotspotY="0.504951" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\btlla brill.png">
+                        <frame duration="1" hotspotX="0.520548" hotspotY="0.504951" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\btlla brill.png">
                             <collision-poly>
                                 <point x="0.328767" y="0.237624" />
                                 <point x="0.493151" y="0.0792079" />
@@ -1353,6 +1356,8 @@
                                 <point x="0.260274" y="0.49505" />
                             </collision-poly>
                         </frame>
+                    </animation>
+                    <animation framecount="2" loop="0" name="romper" pingpong="0" repeatcount="1" repeatto="0" sid="5075207916360096" speed="1">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\btlla rag.png">
                             <collision-poly>
                                 <point x="0.263158" y="0.113636" />
@@ -2000,6 +2005,7 @@
             <event-sheet>btlla&amp;Tb&amp;EsfVirdES.xml</event-sheet>
             <event-sheet>cajES.xml</event-sheet>
             <event-sheet>LylES.xml</event-sheet>
+            <event-sheet>btllaFinTbES.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

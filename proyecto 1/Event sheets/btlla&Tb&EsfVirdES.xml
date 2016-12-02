@@ -226,6 +226,9 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="5" name="Set frame" sid="7544229116705385" type="btlla">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
                         <action id="5" name="Set frame" sid="6162478318163388" type="cursor">
                             <param id="0" name="Frame number">1</param>
                         </action>
@@ -241,15 +244,38 @@
                 <condition id="7" inverted="1" name="Cursor is over object" sid="5469146295231124" type="Mouse">
                     <param id="0" name="Object">btlla</param>
                 </condition>
-                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="98511112028037" type="tb">
-                    <param id="0" name="Instance variable">botella</param>
-                </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="1623973203076893" type="btlla">
-                    <param id="0" name="Frame number">0</param>
+                <action id="0" name="Set cursor style" sid="7970471891514407" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="2929488752466014">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="98511112028037" type="tb">
+                            <param id="0" name="Instance variable">botella</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="1623973203076893" type="btlla">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9157263380733931">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="4335078166656847" type="tb">
+                            <param id="0" name="Instance variable">finProc</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="9232662162108855" type="btlla">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="8274960020873246">
             <conditions>
@@ -271,89 +297,127 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="8249410907697033">
-            <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="8944128205662725" type="Mouse">
-                    <param id="0" name="Object">btlla</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set cursor style" sid="7970471891514407" type="Mouse">
-                    <param id="0" name="Cursor style">0</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="238661114931509">
             <conditions>
                 <condition behavior="DragDrop" id="2" name="On drop" sid="3776679568720288" type="btlla" />
-                <condition id="1" name="Is overlapping another object" sid="49748971900931" type="tb">
-                    <param id="0" name="Object">btlla</param>
-                </condition>
-                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1829490448043906" type="tb">
-                    <param id="0" name="Instance variable">finProc</param>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="51603246556654">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1829490448043906" type="tb">
+                            <param id="0" name="Instance variable">finProc</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="777132148285589" type="cursor">
+                            <param id="0" name="Instance variable">blockCursor</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="9294045438624835">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="49748971900931" type="tb">
+                                    <param id="0" name="Object">btlla</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="8605881931891846" type="tb">
+                                    <param id="0" name="Instance variable">botella</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="976363123196326" type="tb">
+                                    <param id="0" name="Frame number">3</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="7260953715260232" type="tb">
+                                    <param id="0" name="X">194</param>
+                                    <param id="1" name="Y">491</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="7137910180972919" type="btlla">
+                                    <param id="0" name="X">192</param>
+                                    <param id="1" name="Y">543</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="6764132051462679" type="btlla">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="3638457838012997" type="btlla">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7756393766916666">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="9161593750351094" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="567676740730759" type="btlla">
+                                    <param id="0" name="X">501</param>
+                                    <param id="1" name="Y">390</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="3977012396111196">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5654895745173903" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="9048511317626063">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="8435723423454963" type="btlla">
+                                    <param id="0" name="Object">canBot</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="8765257503081578" type="btlla">
+                                    <param id="0" name="Animation">&quot;romper&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2481367297658514">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="5679449708760559" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="6565218315489133" type="btlla">
+                                    <param id="0" name="X">192</param>
+                                    <param id="1" name="Y">543</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9794662175789505" type="cursor">
+                                    <param id="0" name="Instance variable">blockCursor</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5732853567672346">
+            <conditions>
+                <condition id="4" name="On finished" sid="7451629574624653" type="btlla">
+                    <param id="0" name="Animation">&quot;romper&quot;</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-13" name="Set boolean" sid="8605881931891846" type="tb">
-                    <param id="0" name="Instance variable">botella</param>
+                <action id="-9" name="Destroy" sid="6726897271810948" type="btlla" />
+                <action id="-13" name="Set boolean" sid="9974184737420825" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="3273077366370557" type="btlla">
+                    <param id="0" name="Instance variable">finProc</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="5" name="Set frame" sid="976363123196326" type="tb">
-                    <param id="0" name="Frame number">3</param>
+                <action id="-15" name="Set visible" sid="9058099166869166" type="canBot">
+                    <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-3" name="Set position" sid="7260953715260232" type="tb">
-                    <param id="0" name="X">194</param>
-                    <param id="1" name="Y">491</param>
-                </action>
-                <action id="-3" name="Set position" sid="7137910180972919" type="btlla">
-                    <param id="0" name="X">192</param>
-                    <param id="1" name="Y">543</param>
-                </action>
-                <action id="-15" name="Set visible" sid="6764132051462679" type="btlla">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="3638457838012997" type="btlla">
-                    <param id="0" name="State">0</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="777132148285589" type="cursor">
-                    <param id="0" name="Instance variable">blockCursor</param>
-                    <param id="1" name="Value">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="9499001185528076">
-            <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="4136190304815209" type="btlla" />
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="970394903060695" type="tb">
-                    <param id="0" name="Object">btlla</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-3" name="Set position" sid="567676740730759" type="btlla">
-                    <param id="0" name="X">501</param>
-                    <param id="1" name="Y">390</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="6968625636440597" type="cursor">
-                    <param id="0" name="Instance variable">blockCursor</param>
-                    <param id="1" name="Value">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="4726895414195814">
-            <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="3573732506369796" type="btlla" />
-                <condition id="-8" name="Is boolean instance variable set" sid="9097090625145493" type="tb">
-                    <param id="0" name="Instance variable">finProc</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-3" name="Set position" sid="6565218315489133" type="btlla">
-                    <param id="0" name="X">192</param>
-                    <param id="1" name="Y">543</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="9643521743397157" type="cursor">
-                    <param id="0" name="Instance variable">blockCursor</param>
-                    <param id="1" name="Value">0</param>
+                <action id="5" name="Set frame" sid="6185339784329242" type="FondoES3">
+                    <param id="0" name="Frame number">2</param>
                 </action>
             </actions>
         </event-block>

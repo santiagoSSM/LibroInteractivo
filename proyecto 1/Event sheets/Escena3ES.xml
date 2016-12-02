@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Escena3ES</name>
     <events>
+        <include>btllaFinTbES</include>
         <include>LylES</include>
         <include>cajES</include>
         <include>btlla&amp;Tb&amp;EsfVirdES</include>

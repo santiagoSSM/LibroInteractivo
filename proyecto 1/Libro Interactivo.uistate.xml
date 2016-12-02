@@ -12,7 +12,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Escena3</layout>
         <event-sheet active="1" order="1">btlla&amp;Tb&amp;EsfVirdES</event-sheet>
-        <event-sheet order="2">Escena3ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -22,7 +21,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/ObjetosES1/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/humo/" />
@@ -55,10 +54,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist14/" />
         <folder expanded="0" path="object-folder/Hist/EsHist15/" />
         <folder expanded="0" path="object-folder/ReusObj/" />
-        <folder expanded="0" path="object-folder/ObjetosES3/" />
-        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="1" path="object-folder/ObjetosES3/" />
+        <folder expanded="1" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Hist/" />
-        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
         <folder expanded="0" path="event-folder/HistES/" />
@@ -82,8 +81,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist13/" />
         <folder expanded="0" path="event-folder/HistES/EsHist14/" />
         <folder expanded="0" path="event-folder/HistES/EsHist15/" />
-        <folder expanded="0" path="event-folder/ReusES/" />
-        <folder expanded="0" path="event-folder/Escena3ES/" />
+        <folder expanded="1" path="event-folder/ReusES/" />
+        <folder expanded="1" path="event-folder/Escena3ES/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
