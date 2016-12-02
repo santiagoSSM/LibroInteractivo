@@ -135,6 +135,12 @@
                                     <param id="0" name="Instance variable">blockCursor</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="7240169039153315" type="canBall">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="3606077918713524" type="FondoES3">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
