@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>LylES</name>
+    <events>
+        <event-block sid="8791621928636711">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="4070378034670776" type="Mouse">
+                    <param id="0" name="Object">Lyl</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4015723337181079" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7976111278732007" type="Lyl">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7780497608847247">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2967768977433405" type="Mouse">
+                    <param id="0" name="Object">Lyl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="963168760913597" type="Lyl">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

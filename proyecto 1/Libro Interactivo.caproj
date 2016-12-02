@@ -1535,6 +1535,7 @@
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="botella" sid="2439356712894538" type="boolean" />
+                    <instance-variable name="finProc" sid="8483668534455241" type="boolean" />
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9193370168411243" speed="0">
@@ -1762,6 +1763,25 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Nda" sid="3185795071221523">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3364291765432556" speed="5">
+                        <frame duration="1" hotspotX="0.50365" hotspotY="0.503497" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\Nda.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.49635" y="0" />
+                                <point x="0.824818" y="0.167832" />
+                                <point x="1" y="0.496504" />
+                                <point x="0.854015" y="0.86014" />
+                                <point x="0.49635" y="0.27972" />
+                                <point x="0.635036" y="0.391608" />
+                                <point x="0.729927" y="0.496504" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
     </object-folder>
     <families />
@@ -1977,9 +1997,9 @@
             <event-sheet>Escena3ES.xml</event-sheet>
             <event-sheet>next3ES.xml</event-sheet>
             <event-sheet>prev3ES.xml</event-sheet>
-            <event-sheet>tbES.xml</event-sheet>
-            <event-sheet>btlla&amp;TbES.xml</event-sheet>
+            <event-sheet>btlla&amp;Tb&amp;EsfVirdES.xml</event-sheet>
             <event-sheet>cajES.xml</event-sheet>
+            <event-sheet>LylES.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

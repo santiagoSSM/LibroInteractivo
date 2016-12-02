@@ -34,29 +34,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="7735935930254806">
-            <conditions>
-                <condition disabled="1" id="7" name="Cursor is over object" sid="8959984598132471" type="Mouse">
-                    <param id="0" name="Object">bosque</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action disabled="1" id="5" name="Set frame" sid="9915290550766147" type="bosque">
-                    <param id="0" name="Frame number">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="9692028722252386">
-            <conditions>
-                <condition disabled="1" id="7" name="Cursor is over object" sid="7042113373623621" type="Mouse">
-                    <param id="0" name="Object">bosque</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action disabled="1" id="5" name="Set frame" sid="8464439716555214" type="bosque">
-                    <param id="0" name="Frame number">0</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

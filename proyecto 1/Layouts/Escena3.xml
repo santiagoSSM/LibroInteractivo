@@ -120,6 +120,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Nda" uid="184">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>321</x>
+                        <y>524</y>
+                        <z>0</z>
+                        <width>137</width>
+                        <height>143</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503649652</hotspotX>
+                        <hotspotY>0.503496528</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -207,6 +229,7 @@
                     </properties>
                     <instance-variables>
                         <botella>false</botella>
+                        <finProc>false</finProc>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -295,7 +318,7 @@
                 </instance>
                 <instance type="grz" uid="175">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -303,8 +326,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>563</x>
-                        <y>411</y>
+                        <x>565.000976563</x>
+                        <y>397</y>
                         <z>0</z>
                         <width>176</width>
                         <height>307</height>
@@ -361,7 +384,7 @@
                 </instance>
                 <instance type="canBall" uid="178">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -383,7 +406,7 @@
                 </instance>
                 <instance type="canBall" uid="180">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>1</initial-frame>
                         <collisions>Enabled</collisions>
@@ -405,7 +428,7 @@
                 </instance>
                 <instance type="canBot" uid="169">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -427,7 +450,7 @@
                 </instance>
                 <instance type="canAbej" uid="179">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -449,7 +472,7 @@
                 </instance>
                 <instance type="canAbej" uid="182">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>1</initial-frame>
                         <collisions>Enabled</collisions>

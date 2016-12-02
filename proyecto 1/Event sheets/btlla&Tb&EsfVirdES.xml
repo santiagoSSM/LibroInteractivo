@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>btlla&amp;Tb&amp;EsfVirdES</name>
+    <events>
+        <event-block sid="4781451719775732">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="6299524920086741" type="Mouse">
+                    <param id="0" name="Object">tb</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9176720022496763" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7317061408788062" type="tb">
+                    <param id="0" name="Instance variable">botella</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8416258285525996" type="tb">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="9137512940989698" type="tb">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8770720321807828">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="4497267254641335" type="Mouse">
+                    <param id="0" name="Object">tb</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9142731769834831" type="tb">
+                    <param id="0" name="Instance variable">botella</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="652322693109659" type="tb">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="8336039007036942" type="Mouse">
+                    <param id="0" name="Object">btlla</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="3596573828751378" type="tb">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5139003903309418">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6502520451357673" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tb</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3030529225109565" type="tb">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="8433068906060881">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8378999753145425" type="cursor">
+                            <param id="0" name="Instance variable">blockCursor</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="9004835584093042" type="cursor">
+                            <param id="0" name="Instance variable">blockCursor</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="8436891333790005" type="tb">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="7378845130244311" type="tb">
+                            <param id="0" name="X">194</param>
+                            <param id="1" name="Y">491</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4309146817128298">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="382837061821587" type="tb">
+                            <param id="0" name="Instance variable">botella</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6409247636895574">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="1387571090401775" type="esfVidri">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3492787955872122" type="tb">
+                                    <param id="0" name="Frame number">4</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="4990183748201147" type="tb">
+                                    <param id="0" name="X">194</param>
+                                    <param id="1" name="Y">491</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="6780270201236358" type="esfVidri">
+                                    <param id="0" name="Frame number">esfVidri.AnimationFrame+1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1659860458778101">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="7206356236803823" type="esfVidri">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6102107910308936" type="tb">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="1916093417070544" type="tb">
+                                    <param id="0" name="X">194</param>
+                                    <param id="1" name="Y">461</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6683450640258882" type="tb">
+                                    <param id="0" name="Instance variable">finProc</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="6725014762197262" type="btlla">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="6903097257851807" type="btlla">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6028366184270893" type="cursor">
+                                    <param id="0" name="Instance variable">blockCursor</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4442673604697442">
+            <conditions>
+                <condition id="3" name="On button released" sid="4942207068648864" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9657036896570574">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9331021960337815" type="tb">
+                            <param id="0" name="Instance variable">botella</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="9217241579034693" type="cursor">
+                            <param id="0" name="Instance variable">blockCursor</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1941135833861095" type="tb">
+                            <param id="0" name="X">194</param>
+                            <param id="1" name="Y">461</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4752682962058416">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9149141975558023" type="System" />
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3088367831444919" type="tb">
+                            <param id="0" name="Instance variable">finProc</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="962397282810758" type="tb">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9826785295820048">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="4451997489076356" type="Mouse">
+                    <param id="0" name="Object">btlla</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1277524820126891" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1835009520136027">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7587933380727875" type="tb">
+                            <param id="0" name="Instance variable">botella</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="3178385262678998" type="btlla">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="9154797412584722" type="tb">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="6614291464691775" type="cursor">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="1" name="Set cursor from sprite" sid="8653953797688312" type="Mouse">
+                            <param id="0" name="Sprite">cursor</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="540388886322141">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="7153871513374919" type="tb">
+                            <param id="0" name="Instance variable">finProc</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="6162478318163388" type="cursor">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="1" name="Set cursor from sprite" sid="994569438188437" type="Mouse">
+                            <param id="0" name="Sprite">cursor</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6583836155601663">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="5469146295231124" type="Mouse">
+                    <param id="0" name="Object">btlla</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="98511112028037" type="tb">
+                    <param id="0" name="Instance variable">botella</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="1623973203076893" type="btlla">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8274960020873246">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="9153097235777073" type="btlla" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="1026311797546989" type="btlla">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="399960028170511" type="cursor">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="1" name="Set cursor from sprite" sid="1004841403432622" type="Mouse">
+                    <param id="0" name="Sprite">cursor</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="7840432844590402" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8249410907697033">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="8944128205662725" type="Mouse">
+                    <param id="0" name="Object">btlla</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="7970471891514407" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="238661114931509">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="3776679568720288" type="btlla" />
+                <condition id="1" name="Is overlapping another object" sid="49748971900931" type="tb">
+                    <param id="0" name="Object">btlla</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1829490448043906" type="tb">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="8605881931891846" type="tb">
+                    <param id="0" name="Instance variable">botella</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="976363123196326" type="tb">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="-3" name="Set position" sid="7260953715260232" type="tb">
+                    <param id="0" name="X">194</param>
+                    <param id="1" name="Y">491</param>
+                </action>
+                <action id="-3" name="Set position" sid="7137910180972919" type="btlla">
+                    <param id="0" name="X">192</param>
+                    <param id="1" name="Y">543</param>
+                </action>
+                <action id="-15" name="Set visible" sid="6764132051462679" type="btlla">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="3638457838012997" type="btlla">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="777132148285589" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9499001185528076">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="4136190304815209" type="btlla" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="970394903060695" type="tb">
+                    <param id="0" name="Object">btlla</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="567676740730759" type="btlla">
+                    <param id="0" name="X">501</param>
+                    <param id="1" name="Y">390</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="6968625636440597" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4726895414195814">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="3573732506369796" type="btlla" />
+                <condition id="-8" name="Is boolean instance variable set" sid="9097090625145493" type="tb">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="6565218315489133" type="btlla">
+                    <param id="0" name="X">192</param>
+                    <param id="1" name="Y">543</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="9643521743397157" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
