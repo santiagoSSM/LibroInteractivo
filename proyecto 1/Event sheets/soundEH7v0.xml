@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>soundEH7v0</name>
+    <events>
+        <event-block sid="3325515953712902">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4830723896715783" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botonSound</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1475216399516196">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="9306274068382922" type="botonSound">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="2777405236411929" type="botonSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="6" name="Stop" sid="1197768368710347" type="Audio">
+                            <param id="0" name="Tag">&quot;SFondo&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7531897250825767">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9471101147951607" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="1108850022046014" type="botonSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="6561714652890736" type="Audio">
+                            <param id="0" name="Audio file">Viento</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;SFondo&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

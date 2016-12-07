@@ -1140,6 +1140,30 @@
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\23.jpg" />
                 </object-type>
             </object-folder>
+            <object-folder name="EsHist7v0">
+                <object-type name="EsHist7v0" sid="8100504263596011">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\14.jpg" />
+                </object-type>
+            </object-folder>
+            <object-folder name="EsHist16">
+                <object-type name="EsHist16" sid="5171832201107481">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\24.jpg" />
+                </object-type>
+            </object-folder>
+            <object-folder name="EsHist17">
+                <object-type name="EsHist17" sid="8090578317887941">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\26.jpg" />
+                </object-type>
+            </object-folder>
+            <object-folder name="EsHist18">
+                <object-type name="EsHist18" sid="502695845221833">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\25.jpg" />
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-folder name="ReusObj">
             <object-type name="botonNext" sid="7138583894614831">
@@ -1240,7 +1264,18 @@
                                 <point x="0.0757576" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5375" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v9\1,0 cuadr-07.png">
+                            <collision-poly>
+                                <point x="0.268293" y="0.275" />
+                                <point x="0.5" y="0.1875" />
+                                <point x="0.731707" y="0.275" />
+                                <point x="0.841463" y="0.5" />
+                                <point x="0.756098" y="0.75" />
+                                <point x="0.5" y="0.875" />
+                                <point x="0.243902" y="0.75" />
+                                <point x="0.158537" y="0.5" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1843,6 +1878,7 @@
             <layout>EsHist5.xml</layout>
             <layout>EsHist6.xml</layout>
             <layout>EsHist7.xml</layout>
+            <layout>EsHist7v0.xml</layout>
             <layout>EsHist8.xml</layout>
             <layout>EsHist9.xml</layout>
             <layout>EsHist10.xml</layout>
@@ -1851,6 +1887,9 @@
             <layout>EsHist13.xml</layout>
             <layout>EsHist14.xml</layout>
             <layout>EsHist15.xml</layout>
+            <layout>EsHist16.xml</layout>
+            <layout>EsHist17.xml</layout>
+            <layout>EsHist18.xml</layout>
         </layout-folder>
         <layout>Escena1.xml</layout>
         <layout>Escena2.xml</layout>
@@ -2021,6 +2060,33 @@
                 <event-sheet>nextEH15.xml</event-sheet>
                 <event-sheet>soundEH15.xml</event-sheet>
                 <event-sheet>reprEH15.xml</event-sheet>
+            </event-folder>
+            <event-folder name="EsHist7v0">
+                <event-sheet>EsHist7v0.xml</event-sheet>
+                <event-sheet>nextEH7v0.xml</event-sheet>
+                <event-sheet>prevEH7v0.xml</event-sheet>
+                <event-sheet>reprEH7v0.xml</event-sheet>
+                <event-sheet>soundEH7v0.xml</event-sheet>
+            </event-folder>
+            <event-folder name="EsHist16">
+                <event-sheet>EsHist16.xml</event-sheet>
+                <event-sheet>nextEH16.xml</event-sheet>
+                <event-sheet>prevEH16.xml</event-sheet>
+                <event-sheet>reprEH16.xml</event-sheet>
+                <event-sheet>soundEH16.xml</event-sheet>
+            </event-folder>
+            <event-folder name="EsHist17">
+                <event-sheet>EsHist17.xml</event-sheet>
+                <event-sheet>nextEH17.xml</event-sheet>
+                <event-sheet>prevEH17.xml</event-sheet>
+                <event-sheet>reprEH17.xml</event-sheet>
+                <event-sheet>soundEH17.xml</event-sheet>
+            </event-folder>
+            <event-folder name="EsHist18">
+                <event-sheet>EsHist18.xml</event-sheet>
+                <event-sheet>nextEH18.xml</event-sheet>
+                <event-sheet>prevEH18.xml</event-sheet>
+                <event-sheet>soundEH18.xml</event-sheet>
             </event-folder>
         </event-folder>
         <event-folder name="ReusES">

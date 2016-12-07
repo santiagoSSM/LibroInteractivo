@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EsHist17</name>
+    <events>
+        <include>soundEH17</include>
+        <include>reprEH17</include>
+        <include>prevEH17</include>
+        <include>nextEH17</include>
+        <include>NTextReus</include>
+        <include>reprReus</include>
+        <include>prevReus</include>
+        <include>nextReus</include>
+        <event-block sid="1434663124021746">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2227927908285674" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="3471324867446289" type="Audio">
+                    <param id="0" name="Audio file">Viento</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;SFondo&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="7446226286423922" type="Audio">
+                    <param id="0" name="Audio file">7715__dobroide__bin-window</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
