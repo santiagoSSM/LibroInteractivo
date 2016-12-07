@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Escena3ES</name>
     <events>
+        <include>grzES</include>
         <include>LylES</include>
         <include>cajES</include>
         <include>btlla&amp;Tb&amp;EsfVirdES</include>
@@ -33,6 +34,12 @@
                 </action>
                 <action id="-9" name="Destroy" sid="4151395657367494" type="Nda" />
                 <action id="-9" name="Destroy" sid="4632140537725652" type="tb" />
+                <action id="-15" name="Set visible" sid="7139697306393895" type="botonPrev">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="6996044121072017" type="botonNext">
+                    <param id="0" name="Visibility">1</param>
+                </action>
             </actions>
         </event-block>
     </events>

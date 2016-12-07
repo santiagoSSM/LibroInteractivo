@@ -78,7 +78,7 @@
                 </instance>
                 <instance type="botonNext" uid="136">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -89,18 +89,18 @@
                         <x>966</x>
                         <y>721</y>
                         <z>0</z>
-                        <width>68</width>
-                        <height>64</height>
+                        <width>84</width>
+                        <height>74</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.523809552</hotspotX>
+                        <hotspotY>0.513513505</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="botonPrev" uid="167">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -111,11 +111,11 @@
                         <x>49</x>
                         <y>723</y>
                         <z>0</z>
-                        <width>74</width>
-                        <height>64</height>
+                        <width>84</width>
+                        <height>74</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.488095224</hotspotX>
+                        <hotspotY>0.513513505</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -326,8 +326,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>565.000976563</x>
-                        <y>397</y>
+                        <x>564.5</x>
+                        <y>397.5</y>
                         <z>0</z>
                         <width>176</width>
                         <height>307</height>

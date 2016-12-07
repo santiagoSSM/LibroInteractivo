@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>grzES</name>
+    <events>
+        <event-block sid="7451827083773997">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="6235155869536023" type="FondoES3">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">3</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="833819571836119">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="2612266699749263" type="Mouse">
+                            <param id="0" name="Object">grz</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="9535257762055008" type="grz">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1497858054093775">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3598329380551801" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="7154629329302934" type="grz">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

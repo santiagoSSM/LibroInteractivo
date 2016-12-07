@@ -1035,7 +1035,7 @@
             <object-folder name="EsHist1v1">
                 <object-type name="EsHist1v1" sid="6788356344841066">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Oscar\Downloads\1%2c1 cuadr-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\03.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist1v2">
@@ -1043,9 +1043,9 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="3" loop="0" name="f1" pingpong="0" repeatcount="1" repeatto="0" sid="5310204755995422" speed="1">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\Karol\imagenes\1,2 cuadr-01.jpg" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\Karol\imagenes\1,3 cuadr-01.jpg" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\Karol\imagenes\1,4 cuadr-01.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\04.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\05.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\06.jpg" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -1053,97 +1053,91 @@
             <object-folder name="EsHist1v5">
                 <object-type name="EsHist1v5" sid="3337037634259415">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\1,5 contorno-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\07.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist2">
                 <object-type name="EsHist2" sid="2652846228330489">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\2 imagen-01.jpg" />
-                </object-type>
-            </object-folder>
-            <object-folder name="EsHist2v1">
-                <object-type name="EsHist2v1" sid="1273030314854535">
-                    <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\2 imagen-01-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\08.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist3">
                 <object-type name="EsHist3" sid="91483824151617">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\3 cuad-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\09.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist4">
                 <object-type name="EsHist4" sid="7955555038275719">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\4 cuadr-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\10.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist5">
                 <object-type name="EsHist5" sid="6796565182731178">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\5 cuadr-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\11.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist6">
                 <object-type name="EsHist6" sid="2523186761963326">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v4\6 imagen-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\12.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist7">
                 <object-type name="EsHist7" sid="1823493559977346">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\7 cuadr-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\13.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist8">
                 <object-type name="EsHist8" sid="8924174381916338">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\8 contorno-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\15.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist9">
                 <object-type name="EsHist9" sid="3299437821753439">
                     <plugin id="TiledBg" />
-                    <texture original-source="M:\imagenes\9 contorno-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\16.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHis11">
                 <object-type name="EsHist11" sid="2763791023005464">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\11 contorno-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\19.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="ESHist10">
                 <object-type name="EsHist10" sid="9510067186362866">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\10 contorno-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\17.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHis12">
                 <object-type name="EsHist12" sid="1888553592954617">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\12 contorno-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\20.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist13">
                 <object-type name="EsHist13" sid="8855213304098884">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\13 contorno-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\21.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist14">
                 <object-type name="EsHist14" sid="3173390609036103">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\14 contornos-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\22.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="EsHist15">
                 <object-type name="EsHist15" sid="6573636929330101">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Oscar\Desktop\Karol\imagenes\15 contorno-01.jpg" />
+                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\23.jpg" />
                 </object-type>
             </object-folder>
         </object-folder>
@@ -1151,8 +1145,8 @@
             <object-type name="botonNext" sid="7138583894614831">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7652266099530035" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton inact 1.png">
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7652266099530035" speed="0">
+                        <frame duration="1" hotspotX="0.52381" hotspotY="0.513514" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v9\1,0 cuadr-02.png">
                             <collision-poly>
                                 <point x="0.191176" y="0.203125" />
                                 <point x="0.5" y="0.046875" />
@@ -1162,18 +1156,6 @@
                                 <point x="0.5" y="0.890625" />
                                 <point x="0.220588" y="0.765625" />
                                 <point x="0.0882353" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton inact.png">
-                            <collision-poly>
-                                <point x="0.185714" y="0.203125" />
-                                <point x="0.5" y="0.046875" />
-                                <point x="0.814286" y="0.203125" />
-                                <point x="0.9" y="0.5" />
-                                <point x="0.785714" y="0.765625" />
-                                <point x="0.5" y="0.890625" />
-                                <point x="0.214286" y="0.765625" />
-                                <point x="0.1" y="0.5" />
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton cont.png">
@@ -1188,14 +1170,25 @@
                                 <point x="0.121622" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="botonPrev" sid="4938747179131086">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7475084108962992" speed="0">
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7475084108962992" speed="0">
+                        <frame duration="1" hotspotX="0.488095" hotspotY="0.513514" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v9\1,0 cuadr-02.png">
+                            <collision-poly>
+                                <point x="0.911765" y="0.5" />
+                                <point x="0.808824" y="0.796875" />
+                                <point x="0.5" y="0.953125" />
+                                <point x="0.191176" y="0.796875" />
+                                <point x="0.088235" y="0.5" />
+                                <point x="0.220588" y="0.234375" />
+                                <point x="0.5" y="0.109375" />
+                                <point x="0.779412" y="0.234375" />
+                            </collision-poly>
+                        </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton retro.png">
                             <collision-poly>
                                 <point x="0.189189" y="0.21875" />
@@ -1206,31 +1199,6 @@
                                 <point x="0.5" y="0.90625" />
                                 <point x="0.202703" y="0.765625" />
                                 <point x="0.0945946" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.544118" hotspotY="0.546875" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton inact retro.png">
-                            <collision-poly>
-                                <point x="0.220588" y="0.234375" />
-                                <point x="0.5" y="0.109375" />
-                                <point x="0.779412" y="0.234375" />
-                                <point x="0.911765" y="0.5" />
-                                <point x="0.808824" y="0.796875" />
-                                <point x="0.5" y="0.953125" />
-                                <point x="0.191176" y="0.796875" />
-                                <point x="0.0882353" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.528571" hotspotY="0.546875" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v3\boton inact1 retro.png">
-                            <collision-poly>
-                                <point x="0.214286" y="0.234375" />
-                                <point x="0.5" y="0.109375" />
-                                <point x="0.785714" y="0.234375" />
-                                <point x="0.9" y="0.5" />
-                                <point x="0.814286" y="0.796875" />
-                                <point x="0.5" y="0.953125" />
-                                <point x="0.185714" y="0.796875" />
-                                <point x="0.1" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -1326,6 +1294,26 @@
             </object-type>
             <object-type name="Audio" sid="8759958066419734">
                 <plugin id="Audio" />
+            </object-type>
+            <object-type name="botonNText" sid="2877078857653887">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7009522496657361" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v9\1,0 cuadr-06.png">
+                            <collision-poly>
+                                <point x="0.309524" y="0.26" />
+                                <point x="0.5" y="0.28" />
+                                <point x="0.619048" y="0.32" />
+                                <point x="0.880952" y="0.5" />
+                                <point x="0.571429" y="0.64" />
+                                <point x="0.5" y="0.68" />
+                                <point x="0.309524" y="0.74" />
+                                <point x="0.333333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
             </object-type>
         </object-folder>
         <object-folder name="ObjetosES3">
@@ -1661,7 +1649,7 @@
                                 <point x="0.693182" y="0.498371" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.501672" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\grz brill.png">
+                        <frame duration="1" hotspotX="0.485915" hotspotY="0.525084" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\grz brill.png">
                             <collision-poly>
                                 <point x="0.725352" y="0.344482" />
                                 <point x="0.5" y="0.668896" />
@@ -1828,6 +1816,18 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="ObjetosPort">
+            <object-type name="FondoPort" sid="6780498320013851">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\25.jpg" />
+            </object-type>
+        </object-folder>
+        <object-folder name="ObjetosMenu">
+            <object-type name="FondoMenu" sid="8582907682848561">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\Home list.jpg" />
+            </object-type>
+        </object-folder>
     </object-folder>
     <families />
     <layout-folder>
@@ -1838,7 +1838,6 @@
             <layout>EsHist1v2.xml</layout>
             <layout>EsHist1v5.xml</layout>
             <layout>EsHist2.xml</layout>
-            <layout>EsHist2v1.xml</layout>
             <layout>EsHist3.xml</layout>
             <layout>EsHist4.xml</layout>
             <layout>EsHist5.xml</layout>
@@ -1856,6 +1855,8 @@
         <layout>Escena1.xml</layout>
         <layout>Escena2.xml</layout>
         <layout>Escena3.xml</layout>
+        <layout>Portada.xml</layout>
+        <layout>Menu.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Escena1ES">
@@ -1929,13 +1930,6 @@
                 <event-sheet>nextEH2.xml</event-sheet>
                 <event-sheet>prevEH2.xml</event-sheet>
                 <event-sheet>soundEH2.xml</event-sheet>
-            </event-folder>
-            <event-folder name="EsHist2v1">
-                <event-sheet>EsHist2v1.xml</event-sheet>
-                <event-sheet>nextEH2v1.xml</event-sheet>
-                <event-sheet>prevEH2v1.xml</event-sheet>
-                <event-sheet>soundEH2v1.xml</event-sheet>
-                <event-sheet>reprEH2v1.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist3">
                 <event-sheet>EsHist3.xml</event-sheet>
@@ -2037,6 +2031,7 @@
             <event-sheet>nextReusAmar.xml</event-sheet>
             <event-sheet>prevReusAmar.xml</event-sheet>
             <event-sheet>prevReusVerd.xml</event-sheet>
+            <event-sheet>NTextReus.xml</event-sheet>
         </event-folder>
         <event-folder name="Escena3ES">
             <event-sheet>Escena3ES.xml</event-sheet>
@@ -2045,6 +2040,13 @@
             <event-sheet>btlla&amp;Tb&amp;EsfVirdES.xml</event-sheet>
             <event-sheet>cajES.xml</event-sheet>
             <event-sheet>LylES.xml</event-sheet>
+            <event-sheet>grzES.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Portada">
+            <event-sheet>Portada.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Menu">
+            <event-sheet>MenuES.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

@@ -7,6 +7,7 @@
         <include>reprEH14</include>
         <include>prevEH14</include>
         <include>nextEH14</include>
+        <include>NTextReus</include>
         <include>reprReus</include>
         <include>prevReus</include>
         <include>nextReus</include>

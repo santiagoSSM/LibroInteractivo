@@ -6,6 +6,7 @@
         <include>soundEH2</include>
         <include>prevEH2</include>
         <include>nextEH2</include>
+        <include>NTextReus</include>
         <include>reprReus</include>
         <include>prevReus</include>
         <include>nextReus</include>

@@ -6,7 +6,7 @@
         <include>fondo</include>
         <include>prevEH1v2</include>
         <include>nextEH1v2</include>
-        <include>prevReusVerd</include>
-        <include>nextReusVerd</include>
+        <include>prevReus</include>
+        <include>nextReus</include>
     </events>
 </c2eventsheet>

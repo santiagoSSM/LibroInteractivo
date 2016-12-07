@@ -72,7 +72,7 @@
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>2</initial-frame>
+                        <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
@@ -81,11 +81,11 @@
                         <x>986.500488281</x>
                         <y>710.500976563</y>
                         <z>0</z>
-                        <width>74</width>
-                        <height>66</height>
+                        <width>84</width>
+                        <height>74</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.523809552</hotspotX>
+                        <hotspotY>0.513513505</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -103,11 +103,11 @@
                         <x>46.500091553</x>
                         <y>712.499450684</y>
                         <z>0</z>
-                        <width>74</width>
-                        <height>64</height>
+                        <width>84</width>
+                        <height>74</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.488095224</hotspotX>
+                        <hotspotY>0.513513505</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

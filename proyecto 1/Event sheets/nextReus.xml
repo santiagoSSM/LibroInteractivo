@@ -11,7 +11,7 @@
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="9232897553687224" type="botonNext">
-                    <param id="0" name="Frame number">2</param>
+                    <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
         </event-block>
@@ -23,7 +23,7 @@
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="5959669181444342" type="botonNext">
-                    <param id="0" name="Frame number">3</param>
+                    <param id="0" name="Frame number">0</param>
                 </action>
             </actions>
         </event-block>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>NTextReus</name>
+    <events>
+        <event-block sid="2997423981577749">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="7150476281374506" type="Mouse">
+                    <param id="0" name="Object">botonNText</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="6154956858031471" type="botonNText">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1484260390673091">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2273334332704757" type="Mouse">
+                    <param id="0" name="Object">botonNText</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8776050852837703" type="botonNText">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

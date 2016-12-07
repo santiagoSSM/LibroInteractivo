@@ -10,8 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Escena3</layout>
-        <event-sheet order="1">Escena3ES</event-sheet>
+        <layout active="1" order="0">EsHist15</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -39,7 +38,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist1v2/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v5/" />
         <folder expanded="0" path="object-folder/Hist/EsHist2/" />
-        <folder expanded="0" path="object-folder/Hist/EsHist2v1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist3/" />
         <folder expanded="0" path="object-folder/Hist/EsHist4/" />
         <folder expanded="0" path="object-folder/Hist/EsHist5/" />
@@ -53,11 +51,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist13/" />
         <folder expanded="0" path="object-folder/Hist/EsHist14/" />
         <folder expanded="0" path="object-folder/Hist/EsHist15/" />
-        <folder expanded="0" path="object-folder/ReusObj/" />
+        <folder expanded="1" path="object-folder/ReusObj/" />
         <folder expanded="0" path="object-folder/ObjetosES3/" />
-        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="object-folder/ObjetosPort/" />
+        <folder expanded="0" path="object-folder/ObjetosMenu/" />
+        <folder expanded="0" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Hist/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
         <folder expanded="0" path="event-folder/HistES/" />
@@ -67,7 +67,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist1v2/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v5/" />
         <folder expanded="0" path="event-folder/HistES/EsHist2/" />
-        <folder expanded="0" path="event-folder/HistES/EsHist2v1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist3/" />
         <folder expanded="0" path="event-folder/HistES/EsHist4/" />
         <folder expanded="0" path="event-folder/HistES/EsHist5/" />
@@ -82,7 +81,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist14/" />
         <folder expanded="0" path="event-folder/HistES/EsHist15/" />
         <folder expanded="0" path="event-folder/ReusES/" />
-        <folder expanded="1" path="event-folder/Escena3ES/" />
+        <folder expanded="0" path="event-folder/Escena3ES/" />
+        <folder expanded="0" path="event-folder/Portada/" />
+        <folder expanded="0" path="event-folder/Menu/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
@@ -133,6 +134,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/botonRepr/" />
         <folder expanded="1" path="animation-folder/botonSound/" />
         <folder expanded="1" path="animation-folder/cursor/" />
+        <folder expanded="1" path="animation-folder/botonNText/" />
         <folder expanded="1" path="animation-folder/CyoAmig/" />
         <folder expanded="1" path="animation-folder/FondoES3/" />
         <folder expanded="1" path="animation-folder/btlla/" />
