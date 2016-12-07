@@ -1037,6 +1037,34 @@
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\03.jpg" />
                 </object-type>
+                <object-type name="textoEH1v1" sid="6629482046838948">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8822981025738092" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\3a.png">
+                                <collision-poly>
+                                    <point x="0.0505618" y="0.202247" />
+                                    <point x="0.5" y="0.191011" />
+                                    <point x="0.94382" y="0.224719" />
+                                    <point x="0.94382" y="0.775281" />
+                                    <point x="0.5" y="0.820225" />
+                                    <point x="0.0491573" y="0.803371" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\3b.png">
+                                <collision-poly>
+                                    <point x="0.0589888" y="0.235955" />
+                                    <point x="0.5" y="0.235955" />
+                                    <point x="0.93118" y="0.275281" />
+                                    <point x="0.929775" y="0.719101" />
+                                    <point x="0.5" y="0.758427" />
+                                    <point x="0.0603933" y="0.758427" />
+                                    <point x="0.0308989" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="EsHist1v2">
                 <object-type name="EsHist1v2" sid="3480834350128025">
@@ -2133,7 +2161,12 @@
         </global-instance>
     </global-instances>
     <sounds-folder>
-        <sound-folder name="SonEH1" />
+        <sound-folder name="SonEH1">
+            <sound-folder name="text1">
+                <file name="1 pantalla.m4a" />
+                <file name="1 pantalla.ogg" />
+            </sound-folder>
+        </sound-folder>
         <file name="7715__dobroide__bin-window.m4a" />
         <file name="7715__dobroide__bin-window.ogg" />
         <file name="168005__villaperros__lluvia0.m4a" />
