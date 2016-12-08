@@ -1098,7 +1098,7 @@
                 <object-type name="textoEH3" sid="8715015019973148">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8440356576280921" speed="0">
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8440356576280921" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\3a.png">
                                 <collision-poly>
                                     <point x="0.0505618" y="0.202247" />
@@ -1118,6 +1118,17 @@
                                     <point x="0.51938" y="0.991935" />
                                     <point x="0.0341085" y="0.991935" />
                                     <point x="0.00155039" y="0.620968" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\6c.png">
+                                <collision-poly>
+                                    <point x="0.0449438" y="0.179775" />
+                                    <point x="0.5" y="0.179775" />
+                                    <point x="0.985955" y="0.0561798" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.980337" y="0.921348" />
+                                    <point x="0.0196629" y="0.921348" />
+                                    <point x="0.00280899" y="0.5" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -1140,6 +1151,45 @@
                 <object-type name="EsHist6" sid="2523186761963326">
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\12.jpg" />
+                </object-type>
+                <object-type name="textosEH6" sid="3739611227576594">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5032574150501663" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\6a.png">
+                                <collision-poly>
+                                    <point x="0.0421348" y="0.168539" />
+                                    <point x="0.5" y="0.168539" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.981742" y="0.926966" />
+                                    <point x="0.0224719" y="0.910112" />
+                                    <point x="0.00140449" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\6b.png">
+                                <collision-poly>
+                                    <point x="0.0435393" y="0.174157" />
+                                    <point x="0.5" y="0.174157" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.983146" y="0.932584" />
+                                    <point x="0.0210674" y="0.91573" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\6c.png">
+                                <collision-poly>
+                                    <point x="0.0449438" y="0.179775" />
+                                    <point x="0.5" y="0.179775" />
+                                    <point x="0.985955" y="0.0561798" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.980337" y="0.921348" />
+                                    <point x="0.0196629" y="0.921348" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="EsHist7">
@@ -2054,6 +2104,7 @@
                 <event-sheet>prevEH6.xml</event-sheet>
                 <event-sheet>reprEH6.xml</event-sheet>
                 <event-sheet>soundEH6.xml</event-sheet>
+                <event-sheet>NTextEH6.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist7">
                 <event-sheet>EsHist7.xml</event-sheet>
