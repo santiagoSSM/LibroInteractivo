@@ -2032,6 +2032,7 @@
                 <event-sheet>prevEH3.xml</event-sheet>
                 <event-sheet>reprEH3.xml</event-sheet>
                 <event-sheet>soundEH3.xml</event-sheet>
+                <event-sheet>NTextEH3.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist4">
                 <event-sheet>prevEH4.xml</event-sheet>
