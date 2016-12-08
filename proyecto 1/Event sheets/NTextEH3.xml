@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>NTextEH3</name>
     <events>
-        <event-block sid="5731026275742195">
+        <event-block disabled="1" sid="5731026275742195">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="5239429834680886" type="System">
                     <param id="0" name="Variable">FinTextSem</param>
@@ -13,7 +13,7 @@
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="4199018934791528">
+                <event-block disabled="1" sid="4199018934791528">
                     <conditions>
                         <condition id="6" name="On object clicked" sid="8161048786897081" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
@@ -21,21 +21,49 @@
                             <param id="2" name="Object clicked">botonNText</param>
                         </condition>
                     </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block disabled="1" sid="2267228981439422">
+                            <conditions />
+                            <actions>
+                                <action id="-9" name="Set value" sid="8887366917046259" type="System">
+                                    <param id="0" name="Variable">FinTextSem</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4264806510690378">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2926195324613967" type="System">
+                    <param id="0" name="Variable">FinTextSem</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6717528456604613">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="8953614715461772" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">botonNText</param>
+                        </condition>
+                    </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="4591372110773426" type="textoEH3">
+                        <action id="5" name="Set frame" sid="5530664867896497" type="textoEH3">
                             <param id="0" name="Frame number">textoEH3.AnimationFrame+1</param>
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="2267228981439422">
-                            <conditions>
-                                <condition id="3" name="Compare frame" sid="9309644265485993" type="textoEH3">
-                                    <param id="0" name="Comparison">0</param>
-                                    <param id="1" name="Number">1</param>
-                                </condition>
-                            </conditions>
+                        <event-block sid="6921489451095855">
+                            <conditions />
                             <actions>
-                                <action id="-9" name="Set value" sid="8887366917046259" type="System">
+                                <action id="-9" name="Set value" sid="2439429368358589" type="System">
                                     <param id="0" name="Variable">FinTextSem</param>
                                     <param id="1" name="Value">1</param>
                                 </action>

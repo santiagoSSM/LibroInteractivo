@@ -10,7 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <event-sheet active="1" order="0">NTextEH6</event-sheet>
+        <layout order="0">EsHist8</layout>
+        <layout order="1">EsHist1v0</layout>
+        <layout order="3">EsHist3</layout>
+        <layout order="6">EsHist6</layout>
+        <event-sheet order="2">NTextEH3</event-sheet>
+        <event-sheet active="1" order="4">NTextEH6</event-sheet>
+        <event-sheet order="5">prevEH3</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -20,7 +26,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="0" path="object-folder/ObjetosES1/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/humo/" />
@@ -31,7 +37,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES2/cab/" />
         <folder expanded="0" path="object-folder/ObjetosES2/ard/" />
         <folder expanded="0" path="object-folder/ObjetosES2/rat/" />
-        <folder expanded="1" path="object-folder/Hist/" />
+        <folder expanded="0" path="object-folder/Hist/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v0/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v1/" />

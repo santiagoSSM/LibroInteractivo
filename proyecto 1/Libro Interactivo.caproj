@@ -1095,29 +1095,29 @@
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\09.jpg" />
                 </object-type>
-                <object-type name="textoEH3" sid="8715015019973148">
+                <object-type name="textoEH3" sid="4299428145099907">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8440356576280921" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\3a.png">
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1434522903866849" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\6a.png">
                                 <collision-poly>
-                                    <point x="0.0505618" y="0.202247" />
-                                    <point x="0.5" y="0.191011" />
-                                    <point x="0.94382" y="0.224719" />
-                                    <point x="0.94382" y="0.775281" />
-                                    <point x="0.5" y="0.820225" />
-                                    <point x="0.0491573" y="0.803371" />
+                                    <point x="0.0421348" y="0.168539" />
+                                    <point x="0.5" y="0.168539" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.981742" y="0.926966" />
+                                    <point x="0.0224719" y="0.910112" />
+                                    <point x="0.00140449" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.51938" hotspotY="0.620968" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\3b.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\6b.png">
                                 <collision-poly>
-                                    <point x="0.0325581" y="0.241935" />
-                                    <point x="0.51938" y="0.241935" />
-                                    <point x="0.995349" y="0.298387" />
-                                    <point x="0.993798" y="0.935484" />
-                                    <point x="0.51938" y="0.991935" />
-                                    <point x="0.0341085" y="0.991935" />
-                                    <point x="0.00155039" y="0.620968" />
+                                    <point x="0.0435393" y="0.174157" />
+                                    <point x="0.5" y="0.174157" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.983146" y="0.932584" />
+                                    <point x="0.0210674" y="0.91573" />
+                                    <point x="0.00280899" y="0.5" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\6c.png">
