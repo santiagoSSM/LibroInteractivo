@@ -10,7 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">EsHist2</layout>
+        <layout order="0">EsHist2</layout>
+        <layout active="1" order="1">EsHist3</layout>
+        <layout order="2">EsHist1</layout>
+        <layout order="3">EsHist1v0</layout>
+        <layout order="4">EsHist1v1</layout>
+        <layout order="5">EsHist1v2</layout>
+        <layout order="6">EsHist1v5</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -38,7 +44,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist1v2/" />
         <folder expanded="0" path="object-folder/Hist/EsHist1v5/" />
         <folder expanded="0" path="object-folder/Hist/EsHist2/" />
-        <folder expanded="0" path="object-folder/Hist/EsHist3/" />
+        <folder expanded="1" path="object-folder/Hist/EsHist3/" />
         <folder expanded="0" path="object-folder/Hist/EsHist4/" />
         <folder expanded="0" path="object-folder/Hist/EsHist5/" />
         <folder expanded="0" path="object-folder/Hist/EsHist6/" />
@@ -139,6 +145,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Tiki/" />
         <folder expanded="1" path="animation-folder/textoEH1v1/" />
         <folder expanded="1" path="animation-folder/EsHist1v2/" />
+        <folder expanded="1" path="animation-folder/textoEH3/" />
         <folder expanded="1" path="animation-folder/botonNext/" />
         <folder expanded="1" path="animation-folder/botonPrev/" />
         <folder expanded="1" path="animation-folder/botonRepr/" />
