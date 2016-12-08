@@ -1089,6 +1089,46 @@
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\08.jpg" />
                 </object-type>
+                <object-type name="textoEH2" sid="3107769971898229">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5435170215304088" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\5a.png">
+                                <collision-poly>
+                                    <point x="0.0407303" y="0.162921" />
+                                    <point x="0.5" y="0.162921" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.995786" y="0.5" />
+                                    <point x="0.976124" y="0.904494" />
+                                    <point x="0.0238764" y="0.904494" />
+                                    <point x="0.00140449" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\5b.png">
+                                <collision-poly>
+                                    <point x="0.0435393" y="0.174157" />
+                                    <point x="0.5" y="0.174157" />
+                                    <point x="0.985955" y="0.0561798" />
+                                    <point x="0.995786" y="0.5" />
+                                    <point x="0.978933" y="0.91573" />
+                                    <point x="0.0210674" y="0.91573" />
+                                    <point x="0.00140449" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\5c.png">
+                                <collision-poly>
+                                    <point x="0.0407303" y="0.162921" />
+                                    <point x="0.5" y="0.162921" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.994382" y="0.5" />
+                                    <point x="0.976124" y="0.904494" />
+                                    <point x="0.0238764" y="0.904494" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="EsHist3">
                 <object-type name="EsHist3" sid="91483824151617">
@@ -1149,7 +1189,7 @@
                 <object-type name="textoEH5" sid="3731777716213176">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6399123871301686" speed="5">
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6399123871301686" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\8a.png">
                                 <collision-poly>
                                     <point x="0.0407303" y="0.162921" />
@@ -1191,11 +1231,11 @@
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\12.jpg" />
                 </object-type>
-                <object-type name="textosEH6" sid="3739611227576594">
+                <object-type name="textoEH6" sid="3739611227576594">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5032574150501663" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\6a.png">
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5032574150501663" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\9a.png">
                                 <collision-poly>
                                     <point x="0.0421348" y="0.168539" />
                                     <point x="0.5" y="0.168539" />
@@ -1205,7 +1245,7 @@
                                     <point x="0.00140449" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\6b.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\9b.png">
                                 <collision-poly>
                                     <point x="0.0435393" y="0.174157" />
                                     <point x="0.5" y="0.174157" />
@@ -1213,17 +1253,6 @@
                                     <point x="0.997191" y="0.5" />
                                     <point x="0.983146" y="0.932584" />
                                     <point x="0.0210674" y="0.91573" />
-                                    <point x="0.00280899" y="0.5" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\audios y textHist\textos historia\6c.png">
-                                <collision-poly>
-                                    <point x="0.0449438" y="0.179775" />
-                                    <point x="0.5" y="0.179775" />
-                                    <point x="0.985955" y="0.0561798" />
-                                    <point x="0.997191" y="0.5" />
-                                    <point x="0.980337" y="0.921348" />
-                                    <point x="0.0196629" y="0.921348" />
                                     <point x="0.00280899" y="0.5" />
                                 </collision-poly>
                             </frame>
@@ -1235,6 +1264,35 @@
                 <object-type name="EsHist7" sid="1823493559977346">
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\13.jpg" />
+                </object-type>
+                <object-type name="textoEH7" sid="564089328274511">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="68650084603965" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\10a.png">
+                                <collision-poly>
+                                    <point x="0.0294944" y="0.117978" />
+                                    <point x="0.5" y="0.117978" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.981742" y="0.926966" />
+                                    <point x="0.0210674" y="0.91573" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\10b.png">
+                                <collision-poly>
+                                    <point x="0.0477528" y="0.191011" />
+                                    <point x="0.5" y="0.191011" />
+                                    <point x="0.984551" y="0.0617978" />
+                                    <point x="0.995786" y="0.5" />
+                                    <point x="0.983146" y="0.932584" />
+                                    <point x="0.0168539" y="0.932584" />
+                                    <point x="0.00140449" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="EsHist8">
@@ -2095,6 +2153,7 @@
                 <event-sheet>prevEH1v1.xml</event-sheet>
                 <event-sheet>reprEH1v1.xml</event-sheet>
                 <event-sheet>soundEH1v1.xml</event-sheet>
+                <event-sheet>NTextEH1v1.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist1v2">
                 <event-sheet>EsHist1v2.xml</event-sheet>
@@ -2114,6 +2173,7 @@
                 <event-sheet>nextEH2.xml</event-sheet>
                 <event-sheet>prevEH2.xml</event-sheet>
                 <event-sheet>soundEH2.xml</event-sheet>
+                <event-sheet>NTextEH2.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist3">
                 <event-sheet>EsHist3.xml</event-sheet>
@@ -2136,7 +2196,7 @@
                 <event-sheet>prevEH5.xml</event-sheet>
                 <event-sheet>reprEH5.xml</event-sheet>
                 <event-sheet>soundEH5.xml</event-sheet>
-                <event-sheet>NTextoEH5.xml</event-sheet>
+                <event-sheet>NTextEH5.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist6">
                 <event-sheet>EsHist6.xml</event-sheet>
@@ -2152,6 +2212,7 @@
                 <event-sheet>prevEH7.xml</event-sheet>
                 <event-sheet>reprEH7.xml</event-sheet>
                 <event-sheet>soundEH7.xml</event-sheet>
+                <event-sheet>NTextEH7.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist8">
                 <event-sheet>EsHist8.xml</event-sheet>

@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>NTextEH6</name>
+    <name>NTextEH5</name>
     <events>
-        <event-block sid="5192234614971971">
+        <event-block sid="488471418354389">
             <conditions>
-                <condition id="6" name="On object clicked" sid="5608803276082412" type="Mouse">
+                <condition id="6" name="On object clicked" sid="2524531728200426" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonNText</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="2700880791146342" type="textoEH6">
-                    <param id="0" name="Frame number">textoEH6.AnimationFrame+1</param>
+                <action id="5" name="Set frame" sid="3768693940768522" type="textoEH5">
+                    <param id="0" name="Frame number">textoEH5.AnimationFrame+1</param>
                 </action>
             </actions>
             <sub-events>
-                <event-block sid="3469034800601743">
+                <event-block sid="2524448692790737">
                     <conditions>
-                        <condition id="3" name="Compare frame" sid="188979036416916" type="textoEH6">
+                        <condition id="3" name="Compare frame" sid="360864130637566" type="textoEH5">
                             <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">1</param>
+                            <param id="1" name="Number">2</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="9770955492487603" type="botonNText" />
+                        <action id="-9" name="Destroy" sid="2822417221525272" type="botonNText" />
                     </actions>
                 </event-block>
             </sub-events>
