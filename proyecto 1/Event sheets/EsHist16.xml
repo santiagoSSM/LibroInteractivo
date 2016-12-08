@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EsHist16</name>
     <events>
+        <include>NTextEH16</include>
         <include>soundEH16</include>
         <include>reprEH16</include>
         <include>prevEH16</include>

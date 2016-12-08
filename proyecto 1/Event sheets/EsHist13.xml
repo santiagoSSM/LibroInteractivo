@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EsHist13</name>
     <events>
+        <include>NTextEH13</include>
         <include>soundEH13</include>
         <include>reprEH13</include>
         <include>prevEH13</include>

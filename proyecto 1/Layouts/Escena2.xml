@@ -156,7 +156,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="163">
+                <instance type="Abi2" uid="163">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -178,7 +178,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tiki" uid="164">
+                <instance type="Tiki2" uid="164">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

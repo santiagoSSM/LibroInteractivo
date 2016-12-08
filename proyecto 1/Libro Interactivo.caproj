@@ -487,7 +487,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="abi" sid="5691558217190192">
+            <object-type name="Abi" sid="5691558217190192">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1727419019780785" speed="5">
@@ -537,7 +537,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Tiky" sid="1392100242586241">
+            <object-type name="Tiki" sid="1392100242586241">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3133145250064891" speed="5">
@@ -932,7 +932,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Sprite" sid="6706142577300227">
+            <object-type name="Abi2" sid="6706142577300227">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512944934709481" speed="0">
@@ -975,7 +975,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Tiki" sid="2275925119927989">
+            <object-type name="Tiki2" sid="2275925119927989">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5363202846600544" speed="0">
@@ -1312,11 +1312,80 @@
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\19.jpg" />
                 </object-type>
+                <object-type name="textoEH11" sid="6461643839597476">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1867708490498762" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\15a.png">
+                                <collision-poly>
+                                    <point x="0.0435393" y="0.174157" />
+                                    <point x="0.5" y="0.174157" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.981742" y="0.926966" />
+                                    <point x="0.0210674" y="0.91573" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\15b.png">
+                                <collision-poly>
+                                    <point x="0.0435393" y="0.174157" />
+                                    <point x="0.5" y="0.174157" />
+                                    <point x="0.985955" y="0.0561798" />
+                                    <point x="0.995786" y="0.5" />
+                                    <point x="0.978933" y="0.91573" />
+                                    <point x="0.0210674" y="0.91573" />
+                                    <point x="0.00140449" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
-            <object-folder name="ESHist10">
+            <object-folder name="EsHist10">
                 <object-type name="EsHist10" sid="9510067186362866">
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\17.jpg" />
+                </object-type>
+                <object-type name="textoEH10" sid="2591750166291386">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4207035382671156" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\14a.png">
+                                <collision-poly>
+                                    <point x="0.0407303" y="0.162921" />
+                                    <point x="0.5" y="0.162921" />
+                                    <point x="0.988764" y="0.0449438" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.978933" y="0.91573" />
+                                    <point x="0.0238764" y="0.904494" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\14b.png">
+                                <collision-poly>
+                                    <point x="0.0421348" y="0.168539" />
+                                    <point x="0.5" y="0.168539" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.980337" y="0.921348" />
+                                    <point x="0.0224719" y="0.910112" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\14c.png">
+                                <collision-poly>
+                                    <point x="0.0421348" y="0.168539" />
+                                    <point x="0.5" y="0.168539" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.977528" y="0.910112" />
+                                    <point x="0.0224719" y="0.910112" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="EsHis12">
@@ -1324,11 +1393,78 @@
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\20.jpg" />
                 </object-type>
+                <object-type name="textoEH12" sid="4553751547291522">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4883835900870715" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\16a.png">
+                                <collision-poly>
+                                    <point x="0.0407303" y="0.162921" />
+                                    <point x="0.5" y="0.162921" />
+                                    <point x="0.988764" y="0.0449438" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.981742" y="0.926966" />
+                                    <point x="0.0238764" y="0.904494" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\16b.png">
+                                <collision-poly>
+                                    <point x="0.0435393" y="0.174157" />
+                                    <point x="0.5" y="0.174157" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.978933" y="0.91573" />
+                                    <point x="0.0210674" y="0.91573" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="EsHist13">
                 <object-type name="EsHist13" sid="8855213304098884">
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\21.jpg" />
+                </object-type>
+                <object-type name="textoEH13" sid="151568756566876">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6489719845161794" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\17a.png">
+                                <collision-poly>
+                                    <point x="0.0407303" y="0.162921" />
+                                    <point x="0.5" y="0.162921" />
+                                    <point x="0.988764" y="0.0449438" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.981742" y="0.926966" />
+                                    <point x="0.0238764" y="0.904494" />
+                                    <point x="0.00421348" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\17b.png">
+                                <collision-poly>
+                                    <point x="0.0407303" y="0.162921" />
+                                    <point x="0.5" y="0.162921" />
+                                    <point x="0.988764" y="0.0449438" />
+                                    <point x="0.980337" y="0.921348" />
+                                    <point x="0.0238764" y="0.904494" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\17c.png">
+                                <collision-poly>
+                                    <point x="0.0196629" y="0.0786517" />
+                                    <point x="0.985955" y="0.0561798" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.981742" y="0.926966" />
+                                    <point x="0.0182584" y="0.926966" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="EsHist14">
@@ -1336,11 +1472,80 @@
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\22.jpg" />
                 </object-type>
+                <object-type name="textoEH14" sid="3423392055511988">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2830017886084876" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\18a.png">
+                                <collision-poly>
+                                    <point x="0.0407303" y="0.162921" />
+                                    <point x="0.5" y="0.162921" />
+                                    <point x="0.988764" y="0.0449438" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.978933" y="0.91573" />
+                                    <point x="0.0238764" y="0.904494" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\18b.png">
+                                <collision-poly>
+                                    <point x="0.0421348" y="0.168539" />
+                                    <point x="0.5" y="0.168539" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.978933" y="0.91573" />
+                                    <point x="0.0224719" y="0.910112" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\18c.png">
+                                <collision-poly>
+                                    <point x="0.0421348" y="0.168539" />
+                                    <point x="0.5" y="0.168539" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.977528" y="0.910112" />
+                                    <point x="0.0224719" y="0.910112" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="EsHist15">
                 <object-type name="EsHist15" sid="6573636929330101">
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\23.jpg" />
+                </object-type>
+                <object-type name="textoEH15" sid="5763675648752167">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3920049999631414" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\19a.png">
+                                <collision-poly>
+                                    <point x="0.0407303" y="0.162921" />
+                                    <point x="0.5" y="0.162921" />
+                                    <point x="0.988764" y="0.0449438" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.978933" y="0.91573" />
+                                    <point x="0.0238764" y="0.904494" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\19b.png">
+                                <collision-poly>
+                                    <point x="0.0421348" y="0.168539" />
+                                    <point x="0.5" y="0.168539" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.978933" y="0.91573" />
+                                    <point x="0.0224719" y="0.910112" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="EsHist7v0">
@@ -1348,17 +1553,114 @@
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\14.jpg" />
                 </object-type>
+                <object-type name="textoEH7v0" sid="9012936006998585">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9901494006770572" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\11a.png">
+                                <collision-poly>
+                                    <point x="0.0435393" y="0.174157" />
+                                    <point x="0.5" y="0.174157" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.997191" y="0.5" />
+                                    <point x="0.981742" y="0.926966" />
+                                    <point x="0.0210674" y="0.91573" />
+                                    <point x="0.00280899" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\11b.png">
+                                <collision-poly>
+                                    <point x="0.0379213" y="0.151685" />
+                                    <point x="0.5" y="0.151685" />
+                                    <point x="0.990169" y="0.0393258" />
+                                    <point x="0.998595" y="0.5" />
+                                    <point x="0.978933" y="0.91573" />
+                                    <point x="0.0266854" y="0.893258" />
+                                    <point x="0.00421348" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\11c.png">
+                                <collision-poly>
+                                    <point x="0.0477528" y="0.191011" />
+                                    <point x="0.5" y="0.191011" />
+                                    <point x="0.984551" y="0.0617978" />
+                                    <point x="0.995786" y="0.5" />
+                                    <point x="0.983146" y="0.932584" />
+                                    <point x="0.0168539" y="0.932584" />
+                                    <point x="0.00140449" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="EsHist16">
                 <object-type name="EsHist16" sid="5171832201107481">
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\24.jpg" />
                 </object-type>
+                <object-type name="textoEH16" sid="6108426256822318">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5475515636509585" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\20a.png">
+                                <collision-poly>
+                                    <point x="0.0407303" y="0.162921" />
+                                    <point x="0.5" y="0.162921" />
+                                    <point x="0.98736" y="0.0505618" />
+                                    <point x="0.995786" y="0.5" />
+                                    <point x="0.978933" y="0.91573" />
+                                    <point x="0.0238764" y="0.904494" />
+                                    <point x="0.00140449" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\20b.png">
+                                <collision-poly>
+                                    <point x="0.0463483" y="0.185393" />
+                                    <point x="0.5" y="0.185393" />
+                                    <point x="0.984551" y="0.0617978" />
+                                    <point x="0.995786" y="0.5" />
+                                    <point x="0.981742" y="0.926966" />
+                                    <point x="0.0182584" y="0.926966" />
+                                    <point x="0.00140449" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\20c.png">
+                                <collision-poly>
+                                    <point x="0.0421348" y="0.168539" />
+                                    <point x="0.5" y="0.168539" />
+                                    <point x="0.985955" y="0.0561798" />
+                                    <point x="0.994382" y="0.5" />
+                                    <point x="0.977528" y="0.910112" />
+                                    <point x="0.0224719" y="0.910112" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="EsHist17">
                 <object-type name="EsHist17" sid="8090578317887941">
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\26.jpg" />
+                </object-type>
+                <object-type name="textoEH17" sid="5711937423865185">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9124357575588774" speed="5">
+                            <frame duration="1" hotspotX="0.500705" hotspotY="0.502262" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\mensaje Brisa.png">
+                                <collision-poly>
+                                    <point x="0.0394922" y="0.126697" />
+                                    <point x="0.499295" y="0.126697" />
+                                    <point x="0.988716" y="0.0361991" />
+                                    <point x="0.985896" y="0.954751" />
+                                    <point x="0.0155148" y="0.950226" />
+                                    <point x="0" y="0.497738" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="EsHist18">
@@ -2234,6 +2536,7 @@
                 <event-sheet>prevEH10.xml</event-sheet>
                 <event-sheet>reprEH10.xml</event-sheet>
                 <event-sheet>soundEH10.xml</event-sheet>
+                <event-sheet>NTextEH10.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist11">
                 <event-sheet>EsHist11.xml</event-sheet>
@@ -2241,6 +2544,7 @@
                 <event-sheet>prevEH11.xml</event-sheet>
                 <event-sheet>reprEH11.xml</event-sheet>
                 <event-sheet>soundEH11.xml</event-sheet>
+                <event-sheet>NTextEH11.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist12">
                 <event-sheet>EsHist12.xml</event-sheet>
@@ -2248,6 +2552,7 @@
                 <event-sheet>prevEH12.xml</event-sheet>
                 <event-sheet>soundEH12.xml</event-sheet>
                 <event-sheet>reprEH12.xml</event-sheet>
+                <event-sheet>NTextEH12.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist13">
                 <event-sheet>EsHist13.xml</event-sheet>
@@ -2255,6 +2560,7 @@
                 <event-sheet>prevEH13.xml</event-sheet>
                 <event-sheet>soundEH13.xml</event-sheet>
                 <event-sheet>reprEH13.xml</event-sheet>
+                <event-sheet>NTextEH13.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist14">
                 <event-sheet>EsHist14.xml</event-sheet>
@@ -2262,6 +2568,7 @@
                 <event-sheet>nextEH14.xml</event-sheet>
                 <event-sheet>soundEH14.xml</event-sheet>
                 <event-sheet>prevEH14.xml</event-sheet>
+                <event-sheet>NTextEH14.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist15">
                 <event-sheet>EsHist15.xml</event-sheet>
@@ -2269,6 +2576,7 @@
                 <event-sheet>nextEH15.xml</event-sheet>
                 <event-sheet>soundEH15.xml</event-sheet>
                 <event-sheet>reprEH15.xml</event-sheet>
+                <event-sheet>NTextEH15.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist7v0">
                 <event-sheet>EsHist7v0.xml</event-sheet>
@@ -2276,6 +2584,7 @@
                 <event-sheet>prevEH7v0.xml</event-sheet>
                 <event-sheet>reprEH7v0.xml</event-sheet>
                 <event-sheet>soundEH7v0.xml</event-sheet>
+                <event-sheet>NTextEH7v0.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist16">
                 <event-sheet>EsHist16.xml</event-sheet>
@@ -2283,6 +2592,7 @@
                 <event-sheet>prevEH16.xml</event-sheet>
                 <event-sheet>reprEH16.xml</event-sheet>
                 <event-sheet>soundEH16.xml</event-sheet>
+                <event-sheet>NTextEH16.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist17">
                 <event-sheet>EsHist17.xml</event-sheet>

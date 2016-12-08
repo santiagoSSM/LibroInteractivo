@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="abi" uid="37">
+                <instance type="Abi" uid="37">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -93,7 +93,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tiky" uid="129">
+                <instance type="Tiki" uid="129">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

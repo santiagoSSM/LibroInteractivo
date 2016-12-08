@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>NTextEH12</name>
+    <events>
+        <event-block sid="4086735681214722">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2904340272381125" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botonNText</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="9655020885618512" type="textoEH12">
+                    <param id="0" name="Frame number">textoEH12.AnimationFrame+1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="859713461191721">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="2667920375259389" type="textoEH12">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="7887183428390204" type="botonNText" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
