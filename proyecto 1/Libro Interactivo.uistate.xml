@@ -11,7 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">EsHist1v1</layout>
-        <event-sheet active="1" order="1">NTextEH1v1</event-sheet>
+        <layout order="4">EsHist2</layout>
+        <layout active="1" order="5">EsHist4</layout>
+        <event-sheet order="1">NTextEH1v1</event-sheet>
         <event-sheet order="2">reprEH1v1</event-sheet>
         <event-sheet order="3">EsHist1v1</event-sheet>
     </open-tabs>
@@ -110,6 +112,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonEH2/" />
         <folder expanded="0" path="sound-folder/SonEH1v5/" />
         <folder expanded="0" path="sound-folder/SonEH1v0/" />
+        <folder expanded="1" path="sound-folder/SonEH4/" />
         <folder expanded="1" path="animation-folder/humo/" />
         <folder expanded="1" path="animation-folder/cs/" />
         <folder expanded="1" path="animation-folder/ventanaCost/" />
