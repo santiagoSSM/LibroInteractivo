@@ -2476,6 +2476,7 @@
                 <event-sheet>prevEH2.xml</event-sheet>
                 <event-sheet>soundEH2.xml</event-sheet>
                 <event-sheet>NTextEH2.xml</event-sheet>
+                <event-sheet>reprEH2.xml</event-sheet>
             </event-folder>
             <event-folder name="EsHist3">
                 <event-sheet>EsHist3.xml</event-sheet>
@@ -2654,27 +2655,37 @@
     <sounds-folder>
         <sound-folder name="SonEH1">
             <sound-folder name="text1">
-                <file name="1 pantalla.m4a" />
-                <file name="1 pantalla.ogg" />
+                <file name="EH1T1.m4a" />
+                <file name="EH1T1.ogg" />
             </sound-folder>
         </sound-folder>
         <sound-folder name="SonEH1v1">
             <sound-folder name="text1">
-                <file name="03 listo.m4a" />
-                <file name="03 listo.ogg" />
+                <file name="EH1v1T1.m4a" />
+                <file name="EH1v1T1.ogg" />
+            </sound-folder>
+            <sound-folder name="text2">
+                <file name="EH1v1T2.m4a" />
+                <file name="EH1v1T2.ogg" />
             </sound-folder>
         </sound-folder>
         <sound-folder name="SonEH2">
-            <file name="6 list.m4a" />
-            <file name="6 list.ogg" />
+            <sound-folder name="text1">
+                <file name="EH2T1.m4a" />
+                <file name="EH2T1.ogg" />
+            </sound-folder>
         </sound-folder>
         <sound-folder name="SonEH1v5">
-            <file name="pantalla4_1.m4a" />
-            <file name="pantalla4_1.ogg" />
+            <sound-folder name="text1">
+                <file name="EH1V5T1.m4a" />
+                <file name="EH1V5T1.ogg" />
+            </sound-folder>
         </sound-folder>
         <sound-folder name="SonEH1v0">
-            <file name="segundo texto.m4a" />
-            <file name="segundo texto.ogg" />
+            <sound-folder name="text1">
+                <file name="EH1v0T1.m4a" />
+                <file name="EH1v0T1.ogg" />
+            </sound-folder>
         </sound-folder>
         <file name="7715__dobroide__bin-window.m4a" />
         <file name="7715__dobroide__bin-window.ogg" />

@@ -17,17 +17,17 @@
                 <condition id="-2" name="On start of layout" sid="1934332765339932" type="System" />
             </conditions>
             <actions>
-                <action disabled="1" id="0" name="Play" sid="4814907553052366" type="Audio">
+                <action id="0" name="Play" sid="4814907553052366" type="Audio">
                     <param id="0" name="Audio file">Viento</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;SFondo&quot;</param>
                 </action>
                 <action id="0" name="Play" sid="6003909277236641" type="Audio">
-                    <param id="0" name="Audio file">03 listo</param>
+                    <param id="0" name="Audio file">EH1v1T1</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;EH1v1T1&quot;</param>
                 </action>
             </actions>
         </event-block>

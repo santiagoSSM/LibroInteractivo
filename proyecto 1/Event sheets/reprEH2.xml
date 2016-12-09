@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>reprEH1</name>
+    <name>reprEH2</name>
     <events>
-        <event-block sid="4128578669594836">
+        <event-block sid="3200294834648333">
             <conditions>
-                <condition id="6" name="On object clicked" sid="3677416957302778" type="Mouse">
+                <condition id="6" name="On object clicked" sid="8841782852513157" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonRepr</param>
                 </condition>
-                <condition id="5" inverted="1" name="Is tag playing" sid="9787162529568126" type="Audio">
+                <condition id="5" inverted="1" name="Is tag playing" sid="4288126033896388" type="Audio">
                     <param id="0" name="Tag">&quot;STexto&quot;</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="3406962859728746" type="Audio">
-                    <param id="0" name="Audio file">EH1T1</param>
+                <action id="0" name="Play" sid="917465279087387" type="Audio">
+                    <param id="0" name="Audio file">EH2T1</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>

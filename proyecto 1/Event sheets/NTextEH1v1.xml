@@ -10,6 +10,9 @@
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonNText</param>
                 </condition>
+                <condition id="5" inverted="1" name="Is tag playing" sid="9485387951833511" type="Audio">
+                    <param id="0" name="Tag">&quot;EH1v1T1&quot;</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="6967697604011419" type="textoEH1v1">
@@ -25,6 +28,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="149887423416766" type="Audio">
+                            <param id="0" name="Audio file">EH1v1T2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;EH1v1T2&quot;</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="44125510361569" type="botonNText" />
                     </actions>
                 </event-block>

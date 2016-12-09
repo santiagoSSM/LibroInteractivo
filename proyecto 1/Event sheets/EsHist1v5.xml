@@ -22,7 +22,7 @@
                     <param id="1" name="Tag (optional)">&quot;SFondo&quot;</param>
                 </action>
                 <action id="0" name="Play" sid="209045467528403" type="Audio">
-                    <param id="0" name="Audio file">pantalla4_1</param>
+                    <param id="0" name="Audio file">EH1V5T1</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>

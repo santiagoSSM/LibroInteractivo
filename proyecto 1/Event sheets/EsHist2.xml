@@ -4,6 +4,7 @@
     <name>EsHist2</name>
     <events>
         <include>NTextEH2</include>
+        <include>reprEH2</include>
         <include>soundEH2</include>
         <include>prevEH2</include>
         <include>nextEH2</include>
@@ -23,7 +24,7 @@
                     <param id="1" name="Tag (optional)">&quot;SFondo&quot;</param>
                 </action>
                 <action id="0" name="Play" sid="9064392215845239" type="Audio">
-                    <param id="0" name="Audio file">6 list</param>
+                    <param id="0" name="Audio file">EH2T1</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>

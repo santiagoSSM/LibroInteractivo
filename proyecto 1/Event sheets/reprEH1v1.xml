@@ -10,18 +10,48 @@
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonRepr</param>
                 </condition>
-                <condition id="5" inverted="1" name="Is tag playing" sid="6424729455708167" type="Audio">
-                    <param id="0" name="Tag">&quot;STexto&quot;</param>
-                </condition>
             </conditions>
-            <actions>
-                <action id="0" name="Play" sid="5218055473716515" type="Audio">
-                    <param id="0" name="Audio file">03 listo</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="2792351934685075">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="6424729455708167" type="Audio">
+                            <param id="0" name="Tag">&quot;EH1v1T1&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="9760156338226725" type="textoEH1v1">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="4812857013030426" type="Audio">
+                            <param id="0" name="Audio file">EH1v1T1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;EH1v1T1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8895794348257477">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="1956067195558336" type="Audio">
+                            <param id="0" name="Tag">&quot;EH1v1T2&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="6302567287936233" type="textoEH1v1">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="7210104315773389" type="Audio">
+                            <param id="0" name="Audio file">EH1v1T2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;EH1v1T2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
