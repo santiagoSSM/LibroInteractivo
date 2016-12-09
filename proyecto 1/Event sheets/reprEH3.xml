@@ -3,25 +3,74 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>reprEH3</name>
     <events>
-        <event-block sid="9333248627800126">
+        <event-block sid="6711148886097911">
             <conditions>
-                <condition id="6" name="On object clicked" sid="9373091107253439" type="Mouse">
+                <condition id="6" name="On object clicked" sid="4537549216018706" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonRepr</param>
                 </condition>
-                <condition id="5" inverted="1" name="Is tag playing" sid="1787534753822276" type="Audio">
-                    <param id="0" name="Tag">&quot;STexto&quot;</param>
-                </condition>
             </conditions>
-            <actions>
-                <action id="0" name="Play" sid="2381703413138034" type="Audio">
-                    <param id="0" name="Audio file">7715__dobroide__bin-window</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="1747610018916873">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="5684245008591484" type="Audio">
+                            <param id="0" name="Tag">&quot;STexto1&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="7627910359917756" type="textoEH3">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="884869817609981" type="Audio">
+                            <param id="0" name="Audio file">EH3T1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;STexto1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2937635612763295">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="5833367476240581" type="Audio">
+                            <param id="0" name="Tag">&quot;STexto2&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="4192647539053067" type="textoEH3">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="3794016865583618" type="Audio">
+                            <param id="0" name="Audio file">EH2T2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;STexto2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8865698215114651">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="9233712310664945" type="Audio">
+                            <param id="0" name="Tag">&quot;STexto3&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="4330069993942962" type="textoEH3">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="2499800678694036" type="Audio">
+                            <param id="0" name="Audio file">EH3T3</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;STexto3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

@@ -2674,6 +2674,14 @@
                 <file name="EH2T1.m4a" />
                 <file name="EH2T1.ogg" />
             </sound-folder>
+            <sound-folder name="text2">
+                <file name="EH2T2.m4a" />
+                <file name="EH2T2.ogg" />
+            </sound-folder>
+            <sound-folder name="text3">
+                <file name="EH2T3.m4a" />
+                <file name="EH2T3.ogg" />
+            </sound-folder>
         </sound-folder>
         <sound-folder name="SonEH1v5">
             <sound-folder name="text1">
@@ -2687,7 +2695,31 @@
                 <file name="EH1v0T1.ogg" />
             </sound-folder>
         </sound-folder>
-        <sound-folder name="SonEH4" />
+        <sound-folder name="SonEH4">
+            <sound-folder name="text1">
+                <file name="EH4T1.m4a" />
+                <file name="EH4T1.ogg" />
+            </sound-folder>
+        </sound-folder>
+        <sound-folder name="SonEH3">
+            <sound-folder name="text1">
+                <file name="EH3T1.m4a" />
+                <file name="EH3T1.ogg" />
+            </sound-folder>
+            <sound-folder name="text2" />
+            <sound-folder name="text3">
+                <file name="EH3T3.m4a" />
+                <file name="EH3T3.ogg" />
+            </sound-folder>
+        </sound-folder>
+        <sound-folder name="SonEH5">
+            <sound-folder name="text1">
+                <file name="EH5T1.m4a" />
+                <file name="EH5T1.ogg" />
+            </sound-folder>
+            <sound-folder name="text2" />
+            <sound-folder name="text3" />
+        </sound-folder>
         <file name="7715__dobroide__bin-window.m4a" />
         <file name="7715__dobroide__bin-window.ogg" />
         <file name="168005__villaperros__lluvia0.m4a" />

@@ -9,14 +9,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs>
-        <layout order="0">EsHist1v1</layout>
-        <layout order="4">EsHist2</layout>
-        <layout active="1" order="5">EsHist4</layout>
-        <event-sheet order="1">NTextEH1v1</event-sheet>
-        <event-sheet order="2">reprEH1v1</event-sheet>
-        <event-sheet order="3">EsHist1v1</event-sheet>
-    </open-tabs>
+    <open-tabs />
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
@@ -64,12 +57,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="0" path="object-folder/ObjetosPort/" />
         <folder expanded="0" path="object-folder/ObjetosMenu/" />
-        <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Hist/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Hist/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
-        <folder expanded="1" path="event-folder/HistES/" />
+        <folder expanded="0" path="event-folder/HistES/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v0/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v1/" />
@@ -98,21 +91,32 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Portada/" />
         <folder expanded="0" path="event-folder/Menu/" />
         <folder expanded="0" path="file-folder/" />
-        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="0" path="sound-folder/SonEH1/text1/" />
         <folder expanded="0" path="sound-folder/SonEH1v1/text1/" />
         <folder expanded="0" path="sound-folder/SonEH1v1/text2/" />
         <folder expanded="0" path="sound-folder/SonEH2/text1/" />
+        <folder expanded="0" path="sound-folder/SonEH2/text2/" />
+        <folder expanded="0" path="sound-folder/SonEH2/text3/" />
         <folder expanded="0" path="sound-folder/SonEH1v5/text1/" />
         <folder expanded="0" path="sound-folder/SonEH1v0/text1/" />
+        <folder expanded="0" path="sound-folder/SonEH4/text1/" />
+        <folder expanded="0" path="sound-folder/SonEH3/text1/" />
+        <folder expanded="1" path="sound-folder/SonEH3/text2/" />
+        <folder expanded="0" path="sound-folder/SonEH3/text3/" />
+        <folder expanded="0" path="sound-folder/SonEH5/text1/" />
+        <folder expanded="1" path="sound-folder/SonEH5/text2/" />
+        <folder expanded="1" path="sound-folder/SonEH5/text3/" />
         <folder expanded="0" path="sound-folder/SonEH1/" />
         <folder expanded="0" path="sound-folder/SonEH1v1/" />
         <folder expanded="0" path="sound-folder/SonEH2/" />
         <folder expanded="0" path="sound-folder/SonEH1v5/" />
         <folder expanded="0" path="sound-folder/SonEH1v0/" />
-        <folder expanded="1" path="sound-folder/SonEH4/" />
+        <folder expanded="0" path="sound-folder/SonEH4/" />
+        <folder expanded="0" path="sound-folder/SonEH3/" />
+        <folder expanded="0" path="sound-folder/SonEH5/" />
         <folder expanded="1" path="animation-folder/humo/" />
         <folder expanded="1" path="animation-folder/cs/" />
         <folder expanded="1" path="animation-folder/ventanaCost/" />

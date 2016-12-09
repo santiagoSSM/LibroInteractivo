@@ -3,32 +3,95 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>NTextEH2</name>
     <events>
-        <event-block sid="6196594804476613">
+        <event-block sid="1675105993820856">
             <conditions>
-                <condition id="6" name="On object clicked" sid="9937561731312615" type="Mouse">
+                <condition id="6" name="On object clicked" sid="3752087353729961" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonNText</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="5" name="Set frame" sid="2339033751228914" type="textoEH2">
-                    <param id="0" name="Frame number">textoEH2.AnimationFrame+1</param>
-                </action>
-            </actions>
+            <actions />
             <sub-events>
-                <event-block sid="8863280136156988">
+                <event-block sid="4766867396839526">
                     <conditions>
-                        <condition id="3" name="Compare frame" sid="4323784874759077" type="textoEH2">
+                        <condition id="5" inverted="1" name="Is tag playing" sid="319012998744056" type="Audio">
+                            <param id="0" name="Tag">&quot;STexto1&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="991588170815151" type="textoEH2">
                             <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">2</param>
+                            <param id="1" name="Number">0</param>
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="5" name="Set frame" sid="2339033751228914" type="textoEH2">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="7441150139559869" type="Audio">
+                            <param id="0" name="Audio file">EH2T2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;STexto2&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="5494397553965605" type="botonNText">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4246032355552947">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="1645414715513266" type="Audio">
+                            <param id="0" name="Tag">&quot;STexto1&quot;</param>
+                        </condition>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="7307465702117921" type="Audio">
+                            <param id="0" name="Tag">&quot;STexto2&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="6356463613234494" type="textoEH2">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="8517372875009378" type="textoEH2">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="0" name="Play" sid="3748220092314765" type="Audio">
+                            <param id="0" name="Audio file">EH2T3</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;STexto3&quot;</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="9637479260035614" type="botonNText" />
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block any="1" sid="6275470799049286">
+            <conditions>
+                <condition id="5" name="Is tag playing" sid="3439534354588798" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto1&quot;</param>
+                </condition>
+                <condition id="5" name="Is tag playing" sid="6870268049160781" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="6820439726406947" type="System">
+                    <param id="0" name="Variable">botonSem</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7873764624834605">
+            <conditions>
+                <condition id="-22" name="Else" sid="6290370002768907" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3926834392063217" type="System">
+                    <param id="0" name="Variable">botonSem</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

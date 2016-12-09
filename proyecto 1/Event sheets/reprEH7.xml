@@ -11,7 +11,7 @@
                     <param id="2" name="Object clicked">botonRepr</param>
                 </condition>
                 <condition id="5" inverted="1" name="Is tag playing" sid="569678052841143" type="Audio">
-                    <param id="0" name="Tag">&quot;STexto&quot;</param>
+                    <param id="0" name="Tag">&quot;STexto1&quot;</param>
                 </condition>
             </conditions>
             <actions>
@@ -19,7 +19,7 @@
                     <param id="0" name="Audio file">7715__dobroide__bin-window</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto1&quot;</param>
                 </action>
             </actions>
         </event-block>
