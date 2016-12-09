@@ -2658,6 +2658,24 @@
                 <file name="1 pantalla.ogg" />
             </sound-folder>
         </sound-folder>
+        <sound-folder name="SonEH1v1">
+            <sound-folder name="text1">
+                <file name="03 listo.m4a" />
+                <file name="03 listo.ogg" />
+            </sound-folder>
+        </sound-folder>
+        <sound-folder name="SonEH2">
+            <file name="6 list.m4a" />
+            <file name="6 list.ogg" />
+        </sound-folder>
+        <sound-folder name="SonEH1v5">
+            <file name="pantalla4_1.m4a" />
+            <file name="pantalla4_1.ogg" />
+        </sound-folder>
+        <sound-folder name="SonEH1v0">
+            <file name="segundo texto.m4a" />
+            <file name="segundo texto.ogg" />
+        </sound-folder>
         <file name="7715__dobroide__bin-window.m4a" />
         <file name="7715__dobroide__bin-window.ogg" />
         <file name="168005__villaperros__lluvia0.m4a" />

@@ -15,14 +15,14 @@
                 <condition id="-2" name="On start of layout" sid="6280512493824047" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="8386408219156972" type="Audio">
+                <action disabled="1" id="0" name="Play" sid="8386408219156972" type="Audio">
                     <param id="0" name="Audio file">Viento</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;SFondo&quot;</param>
                 </action>
                 <action id="0" name="Play" sid="6541120756535452" type="Audio">
-                    <param id="0" name="Audio file">7715__dobroide__bin-window</param>
+                    <param id="0" name="Audio file">segundo texto</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>

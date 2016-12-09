@@ -3,20 +3,20 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>reprEH1v1</name>
     <events>
-        <event-block sid="8094348487385989">
+        <event-block sid="7632590598927078">
             <conditions>
-                <condition id="6" name="On object clicked" sid="818347822973211" type="Mouse">
+                <condition id="6" name="On object clicked" sid="2726673214155135" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonRepr</param>
                 </condition>
-                <condition id="5" inverted="1" name="Is tag playing" sid="4150658619553174" type="Audio">
+                <condition id="5" inverted="1" name="Is tag playing" sid="6424729455708167" type="Audio">
                     <param id="0" name="Tag">&quot;STexto&quot;</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="3399171253509815" type="Audio">
-                    <param id="0" name="Audio file">7715__dobroide__bin-window</param>
+                <action id="0" name="Play" sid="5218055473716515" type="Audio">
+                    <param id="0" name="Audio file">03 listo</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
