@@ -2613,10 +2613,6 @@
             <event-sheet>nextReus.xml</event-sheet>
             <event-sheet>prevReus.xml</event-sheet>
             <event-sheet>reprReus.xml</event-sheet>
-            <event-sheet>nextReusVerd.xml</event-sheet>
-            <event-sheet>nextReusAmar.xml</event-sheet>
-            <event-sheet>prevReusAmar.xml</event-sheet>
-            <event-sheet>prevReusVerd.xml</event-sheet>
             <event-sheet>NTextReus.xml</event-sheet>
         </event-folder>
         <event-folder name="Escena3ES">

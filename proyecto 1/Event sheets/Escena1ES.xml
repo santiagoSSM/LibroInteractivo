@@ -19,8 +19,8 @@
         <include>puertaCsES</include>
         <include>prevES1</include>
         <include>nextES1</include>
-        <include>prevReusAmar</include>
-        <include>nextReusAmar</include>
+        <include>prevReus</include>
+        <include>nextReus</include>
         <variable constant="0" name="totalPalms" sid="6800540110531311" static="0" type="number">0</variable>
         <event-block sid="551376652784499">
             <conditions>

@@ -12,7 +12,7 @@
         <include>gllES</include>
         <include>prevES2</include>
         <include>nextES2</include>
-        <include>prevReusVerd</include>
-        <include>nextReusVerd</include>
+        <include>prevReus</include>
+        <include>nextReus</include>
     </events>
 </c2eventsheet>

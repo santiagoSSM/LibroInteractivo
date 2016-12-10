@@ -9,8 +9,8 @@
         <include>btlla&amp;Tb&amp;EsfVirdES</include>
         <include>next3ES</include>
         <include>prev3ES</include>
-        <include>prevReusVerd</include>
-        <include>nextReusVerd</include>
+        <include>prevReus</include>
+        <include>nextReus</include>
         <event-block sid="5371420336022181">
             <conditions>
                 <condition id="3" name="Compare frame" sid="5431289437182104" type="FondoES3">

@@ -52,7 +52,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="capa1" sid="6468094478943877">
+        <layer name="Capa1" sid="5031939477210032">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -78,8 +78,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>511</x>
-                        <y>678</y>
+                        <x>509</x>
+                        <y>664</y>
                         <z>0</z>
                         <width>712</width>
                         <height>178</height>
@@ -90,6 +90,25 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Capa2" sid="6468094478943877">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
                 <instance type="botonNext" uid="158">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -122,8 +141,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>841</x>
-                        <y>616</y>
+                        <x>839</x>
+                        <y>601</y>
                         <z>0</z>
                         <width>62</width>
                         <height>58</height>
@@ -188,8 +207,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>849</x>
-                        <y>748</y>
+                        <x>846.000305176</x>
+                        <y>733.499755859</y>
                         <z>0</z>
                         <width>42</width>
                         <height>50</height>
