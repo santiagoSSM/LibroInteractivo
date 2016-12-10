@@ -2359,13 +2359,125 @@
         <object-folder name="ObjetosPort">
             <object-type name="FondoPort" sid="6780498320013851">
                 <plugin id="TiledBg" />
-                <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\25.jpg" />
+                <texture original-source="C:\Users\Oscar\Desktop\thumbnail_Portada t.jpg" />
             </object-type>
         </object-folder>
         <object-folder name="ObjetosMenu">
             <object-type name="FondoMenu" sid="8582907682848561">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\Home list.jpg" />
+            </object-type>
+            <object-type name="continuar" sid="6099276410667612">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6618795183821354" speed="5">
+                        <frame duration="1" hotspotX="0.504673" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\Re%3a_audios_Freddy (2)\sembrando café lit-06.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.523364" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.495327" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="iniciar" sid="1378005203062224">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3269465036336187" speed="5">
+                        <frame duration="1" hotspotX="0.508197" hotspotY="0.515152" original-source="C:\Users\Oscar\Desktop\Re%3a_audios_Freddy (2)\sembrando café lit-05.png">
+                            <collision-poly>
+                                <point x="0.557377" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.590164" y="1" />
+                                <point x="0" y="1" />
+                                <point x="1.49012e-008" y="0" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.508197" hotspotY="0.515152" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="jueFreddy" sid="7910058395458307">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3225034030820517" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.512195" original-source="C:\Users\Oscar\Desktop\Re%3a_audios_Freddy (2)\sembrando café lit-07.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.634146" />
+                                <point x="1" y="0.97561" />
+                                <point x="0.483333" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.292683" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.512195" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="jueLora" sid="452618622771005">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4086781983897489" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\Oscar\Desktop\Re%3a_audios_Freddy (2)\sembrando café lit-08.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0.491228" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.511628" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="jueLily" sid="9897848702688216">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4997724425385632" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\Re%3a_audios_Freddy (2)\sembrando café lit-09.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.5625" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.166667" />
+                                <point x="1" y="0.5625" />
+                                <point x="1" y="1" />
+                                <point x="0.392857" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="salir" sid="7869423465284228">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2487989512700683" speed="5">
+                        <frame duration="1" hotspotX="0.507042" hotspotY="0.5" original-source="C:\Users\Oscar\Desktop\Re%3a_audios_Freddy (2)\sembrando café lit-10.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.577465" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.760563" y="1" />
+                                <point x="0.507042" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.275" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.507042" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
             </object-type>
         </object-folder>
     </object-folder>

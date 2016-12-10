@@ -2,5 +2,150 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MenuES</name>
-    <events />
+    <events>
+        <event-block sid="3468561600022641">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="2789729026767883" type="Mouse">
+                    <param id="0" name="Object">iniciar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="1840409307912375" type="iniciar">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4614009051446556">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2638021746575555" type="Mouse">
+                    <param id="0" name="Object">iniciar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8676098548971949" type="iniciar">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9861139735139383">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="7164323685705101" type="Mouse">
+                    <param id="0" name="Object">continuar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="3160095094657851" type="continuar">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2482165953601606">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="1517593274757727" type="Mouse">
+                    <param id="0" name="Object">continuar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="9172916610278097" type="continuar">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1616761181100433">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8810058705673911" type="Mouse">
+                    <param id="0" name="Object">jueFreddy</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="4981914909552531" type="jueFreddy">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5156986788219661">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="9296147118581448" type="Mouse">
+                    <param id="0" name="Object">jueFreddy</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="6065134556399261" type="jueFreddy">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9562361615204501">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="9646301816079848" type="Mouse">
+                    <param id="0" name="Object">jueLily</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="9038519705675242" type="jueLily">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3346997503968604">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="722879438751623" type="Mouse">
+                    <param id="0" name="Object">jueLily</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7821055023953774" type="jueLily">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7351838543317484">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5183988165538266" type="Mouse">
+                    <param id="0" name="Object">jueLora</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="3546728560419271" type="jueLora">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8247012479894177">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="1132491387479511" type="Mouse">
+                    <param id="0" name="Object">jueLora</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8455046414233445" type="jueLora">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9382125550733721">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="4442040060714768" type="Mouse">
+                    <param id="0" name="Object">salir</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="684254066616278" type="salir">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3559164001670281">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="6623022122510524" type="Mouse">
+                    <param id="0" name="Object">salir</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="2732086760585929" type="salir">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

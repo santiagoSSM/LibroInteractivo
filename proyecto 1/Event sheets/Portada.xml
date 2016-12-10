@@ -2,5 +2,16 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Portada</name>
-    <events />
+    <events>
+        <event-block sid="2913290700909582">
+            <conditions>
+                <condition id="1" name="On any click" sid="775770513645979" type="Mouse" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9758533523570786" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
