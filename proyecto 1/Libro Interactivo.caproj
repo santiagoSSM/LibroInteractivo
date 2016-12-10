@@ -2717,8 +2717,14 @@
                 <file name="EH5T1.m4a" />
                 <file name="EH5T1.ogg" />
             </sound-folder>
-            <sound-folder name="text2" />
-            <sound-folder name="text3" />
+            <sound-folder name="text2">
+                <file name="EH5T2.m4a" />
+                <file name="EH5T2.ogg" />
+            </sound-folder>
+            <sound-folder name="text3">
+                <file name="EH5T3.m4a" />
+                <file name="EH5T3.ogg" />
+            </sound-folder>
         </sound-folder>
         <file name="7715__dobroide__bin-window.m4a" />
         <file name="7715__dobroide__bin-window.ogg" />

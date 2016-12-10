@@ -15,13 +15,19 @@
             <sub-events>
                 <event-block sid="6584794809089761">
                     <conditions>
-                        <condition id="5" inverted="1" name="Is tag playing" sid="5081531427216907" type="Audio">
-                            <param id="0" name="Tag">&quot;STexto1&quot;</param>
+                        <condition id="-14" name="Compare variable" sid="6789004570374779" type="System">
+                            <param id="0" name="Variable">botonSemR</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="5" name="Set frame" sid="6967697604011419" type="textoEH1v1">
                             <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="8819263610622803" type="botonRepr">
+                            <param id="0" name="X">818</param>
+                            <param id="1" name="Y">50.8</param>
                         </action>
                         <action id="0" name="Play" sid="149887423416766" type="Audio">
                             <param id="0" name="Audio file">EH1v1T2</param>
@@ -33,30 +39,6 @@
                     </actions>
                 </event-block>
             </sub-events>
-        </event-block>
-        <event-block any="1" sid="5872872575061266">
-            <conditions>
-                <condition id="5" name="Is tag playing" sid="6922783001392147" type="Audio">
-                    <param id="0" name="Tag">&quot;STexto1&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="5049326094212816" type="System">
-                    <param id="0" name="Variable">botonSem</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="593897429567639">
-            <conditions>
-                <condition id="-22" name="Else" sid="2378384641328139" type="System" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="6460459563257725" type="System">
-                    <param id="0" name="Variable">botonSem</param>
-                    <param id="1" name="Value">0</param>
-                </action>
-            </actions>
         </event-block>
     </events>
 </c2eventsheet>

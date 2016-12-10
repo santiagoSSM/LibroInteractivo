@@ -15,12 +15,14 @@
             <sub-events>
                 <event-block sid="6462099189290539">
                     <conditions>
-                        <condition id="5" inverted="1" name="Is tag playing" sid="102863681618765" type="Audio">
-                            <param id="0" name="Tag">&quot;STexto1&quot;</param>
-                        </condition>
                         <condition id="3" name="Compare frame" sid="306005493883885" type="textoEH2">
                             <param id="0" name="Comparison">0</param>
                             <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1146924021060943" type="System">
+                            <param id="0" name="Variable">botonSemR</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -34,12 +36,14 @@
                 </event-block>
                 <event-block sid="4126481664265863">
                     <conditions>
-                        <condition id="5" inverted="1" name="Is tag playing" sid="922246284349934" type="Audio">
-                            <param id="0" name="Tag">&quot;STexto2&quot;</param>
-                        </condition>
                         <condition id="3" name="Compare frame" sid="3541034516447036" type="textoEH2">
                             <param id="0" name="Comparison">0</param>
                             <param id="1" name="Number">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9165926679147833" type="System">
+                            <param id="0" name="Variable">botonSemR</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -53,12 +57,14 @@
                 </event-block>
                 <event-block sid="1465288209022068">
                     <conditions>
-                        <condition id="5" inverted="1" name="Is tag playing" sid="5246006777904696" type="Audio">
-                            <param id="0" name="Tag">&quot;STexto3&quot;</param>
-                        </condition>
                         <condition id="3" name="Compare frame" sid="1758292870393659" type="textoEH2">
                             <param id="0" name="Comparison">0</param>
                             <param id="1" name="Number">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5834581569164546" type="System">
+                            <param id="0" name="Variable">botonSemR</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -71,6 +77,39 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block any="1" sid="9160706247875504">
+            <conditions>
+                <condition id="5" name="Is tag playing" sid="5845826935521709" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto1&quot;</param>
+                </condition>
+                <condition id="5" name="Is tag playing" sid="6052058930487157" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto2&quot;</param>
+                </condition>
+                <condition id="5" name="Is tag playing" sid="211782506136897" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto3&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3846218073808946" type="System">
+                    <param id="0" name="Variable">botonSemR</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="8018336746875536" type="botonRepr">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8138689108218165">
+            <conditions>
+                <condition id="-22" name="Else" sid="9275915147986063" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="2872532541727697" type="System">
+                    <param id="0" name="Variable">botonSemR</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

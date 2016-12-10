@@ -10,8 +10,10 @@
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonRepr</param>
                 </condition>
-                <condition id="5" inverted="1" name="Is tag playing" sid="9787162529568126" type="Audio">
-                    <param id="0" name="Tag">&quot;STexto1&quot;</param>
+                <condition id="-14" name="Compare variable" sid="7588302412894507" type="System">
+                    <param id="0" name="Variable">botonSemR</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
                 </condition>
             </conditions>
             <actions>
@@ -20,6 +22,33 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;STexto1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="6991231409913361">
+            <conditions>
+                <condition id="5" name="Is tag playing" sid="5231372151664308" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="9320638434987023" type="System">
+                    <param id="0" name="Variable">botonSemR</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="8074105254649095" type="botonRepr">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1863983672844847">
+            <conditions>
+                <condition id="-22" name="Else" sid="6879056091043477" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8122312869877" type="System">
+                    <param id="0" name="Variable">botonSemR</param>
+                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>
