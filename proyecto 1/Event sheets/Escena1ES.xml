@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Escena1ES</name>
     <events>
-        <include>reprES1</include>
         <include>casc4</include>
         <include>casc3</include>
         <include>casc2</include>
@@ -20,7 +19,6 @@
         <include>puertaCsES</include>
         <include>prevES1</include>
         <include>nextES1</include>
-        <include>reprReus</include>
         <include>prevReus</include>
         <include>nextReus</include>
         <event-block sid="2293855575957521">

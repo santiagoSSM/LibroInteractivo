@@ -62,7 +62,7 @@
                             <param id="0" name="X">845</param>
                             <param id="1" name="Y">604</param>
                         </action>
-                        <action id="0" name="Play" sid="7441150139559869" type="Audio">
+                        <action id="0" name="Play" sid="9994355597576458" type="Audio">
                             <param id="0" name="Audio file">EH2T2</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>

@@ -3,23 +3,111 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>reprEH7v0</name>
     <events>
-        <event-block sid="2330051661313978">
+        <event-block sid="1320098077120002">
             <conditions>
-                <condition id="6" name="On object clicked" sid="9374896002251167" type="Mouse">
+                <condition id="6" name="On object clicked" sid="3717503175323736" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonRepr</param>
                 </condition>
-                <condition id="5" inverted="1" name="Is tag playing" sid="6618301494994868" type="Audio">
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1964374994091444">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="9137574920129566" type="textoEH7v0">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="981124588464148" type="System">
+                            <param id="0" name="Variable">botonSemR</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="9560136582483571" type="Audio">
+                            <param id="0" name="Audio file">EH7v0T1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;STexto1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2935393421839939">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="9771827511219045" type="textoEH7v0">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5874213386062584" type="System">
+                            <param id="0" name="Variable">botonSemR</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="60084093363238" type="Audio">
+                            <param id="0" name="Audio file">EH7v0T2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;STexto2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4884883621433993">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="5916215743681905" type="textoEH7v0">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3175115670315495" type="System">
+                            <param id="0" name="Variable">botonSemR</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="9956174217589976" type="Audio">
+                            <param id="0" name="Audio file">EH7v0T3</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;STexto3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="1217198021258355">
+            <conditions>
+                <condition id="5" name="Is tag playing" sid="6155843818137884" type="Audio">
                     <param id="0" name="Tag">&quot;STexto1&quot;</param>
+                </condition>
+                <condition id="5" name="Is tag playing" sid="2812233777385227" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto2&quot;</param>
+                </condition>
+                <condition id="5" name="Is tag playing" sid="8620453746063942" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto3&quot;</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="4952512053871" type="Audio">
-                    <param id="0" name="Audio file">7715__dobroide__bin-window</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;STexto1&quot;</param>
+                <action id="-9" name="Set value" sid="1526397564910332" type="System">
+                    <param id="0" name="Variable">botonSemR</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="6861240594675626" type="botonRepr">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2397405725372721">
+            <conditions>
+                <condition id="-22" name="Else" sid="5179370553205261" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="5038636205041616" type="System">
+                    <param id="0" name="Variable">botonSemR</param>
+                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>

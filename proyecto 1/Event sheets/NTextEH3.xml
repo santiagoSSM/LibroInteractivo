@@ -66,12 +66,6 @@
                             <param id="0" name="X">847</param>
                             <param id="1" name="Y">734</param>
                         </action>
-                        <action id="0" name="Play" sid="8426505881079815" type="Audio">
-                            <param id="0" name="Audio file">EH2T2</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;STexto2&quot;</param>
-                        </action>
                         <action id="5" name="Set frame" sid="3115635778974697" type="botonNText">
                             <param id="0" name="Frame number">1</param>
                         </action>

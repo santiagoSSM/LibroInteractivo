@@ -8,6 +8,9 @@
                 <condition id="7" name="Cursor is over object" sid="7881931873093811" type="Mouse">
                     <param id="0" name="Object">botCab</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1214899946067894" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="738387954624795" type="cab">
@@ -24,6 +27,26 @@
             <actions>
                 <action id="5" name="Set frame" sid="7560271332543402" type="cab">
                     <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8493413731229477">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6855201912450344" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botCab</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="657400841419805" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="10842287878524" type="Audio">
+                    <param id="0" name="Audio file">puertCs</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;puertCs&quot;</param>
                 </action>
             </actions>
         </event-block>

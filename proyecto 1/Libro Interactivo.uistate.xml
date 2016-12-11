@@ -9,7 +9,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs />
+    <open-tabs>
+        <layout active="1" order="0">Escena2</layout>
+        <event-sheet order="1">cabES</event-sheet>
+        <event-sheet order="2">puertaCsES</event-sheet>
+    </open-tabs>
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
@@ -57,19 +61,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="0" path="object-folder/ObjetosPort/" />
         <folder expanded="0" path="object-folder/ObjetosMenu/" />
-        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Hist/" />
-        <folder expanded="0" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Escena1ES/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena1ES/cascES/" />
         <folder expanded="0" path="event-folder/Escena1ES/bosqueES/" />
         <folder expanded="0" path="event-folder/Escena1ES/emb&amp;niñES/" />
         <folder expanded="0" path="event-folder/Escena1ES/btnsES/" />
-        <folder expanded="0" path="event-folder/Escena1ES/puert&amp;ventES/" />
+        <folder expanded="1" path="event-folder/Escena1ES/puert&amp;ventES/" />
         <folder expanded="0" path="event-folder/Escena1ES/nub&amp;fumigES/" />
         <folder expanded="0" path="event-folder/Escena1ES/regPalmsES/" />
         <folder expanded="0" path="event-folder/Escena1ES/FredyES/" />
-        <folder expanded="0" path="event-folder/Escena2ES/" />
+        <folder expanded="1" path="event-folder/Escena2ES/" />
         <folder expanded="0" path="event-folder/HistES/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v0/" />
@@ -121,6 +125,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonHist/SonEH1v1/text2/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH1v0/text1/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH1/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH7v0/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH7v0/text2/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH7v0/text3/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH7/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH6/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH5/" />
@@ -131,12 +138,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonHist/SonEH1v1/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH1v0/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH1/" />
-        <folder expanded="0" path="sound-folder/SonES1/101/" />
-        <folder expanded="0" path="sound-folder/SonES1/102/" />
-        <folder expanded="0" path="sound-folder/SonES1/103/" />
-        <folder expanded="0" path="sound-folder/SonES1/104/" />
-        <folder expanded="0" path="sound-folder/SonES1/105/" />
-        <folder expanded="0" path="sound-folder/SonES1/106/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH7v0/" />
+        <folder expanded="0" path="sound-folder/SonES1/textos/106/" />
+        <folder expanded="0" path="sound-folder/SonES1/textos/105/" />
+        <folder expanded="0" path="sound-folder/SonES1/textos/104/" />
+        <folder expanded="0" path="sound-folder/SonES1/textos/103/" />
+        <folder expanded="0" path="sound-folder/SonES1/textos/102/" />
+        <folder expanded="0" path="sound-folder/SonES1/textos/101/" />
+        <folder expanded="0" path="sound-folder/SonES1/puert&amp;vent/vents/" />
+        <folder expanded="0" path="sound-folder/SonES1/puert&amp;vent/puertCs/" />
+        <folder expanded="0" path="sound-folder/SonES1/puert&amp;vent/puertCover/" />
+        <folder expanded="0" path="sound-folder/SonES1/textos/" />
+        <folder expanded="0" path="sound-folder/SonES1/puert&amp;vent/" />
+        <folder expanded="0" path="sound-folder/SonES1/SonFond/" />
+        <folder expanded="0" path="sound-folder/SonES1/lluvia/" />
         <folder expanded="0" path="sound-folder/SonHist/" />
         <folder expanded="0" path="sound-folder/SonES1/" />
         <folder expanded="1" path="sound-folder/SonES2/" />

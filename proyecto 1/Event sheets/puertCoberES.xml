@@ -65,6 +65,24 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="7779128528622823" type="Audio">
+                    <param id="0" name="Audio file">puertCover</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;puertCover&quot;</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="4821715382805204" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="671277416857287">
+            <conditions>
+                <condition id="0" name="On ended" sid="7487442208688794" type="Audio">
+                    <param id="0" name="Tag">&quot;puertCover&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
                 <action id="5" name="Set frame" sid="8783538629244621" type="puertCober">
                     <param id="0" name="Frame number">2</param>
                 </action>
@@ -75,9 +93,6 @@
                 <action id="-13" name="Set boolean" sid="9493946285959935" type="puertCober">
                     <param id="0" name="Instance variable">finProc</param>
                     <param id="1" name="Value">1</param>
-                </action>
-                <action id="0" name="Set cursor style" sid="4821715382805204" type="Mouse">
-                    <param id="0" name="Cursor style">0</param>
                 </action>
             </actions>
         </event-block>

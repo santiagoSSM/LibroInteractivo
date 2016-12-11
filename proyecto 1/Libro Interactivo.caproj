@@ -371,6 +371,9 @@
             </object-type>
             <object-type name="nube" sid="7371590727015995">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="lluvia" sid="2683122269925828" type="boolean" />
+                </instance-variables>
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3424362668614343" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\1 int imagenes\nube.jpg" />
@@ -574,7 +577,16 @@
                 <animation-folder>
                     <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8638814892893345" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\101.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Downloads\Prueba-02.png">
+                            <collision-poly>
+                                <point x="0.0258152" y="0.123377" />
+                                <point x="0.5" y="0.0844156" />
+                                <point x="0.978261" y="0.103896" />
+                                <point x="0.980978" y="0.909091" />
+                                <point x="0.5" y="0.948052" />
+                                <point x="0.0230978" y="0.88961" />
+                            </collision-poly>
+                        </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\102.png">
                             <collision-poly>
                                 <point x="0.0744382" y="0.297753" />
@@ -689,6 +701,11 @@
                 </object-type>
                 <object-type name="botIgu" sid="1717446346155924">
                     <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="DragDrop" sid="4078778256929421">
+                            <behavior id="DragnDrop" />
+                        </behavior-type>
+                    </behaviors>
                     <animation-folder>
                         <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4456221909093947" speed="0">
                             <frame duration="1" hotspotX="0.526316" hotspotY="0.512821" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag igu.jpg">
@@ -771,6 +788,11 @@
                 </object-type>
                 <object-type name="botCab" sid="8109125416008747">
                     <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="DragDrop" sid="5300268902858353">
+                            <behavior id="DragnDrop" />
+                        </behavior-type>
+                    </behaviors>
                     <animation-folder>
                         <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7280173836974185" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag cab.jpg" />
@@ -836,6 +858,11 @@
                 </object-type>
                 <object-type name="botArd" sid="7548454520749368">
                     <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="DragDrop" sid="2824361861753118">
+                            <behavior id="DragnDrop" />
+                        </behavior-type>
+                    </behaviors>
                     <animation-folder>
                         <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3932105555240526" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.507937" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v7\plag ard 1.png">
@@ -2596,7 +2623,6 @@
             <event-folder name="btnsES">
                 <event-sheet>nextES1.xml</event-sheet>
                 <event-sheet>prevES1.xml</event-sheet>
-                <event-sheet>reprES1.xml</event-sheet>
             </event-folder>
             <event-folder name="puert&amp;ventES">
                 <event-sheet>puertaCsES.xml</event-sheet>
@@ -2936,31 +2962,69 @@
                     <file name="EH1T1.ogg" />
                 </sound-folder>
             </sound-folder>
+            <sound-folder name="SonEH7v0">
+                <sound-folder name="text1">
+                    <file name="EH7v0T1.m4a" />
+                    <file name="EH7v0T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH7v0T2.m4a" />
+                    <file name="EH7v0T2.ogg" />
+                </sound-folder>
+                <sound-folder name="text3">
+                    <file name="EH7v0T3.m4a" />
+                    <file name="EH7v0T3.ogg" />
+                </sound-folder>
+            </sound-folder>
         </sound-folder>
         <sound-folder name="SonES1">
-            <sound-folder name="101">
-                <file name="(101) cuales seran listo_.m4a" />
-                <file name="(101) cuales seran listo_.ogg" />
+            <sound-folder name="textos">
+                <sound-folder name="106">
+                    <file name="(106) comunidad respira listo.m4a" />
+                    <file name="(106) comunidad respira listo.ogg" />
+                </sound-folder>
+                <sound-folder name="105">
+                    <file name="(105) niños y mujer embarazada listo.m4a" />
+                    <file name="(105) niños y mujer embarazada listo.ogg" />
+                </sound-folder>
+                <sound-folder name="104">
+                    <file name="(104) zona de protección natural listo.m4a" />
+                    <file name="(104) zona de protección natural listo.ogg" />
+                </sound-folder>
+                <sound-folder name="103">
+                    <file name="(103) cortina rompe vientos listo.m4a" />
+                    <file name="(103) cortina rompe vientos listo.ogg" />
+                </sound-folder>
+                <sound-folder name="102">
+                    <file name="(102) me has ayudado listo.m4a" />
+                    <file name="(102) me has ayudado listo.ogg" />
+                </sound-folder>
+                <sound-folder name="101">
+                    <file name="(101) cuales seran listo_.m4a" />
+                    <file name="(101) cuales seran listo_.ogg" />
+                </sound-folder>
             </sound-folder>
-            <sound-folder name="102">
-                <file name="(102) me has ayudado listo.m4a" />
-                <file name="(102) me has ayudado listo.ogg" />
+            <sound-folder name="puert&amp;vent">
+                <sound-folder name="vents">
+                    <file name="vents.m4a" />
+                    <file name="vents.ogg" />
+                </sound-folder>
+                <sound-folder name="puertCs">
+                    <file name="puertCs.m4a" />
+                    <file name="puertCs.ogg" />
+                </sound-folder>
+                <sound-folder name="puertCover">
+                    <file name="puertCover.m4a" />
+                    <file name="puertCover.ogg" />
+                </sound-folder>
             </sound-folder>
-            <sound-folder name="103">
-                <file name="(103) cortina rompe vientos listo.m4a" />
-                <file name="(103) cortina rompe vientos listo.ogg" />
+            <sound-folder name="SonFond">
+                <file name="vient.m4a" />
+                <file name="vient.ogg" />
             </sound-folder>
-            <sound-folder name="104">
-                <file name="(104) zona de protección natural listo.m4a" />
-                <file name="(104) zona de protección natural listo.ogg" />
-            </sound-folder>
-            <sound-folder name="105">
-                <file name="(105) niños y mujer embarazada listo.m4a" />
-                <file name="(105) niños y mujer embarazada listo.ogg" />
-            </sound-folder>
-            <sound-folder name="106">
-                <file name="(106) comunidad respira listo.m4a" />
-                <file name="(106) comunidad respira listo.ogg" />
+            <sound-folder name="lluvia">
+                <file name="lluvia.m4a" />
+                <file name="lluvia.ogg" />
             </sound-folder>
         </sound-folder>
         <sound-folder name="SonES2" />

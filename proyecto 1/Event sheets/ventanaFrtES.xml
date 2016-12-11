@@ -65,6 +65,21 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="2192370246824426" type="Audio">
+                    <param id="0" name="Audio file">vents</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;vents2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7873196451954028">
+            <conditions>
+                <condition id="0" name="On ended" sid="6533579751525153" type="Audio">
+                    <param id="0" name="Tag">&quot;vents2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
                 <action id="4" name="Set animation" sid="3874760924439619" type="ventanaFrt">
                     <param id="0" name="Animation">&quot;ventanaFrtCerr&quot;</param>
                     <param id="1" name="From">1</param>
