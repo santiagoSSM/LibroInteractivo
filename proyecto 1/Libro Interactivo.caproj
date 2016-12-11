@@ -2834,6 +2834,26 @@
                 <file name="EH5T3.ogg" />
             </sound-folder>
         </sound-folder>
+        <sound-folder name="SonEH6">
+            <sound-folder name="text1">
+                <file name="EH6T1.m4a" />
+                <file name="EH6T1.ogg" />
+            </sound-folder>
+            <sound-folder name="text2">
+                <file name="EH6T2.m4a" />
+                <file name="EH6T2.ogg" />
+            </sound-folder>
+        </sound-folder>
+        <sound-folder name="SonEH7">
+            <sound-folder name="text1">
+                <file name="EH7T1.m4a" />
+                <file name="EH7T1.ogg" />
+            </sound-folder>
+            <sound-folder name="text2">
+                <file name="EH7T2.m4a" />
+                <file name="EH7T2.ogg" />
+            </sound-folder>
+        </sound-folder>
         <file name="7715__dobroide__bin-window.m4a" />
         <file name="7715__dobroide__bin-window.ogg" />
         <file name="168005__villaperros__lluvia0.m4a" />

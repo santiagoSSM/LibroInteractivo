@@ -72,8 +72,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist3/" />
         <folder expanded="0" path="event-folder/HistES/EsHist4/" />
         <folder expanded="0" path="event-folder/HistES/EsHist5/" />
-        <folder expanded="0" path="event-folder/HistES/EsHist6/" />
-        <folder expanded="0" path="event-folder/HistES/EsHist7/" />
+        <folder expanded="1" path="event-folder/HistES/EsHist6/" />
+        <folder expanded="1" path="event-folder/HistES/EsHist7/" />
         <folder expanded="0" path="event-folder/HistES/EsHist8/" />
         <folder expanded="0" path="event-folder/HistES/EsHist9/" />
         <folder expanded="0" path="event-folder/HistES/EsHist10/" />
@@ -109,6 +109,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonEH5/text1/" />
         <folder expanded="0" path="sound-folder/SonEH5/text2/" />
         <folder expanded="0" path="sound-folder/SonEH5/text3/" />
+        <folder expanded="0" path="sound-folder/SonEH6/text1/" />
+        <folder expanded="0" path="sound-folder/SonEH6/text2/" />
+        <folder expanded="0" path="sound-folder/SonEH7/text1/" />
+        <folder expanded="0" path="sound-folder/SonEH7/text2/" />
         <folder expanded="0" path="sound-folder/SonEH1/" />
         <folder expanded="0" path="sound-folder/SonEH1v1/" />
         <folder expanded="0" path="sound-folder/SonEH2/" />
@@ -117,6 +121,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonEH4/" />
         <folder expanded="0" path="sound-folder/SonEH3/" />
         <folder expanded="0" path="sound-folder/SonEH5/" />
+        <folder expanded="0" path="sound-folder/SonEH6/" />
+        <folder expanded="0" path="sound-folder/SonEH7/" />
         <folder expanded="1" path="animation-folder/humo/" />
         <folder expanded="1" path="animation-folder/cs/" />
         <folder expanded="1" path="animation-folder/ventanaCost/" />
