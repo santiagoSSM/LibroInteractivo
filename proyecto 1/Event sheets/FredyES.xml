@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Fredy</name>
+    <name>FredyES</name>
     <events>
         <event-block sid="6015042061529094">
             <conditions>

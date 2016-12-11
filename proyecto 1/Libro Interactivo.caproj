@@ -569,6 +569,70 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="textFreddy" sid="329028149412044">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8638814892893345" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\101.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\102.png">
+                            <collision-poly>
+                                <point x="0.0744382" y="0.297753" />
+                                <point x="0.5" y="0.297753" />
+                                <point x="0.966292" y="0.134831" />
+                                <point x="0.997191" y="0.5" />
+                                <point x="0.95927" y="0.837079" />
+                                <point x="0.0407303" y="0.837079" />
+                                <point x="0.00280899" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\103.png">
+                            <collision-poly>
+                                <point x="0.0716292" y="0.286517" />
+                                <point x="0.5" y="0.286517" />
+                                <point x="0.967697" y="0.129213" />
+                                <point x="0.997191" y="0.5" />
+                                <point x="0.956461" y="0.825843" />
+                                <point x="0.0435393" y="0.825843" />
+                                <point x="0.00280899" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\104.png">
+                            <collision-poly>
+                                <point x="0.0702247" y="0.280899" />
+                                <point x="0.5" y="0.280899" />
+                                <point x="0.969101" y="0.123596" />
+                                <point x="0.995786" y="0.5" />
+                                <point x="0.955056" y="0.820225" />
+                                <point x="0.0449438" y="0.820225" />
+                                <point x="0.00140449" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\105.png">
+                            <collision-poly>
+                                <point x="0.0730337" y="0.292135" />
+                                <point x="0.5" y="0.292135" />
+                                <point x="0.966292" y="0.134831" />
+                                <point x="0.995786" y="0.5" />
+                                <point x="0.957865" y="0.831461" />
+                                <point x="0.0421348" y="0.831461" />
+                                <point x="0.00140449" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\106.png">
+                            <collision-poly>
+                                <point x="0.0772472" y="0.308989" />
+                                <point x="0.5" y="0.308989" />
+                                <point x="0.963483" y="0.146067" />
+                                <point x="0.995786" y="0.5" />
+                                <point x="0.962079" y="0.848315" />
+                                <point x="0.0379213" y="0.848315" />
+                                <point x="0.00140449" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="ObjetosES2">
             <object-folder name="brj">
@@ -2516,23 +2580,40 @@
     </layout-folder>
     <event-folder>
         <event-folder name="Escena1ES">
+            <event-folder name="cascES">
+                <event-sheet>casc1.xml</event-sheet>
+                <event-sheet>casc2.xml</event-sheet>
+                <event-sheet>casc3.xml</event-sheet>
+                <event-sheet>casc4.xml</event-sheet>
+            </event-folder>
+            <event-folder name="bosqueES">
+                <event-sheet>bosqueES.xml</event-sheet>
+            </event-folder>
+            <event-folder name="emb&amp;niñES">
+                <event-sheet>enbaraz&amp;csES.xml</event-sheet>
+                <event-sheet>niños&amp;csES.xml</event-sheet>
+            </event-folder>
+            <event-folder name="btnsES">
+                <event-sheet>nextES1.xml</event-sheet>
+                <event-sheet>prevES1.xml</event-sheet>
+                <event-sheet>reprES1.xml</event-sheet>
+            </event-folder>
+            <event-folder name="puert&amp;ventES">
+                <event-sheet>puertaCsES.xml</event-sheet>
+                <event-sheet>puertCoberES.xml</event-sheet>
+                <event-sheet>ventanaCostES.xml</event-sheet>
+                <event-sheet>ventanaFrtES.xml</event-sheet>
+            </event-folder>
+            <event-folder name="nub&amp;fumigES">
+                <event-sheet>nube&amp;fumidrES.xml</event-sheet>
+            </event-folder>
+            <event-folder name="regPalmsES">
+                <event-sheet>reg&amp;palmES.xml</event-sheet>
+            </event-folder>
+            <event-folder name="FredyES">
+                <event-sheet>FredyES.xml</event-sheet>
+            </event-folder>
             <event-sheet>Escena1ES.xml</event-sheet>
-            <event-sheet>puertaCsES.xml</event-sheet>
-            <event-sheet>enbaraz&amp;csES.xml</event-sheet>
-            <event-sheet>puertCoberES.xml</event-sheet>
-            <event-sheet>nube&amp;fumidrES.xml</event-sheet>
-            <event-sheet>ventanaCostES.xml</event-sheet>
-            <event-sheet>ventanaFrtES.xml</event-sheet>
-            <event-sheet>bosqueES.xml</event-sheet>
-            <event-sheet>niños&amp;csES.xml</event-sheet>
-            <event-sheet>reg&amp;palmES.xml</event-sheet>
-            <event-sheet>nextES1.xml</event-sheet>
-            <event-sheet>casc1.xml</event-sheet>
-            <event-sheet>casc2.xml</event-sheet>
-            <event-sheet>casc3.xml</event-sheet>
-            <event-sheet>casc4.xml</event-sheet>
-            <event-sheet>Fredy.xml</event-sheet>
-            <event-sheet>prevES1.xml</event-sheet>
         </event-folder>
         <event-folder name="Escena2ES">
             <event-sheet>Escena2ES.xml</event-sheet>
@@ -2761,99 +2842,129 @@
         </global-instance>
     </global-instances>
     <sounds-folder>
-        <sound-folder name="SonEH1">
-            <sound-folder name="text1">
-                <file name="EH1T1.m4a" />
-                <file name="EH1T1.ogg" />
+        <sound-folder name="SonHist">
+            <sound-folder name="SonEH7">
+                <sound-folder name="text1">
+                    <file name="EH7T1.m4a" />
+                    <file name="EH7T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH7T2.m4a" />
+                    <file name="EH7T2.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH6">
+                <sound-folder name="text1">
+                    <file name="EH6T1.m4a" />
+                    <file name="EH6T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH6T2.m4a" />
+                    <file name="EH6T2.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH5">
+                <sound-folder name="text1">
+                    <file name="EH5T1.m4a" />
+                    <file name="EH5T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH5T2.m4a" />
+                    <file name="EH5T2.ogg" />
+                </sound-folder>
+                <sound-folder name="text3">
+                    <file name="EH5T3.m4a" />
+                    <file name="EH5T3.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH4">
+                <sound-folder name="text1">
+                    <file name="EH4T1.m4a" />
+                    <file name="EH4T1.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH3">
+                <sound-folder name="text1">
+                    <file name="EH3T1.m4a" />
+                    <file name="EH3T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2" />
+                <sound-folder name="text3">
+                    <file name="EH3T3.m4a" />
+                    <file name="EH3T3.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH2">
+                <sound-folder name="text1">
+                    <file name="EH2T1.m4a" />
+                    <file name="EH2T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH2T2.m4a" />
+                    <file name="EH2T2.ogg" />
+                </sound-folder>
+                <sound-folder name="text3">
+                    <file name="EH2T3.m4a" />
+                    <file name="EH2T3.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH1v5">
+                <sound-folder name="text1">
+                    <file name="EH1V5T1.m4a" />
+                    <file name="EH1V5T1.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH1v1">
+                <sound-folder name="text1">
+                    <file name="EH1v1T1.m4a" />
+                    <file name="EH1v1T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH1v1T2.m4a" />
+                    <file name="EH1v1T2.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH1v0">
+                <sound-folder name="text1">
+                    <file name="EH1v0T1.m4a" />
+                    <file name="EH1v0T1.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH1">
+                <sound-folder name="text1">
+                    <file name="EH1T1.m4a" />
+                    <file name="EH1T1.ogg" />
+                </sound-folder>
             </sound-folder>
         </sound-folder>
-        <sound-folder name="SonEH1v1">
-            <sound-folder name="text1">
-                <file name="EH1v1T1.m4a" />
-                <file name="EH1v1T1.ogg" />
+        <sound-folder name="SonES1">
+            <sound-folder name="101">
+                <file name="(101) cuales seran listo_.m4a" />
+                <file name="(101) cuales seran listo_.ogg" />
             </sound-folder>
-            <sound-folder name="text2">
-                <file name="EH1v1T2.m4a" />
-                <file name="EH1v1T2.ogg" />
+            <sound-folder name="102">
+                <file name="(102) me has ayudado listo.m4a" />
+                <file name="(102) me has ayudado listo.ogg" />
             </sound-folder>
-        </sound-folder>
-        <sound-folder name="SonEH2">
-            <sound-folder name="text1">
-                <file name="EH2T1.m4a" />
-                <file name="EH2T1.ogg" />
+            <sound-folder name="103">
+                <file name="(103) cortina rompe vientos listo.m4a" />
+                <file name="(103) cortina rompe vientos listo.ogg" />
             </sound-folder>
-            <sound-folder name="text2">
-                <file name="EH2T2.m4a" />
-                <file name="EH2T2.ogg" />
+            <sound-folder name="104">
+                <file name="(104) zona de protección natural listo.m4a" />
+                <file name="(104) zona de protección natural listo.ogg" />
             </sound-folder>
-            <sound-folder name="text3">
-                <file name="EH2T3.m4a" />
-                <file name="EH2T3.ogg" />
+            <sound-folder name="105">
+                <file name="(105) niños y mujer embarazada listo.m4a" />
+                <file name="(105) niños y mujer embarazada listo.ogg" />
             </sound-folder>
-        </sound-folder>
-        <sound-folder name="SonEH1v5">
-            <sound-folder name="text1">
-                <file name="EH1V5T1.m4a" />
-                <file name="EH1V5T1.ogg" />
+            <sound-folder name="106">
+                <file name="(106) comunidad respira listo.m4a" />
+                <file name="(106) comunidad respira listo.ogg" />
             </sound-folder>
         </sound-folder>
-        <sound-folder name="SonEH1v0">
-            <sound-folder name="text1">
-                <file name="EH1v0T1.m4a" />
-                <file name="EH1v0T1.ogg" />
-            </sound-folder>
-        </sound-folder>
-        <sound-folder name="SonEH4">
-            <sound-folder name="text1">
-                <file name="EH4T1.m4a" />
-                <file name="EH4T1.ogg" />
-            </sound-folder>
-        </sound-folder>
-        <sound-folder name="SonEH3">
-            <sound-folder name="text1">
-                <file name="EH3T1.m4a" />
-                <file name="EH3T1.ogg" />
-            </sound-folder>
-            <sound-folder name="text2" />
-            <sound-folder name="text3">
-                <file name="EH3T3.m4a" />
-                <file name="EH3T3.ogg" />
-            </sound-folder>
-        </sound-folder>
-        <sound-folder name="SonEH5">
-            <sound-folder name="text1">
-                <file name="EH5T1.m4a" />
-                <file name="EH5T1.ogg" />
-            </sound-folder>
-            <sound-folder name="text2">
-                <file name="EH5T2.m4a" />
-                <file name="EH5T2.ogg" />
-            </sound-folder>
-            <sound-folder name="text3">
-                <file name="EH5T3.m4a" />
-                <file name="EH5T3.ogg" />
-            </sound-folder>
-        </sound-folder>
-        <sound-folder name="SonEH6">
-            <sound-folder name="text1">
-                <file name="EH6T1.m4a" />
-                <file name="EH6T1.ogg" />
-            </sound-folder>
-            <sound-folder name="text2">
-                <file name="EH6T2.m4a" />
-                <file name="EH6T2.ogg" />
-            </sound-folder>
-        </sound-folder>
-        <sound-folder name="SonEH7">
-            <sound-folder name="text1">
-                <file name="EH7T1.m4a" />
-                <file name="EH7T1.ogg" />
-            </sound-folder>
-            <sound-folder name="text2">
-                <file name="EH7T2.m4a" />
-                <file name="EH7T2.ogg" />
-            </sound-folder>
-        </sound-folder>
+        <sound-folder name="SonES2" />
+        <sound-folder name="SonES3" />
         <file name="7715__dobroide__bin-window.m4a" />
         <file name="7715__dobroide__bin-window.ogg" />
         <file name="168005__villaperros__lluvia0.m4a" />

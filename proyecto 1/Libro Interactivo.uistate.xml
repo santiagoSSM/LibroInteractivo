@@ -61,6 +61,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="layout-folder/Hist/" />
         <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/cascES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/bosqueES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/emb&amp;niñES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/btnsES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/puert&amp;ventES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/nub&amp;fumigES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/regPalmsES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/FredyES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
         <folder expanded="0" path="event-folder/HistES/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1/" />
@@ -72,8 +80,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist3/" />
         <folder expanded="0" path="event-folder/HistES/EsHist4/" />
         <folder expanded="0" path="event-folder/HistES/EsHist5/" />
-        <folder expanded="1" path="event-folder/HistES/EsHist6/" />
-        <folder expanded="1" path="event-folder/HistES/EsHist7/" />
+        <folder expanded="0" path="event-folder/HistES/EsHist6/" />
+        <folder expanded="0" path="event-folder/HistES/EsHist7/" />
         <folder expanded="0" path="event-folder/HistES/EsHist8/" />
         <folder expanded="0" path="event-folder/HistES/EsHist9/" />
         <folder expanded="0" path="event-folder/HistES/EsHist10/" />
@@ -94,35 +102,45 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="0" path="sound-folder/SonEH1/text1/" />
-        <folder expanded="0" path="sound-folder/SonEH1v1/text1/" />
-        <folder expanded="0" path="sound-folder/SonEH1v1/text2/" />
-        <folder expanded="0" path="sound-folder/SonEH2/text1/" />
-        <folder expanded="0" path="sound-folder/SonEH2/text2/" />
-        <folder expanded="0" path="sound-folder/SonEH2/text3/" />
-        <folder expanded="0" path="sound-folder/SonEH1v5/text1/" />
-        <folder expanded="0" path="sound-folder/SonEH1v0/text1/" />
-        <folder expanded="0" path="sound-folder/SonEH4/text1/" />
-        <folder expanded="0" path="sound-folder/SonEH3/text1/" />
-        <folder expanded="1" path="sound-folder/SonEH3/text2/" />
-        <folder expanded="0" path="sound-folder/SonEH3/text3/" />
-        <folder expanded="0" path="sound-folder/SonEH5/text1/" />
-        <folder expanded="0" path="sound-folder/SonEH5/text2/" />
-        <folder expanded="0" path="sound-folder/SonEH5/text3/" />
-        <folder expanded="0" path="sound-folder/SonEH6/text1/" />
-        <folder expanded="0" path="sound-folder/SonEH6/text2/" />
-        <folder expanded="0" path="sound-folder/SonEH7/text1/" />
-        <folder expanded="0" path="sound-folder/SonEH7/text2/" />
-        <folder expanded="0" path="sound-folder/SonEH1/" />
-        <folder expanded="0" path="sound-folder/SonEH1v1/" />
-        <folder expanded="0" path="sound-folder/SonEH2/" />
-        <folder expanded="0" path="sound-folder/SonEH1v5/" />
-        <folder expanded="0" path="sound-folder/SonEH1v0/" />
-        <folder expanded="0" path="sound-folder/SonEH4/" />
-        <folder expanded="0" path="sound-folder/SonEH3/" />
-        <folder expanded="0" path="sound-folder/SonEH5/" />
-        <folder expanded="0" path="sound-folder/SonEH6/" />
-        <folder expanded="0" path="sound-folder/SonEH7/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH7/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH7/text2/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH6/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH6/text2/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH5/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH5/text2/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH5/text3/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH4/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH3/text1/" />
+        <folder expanded="1" path="sound-folder/SonHist/SonEH3/text2/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH3/text3/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH2/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH2/text2/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH2/text3/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH1v5/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH1v1/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH1v1/text2/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH1v0/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH1/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH7/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH6/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH5/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH4/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH3/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH2/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH1v5/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH1v1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH1v0/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH1/" />
+        <folder expanded="0" path="sound-folder/SonES1/101/" />
+        <folder expanded="0" path="sound-folder/SonES1/102/" />
+        <folder expanded="0" path="sound-folder/SonES1/103/" />
+        <folder expanded="0" path="sound-folder/SonES1/104/" />
+        <folder expanded="0" path="sound-folder/SonES1/105/" />
+        <folder expanded="0" path="sound-folder/SonES1/106/" />
+        <folder expanded="0" path="sound-folder/SonHist/" />
+        <folder expanded="0" path="sound-folder/SonES1/" />
+        <folder expanded="1" path="sound-folder/SonES2/" />
+        <folder expanded="1" path="sound-folder/SonES3/" />
         <folder expanded="1" path="animation-folder/humo/" />
         <folder expanded="1" path="animation-folder/cs/" />
         <folder expanded="1" path="animation-folder/ventanaCost/" />
@@ -145,6 +163,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Fredy/" />
         <folder expanded="1" path="animation-folder/Tiki/" />
         <folder expanded="1" path="animation-folder/FredyAbyTiqui/" />
+        <folder expanded="1" path="animation-folder/textFreddy/" />
         <folder expanded="1" path="animation-folder/brj/" />
         <folder expanded="1" path="animation-folder/brjBase1/" />
         <folder expanded="1" path="animation-folder/brjBase2/" />

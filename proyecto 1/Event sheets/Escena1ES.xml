@@ -3,11 +3,12 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Escena1ES</name>
     <events>
+        <include>reprES1</include>
         <include>casc4</include>
         <include>casc3</include>
         <include>casc2</include>
         <include>casc1</include>
-        <include>Fredy</include>
+        <include>FredyES</include>
         <include>reg&amp;palmES</include>
         <include>niños&amp;csES</include>
         <include>bosqueES</include>
@@ -19,8 +20,34 @@
         <include>puertaCsES</include>
         <include>prevES1</include>
         <include>nextES1</include>
+        <include>reprReus</include>
         <include>prevReus</include>
         <include>nextReus</include>
+        <event-block sid="2293855575957521">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2282084991626303" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="6111502372609564" type="Audio">
+                    <param id="0" name="Audio file">(101) cuales seran listo_</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto101&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7849413821868253">
+            <conditions>
+                <condition id="5" inverted="1" name="Is tag playing" sid="8198072630506381" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto101&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="1552542285690519" type="textFreddy">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
         <variable constant="0" name="totalPalms" sid="6800540110531311" static="0" type="number">0</variable>
         <event-block sid="551376652784499">
             <conditions>
