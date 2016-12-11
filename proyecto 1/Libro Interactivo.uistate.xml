@@ -10,20 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Escena1</layout>
-        <layout order="1">Menu</layout>
-        <layout order="2">Portada</layout>
-        <event-sheet order="3">Portada</event-sheet>
-        <event-sheet active="1" order="4">MenuES</event-sheet>
-        <event-sheet order="5">casc1</event-sheet>
-        <event-sheet order="6">casc2</event-sheet>
-        <event-sheet order="7">casc3</event-sheet>
-        <event-sheet order="8">casc4</event-sheet>
-        <event-sheet order="9">enbaraz&amp;csES</event-sheet>
-        <event-sheet order="10">Escena1ES</event-sheet>
-        <event-sheet order="11">Fredy</event-sheet>
-        <event-sheet order="12">nextES1</event-sheet>
-        <event-sheet order="13">niños&amp;csES</event-sheet>
+        <layout active="1" order="0">Escena1</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -33,7 +20,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="0" path="object-folder/ObjetosES1/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/humo/" />
@@ -71,8 +58,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ReusObj/" />
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="0" path="object-folder/ObjetosPort/" />
-        <folder expanded="1" path="object-folder/ObjetosMenu/" />
-        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="object-folder/ObjetosMenu/" />
+        <folder expanded="0" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Hist/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
@@ -104,7 +91,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/ReusES/" />
         <folder expanded="0" path="event-folder/Escena3ES/" />
         <folder expanded="0" path="event-folder/Portada/" />
-        <folder expanded="1" path="event-folder/Menu/" />
+        <folder expanded="0" path="event-folder/Menu/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />

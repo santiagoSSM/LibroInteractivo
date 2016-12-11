@@ -5,24 +5,38 @@
     <events>
         <event-block sid="3468561600022641">
             <conditions>
-                <condition id="7" name="Cursor is over object" sid="2789729026767883" type="Mouse">
-                    <param id="0" name="Object">iniciar</param>
+                <condition id="6" name="On object clicked" sid="5089740367450879" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">iniciar</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="1840409307912375" type="iniciar">
-                    <param id="0" name="Frame number">0</param>
+                <action id="-2" name="Go to layout" sid="9315010245585067" type="System">
+                    <param id="0" name="Layout">EsHist1</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="4614009051446556">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="2638021746575555" type="Mouse">
+                <condition id="7" name="Cursor is over object" sid="2638021746575555" type="Mouse">
                     <param id="0" name="Object">iniciar</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="8676098548971949" type="iniciar">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5243207371379881">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="1694357645419825" type="Mouse">
+                    <param id="0" name="Object">iniciar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="3543295949822" type="iniciar">
                     <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
@@ -53,49 +67,91 @@
         </event-block>
         <event-block sid="1616761181100433">
             <conditions>
-                <condition id="7" name="Cursor is over object" sid="8810058705673911" type="Mouse">
-                    <param id="0" name="Object">jueFreddy</param>
+                <condition id="6" name="On object clicked" sid="8810058705673911" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">jueFreddy</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="4981914909552531" type="jueFreddy">
-                    <param id="0" name="Frame number">0</param>
+                <action id="-2" name="Go to layout" sid="4981914909552531" type="System">
+                    <param id="0" name="Layout">Escena1</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="5156986788219661">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="9296147118581448" type="Mouse">
+                <condition id="7" name="Cursor is over object" sid="9296147118581448" type="Mouse">
                     <param id="0" name="Object">jueFreddy</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="6065134556399261" type="jueFreddy">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4365194469939373">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="871281693596036" type="Mouse">
+                    <param id="0" name="Object">jueFreddy</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="4790198362029793" type="jueFreddy">
                     <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="9562361615204501">
             <conditions>
-                <condition id="7" name="Cursor is over object" sid="9646301816079848" type="Mouse">
-                    <param id="0" name="Object">jueLily</param>
+                <condition id="6" name="On object clicked" sid="9646301816079848" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">jueLily</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="9038519705675242" type="jueLily">
-                    <param id="0" name="Frame number">0</param>
+                <action id="-2" name="Go to layout" sid="9038519705675242" type="System">
+                    <param id="0" name="Layout">Escena2</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="3346997503968604">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="722879438751623" type="Mouse">
+                <condition id="7" name="Cursor is over object" sid="722879438751623" type="Mouse">
                     <param id="0" name="Object">jueLily</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="7821055023953774" type="jueLily">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4776049528788319">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2557458394175886" type="Mouse">
+                    <param id="0" name="Object">jueLily</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7378520081389416" type="jueLily">
                     <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7367256103751882">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9424002010792105" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">jueLora</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5076774375127844" type="System">
+                    <param id="0" name="Layout">Escena3</param>
                 </action>
             </actions>
         </event-block>
@@ -120,6 +176,20 @@
             <actions>
                 <action id="5" name="Set frame" sid="8455046414233445" type="jueLora">
                     <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3521704365695943">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4279925987680445" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">salir</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9638981446372514" type="System">
+                    <param id="0" name="Layout">Escena3</param>
                 </action>
             </actions>
         </event-block>
