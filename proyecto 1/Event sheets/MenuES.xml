@@ -41,6 +41,20 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="4980852685516791">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8610652103953791" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">continuar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="2659343875006936" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="9861139735139383">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="7164323685705101" type="Mouse">
