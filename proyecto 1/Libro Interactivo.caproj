@@ -679,10 +679,13 @@
             <object-folder name="igu">
                 <object-type name="igu" sid="8693862365982104">
                     <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="finProcBot" sid="3086727014009118" type="boolean" />
+                    </instance-variables>
                     <animation-folder>
                         <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4640476788045761" speed="0">
-                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\igu.jpg" />
-                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\igu A.jpg" />
+                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\igu.jpg" />
+                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\igu A.jpg" />
                             <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\igu hb.png">
                                 <collision-poly>
                                     <point x="0.30254" y="0.476364" />
@@ -695,7 +698,10 @@
                                     <point x="0.221709" y="0.498182" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\igu plag.jpg" />
+                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\igu plag.jpg" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Feliz" pingpong="0" repeatcount="1" repeatto="0" sid="9627376488354988" speed="5">
+                            <frame duration="5" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\igu A.jpg" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -737,6 +743,9 @@
             <object-folder name="cab">
                 <object-type name="cab" sid="1154091559375051">
                     <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="finProcBot" sid="8582385066743402" type="boolean" />
+                    </instance-variables>
                     <animation-folder>
                         <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5230278476402228" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\cab.png">
@@ -784,6 +793,20 @@
                                 </collision-poly>
                             </frame>
                         </animation>
+                        <animation framecount="1" loop="0" name="Feliz" pingpong="0" repeatcount="1" repeatto="0" sid="6203558611353952" speed="5">
+                            <frame duration="5" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\Interact v2\2 int imagenes\cab Aa.png">
+                                <collision-poly>
+                                    <point x="0.185714" y="0.203125" />
+                                    <point x="0.5" y="0.046875" />
+                                    <point x="0.814286" y="0.203125" />
+                                    <point x="0.9" y="0.5" />
+                                    <point x="0.785714" y="0.765625" />
+                                    <point x="0.5" y="0.890625" />
+                                    <point x="0.214286" y="0.765625" />
+                                    <point x="0.1" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
                     </animation-folder>
                 </object-type>
                 <object-type name="botCab" sid="8109125416008747">
@@ -815,9 +838,12 @@
             <object-folder name="ard">
                 <object-type name="ard" sid="3716307881839444">
                     <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="finProcBot" sid="4922788546363411" type="boolean" />
+                    </instance-variables>
                     <animation-folder>
                         <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9958556076775358" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v7\ard ser.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\ard ser.png">
                                 <collision-poly>
                                     <point x="0.480952" y="0.42437" />
                                     <point x="0.5" y="0.109244" />
@@ -829,7 +855,7 @@
                                     <point x="0.457143" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v7\ard feliz.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\ard feliz.png">
                                 <collision-poly>
                                     <point x="0.480952" y="0.42437" />
                                     <point x="0.5" y="0.109244" />
@@ -841,7 +867,7 @@
                                     <point x="0.457143" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v7\ard fum.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\ard fum.png">
                                 <collision-poly>
                                     <point x="0.238095" y="0.210084" />
                                     <point x="0.5" y="0.109244" />
@@ -851,6 +877,20 @@
                                     <point x="0.5" y="0.789916" />
                                     <point x="0.380952" y="0.663866" />
                                     <point x="0.357143" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="1" loop="0" name="Feliz" pingpong="0" repeatcount="1" repeatto="0" sid="6884021730193481" speed="5">
+                            <frame duration="5" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\ard feliz.png">
+                                <collision-poly>
+                                    <point x="0.480952" y="0.42437" />
+                                    <point x="0.5" y="0.109244" />
+                                    <point x="0.77619" y="0.197479" />
+                                    <point x="0.833333" y="0.5" />
+                                    <point x="0.595238" y="0.642857" />
+                                    <point x="0.5" y="0.57563" />
+                                    <point x="0.490476" y="0.567227" />
+                                    <point x="0.457143" y="0.5" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -867,13 +907,13 @@
                         <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3932105555240526" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.507937" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v7\plag ard 1.png">
                                 <collision-poly>
-                                    <point x="0.45" y="0.285714" />
-                                    <point x="0.55" y="0.285714" />
-                                    <point x="0.6" y="0.492063" />
-                                    <point x="0.6" y="0.746032" />
-                                    <point x="0.5" y="0.809524" />
-                                    <point x="0.35" y="0.777778" />
-                                    <point x="0.475" y="0.492063" />
+                                    <point x="0.275" y="0.238095" />
+                                    <point x="0.725" y="0.222222" />
+                                    <point x="0.725" y="0.587301" />
+                                    <point x="0.75" y="0.84127" />
+                                    <point x="0.45" y="0.84127" />
+                                    <point x="0.225" y="0.84127" />
+                                    <point x="0.25" y="0.571428" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Gplag ard.png">
@@ -895,6 +935,9 @@
             <object-folder name="rat">
                 <object-type name="rat" sid="2482756878717867">
                     <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="finProcBot" sid="6957781346071344" type="boolean" />
+                    </instance-variables>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4851801768518758" speed="0">
                             <frame duration="1" hotspotX="0.502242" hotspotY="0.506173" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag az rts.jpg" />
@@ -903,6 +946,11 @@
                 </object-type>
                 <object-type name="botRat" sid="1237526185539017">
                     <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="DragDrop" sid="4200484139512515">
+                            <behavior id="DragnDrop" />
+                        </behavior-type>
+                    </behaviors>
                     <animation-folder>
                         <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2343142073021598" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag az.jpg" />
@@ -939,8 +987,18 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1335875049915111" speed="0">
-                        <frame duration="1" hotspotX="0.498182" hotspotY="0.50519" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\serp.jpg" />
-                        <frame duration="1" hotspotX="0.502463" hotspotY="0.547085" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v8\serp reluciente.png">
+                        <frame duration="1" hotspotX="0.498182" hotspotY="0.50519" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\serp.png">
+                            <collision-poly>
+                                <point x="0.658182" y="0.626298" />
+                                <point x="0.498182" y="0.0899654" />
+                                <point x="0.861818" y="0.131488" />
+                                <point x="0.854545" y="0.861592" />
+                                <point x="0.498182" y="0.948097" />
+                                <point x="0.0654545" y="0.937716" />
+                                <point x="0.290909" y="0.49827" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.431034" hotspotY="0.513453" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\serp reluciente.png">
                             <collision-poly>
                                 <point x="0.485507" y="0.295154" />
                                 <point x="0.5" y="0.284141" />
@@ -952,7 +1010,7 @@
                                 <point x="0.623188" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.501529" hotspotY="0.501424" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v8\serp hb.png">
+                        <frame duration="1" hotspotX="0.535168" hotspotY="0.51567" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\serp hb.png">
                             <collision-poly>
                                 <point x="0.672783" y="0.626781" />
                                 <point x="0.498471" y="0.592593" />
@@ -963,7 +1021,7 @@
                                 <point x="0.66055" y="0.498576" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.501529" hotspotY="0.501424" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v8\serp A.png">
+                        <frame duration="1" hotspotX="0.535168" hotspotY="0.51567" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\serp A.png">
                             <collision-poly>
                                 <point x="0.672783" y="0.626781" />
                                 <point x="0.498471" y="0.592593" />
@@ -1019,7 +1077,18 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6933044692174144" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.502924" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\bsro.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.502924" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\bsro.png">
+                            <collision-poly>
+                                <point x="0.176471" y="0.105263" />
+                                <point x="0.5" y="0.0292398" />
+                                <point x="0.833333" y="0.0994152" />
+                                <point x="0.892157" y="0.497076" />
+                                <point x="0.852941" y="0.912281" />
+                                <point x="0.5" y="0.959064" />
+                                <point x="0.156863" y="0.906433" />
+                                <point x="0.107843" y="0.497076" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1953,7 +2022,7 @@
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7132897259813508" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.502242" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\Cyo amgs 1.jpg" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.502645" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\cyo amgs 2.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.502645" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambion escena 3\cyo amgs 2.jpg" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2571,6 +2640,25 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-type name="Sprite" sid="3679333188918559">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4185729288943698" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambion escena 3\tapa.png">
+                        <collision-poly>
+                            <point x="0.344828" y="0.377358" />
+                            <point x="0.5" y="0.339623" />
+                            <point x="0.672414" y="0.358491" />
+                            <point x="0.724138" y="0.490566" />
+                            <point x="0.672414" y="0.641509" />
+                            <point x="0.5" y="0.660377" />
+                            <point x="0.344828" y="0.622642" />
+                            <point x="0.293103" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

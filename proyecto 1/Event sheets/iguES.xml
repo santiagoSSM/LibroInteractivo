@@ -3,27 +3,112 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>iguES</name>
     <events>
-        <event-block sid="6483135256472395">
+        <event-block sid="9397282615152739">
             <conditions>
-                <condition id="7" name="Cursor is over object" sid="7235977021749184" type="Mouse">
+                <condition id="7" name="Cursor is over object" sid="6174975004326847" type="Mouse">
                     <param id="0" name="Object">botIgu</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1698073513302251" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="8939383317277978" type="igu">
+                <action id="5" name="Set frame" sid="1351666318239801" type="igu">
                     <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="2862632542075761" type="cursor">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="1" name="Set cursor from sprite" sid="281544289729913" type="Mouse">
+                    <param id="0" name="Sprite">cursor</param>
+                </action>
+                <action id="5" name="Set frame" sid="9176318039734269" type="botIgu">
+                    <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="9329133741769785">
+        <event-block sid="4524814331186598">
             <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="5121307373556224" type="Mouse">
-                    <param id="0" name="Object">botIgu</param>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="4850524540595172" type="botIgu" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7141129981708727" type="botIgu">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-24" name="Move to top" sid="8440206999108936" type="botIgu" />
+                <action id="-15" name="Set visible" sid="342092554535418" type="basurero">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="1861715053543478" type="cursor">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="1" name="Set cursor from sprite" sid="3869352123304102" type="Mouse">
+                    <param id="0" name="Sprite">cursor</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="3743784537642674" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6488526641062732">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="4309398909021359" type="botIgu" />
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="143832677797203" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="5311344852989468" type="botIgu">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="1197453507214891" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="9688081878410326">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="5288664903557235" type="botIgu">
+                            <param id="0" name="Object">basurero</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="4737168270303526" type="botIgu" />
+                        <action id="4" name="Set animation" sid="7592427700348349" type="igu">
+                            <param id="0" name="Animation">&quot;Feliz&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6278882856463915">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="6786871747335131" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="2388663455678766" type="botIgu">
+                            <param id="0" name="X">552</param>
+                            <param id="1" name="Y">644</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="950971720270684">
+            <conditions>
+                <condition id="4" name="On finished" sid="8299661328668098" type="igu">
+                    <param id="0" name="Animation">&quot;Feliz&quot;</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="8391917867410882" type="igu">
-                    <param id="0" name="Frame number">0</param>
+                <action id="-13" name="Set boolean" sid="4428517789378739" type="igu">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="7702841301248395" type="igu">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>

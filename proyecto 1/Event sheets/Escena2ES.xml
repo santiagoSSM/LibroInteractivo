@@ -14,5 +14,47 @@
         <include>nextES2</include>
         <include>prevReus</include>
         <include>nextReus</include>
+        <event-block sid="1607834535332737">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="849794232068572" type="Mouse">
+                    <param id="0" name="Object">botCab</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="82193219629693" type="Mouse">
+                    <param id="0" name="Object">botIgu</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="61336371328685" type="Mouse">
+                    <param id="0" name="Object">botArd</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="721101968507528" type="Mouse">
+                    <param id="0" name="Object">botRat</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="9990514494062112" type="cab">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3727776402783108" type="botCab">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="8207747781853027" type="igu">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="5378940577119296" type="botIgu">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3721422237485414" type="ard">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3413261491199355" type="botArd">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="8179973939512187" type="botRat">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="698667410702914" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
