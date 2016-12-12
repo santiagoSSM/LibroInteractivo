@@ -188,9 +188,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="9638981446372514" type="System">
-                    <param id="0" name="Layout">Portada</param>
-                </action>
+                <action id="1" name="Close" sid="9638981446372514" type="Browser" />
             </actions>
         </event-block>
         <event-block sid="9382125550733721">
