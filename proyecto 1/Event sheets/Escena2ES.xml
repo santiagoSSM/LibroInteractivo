@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Escena2ES</name>
     <events>
+        <include>ptoCabES</include>
         <include>brjTES</include>
         <include>brj2ES</include>
         <include>brj1ES</include>
@@ -31,6 +32,12 @@
                 <condition id="7" inverted="1" name="Cursor is over object" sid="721101968507528" type="Mouse">
                     <param id="0" name="Object">botRat</param>
                 </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="8461023075722912" type="Mouse">
+                    <param id="0" name="Object">pto</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6013836582799776" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="9990514494062112" type="cab">
@@ -52,6 +59,9 @@
                     <param id="0" name="Frame number">0</param>
                 </action>
                 <action id="5" name="Set frame" sid="8179973939512187" type="botRat">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="2569438576238596" type="pto">
                     <param id="0" name="Frame number">0</param>
                 </action>
                 <action id="0" name="Set cursor style" sid="698667410702914" type="Mouse">

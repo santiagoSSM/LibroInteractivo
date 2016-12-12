@@ -768,7 +768,7 @@
                     </instance-variables>
                     <animation-folder>
                         <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5230278476402228" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\cab.png">
+                            <frame duration="1" hotspotX="0.501171" hotspotY="0.501511" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\cab.png">
                                 <collision-poly>
                                     <point x="0.229798" y="0.274096" />
                                     <point x="0.5" y="0.26506" />
@@ -779,7 +779,7 @@
                                     <point x="0.237374" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\cab Aa.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.503012" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\cab Aa.png">
                                 <collision-poly>
                                     <point x="0.229798" y="0.274096" />
                                     <point x="0.5" y="0.26506" />
@@ -790,7 +790,7 @@
                                     <point x="0.237374" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\cab hb.png">
+                            <frame duration="1" hotspotX="0.501171" hotspotY="0.501511" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\caballo hb.png">
                                 <collision-poly>
                                     <point x="0.229798" y="0.274096" />
                                     <point x="0.5" y="0.26506" />
@@ -801,7 +801,7 @@
                                     <point x="0.237374" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\cab garr.png">
+                            <frame duration="1" hotspotX="0.501292" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\Interactivo 2 present.png">
                                 <collision-poly>
                                     <point x="0.0808081" y="0.0963855" />
                                     <point x="0.5" y="0.243976" />
@@ -814,7 +814,7 @@
                             </frame>
                         </animation>
                         <animation framecount="1" loop="0" name="Feliz" pingpong="0" repeatcount="1" repeatto="0" sid="6203558611353952" speed="5">
-                            <frame duration="5" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\Interact v2\2 int imagenes\cab Aa.png">
+                            <frame duration="5" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\cab Aa.png">
                                 <collision-poly>
                                     <point x="0.185714" y="0.203125" />
                                     <point x="0.5" y="0.046875" />
@@ -1061,6 +1061,11 @@
                     <instance-variable name="brill" sid="9717730319898149" type="boolean" />
                     <instance-variable name="finProc" sid="7380272989033836" type="boolean" />
                 </instance-variables>
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="7561009363081089">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4844449086970133" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\pto llen.png">
@@ -2857,6 +2862,10 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-type name="marco" sid="8425068904763051">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\marco.png" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2928,12 +2937,11 @@
             <event-sheet>Escena1ES.xml</event-sheet>
         </event-folder>
         <event-folder name="Escena2ES">
-            <event-folder name="intES">
+            <event-folder name="intAnimES">
                 <event-sheet>ardES.xml</event-sheet>
                 <event-sheet>cabES.xml</event-sheet>
                 <event-sheet>iguES.xml</event-sheet>
                 <event-sheet>ratES.xml</event-sheet>
-                <event-sheet>ptoES.xml</event-sheet>
             </event-folder>
             <event-folder name="btnsES">
                 <event-sheet>nextES2.xml</event-sheet>
@@ -2949,6 +2957,10 @@
                 <event-sheet>brj1ES.xml</event-sheet>
                 <event-sheet>brj2ES.xml</event-sheet>
                 <event-sheet>brjTES.xml</event-sheet>
+            </event-folder>
+            <event-folder name="intPtoES">
+                <event-sheet>ptoES.xml</event-sheet>
+                <event-sheet>ptoCabES.xml</event-sheet>
             </event-folder>
             <event-sheet>Escena2ES.xml</event-sheet>
         </event-folder>
@@ -3316,7 +3328,18 @@
                     <file name="EH12T1.m4a" />
                     <file name="EH12T1.ogg" />
                 </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH12T2.m4a" />
+                    <file name="EH12T2.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH13">
+                <sound-folder name="text1">
+                    <file name="EH13T1.m4a" />
+                    <file name="EH13T1.ogg" />
+                </sound-folder>
                 <sound-folder name="text2" />
+                <sound-folder name="text3" />
             </sound-folder>
         </sound-folder>
         <sound-folder name="SonES1">

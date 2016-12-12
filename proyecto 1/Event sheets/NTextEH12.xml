@@ -25,12 +25,12 @@
                         <action id="5" name="Set frame" sid="6011188441134242" type="textoEH12">
                             <param id="0" name="Frame number">1</param>
                         </action>
-                        <action disabled="1" id="-3" name="Set position" sid="8418296001204457" type="botonRepr">
-                            <param id="0" name="X">845</param>
-                            <param id="1" name="Y">610.5</param>
+                        <action id="-3" name="Set position" sid="8418296001204457" type="botonRepr">
+                            <param id="0" name="X">854</param>
+                            <param id="1" name="Y">610</param>
                         </action>
                         <action id="0" name="Play" sid="190962753371226" type="Audio">
-                            <param id="0" name="Audio file">EH11T2</param>
+                            <param id="0" name="Audio file">EH12T2</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;STexto2&quot;</param>

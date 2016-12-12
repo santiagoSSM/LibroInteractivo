@@ -10,7 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">EsHist12</layout>
+        <layout active="1" order="0">EsHist13</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -59,9 +59,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="0" path="object-folder/ObjetosPort/" />
         <folder expanded="0" path="object-folder/ObjetosMenu/" />
-        <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Hist/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Hist/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena1ES/cascES/" />
         <folder expanded="0" path="event-folder/Escena1ES/bosqueES/" />
@@ -72,12 +72,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Escena1ES/regPalmsES/" />
         <folder expanded="0" path="event-folder/Escena1ES/FredyES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
-        <folder expanded="0" path="event-folder/Escena2ES/intES/" />
+        <folder expanded="0" path="event-folder/Escena2ES/intAnimES/" />
         <folder expanded="0" path="event-folder/Escena2ES/btnsES/" />
         <folder expanded="0" path="event-folder/Escena2ES/gllES/" />
         <folder expanded="0" path="event-folder/Escena2ES/serpES/" />
         <folder expanded="0" path="event-folder/Escena2ES/brjES/" />
-        <folder expanded="1" path="event-folder/HistES/" />
+        <folder expanded="0" path="event-folder/Escena2ES/intPtoES/" />
+        <folder expanded="0" path="event-folder/HistES/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v0/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v1/" />
@@ -93,7 +94,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist9/" />
         <folder expanded="0" path="event-folder/HistES/EsHist10/" />
         <folder expanded="0" path="event-folder/HistES/EsHist11/" />
-        <folder expanded="1" path="event-folder/HistES/EsHist12/" />
+        <folder expanded="0" path="event-folder/HistES/EsHist12/" />
         <folder expanded="0" path="event-folder/HistES/EsHist13/" />
         <folder expanded="0" path="event-folder/HistES/EsHist14/" />
         <folder expanded="0" path="event-folder/HistES/EsHist15/" />
@@ -106,7 +107,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Portada/" />
         <folder expanded="0" path="event-folder/Menu/" />
         <folder expanded="0" path="file-folder/" />
-        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH7/text1/" />
@@ -139,7 +140,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonHist/SonEH11/text1/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH11/text2/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH12/text1/" />
-        <folder expanded="1" path="sound-folder/SonHist/SonEH12/text2/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH12/text2/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH13/text1/" />
+        <folder expanded="1" path="sound-folder/SonHist/SonEH13/text2/" />
+        <folder expanded="1" path="sound-folder/SonHist/SonEH13/text3/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH7/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH6/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH5/" />
@@ -156,6 +160,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonHist/SonEH9/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH11/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH12/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH13/" />
         <folder expanded="0" path="sound-folder/SonES1/textos/106/" />
         <folder expanded="0" path="sound-folder/SonES1/textos/105/" />
         <folder expanded="0" path="sound-folder/SonES1/textos/104/" />
