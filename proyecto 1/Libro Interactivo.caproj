@@ -792,7 +792,7 @@
                     </instance-variables>
                     <animation-folder>
                         <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5230278476402228" speed="0">
-                            <frame duration="1" hotspotX="0.501171" hotspotY="0.501511" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\cab.png">
+                            <frame duration="1" hotspotX="0.519906" hotspotY="0.456193" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\cab.png">
                                 <collision-poly>
                                     <point x="0.229798" y="0.274096" />
                                     <point x="0.5" y="0.26506" />
@@ -803,7 +803,7 @@
                                     <point x="0.237374" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.503012" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\cab Aa.png">
+                            <frame duration="1" hotspotX="0.489899" hotspotY="0.442771" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\cab Aa.png">
                                 <collision-poly>
                                     <point x="0.229798" y="0.274096" />
                                     <point x="0.5" y="0.26506" />
@@ -814,7 +814,7 @@
                                     <point x="0.237374" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.501171" hotspotY="0.501511" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\caballo hb.png">
+                            <frame duration="1" hotspotX="0.519906" hotspotY="0.453172" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\caballo hb.png">
                                 <collision-poly>
                                     <point x="0.229798" y="0.274096" />
                                     <point x="0.5" y="0.26506" />
@@ -825,7 +825,7 @@
                                     <point x="0.237374" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.501292" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\Interactivo 2 present.png">
+                            <frame duration="1" hotspotX="0.457364" hotspotY="0.450292" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\Interactivo 2 present.png">
                                 <collision-poly>
                                     <point x="0.0808081" y="0.0963855" />
                                     <point x="0.5" y="0.243976" />
@@ -838,7 +838,7 @@
                             </frame>
                         </animation>
                         <animation framecount="1" loop="0" name="Feliz" pingpong="0" repeatcount="1" repeatto="0" sid="6203558611353952" speed="5">
-                            <frame duration="5" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\cab Aa.png">
+                            <frame duration="5" hotspotX="0.489899" hotspotY="0.442771" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\cab Aa.png">
                                 <collision-poly>
                                     <point x="0.185714" y="0.203125" />
                                     <point x="0.5" y="0.046875" />
@@ -3358,8 +3358,28 @@
                     <file name="EH13T1.m4a" />
                     <file name="EH13T1.ogg" />
                 </sound-folder>
-                <sound-folder name="text2" />
-                <sound-folder name="text3" />
+                <sound-folder name="text2">
+                    <file name="EH13T2.m4a" />
+                    <file name="EH13T2.ogg" />
+                </sound-folder>
+                <sound-folder name="text3">
+                    <file name="EH13T3.m4a" />
+                    <file name="EH13T3.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH14">
+                <sound-folder name="text1">
+                    <file name="EH14T1.m4a" />
+                    <file name="EH14T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH14T2.m4a" />
+                    <file name="EH14T2.ogg" />
+                </sound-folder>
+                <sound-folder name="text3">
+                    <file name="EH14T3.m4a" />
+                    <file name="EH14T3.ogg" />
+                </sound-folder>
             </sound-folder>
         </sound-folder>
         <sound-folder name="SonES1">

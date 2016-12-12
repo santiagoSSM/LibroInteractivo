@@ -3,29 +3,74 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>NTextEH14</name>
     <events>
-        <event-block sid="7227579902727104">
+        <event-block sid="5866981272447554">
             <conditions>
-                <condition id="6" name="On object clicked" sid="4138975769615831" type="Mouse">
+                <condition id="6" name="On object clicked" sid="6186718493543665" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">botonNText</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="5" name="Set frame" sid="8397456559171829" type="textoEH14">
-                    <param id="0" name="Frame number">textoEH14.AnimationFrame+1</param>
-                </action>
-            </actions>
+            <actions />
             <sub-events>
-                <event-block sid="4706060582932717">
+                <event-block sid="7125108435967678">
                     <conditions>
-                        <condition id="3" name="Compare frame" sid="7199777159747537" type="textoEH14">
+                        <condition id="3" name="Compare frame" sid="4527483196360126" type="textoEH14">
                             <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">2</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5380949897473764" type="System">
+                            <param id="0" name="Variable">botonSemR</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="5411574191650041" type="botonNText" />
+                        <action id="5" name="Set frame" sid="9688449712779001" type="textoEH14">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="0" name="Play" sid="5183419479834239" type="Audio">
+                            <param id="0" name="Audio file">EH14T3</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;STexto3&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="9129012134451427" type="botonNText" />
+                    </actions>
+                </event-block>
+                <event-block sid="858400948180168">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="2398516944571166" type="textoEH14">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3589790470085517" type="System">
+                            <param id="0" name="Variable">botonSemR</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="3420458187512951" type="textoEH14">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="5988859653728" type="botonRepr">
+                            <param id="0" name="X">846</param>
+                            <param id="1" name="Y">588.5</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="9951071453169424" type="botonNText">
+                            <param id="0" name="X">850</param>
+                            <param id="1" name="Y">721</param>
+                        </action>
+                        <action id="0" name="Play" sid="240053308078553" type="Audio">
+                            <param id="0" name="Audio file">EH14T2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;STexto2&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="6990466345147511" type="botonNText">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>

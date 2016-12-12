@@ -12,17 +12,33 @@
                     <param id="0" name="Instance variable">blockCursor</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="5" name="Set frame" sid="7713051791938594" type="pto">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="1606908769421727" type="cursor">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="1" name="Set cursor from sprite" sid="1665320981825516" type="Mouse">
-                    <param id="0" name="Sprite">cursor</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="5993570140080931">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7794379333474083" type="ard">
+                            <param id="0" name="Instance variable">finProcPlat</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="635772339120491" type="cab">
+                            <param id="0" name="Instance variable">finProcPlat</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4881659151696705" type="igu">
+                            <param id="0" name="Instance variable">finProcPlat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="7713051791938594" type="pto">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="1606908769421727" type="cursor">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="1" name="Set cursor from sprite" sid="1665320981825516" type="Mouse">
+                            <param id="0" name="Sprite">cursor</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="5349780315641442">
             <conditions>

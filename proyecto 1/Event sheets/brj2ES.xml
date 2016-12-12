@@ -35,6 +35,12 @@
                 <action id="5" name="Set frame" sid="5880282036513617" type="brjBase2">
                     <param id="0" name="Frame number">1</param>
                 </action>
+                <action id="5" name="Set frame" sid="4602270454940233" type="pto">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="7023044872227499" type="pto">
+                    <param id="0" name="State">0</param>
+                </action>
                 <action disabled="1" id="4" name="Set animation" sid="9971514877184439" type="FredyAbyTiqui">
                     <param id="0" name="Animation">&quot;Hablando&quot;</param>
                     <param id="1" name="From">1</param>
