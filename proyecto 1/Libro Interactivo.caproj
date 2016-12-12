@@ -3284,6 +3284,39 @@
                     <file name="EH10T2.m4a" />
                     <file name="EH10T2.ogg" />
                 </sound-folder>
+                <sound-folder name="text3">
+                    <file name="EH10T3.m4a" />
+                    <file name="EH10T3.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH8">
+                <sound-folder name="text1">
+                    <file name="EH8T1.m4a" />
+                    <file name="EH8T1.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH9">
+                <sound-folder name="text1">
+                    <file name="EH9T1.m4a" />
+                    <file name="EH9T1.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH11">
+                <sound-folder name="text1">
+                    <file name="EH11T1.m4a" />
+                    <file name="EH11T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH11T2.m4a" />
+                    <file name="EH11T2.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH12">
+                <sound-folder name="text1">
+                    <file name="EH12T1.m4a" />
+                    <file name="EH12T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2" />
             </sound-folder>
         </sound-folder>
         <sound-folder name="SonES1">
