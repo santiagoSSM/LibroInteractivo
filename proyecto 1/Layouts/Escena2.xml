@@ -253,6 +253,7 @@
                     </properties>
                     <instance-variables>
                         <finProcBot>false</finProcBot>
+                        <finProcPlat>false</finProcPlat>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -300,6 +301,7 @@
                     </properties>
                     <instance-variables>
                         <finProcBot>false</finProcBot>
+                        <finProcPlat>false</finProcPlat>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -325,6 +327,7 @@
                     </properties>
                     <instance-variables>
                         <finProcBot>false</finProcBot>
+                        <finProcPlat>false</finProcPlat>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -639,10 +642,6 @@
                         <initial-frame>1</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <brill>false</brill>
-                        <finProc>false</finProc>
-                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
                             <properties>

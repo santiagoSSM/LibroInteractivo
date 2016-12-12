@@ -2,5 +2,19 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>brjTES</name>
-    <events />
+    <events>
+        <event-block sid="1359553630530262">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="2263456119575105" type="brjBase2">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="6521605844457825" type="brj">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

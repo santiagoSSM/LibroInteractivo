@@ -3,53 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ptoES</name>
     <events>
-        <event-block disabled="1" sid="1032277671001463">
-            <conditions>
-                <condition id="7" name="Cursor is over object" sid="4985457430241003" type="Mouse">
-                    <param id="0" name="Object">pto</param>
-                </condition>
-                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9156350324004519" type="pto">
-                    <param id="0" name="Instance variable">brill</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-13" name="Set boolean" sid="1096360681099727" type="pto">
-                    <param id="0" name="Instance variable">brill</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block disabled="1" sid="4685585665529917">
-            <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="1786117048147178" type="Mouse">
-                    <param id="0" name="Object">pto</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-13" name="Set boolean" sid="8153162217521906" type="pto">
-                    <param id="0" name="Instance variable">brill</param>
-                    <param id="1" name="Value">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block disabled="1" sid="7096668421332696">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="7149930473770332" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">pto</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="5" name="Set frame" sid="8524440936912038" type="pto">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="2078130630565997" type="pto">
-                    <param id="0" name="Instance variable">finProc</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="1701146148522186">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="3615226167605907" type="Mouse">
@@ -57,9 +10,6 @@
                 </condition>
                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6923038563838187" type="cursor">
                     <param id="0" name="Instance variable">blockCursor</param>
-                </condition>
-                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5942544961242136" type="pto">
-                    <param id="0" name="Instance variable">finProc</param>
                 </condition>
             </conditions>
             <actions>
@@ -74,15 +24,269 @@
                 </action>
             </actions>
         </event-block>
-        <event-block disabled="1" sid="985976060077738">
+        <event-block sid="5349780315641442">
             <conditions>
-                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8218110201230924" type="pto">
-                    <param id="0" name="Instance variable">finProc</param>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="5309835196639599" type="pto" />
+            </conditions>
+            <actions>
+                <action id="-24" name="Move to top" sid="4126488593919528" type="pto" />
+                <action id="5" name="Set frame" sid="7334763564193409" type="cursor">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="1" name="Set cursor from sprite" sid="2658606894605312" type="Mouse">
+                    <param id="0" name="Sprite">cursor</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="6277008962309502" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7721937854558603">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="4906620160726474" type="pto" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="1778823118529317" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="1419761775801676">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="2249688507413736" type="pto">
+                            <param id="0" name="Object">ard</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="2512469178217453" type="ard">
+                            <param id="0" name="Instance variable">finProcPlat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="3634854866720855" type="ard">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7339714178193609" type="pto">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="2256529133451977" type="Audio">
+                            <param id="0" name="Audio file">vents</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;ardHb&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1703512951033407">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="5237430394151867" type="pto">
+                            <param id="0" name="Object">cab</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9682137705808577" type="cab">
+                            <param id="0" name="Instance variable">finProcPlat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="65651299550795" type="cab">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="918604626961473" type="pto">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="4434064688566721" type="Audio">
+                            <param id="0" name="Audio file">vents</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;cabHb&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9229071510851382">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="2125229140959338" type="pto">
+                            <param id="0" name="Object">igu</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9845971120297947" type="igu">
+                            <param id="0" name="Instance variable">finProcPlat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="3989170365011516" type="igu">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="8556170107414216" type="pto">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="2516285845629455" type="Audio">
+                            <param id="0" name="Audio file">vents</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;iguHb&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5900076593992593">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="9334477467396922" type="pto">
+                            <param id="0" name="Object">ard</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="7923948631873775" type="ard">
+                            <param id="0" name="Instance variable">finProcPlat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="5965751263864414" type="pto">
+                            <param id="0" name="X">381</param>
+                            <param id="1" name="Y">165</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="3892243833966657" type="cursor">
+                            <param id="0" name="Instance variable">blockCursor</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6563053178156738">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="479076872319688" type="pto">
+                            <param id="0" name="Object">cab</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="5171312568588064" type="cab">
+                            <param id="0" name="Instance variable">finProcPlat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="7063654361352021" type="pto">
+                            <param id="0" name="X">381</param>
+                            <param id="1" name="Y">165</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="6843799507610557" type="cursor">
+                            <param id="0" name="Instance variable">blockCursor</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4388600986481384">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="7637594721144829" type="pto">
+                            <param id="0" name="Object">igu</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="2173496908000084" type="igu">
+                            <param id="0" name="Instance variable">finProcPlat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="7876585088453442" type="pto">
+                            <param id="0" name="X">381</param>
+                            <param id="1" name="Y">165</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="3456774260629269" type="cursor">
+                            <param id="0" name="Instance variable">blockCursor</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="416930840017917">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="749174265970398" type="pto">
+                            <param id="0" name="Object">ard</param>
+                        </condition>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="5955952184505703" type="pto">
+                            <param id="0" name="Object">cab</param>
+                        </condition>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="11223544934695" type="pto">
+                            <param id="0" name="Object">igu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="8109088516373434" type="pto">
+                            <param id="0" name="X">381</param>
+                            <param id="1" name="Y">165</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="2592436228779368" type="cursor">
+                            <param id="0" name="Instance variable">blockCursor</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4141336319045505">
+            <conditions>
+                <condition id="0" name="On ended" sid="2377208257964317" type="Audio">
+                    <param id="0" name="Tag">&quot;ardHb&quot;</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set cursor style" sid="6470305727977905" type="Mouse">
-                    <param id="0" name="Cursor style">0</param>
+                <action id="5" name="Set frame" sid="3807110766419747" type="ard">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="2395912830024916" type="pto">
+                    <param id="0" name="X">381</param>
+                    <param id="1" name="Y">165</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4500301851618996" type="pto">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="3749179740313609" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4134765646838496" type="ard">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5917475683638844">
+            <conditions>
+                <condition id="0" name="On ended" sid="8387820001016148" type="Audio">
+                    <param id="0" name="Tag">&quot;cabHb&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8135311409302521" type="cab">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="9907789281677729" type="pto">
+                    <param id="0" name="X">381</param>
+                    <param id="1" name="Y">165</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4111153122997089" type="pto">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="177615786293353" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4345678741830131" type="cab">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3059911996794804">
+            <conditions>
+                <condition id="0" name="On ended" sid="8513331400477509" type="Audio">
+                    <param id="0" name="Tag">&quot;iguHb&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="3105149558980942" type="igu">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="3981302765656281" type="pto">
+                    <param id="0" name="X">381</param>
+                    <param id="1" name="Y">165</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3596474257598828" type="pto">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="1019324688733059" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="3807765709266981" type="igu">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>

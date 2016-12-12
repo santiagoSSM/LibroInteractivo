@@ -32,5 +32,31 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="2743673757108661">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="7033632173045769" type="ard">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="6348874214114307" type="cab">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="9505809039416003" type="igu">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="7447506387501421" type="brjBase1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="2231406278902492" type="brjBase1">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action disabled="1" id="4" name="Set animation" sid="3148554514675514" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

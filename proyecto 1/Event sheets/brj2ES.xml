@@ -2,5 +2,44 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>brj2ES</name>
-    <events />
+    <events>
+        <event-block sid="6896815554002896">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="392837077182025" type="ard">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="1395794074031378" type="cab">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="7168123225890632" type="igu">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="5440375761757866" type="rat">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="9201986065540333" type="ard">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="9777607480464705" type="cab">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="2982447576463016" type="igu">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="7547712732184142" type="brjBase2">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="5880282036513617" type="brjBase2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action disabled="1" id="4" name="Set animation" sid="9971514877184439" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
