@@ -41,7 +41,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="1552542285690519" type="textFreddy">
+                <action id="5" name="Set frame" sid="1552542285690519" type="textES1">
                     <param id="0" name="Frame number">0</param>
                 </action>
             </actions>

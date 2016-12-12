@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>SerpES</name>
+    <name>serpES</name>
     <events>
         <event-block sid="330053206535476">
             <conditions>

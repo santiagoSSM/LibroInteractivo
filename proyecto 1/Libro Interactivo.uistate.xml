@@ -9,7 +9,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs />
+    <open-tabs>
+        <layout active="1" order="0">Escena3</layout>
+    </open-tabs>
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
@@ -18,7 +20,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="0" path="object-folder/ObjetosES1/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/" />
         <folder expanded="0" path="object-folder/ObjetosES1/cs/humo/" />
@@ -57,9 +59,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="0" path="object-folder/ObjetosPort/" />
         <folder expanded="0" path="object-folder/ObjetosMenu/" />
-        <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Hist/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Hist/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena1ES/cascES/" />
         <folder expanded="0" path="event-folder/Escena1ES/bosqueES/" />
@@ -70,6 +72,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Escena1ES/regPalmsES/" />
         <folder expanded="0" path="event-folder/Escena1ES/FredyES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
+        <folder expanded="0" path="event-folder/Escena2ES/intES/" />
+        <folder expanded="0" path="event-folder/Escena2ES/btnsES/" />
+        <folder expanded="0" path="event-folder/Escena2ES/gllES/" />
+        <folder expanded="0" path="event-folder/Escena2ES/serpES/" />
+        <folder expanded="0" path="event-folder/Escena2ES/brjES/" />
         <folder expanded="0" path="event-folder/HistES/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v0/" />
@@ -124,6 +131,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonHist/SonEH7v0/text1/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH7v0/text2/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH7v0/text3/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH10/text1/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH10/text2/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH7/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH6/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH5/" />
@@ -135,6 +144,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonHist/SonEH1v0/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH1/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH7v0/" />
+        <folder expanded="0" path="sound-folder/SonHist/SonEH10/" />
         <folder expanded="0" path="sound-folder/SonES1/textos/106/" />
         <folder expanded="0" path="sound-folder/SonES1/textos/105/" />
         <folder expanded="0" path="sound-folder/SonES1/textos/104/" />
@@ -174,7 +184,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Fredy/" />
         <folder expanded="1" path="animation-folder/Tiki/" />
         <folder expanded="1" path="animation-folder/FredyAbyTiqui/" />
-        <folder expanded="1" path="animation-folder/textFreddy/" />
+        <folder expanded="1" path="animation-folder/textES1/" />
         <folder expanded="1" path="animation-folder/brj/" />
         <folder expanded="1" path="animation-folder/brjBase1/" />
         <folder expanded="1" path="animation-folder/brjBase2/" />
@@ -192,6 +202,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/basurero/" />
         <folder expanded="1" path="animation-folder/Abi2/" />
         <folder expanded="1" path="animation-folder/Tiki2/" />
+        <folder expanded="1" path="animation-folder/textES2/" />
         <folder expanded="1" path="animation-folder/textoEH1v1/" />
         <folder expanded="1" path="animation-folder/EsHist1v2/" />
         <folder expanded="1" path="animation-folder/textoEH2/" />
@@ -228,12 +239,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/canBot/" />
         <folder expanded="1" path="animation-folder/canAbej/" />
         <folder expanded="1" path="animation-folder/Nda/" />
+        <folder expanded="1" path="animation-folder/TapaBotella/" />
+        <folder expanded="1" path="animation-folder/textES3/" />
         <folder expanded="1" path="animation-folder/continuar/" />
         <folder expanded="1" path="animation-folder/iniciar/" />
         <folder expanded="1" path="animation-folder/jueFreddy/" />
         <folder expanded="1" path="animation-folder/jueLora/" />
         <folder expanded="1" path="animation-folder/jueLily/" />
         <folder expanded="1" path="animation-folder/salir/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
     </folders-expanded>
 </c2uistate>

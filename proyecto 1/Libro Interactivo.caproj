@@ -572,10 +572,10 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="textFreddy" sid="329028149412044">
+            <object-type name="textES1" sid="329028149412044">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8638814892893345" speed="0">
+                    <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8638814892893345" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Downloads\Prueba-02.png">
                             <collision-poly>
@@ -587,7 +587,7 @@
                                 <point x="0.0230978" y="0.88961" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\102.png">
+                        <frame duration="1" hotspotX="0.500694" hotspotY="0.504587" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\1 inter\3 cuadr img-03.png">
                             <collision-poly>
                                 <point x="0.0744382" y="0.297753" />
                                 <point x="0.5" y="0.297753" />
@@ -598,7 +598,7 @@
                                 <point x="0.00280899" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\103.png">
+                        <frame duration="1" hotspotX="0.500694" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\1 inter\3 cuadr img-04.png">
                             <collision-poly>
                                 <point x="0.0716292" y="0.286517" />
                                 <point x="0.5" y="0.286517" />
@@ -609,7 +609,7 @@
                                 <point x="0.00280899" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\104.png">
+                        <frame duration="1" hotspotX="0.500694" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\1 inter\3 cuadr img-05.png">
                             <collision-poly>
                                 <point x="0.0702247" y="0.280899" />
                                 <point x="0.5" y="0.280899" />
@@ -620,7 +620,7 @@
                                 <point x="0.00140449" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\105.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.504132" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\1 inter\3 cuadr img-06.png">
                             <collision-poly>
                                 <point x="0.0730337" y="0.292135" />
                                 <point x="0.5" y="0.292135" />
@@ -631,7 +631,7 @@
                                 <point x="0.00140449" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos interactividad\escena1\106.png">
+                        <frame duration="1" hotspotX="0.500694" hotspotY="0.504348" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\1 inter\3 cuadr img-08.png">
                             <collision-poly>
                                 <point x="0.0772472" y="0.308989" />
                                 <point x="0.5" y="0.308989" />
@@ -640,6 +640,26 @@
                                 <point x="0.962079" y="0.848315" />
                                 <point x="0.0379213" y="0.848315" />
                                 <point x="0.00140449" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\1 inter\3 cuadr img-09.png">
+                            <collision-poly>
+                                <point x="0.0153203" y="0.0982143" />
+                                <point x="0.5" y="0.0625" />
+                                <point x="0.988858" y="0.0714286" />
+                                <point x="0.987465" y="0.919643" />
+                                <point x="0.5" y="0.928571" />
+                                <point x="0.0167131" y="0.892857" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\1 inter\3 cuadr img-10.png">
+                            <collision-poly>
+                                <point x="0.0140449" y="0.0847458" />
+                                <point x="0.984551" y="0.0932203" />
+                                <point x="0.995786" y="0.5" />
+                                <point x="0.984551" y="0.90678" />
+                                <point x="0.0154494" y="0.90678" />
+                                <point x="0.00280899" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -660,18 +680,18 @@
                 <object-type name="brjBase1" sid="1697707638842117">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3920441930558324" speed="5">
-                            <frame duration="1" hotspotX="0.508475" hotspotY="0.508772" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\1ro base.jpg" />
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3920441930558324" speed="0">
                             <frame duration="1" hotspotX="0.508475" hotspotY="0.508772" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\esp vc 2.jpg" />
+                            <frame duration="1" hotspotX="0.508475" hotspotY="0.508772" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\1ro base.jpg" />
                         </animation>
                     </animation-folder>
                 </object-type>
                 <object-type name="brjBase2" sid="1855613643029381">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7941192479398799" speed="5">
-                            <frame duration="1" hotspotX="0.508475" hotspotY="0.508772" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\2do Agujas.jpg" />
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7941192479398799" speed="0">
                             <frame duration="1" hotspotX="0.508475" hotspotY="0.508772" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\esp vc 2.jpg" />
+                            <frame duration="1" hotspotX="0.508475" hotspotY="0.508772" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\2do Agujas.jpg" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -1173,6 +1193,108 @@
                                 <point x="0.497355" y="0.922261" />
                                 <point x="0.597884" y="0.600707" />
                                 <point x="0.47619" y="0.498233" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="textES2" sid="3908218024515104">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="11" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6023944748128587" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.504348" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\2 inter\3 cuadr img-11.png">
+                            <collision-poly>
+                                <point x="0.0193906" y="0.0909091" />
+                                <point x="0.980609" y="0.0909091" />
+                                <point x="0.984765" y="0.928571" />
+                                <point x="0.5" y="0.948052" />
+                                <point x="0.0166205" y="0.922078" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.504348" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\2 inter\3 cuadr img-12.png">
+                            <collision-poly>
+                                <point x="0.0152355" y="0.0956522" />
+                                <point x="0.5" y="0.0695652" />
+                                <point x="0.984765" y="0.0956522" />
+                                <point x="0.983379" y="0.895652" />
+                                <point x="0.5" y="0.913043" />
+                                <point x="0.0166205" y="0.895652" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\2 inter\3 cuadr img-13.png">
+                            <collision-poly>
+                                <point x="0.0180055" y="0.0844156" />
+                                <point x="0.5" y="0.0714286" />
+                                <point x="0.981994" y="0.0844156" />
+                                <point x="0.983379" y="0.922078" />
+                                <point x="0.5" y="0.935065" />
+                                <point x="0.0180055" y="0.915584" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.50069" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\2 inter\3 cuadr img-14.png">
+                            <collision-poly>
+                                <point x="0.022069" y="0.103896" />
+                                <point x="0.49931" y="0.0844156" />
+                                <point x="0.98069" y="0.0909091" />
+                                <point x="0.984828" y="0.928571" />
+                                <point x="0.49931" y="0.948052" />
+                                <point x="0.017931" y="0.915584" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.504348" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\2 inter\3 cuadr img-15.png">
+                            <collision-poly>
+                                <point x="0.0193906" y="0.121739" />
+                                <point x="0.977839" y="0.13913" />
+                                <point x="0.984765" y="0.904348" />
+                                <point x="0.5" y="0.965217" />
+                                <point x="0.00969529" y="0.93913" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.50069" hotspotY="0.504132" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\2 inter\3 cuadr img-16.png">
+                            <collision-poly>
+                                <point x="0.022069" y="0.132231" />
+                                <point x="0.977931" y="0.132231" />
+                                <point x="0.983448" y="0.900826" />
+                                <point x="0.49931" y="0.92562" />
+                                <point x="0.017931" y="0.892562" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500695" hotspotY="0.504202" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\2 inter\3 cuadr img-17.png">
+                            <collision-poly>
+                                <point x="0.0208623" y="0.12605" />
+                                <point x="0.979138" y="0.12605" />
+                                <point x="0.987483" y="0.92437" />
+                                <point x="0.499305" y="0.941176" />
+                                <point x="0.0139082" y="0.915966" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.50069" hotspotY="0.503597" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\2 inter\3 cuadr img-18.png">
+                            <collision-poly>
+                                <point x="0.0165517" y="0.0863309" />
+                                <point x="0.49931" y="0.057554" />
+                                <point x="0.984828" y="0.0791367" />
+                                <point x="0.98069" y="0.899281" />
+                                <point x="0.49931" y="0.913669" />
+                                <point x="0.0206897" y="0.892086" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\2 inter\3 cuadr img-19.png">
+                            <collision-poly>
+                                <point x="0.0207756" y="0.120968" />
+                                <point x="0.977839" y="0.129032" />
+                                <point x="0.980609" y="0.887097" />
+                                <point x="0.0180055" y="0.895161" />
+                                <point x="0.00831025" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.504132" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\2 inter\3 cuadr img-20.png">
+                            <collision-poly>
+                                <point x="0.0207756" y="0.123967" />
+                                <point x="0.979224" y="0.123967" />
+                                <point x="0.983379" y="0.900826" />
+                                <point x="0.5" y="0.917355" />
+                                <point x="0.0166205" y="0.900826" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -2515,6 +2637,101 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="TapaBotella" sid="3679333188918559">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4185729288943698" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambion escena 3\tapa.png">
+                            <collision-poly>
+                                <point x="0.344828" y="0.377358" />
+                                <point x="0.5" y="0.339623" />
+                                <point x="0.672414" y="0.358491" />
+                                <point x="0.724138" y="0.490566" />
+                                <point x="0.672414" y="0.641509" />
+                                <point x="0.5" y="0.660377" />
+                                <point x="0.344828" y="0.622642" />
+                                <point x="0.293103" y="0.490566" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="textES3" sid="1414435749671844">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4816227052264164" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\3 inter\3 cuadr img-21.png">
+                            <collision-poly>
+                                <point x="0.0139276" y="0.0675676" />
+                                <point x="0.5" y="0.0472973" />
+                                <point x="0.986072" y="0.0675676" />
+                                <point x="0.986072" y="0.932432" />
+                                <point x="0.5" y="0.945946" />
+                                <point x="0.0153203" y="0.925676" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.504587" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\3 inter\3 cuadr img-22.png">
+                            <collision-poly>
+                                <point x="0.0138122" y="0.0917431" />
+                                <point x="0.5" y="0.0825688" />
+                                <point x="0.980663" y="0.12844" />
+                                <point x="0.983425" y="0.889908" />
+                                <point x="0.5" y="0.972477" />
+                                <point x="0.00966851" y="0.93578" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.503448" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\3 inter\3 cuadr img-23.png">
+                            <collision-poly>
+                                <point x="0.019337" y="0.0965517" />
+                                <point x="0.5" y="0.0827586" />
+                                <point x="0.980663" y="0.0965517" />
+                                <point x="0.987569" y="0.937931" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0124309" y="0.937931" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500694" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\3 inter\3 cuadr img-24.png">
+                            <collision-poly>
+                                <point x="0.0180305" y="0.116071" />
+                                <point x="0.981969" y="0.116071" />
+                                <point x="0.987517" y="0.919643" />
+                                <point x="0.499307" y="0.973214" />
+                                <point x="0.0110957" y="0.928571" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500699" hotspotY="0.503448" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\3 inter\3 cuadr img-25.png">
+                            <collision-poly>
+                                <point x="0.0181818" y="0.0896552" />
+                                <point x="0.983217" y="0.0827586" />
+                                <point x="0.988811" y="0.944828" />
+                                <point x="0.499301" y="0.965517" />
+                                <point x="0.0111888" y="0.944828" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500694" hotspotY="0.504348" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\3 inter\3 cuadr img-26.png">
+                            <collision-poly>
+                                <point x="0.0138696" y="0.0869565" />
+                                <point x="0.499307" y="0.0782609" />
+                                <point x="0.983356" y="0.104348" />
+                                <point x="0.983356" y="0.895652" />
+                                <point x="0.499307" y="0.921739" />
+                                <point x="0.0138696" y="0.913043" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.504348" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\Prueba\3 inter\3 cuadr img-27.png">
+                            <collision-poly>
+                                <point x="0.0153203" y="0.0956522" />
+                                <point x="0.5" y="0.0782609" />
+                                <point x="0.986072" y="0.0869565" />
+                                <point x="0.986072" y="0.913043" />
+                                <point x="0.5" y="0.921739" />
+                                <point x="0.0153203" y="0.904348" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="ObjetosPort">
             <object-type name="FondoPort" sid="6780498320013851">
@@ -2640,25 +2857,6 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-type name="Sprite" sid="3679333188918559">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4185729288943698" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambion escena 3\tapa.png">
-                        <collision-poly>
-                            <point x="0.344828" y="0.377358" />
-                            <point x="0.5" y="0.339623" />
-                            <point x="0.672414" y="0.358491" />
-                            <point x="0.724138" y="0.490566" />
-                            <point x="0.672414" y="0.641509" />
-                            <point x="0.5" y="0.660377" />
-                            <point x="0.344828" y="0.622642" />
-                            <point x="0.293103" y="0.490566" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2730,16 +2928,29 @@
             <event-sheet>Escena1ES.xml</event-sheet>
         </event-folder>
         <event-folder name="Escena2ES">
+            <event-folder name="intES">
+                <event-sheet>ardES.xml</event-sheet>
+                <event-sheet>cabES.xml</event-sheet>
+                <event-sheet>iguES.xml</event-sheet>
+                <event-sheet>ratES.xml</event-sheet>
+                <event-sheet>ptoES.xml</event-sheet>
+            </event-folder>
+            <event-folder name="btnsES">
+                <event-sheet>nextES2.xml</event-sheet>
+                <event-sheet>prevES2.xml</event-sheet>
+            </event-folder>
+            <event-folder name="gllES">
+                <event-sheet>gllES.xml</event-sheet>
+            </event-folder>
+            <event-folder name="serpES">
+                <event-sheet>serpES.xml</event-sheet>
+            </event-folder>
+            <event-folder name="brjES">
+                <event-sheet>brj1ES.xml</event-sheet>
+                <event-sheet>brj2ES.xml</event-sheet>
+                <event-sheet>brjTES.xml</event-sheet>
+            </event-folder>
             <event-sheet>Escena2ES.xml</event-sheet>
-            <event-sheet>gllES.xml</event-sheet>
-            <event-sheet>ptoES.xml</event-sheet>
-            <event-sheet>iguES.xml</event-sheet>
-            <event-sheet>nextES2.xml</event-sheet>
-            <event-sheet>SerpES.xml</event-sheet>
-            <event-sheet>cabES.xml</event-sheet>
-            <event-sheet>prevES2.xml</event-sheet>
-            <event-sheet>ardES.xml</event-sheet>
-            <event-sheet>ratES.xml</event-sheet>
         </event-folder>
         <event-folder name="HistES">
             <event-folder name="EsHist1">
@@ -3062,6 +3273,16 @@
                 <sound-folder name="text3">
                     <file name="EH7v0T3.m4a" />
                     <file name="EH7v0T3.ogg" />
+                </sound-folder>
+            </sound-folder>
+            <sound-folder name="SonEH10">
+                <sound-folder name="text1">
+                    <file name="EH10T1.m4a" />
+                    <file name="EH10T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH10T2.m4a" />
+                    <file name="EH10T2.ogg" />
                 </sound-folder>
             </sound-folder>
         </sound-folder>

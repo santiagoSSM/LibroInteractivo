@@ -73,6 +73,10 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="1933235831983583" type="botRat" />
+                        <action id="-13" name="Set boolean" sid="6690480813517886" type="rat">
+                            <param id="0" name="Instance variable">finProcBot</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="637309373599078">
@@ -87,19 +91,6 @@
                     </actions>
                 </event-block>
             </sub-events>
-        </event-block>
-        <event-block sid="5675168073957318">
-            <conditions>
-                <condition id="4" name="On finished" sid="6773340048352448" type="rat">
-                    <param id="0" name="Animation">&quot;Feliz&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-13" name="Set boolean" sid="6690480813517886" type="rat">
-                    <param id="0" name="Instance variable">finProcBot</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
         </event-block>
     </events>
 </c2eventsheet>

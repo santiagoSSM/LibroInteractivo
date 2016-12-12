@@ -1028,7 +1028,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="textFreddy" uid="237">
+                <instance type="textES1" uid="237">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1038,8 +1038,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>501</x>
-                        <y>676</y>
+                        <x>536</x>
+                        <y>693</y>
                         <z>0</z>
                         <width>736</width>
                         <height>154</height>

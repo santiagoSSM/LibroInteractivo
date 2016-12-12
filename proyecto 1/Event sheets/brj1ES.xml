@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>brj1ES</name>
+    <events>
+        <event-block sid="825535295969061">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="5729970898389006" type="ard">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="7277899561568947" type="cab">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="4932479386138459" type="igu">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="654562152298068" type="rat">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="81682918076105" type="brjBase1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="5266568666220911" type="brjBase1">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action disabled="1" id="4" name="Set animation" sid="1262295838059321" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
