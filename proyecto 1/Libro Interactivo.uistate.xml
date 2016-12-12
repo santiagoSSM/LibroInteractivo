@@ -9,9 +9,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs>
-        <layout active="1" order="0">Escena2</layout>
-    </open-tabs>
+    <open-tabs />
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
@@ -59,9 +57,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="0" path="object-folder/ObjetosPort/" />
         <folder expanded="0" path="object-folder/ObjetosMenu/" />
-        <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Hist/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Hist/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena1ES/cascES/" />
         <folder expanded="0" path="event-folder/Escena1ES/bosqueES/" />
@@ -71,12 +69,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Escena1ES/nub&amp;fumigES/" />
         <folder expanded="0" path="event-folder/Escena1ES/regPalmsES/" />
         <folder expanded="0" path="event-folder/Escena1ES/FredyES/" />
-        <folder expanded="1" path="event-folder/Escena2ES/" />
+        <folder expanded="0" path="event-folder/Escena2ES/" />
         <folder expanded="0" path="event-folder/Escena2ES/intAnimES/" />
         <folder expanded="0" path="event-folder/Escena2ES/btnsES/" />
         <folder expanded="0" path="event-folder/Escena2ES/gllES/" />
         <folder expanded="0" path="event-folder/Escena2ES/serpES/" />
-        <folder expanded="1" path="event-folder/Escena2ES/brjES/" />
+        <folder expanded="0" path="event-folder/Escena2ES/brjES/" />
         <folder expanded="0" path="event-folder/Escena2ES/intPtoES/" />
         <folder expanded="0" path="event-folder/HistES/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1/" />
