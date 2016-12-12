@@ -27,7 +27,11 @@
                     <param id="0" name="Audio file">7715__dobroide__bin-window</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto1&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="5609400110468637" type="System">
+                    <param id="0" name="Variable">botonSemR</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
