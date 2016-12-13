@@ -30,8 +30,8 @@
                             <param id="0" name="Frame number">2</param>
                         </action>
                         <action id="-3" name="Set position" sid="5784638516761111" type="botonRepr">
-                            <param id="0" name="X">844</param>
-                            <param id="1" name="Y">602</param>
+                            <param id="0" name="X">843.701</param>
+                            <param id="1" name="Y">602.249</param>
                         </action>
                         <action id="0" name="Play" sid="3748220092314765" type="Audio">
                             <param id="0" name="Audio file">EH2T3</param>
@@ -59,8 +59,12 @@
                             <param id="0" name="Frame number">1</param>
                         </action>
                         <action id="-3" name="Set position" sid="8789620900320507" type="botonRepr">
-                            <param id="0" name="X">845</param>
-                            <param id="1" name="Y">604</param>
+                            <param id="0" name="X">841.75</param>
+                            <param id="1" name="Y">606.249</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="4466510912521718" type="botonNText">
+                            <param id="0" name="X">845.25</param>
+                            <param id="1" name="Y">738.75</param>
                         </action>
                         <action id="0" name="Play" sid="9994355597576458" type="Audio">
                             <param id="0" name="Audio file">EH2T2</param>

@@ -22,12 +22,6 @@
                 <action id="5" name="Set frame" sid="5141636529946905" type="fumidr">
                     <param id="0" name="Frame number">1</param>
                 </action>
-                <action id="0" name="Play" sid="7463838685374505" type="Audio">
-                    <param id="0" name="Audio file">lluvia</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;lluvia&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="418642406382653">

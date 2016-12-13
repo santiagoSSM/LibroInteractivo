@@ -1412,7 +1412,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5435170215304088" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\5a.png">
+                            <frame duration="1" hotspotX="0.500677" hotspotY="0.502591" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v17\audios con flecha q faltaban\2 contorno-04.png">
                                 <collision-poly>
                                     <point x="0.0407303" y="0.162921" />
                                     <point x="0.5" y="0.162921" />
@@ -1423,7 +1423,7 @@
                                     <point x="0.00140449" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\5b.png">
+                            <frame duration="1" hotspotX="0.500688" hotspotY="0.502857" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v17\audios con flecha q faltaban\2 contorno-05.png">
                                 <collision-poly>
                                     <point x="0.0435393" y="0.174157" />
                                     <point x="0.5" y="0.174157" />
@@ -1933,7 +1933,7 @@
                                     <point x="0.00140449" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\textos historia\20b.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v17\audios con flecha q faltaban\15 cuadr-07.png">
                                 <collision-poly>
                                     <point x="0.0463483" y="0.185393" />
                                     <point x="0.5" y="0.185393" />
@@ -3003,6 +3003,9 @@
             <event-folder name="FredyES">
                 <event-sheet>FredyES.xml</event-sheet>
             </event-folder>
+            <event-folder name="textosES">
+                <event-sheet>textos1ES.xml</event-sheet>
+            </event-folder>
             <event-sheet>Escena1ES.xml</event-sheet>
         </event-folder>
         <event-folder name="Escena2ES">
@@ -3497,6 +3500,8 @@
                 <sound-folder name="vents">
                     <file name="vents.m4a" />
                     <file name="vents.ogg" />
+                    <file name="ventana2.m4a" />
+                    <file name="ventana2.ogg" />
                 </sound-folder>
                 <sound-folder name="puertCs">
                     <file name="puertCs.m4a" />
@@ -3508,16 +3513,92 @@
                 </sound-folder>
             </sound-folder>
             <sound-folder name="SonFond">
-                <file name="vient.m4a" />
-                <file name="vient.ogg" />
+                <file name="sonFond.m4a" />
+                <file name="sonFond.ogg" />
             </sound-folder>
             <sound-folder name="lluvia">
-                <file name="lluvia.m4a" />
-                <file name="lluvia.ogg" />
+                <file name="nube.m4a" />
+                <file name="nube.ogg" />
+            </sound-folder>
+            <sound-folder name="risas">
+                <file name="risas.m4a" />
+                <file name="risas.ogg" />
+            </sound-folder>
+            <sound-folder name="reg">
+                <file name="regadera.m4a" />
+                <file name="regadera.ogg" />
             </sound-folder>
         </sound-folder>
-        <sound-folder name="SonES2" />
-        <sound-folder name="SonES3" />
+        <sound-folder name="SonES2">
+            <sound-folder name="textos">
+                <sound-folder name="201">
+                    <file name="(201) preparados niños lora listo.m4a" />
+                    <file name="(201) preparados niños lora listo.ogg" />
+                </sound-folder>
+                <sound-folder name="202">
+                    <file name="(202) 911 listo_01.m4a" />
+                    <file name="(202) 911 listo_01.ogg" />
+                </sound-folder>
+                <sound-folder name="203">
+                    <file name="(203) 4 envases de plaguds listo_01.m4a" />
+                    <file name="(203) 4 envases de plaguds listo_01.ogg" />
+                </sound-folder>
+                <sound-folder name="204">
+                    <file name="(204) respaldaranlisto_01.m4a" />
+                    <file name="(204) respaldaranlisto_01.ogg" />
+                </sound-folder>
+                <sound-folder name="205">
+                    <file name="(205) ardillitas listas.m4a" />
+                    <file name="(205) ardillitas listas.ogg" />
+                </sound-folder>
+                <sound-folder name="206" />
+                <sound-folder name="207">
+                    <file name="(207) corcel y potrillo listo_01.m4a" />
+                    <file name="(207) corcel y potrillo listo_01.ogg" />
+                </sound-folder>
+                <sound-folder name="208">
+                    <file name="(208) señor iguana listo.m4a" />
+                    <file name="(208) señor iguana listo.ogg" />
+                </sound-folder>
+                <sound-folder name="209">
+                    <file name="(209) Lora se han ganado listo..._01.m4a" />
+                    <file name="(209) Lora se han ganado listo..._01.ogg" />
+                </sound-folder>
+                <sound-folder name="210" />
+            </sound-folder>
+        </sound-folder>
+        <sound-folder name="SonES3">
+            <sound-folder name="textos">
+                <sound-folder name="301">
+                    <file name="(301) Monte santo listo.m4a" />
+                    <file name="(301) Monte santo listo.ogg" />
+                </sound-folder>
+                <sound-folder name="302">
+                    <file name="(302) reutilizar 2 listo.m4a" />
+                    <file name="(302) reutilizar 2 listo.ogg" />
+                </sound-folder>
+                <sound-folder name="303">
+                    <file name="(303) enjuague listo.m4a" />
+                    <file name="(303) enjuague listo.ogg" />
+                </sound-folder>
+                <sound-folder name="304">
+                    <file name="(304) triturar listo.m4a" />
+                    <file name="(304) triturar listo.ogg" />
+                </sound-folder>
+                <sound-folder name="305">
+                    <file name="(305) su premio listo.m4a" />
+                    <file name="(305) su premio listo.ogg" />
+                </sound-folder>
+                <sound-folder name="306">
+                    <file name="(306) niños final nt3 listo.m4a" />
+                    <file name="(306) niños final nt3 listo.ogg" />
+                </sound-folder>
+                <sound-folder name="307">
+                    <file name="(307) sanos y salvos listo.m4a" />
+                    <file name="(307) sanos y salvos listo.ogg" />
+                </sound-folder>
+            </sound-folder>
+        </sound-folder>
         <file name="7715__dobroide__bin-window.m4a" />
         <file name="7715__dobroide__bin-window.ogg" />
         <file name="168005__villaperros__lluvia0.m4a" />

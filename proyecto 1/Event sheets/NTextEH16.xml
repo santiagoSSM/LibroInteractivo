@@ -29,9 +29,9 @@
                         <action id="5" name="Set frame" sid="4441667755430674" type="textoEH16">
                             <param id="0" name="Frame number">2</param>
                         </action>
-                        <action disabled="1" id="-3" name="Set position" sid="1647947419887772" type="botonRepr">
-                            <param id="0" name="X">844</param>
-                            <param id="1" name="Y">602</param>
+                        <action id="-3" name="Set position" sid="1647947419887772" type="botonRepr">
+                            <param id="0" name="X">846</param>
+                            <param id="1" name="Y">604</param>
                         </action>
                         <action id="0" name="Play" sid="2509726237694902" type="Audio">
                             <param id="0" name="Audio file">EH16T3</param>
@@ -58,9 +58,13 @@
                         <action id="5" name="Set frame" sid="3778219804064141" type="textoEH16">
                             <param id="0" name="Frame number">1</param>
                         </action>
-                        <action disabled="1" id="-3" name="Set position" sid="5965210960331264" type="botonRepr">
-                            <param id="0" name="X">847</param>
-                            <param id="1" name="Y">607.25</param>
+                        <action id="-3" name="Set position" sid="5965210960331264" type="botonRepr">
+                            <param id="0" name="X">852.75</param>
+                            <param id="1" name="Y">601.25</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="8879709904799781" type="botonNText">
+                            <param id="0" name="X">856.75</param>
+                            <param id="1" name="Y">735.75</param>
                         </action>
                         <action id="0" name="Play" sid="7759540098606913" type="Audio">
                             <param id="0" name="Audio file">EH16T2</param>

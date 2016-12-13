@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>textos1ES</name>
+    <events>
+        <event-block sid="9376687928144141">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8029087279682169" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="277700087698585" type="Audio">
+                    <param id="0" name="Audio file">(101) cuales seran listo_</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto101&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="928806358940855">
+            <conditions>
+                <condition id="5" inverted="1" name="Is tag playing" sid="7524737397280647" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto101&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="2824426994008852" type="textES1">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
