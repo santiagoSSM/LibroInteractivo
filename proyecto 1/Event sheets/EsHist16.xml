@@ -18,9 +18,9 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="9873577416564827" type="Audio">
-                    <param id="0" name="Audio file">Viento</param>
+                    <param id="0" name="Audio file">6</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">45</param>
                     <param id="1" name="Tag (optional)">&quot;SFondo&quot;</param>
                 </action>
                 <action id="0" name="Play" sid="6767190544056317" type="Audio">

@@ -9,10 +9,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs>
-        <layout order="0">Escena1</layout>
-        <event-sheet active="1" order="1">textos1ES</event-sheet>
-    </open-tabs>
+    <open-tabs />
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
@@ -61,15 +58,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosPort/" />
         <folder expanded="0" path="object-folder/ObjetosMenu/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Hist/" />
+        <folder expanded="1" path="layout-folder/Hist/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="event-folder/Escena1ES/" />
-        <folder expanded="1" path="event-folder/Escena1ES/cascES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/cascES/" />
         <folder expanded="0" path="event-folder/Escena1ES/bosqueES/" />
-        <folder expanded="1" path="event-folder/Escena1ES/emb&amp;niñES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/emb&amp;niñES/" />
         <folder expanded="0" path="event-folder/Escena1ES/btnsES/" />
         <folder expanded="0" path="event-folder/Escena1ES/puert&amp;ventES/" />
-        <folder expanded="1" path="event-folder/Escena1ES/nub&amp;fumigES/" />
+        <folder expanded="0" path="event-folder/Escena1ES/nub&amp;fumigES/" />
         <folder expanded="0" path="event-folder/Escena1ES/regPalmsES/" />
         <folder expanded="0" path="event-folder/Escena1ES/FredyES/" />
         <folder expanded="0" path="event-folder/Escena1ES/textosES/" />
@@ -80,7 +77,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Escena2ES/serpES/" />
         <folder expanded="0" path="event-folder/Escena2ES/brjES/" />
         <folder expanded="0" path="event-folder/Escena2ES/intPtoES/" />
-        <folder expanded="0" path="event-folder/HistES/" />
+        <folder expanded="1" path="event-folder/HistES/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v0/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v1/" />
@@ -103,7 +100,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist7v0/" />
         <folder expanded="0" path="event-folder/HistES/EsHist16/" />
         <folder expanded="0" path="event-folder/HistES/EsHist17/" />
-        <folder expanded="0" path="event-folder/HistES/EsHist18/" />
+        <folder expanded="1" path="event-folder/HistES/EsHist18/" />
         <folder expanded="0" path="event-folder/ReusES/" />
         <folder expanded="0" path="event-folder/Escena3ES/" />
         <folder expanded="0" path="event-folder/Portada/" />
@@ -211,10 +208,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonES3/textos/306/" />
         <folder expanded="0" path="sound-folder/SonES3/textos/307/" />
         <folder expanded="0" path="sound-folder/SonES3/textos/" />
-        <folder expanded="0" path="sound-folder/SonHist/" />
-        <folder expanded="1" path="sound-folder/SonES1/" />
+        <folder expanded="1" path="sound-folder/SonHist/" />
+        <folder expanded="0" path="sound-folder/SonES1/" />
         <folder expanded="0" path="sound-folder/SonES2/" />
         <folder expanded="0" path="sound-folder/SonES3/" />
+        <folder expanded="1" path="sound-folder/SonFonEs/" />
         <folder expanded="1" path="animation-folder/humo/" />
         <folder expanded="1" path="animation-folder/cs/" />
         <folder expanded="1" path="animation-folder/ventanaCost/" />

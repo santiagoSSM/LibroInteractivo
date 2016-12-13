@@ -3602,6 +3602,17 @@
                 </sound-folder>
             </sound-folder>
         </sound-folder>
+        <sound-folder name="SonFonEs">
+            <file name="1.ogg" />
+            <file name="2.ogg" />
+            <file name="3.ogg" />
+            <file name="4.ogg" />
+            <file name="5.ogg" />
+            <file name="6.ogg" />
+            <file name="7.ogg" />
+            <file name="8.ogg" />
+            <file name="9.ogg" />
+        </sound-folder>
         <file name="7715__dobroide__bin-window.m4a" />
         <file name="7715__dobroide__bin-window.ogg" />
         <file name="168005__villaperros__lluvia0.m4a" />
