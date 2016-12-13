@@ -3513,8 +3513,8 @@
                 </sound-folder>
             </sound-folder>
             <sound-folder name="SonFond">
-                <file name="sonFond.m4a" />
-                <file name="sonFond.ogg" />
+                <file name="sonFondEH1.ogg" />
+                <file name="sonFondEH1.m4a" />
             </sound-folder>
             <sound-folder name="lluvia">
                 <file name="nube.m4a" />

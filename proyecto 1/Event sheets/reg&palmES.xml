@@ -63,6 +63,12 @@
                     <param id="0" name="Instance variable">blockCursor</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="0" name="Play" sid="6684357730688094" type="Audio">
+                    <param id="0" name="Audio file">regadera</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;reg&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="4345957990273895">
@@ -77,6 +83,9 @@
                 <action id="-13" name="Set boolean" sid="9636568989757377" type="cursor">
                     <param id="0" name="Instance variable">blockCursor</param>
                     <param id="1" name="Value">0</param>
+                </action>
+                <action id="6" name="Stop" sid="1899771922130327" type="Audio">
+                    <param id="0" name="Tag">&quot;reg&quot;</param>
                 </action>
             </actions>
             <sub-events>

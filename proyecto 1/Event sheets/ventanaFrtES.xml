@@ -66,7 +66,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="2192370246824426" type="Audio">
-                    <param id="0" name="Audio file">vents</param>
+                    <param id="0" name="Audio file">ventana2</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;vents2&quot;</param>

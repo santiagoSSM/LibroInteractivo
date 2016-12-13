@@ -9,11 +9,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs>
-        <layout active="1" order="0">Escena1</layout>
-        <event-sheet order="1">Escena1ES</event-sheet>
-        <event-sheet order="2">textos1ES</event-sheet>
-    </open-tabs>
+    <open-tabs />
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
@@ -63,15 +59,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/ObjetosMenu/" />
         <folder expanded="0" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Hist/" />
-        <folder expanded="0" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Escena1ES/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena1ES/cascES/" />
         <folder expanded="0" path="event-folder/Escena1ES/bosqueES/" />
         <folder expanded="0" path="event-folder/Escena1ES/emb&amp;niñES/" />
         <folder expanded="0" path="event-folder/Escena1ES/btnsES/" />
         <folder expanded="0" path="event-folder/Escena1ES/puert&amp;ventES/" />
         <folder expanded="0" path="event-folder/Escena1ES/nub&amp;fumigES/" />
-        <folder expanded="0" path="event-folder/Escena1ES/regPalmsES/" />
+        <folder expanded="1" path="event-folder/Escena1ES/regPalmsES/" />
         <folder expanded="0" path="event-folder/Escena1ES/FredyES/" />
         <folder expanded="0" path="event-folder/Escena1ES/textosES/" />
         <folder expanded="0" path="event-folder/Escena2ES/" />
@@ -110,7 +106,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Portada/" />
         <folder expanded="0" path="event-folder/Menu/" />
         <folder expanded="0" path="file-folder/" />
-        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="0" path="sound-folder/SonHist/SonEH7/text1/" />
@@ -213,7 +209,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="sound-folder/SonES3/textos/307/" />
         <folder expanded="0" path="sound-folder/SonES3/textos/" />
         <folder expanded="0" path="sound-folder/SonHist/" />
-        <folder expanded="0" path="sound-folder/SonES1/" />
+        <folder expanded="1" path="sound-folder/SonES1/" />
         <folder expanded="0" path="sound-folder/SonES2/" />
         <folder expanded="0" path="sound-folder/SonES3/" />
         <folder expanded="1" path="animation-folder/humo/" />
