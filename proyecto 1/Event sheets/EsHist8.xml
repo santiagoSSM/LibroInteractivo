@@ -33,5 +33,47 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="2132519438137616">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="9831373577869504" type="Mouse">
+                    <param id="0" name="Object">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7026138542306892" type="home">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4672675790129353">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="6268246381499542" type="Mouse">
+                    <param id="0" name="Object">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8431060824290522" type="home">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5995974029842728">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6419039623799478" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="4631029078064087" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="22225510166073" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+                <action id="33" name="Stop all" sid="305429587058651" type="Audio" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

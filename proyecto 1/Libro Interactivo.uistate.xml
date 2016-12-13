@@ -13,10 +13,60 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">Escena1</layout>
         <layout order="1">Menu</layout>
         <layout order="4">EsHist1</layout>
+        <layout order="7">EsHist1v0</layout>
+        <layout order="10">EsHist1v1</layout>
+        <layout order="11">EsHist1v2</layout>
+        <layout order="32">EsHist1v5</layout>
+        <layout order="33">EsHist2</layout>
+        <layout order="34">EsHist3</layout>
+        <layout order="35">EsHist4</layout>
+        <layout order="36">EsHist5</layout>
+        <layout order="37">EsHist6</layout>
+        <layout order="38">EsHist7</layout>
+        <layout order="39">EsHist7v0</layout>
+        <layout order="40">EsHist8</layout>
+        <layout order="41">EsHist9</layout>
+        <layout order="42">EsHist10</layout>
+        <layout order="43">EsHist11</layout>
+        <layout order="44">EsHist12</layout>
+        <layout order="45">EsHist13</layout>
+        <layout order="46">EsHist14</layout>
+        <layout order="47">EsHist15</layout>
+        <layout order="48">EsHist16</layout>
+        <layout order="49">EsHist17</layout>
+        <layout order="50">EsHist18</layout>
+        <layout order="51">Portada</layout>
+        <layout order="52">Escena2</layout>
+        <layout order="53">Escena3</layout>
         <event-sheet order="2">MenuES</event-sheet>
-        <event-sheet active="1" order="3">EsHist1</event-sheet>
+        <event-sheet order="3">EsHist1</event-sheet>
         <event-sheet order="5">prevEH1</event-sheet>
         <event-sheet order="6">nextEH1</event-sheet>
+        <event-sheet order="8">EsHist1v0</event-sheet>
+        <event-sheet order="9">EsHist1v1</event-sheet>
+        <event-sheet order="12">EsHist1v2</event-sheet>
+        <event-sheet order="13">EsHist1v5</event-sheet>
+        <event-sheet order="14">EsHist2</event-sheet>
+        <event-sheet order="15">EsHist3</event-sheet>
+        <event-sheet order="16">EsHist4</event-sheet>
+        <event-sheet order="17">EsHist5</event-sheet>
+        <event-sheet order="18">EsHist6</event-sheet>
+        <event-sheet order="19">EsHist7</event-sheet>
+        <event-sheet order="20">EsHist7v0</event-sheet>
+        <event-sheet order="21">EsHist8</event-sheet>
+        <event-sheet order="22">EsHist9</event-sheet>
+        <event-sheet order="23">EsHist10</event-sheet>
+        <event-sheet order="24">EsHist11</event-sheet>
+        <event-sheet order="25">EsHist12</event-sheet>
+        <event-sheet order="26">EsHist13</event-sheet>
+        <event-sheet order="27">EsHist14</event-sheet>
+        <event-sheet order="28">EsHist15</event-sheet>
+        <event-sheet order="29">EsHist16</event-sheet>
+        <event-sheet order="30">EsHist17</event-sheet>
+        <event-sheet order="31">EsHist18</event-sheet>
+        <event-sheet order="54">Escena1ES</event-sheet>
+        <event-sheet order="55">Escena2ES</event-sheet>
+        <event-sheet active="1" order="56">Escena3ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -61,12 +111,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Hist/EsHist16/" />
         <folder expanded="0" path="object-folder/Hist/EsHist17/" />
         <folder expanded="0" path="object-folder/Hist/EsHist18/" />
-        <folder expanded="0" path="object-folder/ReusObj/" />
+        <folder expanded="1" path="object-folder/ReusObj/" />
         <folder expanded="0" path="object-folder/ObjetosES3/" />
         <folder expanded="0" path="object-folder/ObjetosPort/" />
         <folder expanded="0" path="object-folder/ObjetosMenu/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Hist/" />
+        <folder expanded="0" path="layout-folder/Hist/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/Escena1ES/" />
         <folder expanded="0" path="event-folder/Escena1ES/cascES/" />
@@ -85,7 +135,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Escena2ES/brjES/" />
         <folder expanded="0" path="event-folder/Escena2ES/intPtoES/" />
         <folder expanded="1" path="event-folder/HistES/" />
-        <folder expanded="1" path="event-folder/HistES/EsHist1/" />
+        <folder expanded="0" path="event-folder/HistES/EsHist1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v0/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v1/" />
         <folder expanded="0" path="event-folder/HistES/EsHist1v2/" />
@@ -97,7 +147,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist6/" />
         <folder expanded="0" path="event-folder/HistES/EsHist7/" />
         <folder expanded="0" path="event-folder/HistES/EsHist8/" />
-        <folder expanded="0" path="event-folder/HistES/EsHist9/" />
+        <folder expanded="1" path="event-folder/HistES/EsHist9/" />
         <folder expanded="0" path="event-folder/HistES/EsHist10/" />
         <folder expanded="0" path="event-folder/HistES/EsHist11/" />
         <folder expanded="0" path="event-folder/HistES/EsHist12/" />
@@ -109,7 +159,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/HistES/EsHist17/" />
         <folder expanded="0" path="event-folder/HistES/EsHist18/" />
         <folder expanded="0" path="event-folder/ReusES/" />
-        <folder expanded="0" path="event-folder/Escena3ES/" />
+        <folder expanded="1" path="event-folder/Escena3ES/" />
         <folder expanded="0" path="event-folder/Portada/" />
         <folder expanded="1" path="event-folder/Menu/" />
         <folder expanded="0" path="file-folder/" />

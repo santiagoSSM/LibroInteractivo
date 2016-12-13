@@ -8,5 +8,47 @@
         <include>nextEH1v2</include>
         <include>prevReus</include>
         <include>nextReus</include>
+        <event-block sid="9523743588674244">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1580579624744339" type="Mouse">
+                    <param id="0" name="Object">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="2099870691310497" type="home">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7525988687409312">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="2627333978249483" type="Mouse">
+                    <param id="0" name="Object">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7618616992033381" type="home">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1637300029935433">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6087513919775748" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="4978747879156137" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="6466117402722646" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+                <action id="33" name="Stop all" sid="7095009210119759" type="Audio" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
