@@ -577,6 +577,9 @@
             </object-type>
             <object-type name="textES1" sid="329028149412044">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="blockText" sid="2803598845333889" type="boolean" />
+                </instance-variables>
                 <animation-folder>
                     <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8638814892893345" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
