@@ -3,24 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>NTextEH16</name>
     <events>
-        <event-block sid="9023916582864982">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="2951444908092871" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">botonNText</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="2931066876029773">
-                    <conditions />
-                    <actions>
-                        <action id="-9" name="Destroy" sid="156822439128622" type="botonNText" />
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-block sid="1812475349669271">
             <conditions>
                 <condition id="6" name="On object clicked" sid="1221405010947305" type="Mouse">
@@ -52,7 +34,7 @@
                             <param id="1" name="Y">602</param>
                         </action>
                         <action id="0" name="Play" sid="2509726237694902" type="Audio">
-                            <param id="0" name="Audio file">EH2T3</param>
+                            <param id="0" name="Audio file">EH16T3</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;STexto3&quot;</param>
@@ -81,7 +63,7 @@
                             <param id="1" name="Y">607.25</param>
                         </action>
                         <action id="0" name="Play" sid="7759540098606913" type="Audio">
-                            <param id="0" name="Audio file">EH2T2</param>
+                            <param id="0" name="Audio file">EH16T2</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;STexto2&quot;</param>

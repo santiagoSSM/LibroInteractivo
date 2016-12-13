@@ -18,7 +18,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="617990549123198" type="Audio">
-                    <param id="0" name="Audio file">EH1T1</param>
+                    <param id="0" name="Audio file">EH17T1</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;STexto1&quot;</param>

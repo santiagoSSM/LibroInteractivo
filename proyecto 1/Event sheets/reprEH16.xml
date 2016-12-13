@@ -27,7 +27,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Play" sid="4212265030516813" type="Audio">
-                            <param id="0" name="Audio file">EH2T1</param>
+                            <param id="0" name="Audio file">EH16T1</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;STexto1&quot;</param>
@@ -48,7 +48,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Play" sid="825364574750427" type="Audio">
-                            <param id="0" name="Audio file">EH2T2</param>
+                            <param id="0" name="Audio file">EH16T2</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;STexto2&quot;</param>
@@ -69,7 +69,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Play" sid="8451052413403164" type="Audio">
-                            <param id="0" name="Audio file">EH2T3</param>
+                            <param id="0" name="Audio file">EH16T3</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;STexto3&quot;</param>

@@ -2205,6 +2205,12 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Browser" sid="5835327294182131">
+                <plugin id="Browser" />
+            </object-type>
+            <object-type name="Keyboard" sid="1584080108376711">
+                <plugin id="Keyboard" />
+            </object-type>
         </object-folder>
         <object-folder name="ObjetosES3">
             <object-type name="CyoAmig" sid="8522560953282311">
@@ -2929,12 +2935,6 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\marco.png" />
         </object-type>
-        <object-type name="Browser" sid="5835327294182131">
-            <plugin id="Browser" />
-        </object-type>
-        <object-type name="Keyboard" sid="1584080108376711">
-            <plugin id="Keyboard" />
-        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -3295,7 +3295,10 @@
                     <file name="EH3T1.m4a" />
                     <file name="EH3T1.ogg" />
                 </sound-folder>
-                <sound-folder name="text2" />
+                <sound-folder name="text2">
+                    <file name="EH3T2.m4a" />
+                    <file name="EH3T2.ogg" />
+                </sound-folder>
                 <sound-folder name="text3">
                     <file name="EH3T3.m4a" />
                     <file name="EH3T3.ogg" />
@@ -3442,12 +3445,24 @@
                 </sound-folder>
             </sound-folder>
             <sound-folder name="SonEH16">
-                <sound-folder name="text1" />
-                <sound-folder name="text2" />
-                <sound-folder name="text3" />
+                <sound-folder name="text1">
+                    <file name="EH16T1.m4a" />
+                    <file name="EH16T1.ogg" />
+                </sound-folder>
+                <sound-folder name="text2">
+                    <file name="EH16T2.m4a" />
+                    <file name="EH16T2.ogg" />
+                </sound-folder>
+                <sound-folder name="text3">
+                    <file name="EH16T3.m4a" />
+                    <file name="EH16T3.ogg" />
+                </sound-folder>
             </sound-folder>
             <sound-folder name="SonEH17">
-                <sound-folder name="text1" />
+                <sound-folder name="text1">
+                    <file name="EH17T1.m4a" />
+                    <file name="EH17T1.ogg" />
+                </sound-folder>
             </sound-folder>
             <sound-folder name="SonEH18" />
         </sound-folder>
