@@ -569,7 +569,7 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\Freddy prub ganad.jpg" />
                     </animation>
-                    <animation framecount="2" loop="0" name="Hablando" pingpong="1" repeatcount="1" repeatto="1" sid="3105858062261449" speed="1">
+                    <animation framecount="2" loop="0" name="Hablando" pingpong="1" repeatcount="1" repeatto="1" sid="3105858062261449" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\1 int imagenes\Freddy habl niñs.jpg" />
                     </animation>

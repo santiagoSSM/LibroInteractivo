@@ -17,7 +17,7 @@
                 <action id="-15" name="Set visible" sid="7798634379556051" type="casc1">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="4" name="Set animation" sid="5324893234875417" type="FredyAbyTiqui">
+                <action disabled="1" id="4" name="Set animation" sid="5324893234875417" type="FredyAbyTiqui">
                     <param id="0" name="Animation">&quot;Hablando&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -43,7 +43,7 @@
                 <action id="-15" name="Set visible" sid="5921204945118159" type="casc1">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="4" name="Set animation" sid="301148869532008" type="FredyAbyTiqui">
+                <action disabled="1" id="4" name="Set animation" sid="301148869532008" type="FredyAbyTiqui">
                     <param id="0" name="Animation">&quot;Hablando&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -62,7 +62,7 @@
                 <action id="-15" name="Set visible" sid="5319590133746918" type="casc1">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="4" name="Set animation" sid="9884932912013636" type="FredyAbyTiqui">
+                <action disabled="1" id="4" name="Set animation" sid="9884932912013636" type="FredyAbyTiqui">
                     <param id="0" name="Animation">&quot;Hablando&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -79,7 +79,7 @@
                 <action id="-15" name="Set visible" sid="8125075446548851" type="casc1">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="4" name="Set animation" sid="9188591221822029" type="FredyAbyTiqui">
+                <action disabled="1" id="4" name="Set animation" sid="9188591221822029" type="FredyAbyTiqui">
                     <param id="0" name="Animation">&quot;Hablando&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>

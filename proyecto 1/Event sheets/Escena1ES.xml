@@ -66,18 +66,7 @@
                     <param id="0" name="Animation">&quot;animar&quot;</param>
                 </condition>
             </conditions>
-            <actions>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="9375275206136972" type="embarz">
-                    <param id="0" name="State">1</param>
-                </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="188425331811967" type="niños">
-                    <param id="0" name="State">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="2662362445221498" type="cursor">
-                    <param id="0" name="Instance variable">blockCursor</param>
-                    <param id="1" name="Value">0</param>
-                </action>
-            </actions>
+            <actions />
             <sub-events>
                 <event-block sid="6666548014652306">
                     <conditions>
@@ -90,6 +79,44 @@
                     <actions>
                         <action behavior="DragDrop" id="0" name="Set enabled" sid="9687226942642344" type="reg">
                             <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6291485509076944">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="4428937017553294" type="cs">
+                            <param id="0" name="Instance variable">niñosFinProc</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9726792047461383" type="cs">
+                            <param id="0" name="Instance variable">embarFinProc</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="9375275206136972" type="embarz">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="2662362445221498" type="cursor">
+                            <param id="0" name="Instance variable">blockCursor</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7070186927356921">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="297089705957806" type="cs">
+                            <param id="0" name="Instance variable">niñosFinProc</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="9274489024545846" type="cs">
+                            <param id="0" name="Instance variable">embarFinProc</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="188425331811967" type="niños">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="3722437333172713" type="cursor">
+                            <param id="0" name="Instance variable">blockCursor</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>

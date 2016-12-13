@@ -3,7 +3,10 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>textos1ES</name>
     <events>
-        <variable constant="0" name="embarText" sid="3017033134647449" static="0" type="number">0</variable>
+        <variable constant="0" name="global" sid="3017033134647449" static="0" type="number">0</variable>
+        <variable constant="0" name="global2" sid="2451200469323548" static="0" type="number">0</variable>
+        <variable constant="0" name="global3" sid="8412168377034386" static="0" type="number">0</variable>
+        <variable constant="0" name="global4" sid="7188039104986481" static="0" type="number">0</variable>
         <event-block sid="9376687928144141">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="8029087279682169" type="System" />
@@ -13,7 +16,7 @@
                     <param id="0" name="Audio file">(101) cuales seran listo_</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;STexto101&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
                 </action>
                 <action id="0" name="Play" sid="4842226835437957" type="Audio">
                     <param id="0" name="Audio file">sonFondEH1</param>
@@ -21,9 +24,25 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;fondo&quot;</param>
                 </action>
-                <action disabled="1" id="-13" name="Set boolean" sid="1011783531409552" type="cursor">
+                <action id="4" name="Set animation" sid="3521248609931509" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="7155467404489762" type="FredyAbyTiqui">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="1011783531409552" type="cursor">
                     <param id="0" name="Instance variable">blockCursor</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="3776438342874118" type="niños">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="7639168537601351" type="embarz">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="5030828693937524" type="reg">
+                    <param id="0" name="State">0</param>
                 </action>
             </actions>
         </event-block>
@@ -40,32 +59,73 @@
                     <param id="0" name="Audio file">(101) cuales seran listo_</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;STexto101&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="4" name="Set animation" sid="4039857786990684" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="5678968593840712" type="FredyAbyTiqui">
+                    <param id="0" name="Frame number">1</param>
                 </action>
                 <action id="5" name="Set frame" sid="8913039319703435" type="textES1">
                     <param id="0" name="Frame number">1</param>
                 </action>
-                <action disabled="1" id="-13" name="Set boolean" sid="7678904629929604" type="cursor">
+                <action id="-13" name="Set boolean" sid="7678904629929604" type="cursor">
                     <param id="0" name="Instance variable">blockCursor</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="6674486133091193" type="niños">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="9078607331839562" type="embarz">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="4839353651090589" type="reg">
+                    <param id="0" name="State">0</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="928806358940855">
             <conditions>
-                <condition id="5" inverted="1" name="Is tag playing" sid="7524737397280647" type="Audio">
-                    <param id="0" name="Tag">&quot;STexto101&quot;</param>
+                <condition id="0" name="On ended" sid="7524737397280647" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto&quot;</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="2824426994008852" type="textES1">
                     <param id="0" name="Frame number">0</param>
                 </action>
-                <action disabled="1" id="-13" name="Set boolean" sid="4760623433010289" type="cursor">
+                <action id="-13" name="Set boolean" sid="4760623433010289" type="cursor">
                     <param id="0" name="Instance variable">blockCursor</param>
                     <param id="1" name="Value">0</param>
                 </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="8113516900739906" type="niños">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="2794758613272991" type="embarz">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="5860098690332133" type="FredyAbyTiqui">
+                    <param id="0" name="Frame number">0</param>
+                </action>
             </actions>
+            <sub-events>
+                <event-block sid="9721836770792461">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5584313195665434" type="System">
+                            <param id="0" name="Variable">totalPalms</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="5025711004931923" type="reg">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="3270442133417249">
             <conditions>
@@ -76,7 +136,7 @@
                     <param id="0" name="Instance variable">niñosFinProc</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="2553217976650581" type="System">
-                    <param id="0" name="Variable">embarText</param>
+                    <param id="0" name="Variable">global</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
@@ -86,10 +146,34 @@
                     <param id="0" name="Audio file">(105) niños y mujer embarazada listo</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;STexto105&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="4" name="Set animation" sid="7154031109017365" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="9618561273576906" type="FredyAbyTiqui">
+                    <param id="0" name="Frame number">1</param>
                 </action>
                 <action id="5" name="Set frame" sid="6034888093723182" type="textES1">
                     <param id="0" name="Frame number">5</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4365447801659455" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="2908156683676234" type="niños">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="3217179242112077" type="embarz">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="8188218678717417" type="reg">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="5498208288616983" type="System">
+                    <param id="0" name="Variable">global</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -107,8 +191,47 @@
                 <condition id="-8" name="Is boolean instance variable set" sid="985050562119931" type="puertCs">
                     <param id="0" name="Instance variable">finProc</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="4179536039177639" type="System">
+                    <param id="0" name="Variable">global2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="0" name="Play" sid="1220459471516769" type="Audio">
+                    <param id="0" name="Audio file">(102) me has ayudado listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="4" name="Set animation" sid="8433227845611812" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="6762476117929191" type="FredyAbyTiqui">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="5349074550537237" type="textES1">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="837651064848438" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="9848250932768454" type="niños">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="7707219671432871" type="embarz">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="1282884072421597" type="reg">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="2875052886690026" type="System">
+                    <param id="0" name="Variable">global2</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="5011202080762153">
             <conditions>
@@ -117,16 +240,101 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="9002710070398335" type="System">
+                    <param id="0" name="Variable">global3</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="0" name="Play" sid="4499937540107063" type="Audio">
+                    <param id="0" name="Audio file">(103) cortina rompe vientos listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="4" name="Set animation" sid="4078825981094146" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="3072677063342509" type="FredyAbyTiqui">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="8267164016208427" type="textES1">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="7715008940625923" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="9161872077779374" type="niños">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="2422271473719811" type="embarz">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="6701459066043966" type="reg">
+                    <param id="0" name="X">992.162</param>
+                    <param id="1" name="Y">358.631</param>
+                </action>
+                <action id="6" name="Stop" sid="4652056816612221" type="Audio">
+                    <param id="0" name="Tag">&quot;reg&quot;</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="376449499438992" type="reg">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="7340403812009644" type="System">
+                    <param id="0" name="Variable">global3</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="8065964726584014">
             <conditions>
                 <condition id="-8" name="Is boolean instance variable set" sid="5309089931467196" type="bosque">
                     <param id="0" name="Instance variable">finProc</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="6941762664648528" type="System">
+                    <param id="0" name="Variable">global4</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="0" name="Play" sid="2640618619457796" type="Audio">
+                    <param id="0" name="Audio file">(104) zona de protección natural listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="4" name="Set animation" sid="8534331125126432" type="FredyAbyTiqui">
+                    <param id="0" name="Animation">&quot;Hablando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="9411182840821149" type="FredyAbyTiqui">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="5592379234989662" type="textES1">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="9477712914965517" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="2639742164580927" type="niños">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="2496448361059261" type="embarz">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="8798408202772095" type="reg">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="1816211285319414" type="System">
+                    <param id="0" name="Variable">global4</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
