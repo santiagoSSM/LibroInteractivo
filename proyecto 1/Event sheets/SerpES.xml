@@ -8,6 +8,9 @@
                 <condition id="7" name="Cursor is over object" sid="7806406225521196" type="Mouse">
                     <param id="0" name="Object">Serp</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5043711935661938" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="7688740341727719" type="Serp">
@@ -19,6 +22,9 @@
             <conditions>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="7806520179044007" type="Mouse">
                     <param id="0" name="Object">Serp</param>
+                </condition>
+                <condition id="5" inverted="1" name="Is tag playing" sid="7797942689041458" type="Audio">
+                    <param id="0" name="Tag">&quot;Stexto&quot;</param>
                 </condition>
             </conditions>
             <actions>

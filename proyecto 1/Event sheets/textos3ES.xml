@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>textos3ES</name>
+    <events>
+        <event-block sid="7561511224319406">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2193443024276701" type="System" />
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="5981597100439075" type="System" />
+                <action id="0" name="Play" sid="8587124207657653" type="Audio">
+                    <param id="0" name="Audio file">(301) Monte santo listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="6407520641745073" type="Audio">
+                    <param id="0" name="Audio file">sonFondEH1</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;fondo&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="1117061223073855" type="Lyl">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4576437527071003" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="9098968888261994" type="btlla">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2452405909263874">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4734850396651363" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Lyl</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="918556411351552" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="3701961393641909" type="Audio">
+                    <param id="0" name="Audio file">(301) Monte santo listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="1015535066283966" type="textES3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="371960806954994" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="5254130338290041" type="Lyl">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="2001916515098988" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="4116765181810912" type="btlla">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2590899197769983">
+            <conditions>
+                <condition id="0" name="On ended" sid="823187673855677" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="9638176981135109" type="textES3">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="1712815454535372" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="5185929032927659" type="Lyl">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="3003589440768425" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="2185770659693223" type="btlla">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block disabled="1" sid="6977017360683327">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7026499554450803" type="System">
+                            <param id="0" name="Variable">totalPalms</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="7484168757603224" type="reg">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6046507605696577">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="1460281471188854" type="caj">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="9183665564773833" type="System">
+                    <param id="0" name="Variable">global2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7967302658110694" type="Audio">
+                    <param id="0" name="Audio file">(302) reutilizar 2 listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="7848354478852278" type="Lyl">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="6077903298150524" type="textES3">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="8133340200324045" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="4205196254724759" type="System">
+                    <param id="0" name="Variable">global2</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2992589017963152">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="5134636752271803" type="tb">
+                    <param id="0" name="Instance variable">finProc</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="4138550135809196" type="System">
+                    <param id="0" name="Variable">global3</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="1523353450385486" type="Audio">
+                    <param id="0" name="Audio file">(303) enjuague listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="8226180341399772" type="Lyl">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="9327012675098806" type="textES3">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="1666071544862965" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="5449321300879128" type="System">
+                    <param id="0" name="Variable">global3</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7505097063436107">
+            <conditions>
+                <condition id="0" name="On ended" sid="1448025825740556" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto&quot;</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="1865776830018234" type="System">
+                    <param id="0" name="Variable">global2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="119261891181853" type="System">
+                    <param id="0" name="Variable">global3</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8463461677069863" type="System">
+                    <param id="0" name="Variable">global4</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7946769961782601" type="System">
+                    <param id="0" name="Variable">global5</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="5996519687074567" type="Audio">
+                    <param id="0" name="Audio file">(305) su premio listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="305597186711437" type="Lyl">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="9572157488571902" type="textES3">
+                    <param id="0" name="Frame number">5</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="7363890918229924" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="9882929774840867" type="System">
+                    <param id="0" name="Variable">global5</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

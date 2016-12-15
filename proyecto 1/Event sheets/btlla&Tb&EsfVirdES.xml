@@ -302,6 +302,7 @@
                     <param id="0" name="Instance variable">blockCursor</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="-24" name="Move to top" sid="3720492807259087" type="btlla" />
             </actions>
         </event-block>
         <event-block sid="238661114931509">
@@ -425,6 +426,26 @@
                 </action>
                 <action id="5" name="Set frame" sid="6185339784329242" type="FondoES3">
                     <param id="0" name="Frame number">FondoES3.AnimationFrame+1</param>
+                </action>
+                <action id="0" name="Play" sid="5018230032476211" type="Audio">
+                    <param id="0" name="Audio file">(304) triturar listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="327305823383233" type="Lyl">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="9364005772269869" type="textES3">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="8098310790332701" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="3694915168488238" type="System">
+                    <param id="0" name="Variable">global4</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>

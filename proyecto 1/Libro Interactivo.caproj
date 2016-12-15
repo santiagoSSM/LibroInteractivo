@@ -1241,7 +1241,7 @@
             <object-type name="textES2" sid="3908218024515104">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="11" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6023944748128587" speed="0">
+                    <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6023944748128587" speed="0">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.504348" />
                         <frame duration="1" hotspotX="0.500695" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v14\Prueba\2 inter\3 cuadr img-11.png">
                             <collision-poly>
@@ -1289,15 +1289,6 @@
                                 <point x="0.984765" y="0.904348" />
                                 <point x="0.5" y="0.965217" />
                                 <point x="0.00969529" y="0.93913" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.508475" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v14\Prueba\2 inter\3 cuadr img-16.png">
-                            <collision-poly>
-                                <point x="0.022069" y="0.132231" />
-                                <point x="0.977931" y="0.132231" />
-                                <point x="0.983448" y="0.900826" />
-                                <point x="0.49931" y="0.92562" />
-                                <point x="0.017931" y="0.892562" />
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.504673" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v14\Prueba\2 inter\3 cuadr img-17.png">
@@ -2232,7 +2223,7 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\fondos\interactivo 3 presen 3t.jpg" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\fondos\interactivo 3 present 2.jpg" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\fondos\interactivo 3 present.jpg" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v5\3int imagenes\jdín.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Downloads\jdín 2.jpg" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2316,6 +2307,7 @@
                 <instance-variables>
                     <instance-variable name="brill" sid="8356258089003179" type="boolean" />
                     <instance-variable name="finProc" sid="6252123977504608" type="boolean" />
+                    <instance-variable name="abiert" sid="9010550338522117" type="boolean" />
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7725761754957114" speed="0">
@@ -2716,6 +2708,11 @@
             </object-type>
             <object-type name="TapaBotella" sid="3679333188918559">
                 <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="7139859812527956">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4185729288943698" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambion escena 3\tapa.png">
@@ -3036,6 +3033,9 @@
             <event-folder name="intPtoES">
                 <event-sheet>ptoES.xml</event-sheet>
             </event-folder>
+            <event-folder name="textosES">
+                <event-sheet>textos2ES.xml</event-sheet>
+            </event-folder>
             <event-sheet>Escena2ES.xml</event-sheet>
         </event-folder>
         <event-folder name="HistES">
@@ -3227,6 +3227,7 @@
             <event-sheet>cajES.xml</event-sheet>
             <event-sheet>LylES.xml</event-sheet>
             <event-sheet>grzES.xml</event-sheet>
+            <event-sheet>textos3ES.xml</event-sheet>
         </event-folder>
         <event-folder name="Portada">
             <event-sheet>Portada.xml</event-sheet>
@@ -3554,7 +3555,6 @@
                     <file name="(205) ardillitas listas.m4a" />
                     <file name="(205) ardillitas listas.ogg" />
                 </sound-folder>
-                <sound-folder name="206" />
                 <sound-folder name="207">
                     <file name="(207) corcel y potrillo listo_01.m4a" />
                     <file name="(207) corcel y potrillo listo_01.ogg" />
@@ -3567,7 +3567,9 @@
                     <file name="(209) Lora se han ganado listo..._01.m4a" />
                     <file name="(209) Lora se han ganado listo..._01.ogg" />
                 </sound-folder>
-                <sound-folder name="210" />
+                <sound-folder name="210">
+                    <file name="(210) aprendimos Lora listo.ogg" />
+                </sound-folder>
             </sound-folder>
         </sound-folder>
         <sound-folder name="SonES3">

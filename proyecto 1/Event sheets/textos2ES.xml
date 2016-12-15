@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>textos2ES</name>
+    <events>
+        <event-block sid="9346064248186534">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9391458114248605" type="System" />
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="6901083969102286" type="System" />
+                <action id="0" name="Play" sid="5542123749038338" type="Audio">
+                    <param id="0" name="Audio file">(201) preparados niños lora listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="9408948664733876" type="Audio">
+                    <param id="0" name="Audio file">sonFondEH1</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;fondo&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="5626255602362099" type="Serp">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="4560776419374787" type="Tiki2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="1680987417571924" type="Abi2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="249008849663143" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="4537049777179645" type="botArd">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="3326245075460404" type="botCab">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="8352964028812385" type="botIgu">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="1506541314420245" type="botRat">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="6354359184709168" type="pto">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7548827182584688">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7279773657928772" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Serp</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9224174890968589" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7058914378776868" type="Audio">
+                    <param id="0" name="Audio file">(201) preparados niños lora listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="2149664444305031" type="Serp">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="132663671055338" type="Tiki2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="9153871034342301" type="Abi2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="3054521068040595" type="textES2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="262364101848255" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="889162033420746" type="botArd">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="6130280778024994" type="botCab">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="7028935930616643" type="botIgu">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="8242469959336759" type="botRat">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="1394115589458099" type="pto">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="197615546841778">
+            <conditions>
+                <condition id="0" name="On ended" sid="1502528546158201" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8007565465555209" type="textES2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="443345096491967" type="Serp">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3623736323537392" type="Tiki2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="6451322160505544" type="Abi2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4376173930355243" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="2244418404588543" type="botArd">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="2243779350139234" type="botCab">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="3306608970747545" type="botIgu">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="5780932227751923" type="botRat">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="5243483009368017" type="pto">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block disabled="1" sid="9694232810589857">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7381411819966388" type="System">
+                            <param id="0" name="Variable">totalPalms</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="9328910528036438" type="reg">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7579639418095652">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="3087758548750655" type="ard">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8624935173785359" type="System">
+                    <param id="0" name="Variable">global2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="5265919596748584" type="Audio">
+                    <param id="0" name="Audio file">(205) ardillitas listas</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="6485325411424756" type="Serp">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="6534276168227382" type="Tiki2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="9736315958473821" type="Abi2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3524861858065141" type="textES2">
+                    <param id="0" name="Frame number">5</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="6747123618405967" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="768149362462174" type="System">
+                    <param id="0" name="Variable">global2</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3868516429339039">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="9778976003979081" type="cab">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2129056224994201" type="System">
+                    <param id="0" name="Variable">global3</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="3349404535604696" type="Audio">
+                    <param id="0" name="Audio file">(207) corcel y potrillo listo_01</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="8610715037215851" type="Serp">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="944026090643253" type="Tiki2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3287198913397513" type="Abi2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="6058550928179999" type="textES2">
+                    <param id="0" name="Frame number">6</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="210798971512639" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="1118665890654737" type="System">
+                    <param id="0" name="Variable">global3</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9576106912017442">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="107443489383556" type="igu">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2149074811876408" type="System">
+                    <param id="0" name="Variable">global4</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="5163246633609171" type="Audio">
+                    <param id="0" name="Audio file">(208) señor iguana listo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="9900726633722121" type="Serp">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="4987374365635632" type="Tiki2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="8283108693441584" type="Abi2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3422420664506797" type="textES2">
+                    <param id="0" name="Frame number">7</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="7721194475898749" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="3370238645428703" type="System">
+                    <param id="0" name="Variable">global4</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="7370144205585856">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="4533003073088764" type="rat">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8336779343799028" type="System">
+                    <param id="0" name="Variable">global5</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="0" name="Play" sid="4747390565478269" type="Audio">
+                    <param id="0" name="Audio file">(205) ardillitas listas</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action disabled="1" id="5" name="Set frame" sid="9201897463811557" type="Serp">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3475823808984293" type="Tiki2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="8413957971297277" type="Abi2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="9748939413348343" type="textES2">
+                    <param id="0" name="Frame number">5</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="7641705605821565" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="9798086379621496" type="System">
+                    <param id="0" name="Variable">global5</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4272881443965116">
+            <conditions>
+                <condition id="0" name="On ended" sid="8266130745922379" type="Audio">
+                    <param id="0" name="Tag">&quot;STexto&quot;</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2218407954088589" type="System">
+                    <param id="0" name="Variable">global2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7860187371901487" type="System">
+                    <param id="0" name="Variable">global3</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="660180573930763" type="System">
+                    <param id="0" name="Variable">global4</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition disabled="1" id="-8" name="Is boolean instance variable set" sid="7976896380994384" type="ard">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition disabled="1" id="-8" name="Is boolean instance variable set" sid="3650677677873289" type="cab">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition disabled="1" id="-8" name="Is boolean instance variable set" sid="5484625595333654" type="igu">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="3192515425526669" type="rat">
+                    <param id="0" name="Instance variable">finProcBot</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8315596378839884" type="System">
+                    <param id="0" name="Variable">global</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="4914845735053411" type="Audio">
+                    <param id="0" name="Audio file">(203) 4 envases de plaguds listo_01</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="2209599792566508" type="Serp">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="6323477572462979" type="Tiki2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="2312468115138557" type="Abi2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="8474932280921701" type="textES2">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="8489772828015696" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="770239281157525" type="niños">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="5476897561162806" type="embarz">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="6953290993970428" type="reg">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="1418841081550176" type="System">
+                    <param id="0" name="Variable">global</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2062222148224836">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="3154792226198997" type="ard">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="1079897100038499" type="cab">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="5585713111429622" type="igu">
+                    <param id="0" name="Instance variable">finProcPlat</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5948233359637041" type="System">
+                    <param id="0" name="Variable">totalPalms</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="8559679503773179" type="Audio">
+                    <param id="0" name="Audio file">(204) respaldaranlisto_01</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;STexto&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="2059670095447925" type="Serp">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="8838525764618156" type="Tiki2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3669413964369145" type="Abi2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="3296984229838492" type="textES2">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="3031039335430723" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="1077760605963038" type="System">
+                    <param id="0" name="Variable">totalPalms</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

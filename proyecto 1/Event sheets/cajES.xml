@@ -34,7 +34,7 @@
                     <param id="0" name="Object">caj</param>
                 </condition>
                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="801665998822012" type="caj">
-                    <param id="0" name="Instance variable">finProc</param>
+                    <param id="0" name="Instance variable">abiert</param>
                 </condition>
             </conditions>
             <actions>
@@ -65,16 +65,71 @@
                 <action id="5" name="Set frame" sid="8169421507618928" type="caj">
                     <param id="0" name="Frame number">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="2247165588516385" type="caj">
-                    <param id="0" name="Instance variable">finProc</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-15" name="Set visible" sid="189996866119579" type="canAbej">
+                <action id="-15" name="Set visible" sid="2690835780801704" type="TapaBotella">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="5" name="Set frame" sid="7320041001655212" type="FondoES3">
-                    <param id="0" name="Frame number">FondoES3.AnimationFrame+1</param>
+                <action id="-13" name="Set boolean" sid="5137445484955121" type="caj">
+                    <param id="0" name="Instance variable">abiert</param>
+                    <param id="1" name="Value">1</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="1545803683664283">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="2414105406265235" type="TapaBotella" />
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="2468315907993398" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7487819686145086">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="1865061721373847" type="TapaBotella">
+                            <param id="0" name="Object">canAbej</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="189996866119579" type="canAbej">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="2247165588516385" type="caj">
+                            <param id="0" name="Instance variable">finProc</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="7320041001655212" type="FondoES3">
+                            <param id="0" name="Frame number">FondoES3.AnimationFrame+1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="2490801977550402" type="TapaBotella" />
+                    </actions>
+                </event-block>
+                <event-block sid="3789177622095951">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="2411857371208626" type="TapaBotella">
+                            <param id="0" name="Object">canAbej</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="5290026981640396" type="TapaBotella">
+                            <param id="0" name="X">295</param>
+                            <param id="1" name="Y">632</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4595883168754062">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="6163198936611108" type="TapaBotella" />
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="1723526500978752" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-24" name="Move to top" sid="7449730081798505" type="TapaBotella" />
             </actions>
         </event-block>
     </events>

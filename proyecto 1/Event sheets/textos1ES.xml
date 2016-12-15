@@ -7,11 +7,18 @@
         <variable constant="0" name="global2" sid="2451200469323548" static="0" type="number">0</variable>
         <variable constant="0" name="global3" sid="8412168377034386" static="0" type="number">0</variable>
         <variable constant="0" name="global4" sid="7188039104986481" static="0" type="number">0</variable>
+        <variable constant="0" name="global5" sid="7046841152658515" static="0" type="number">0</variable>
+        <variable constant="0" name="global6" sid="4210820746245137" static="0" type="number">0</variable>
+        <variable constant="0" name="global7" sid="5301777518408614" static="0" type="number">0</variable>
+        <variable constant="0" name="global8" sid="9805807366000341" static="0" type="number">0</variable>
+        <variable constant="0" name="global9" sid="8876815241417283" static="0" type="number">0</variable>
+        <variable constant="0" name="global10" sid="8464175363197403" static="0" type="number">0</variable>
         <event-block sid="9376687928144141">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="8029087279682169" type="System" />
             </conditions>
             <actions>
+                <action id="-21" name="Reset global variables" sid="9524241048270866" type="System" />
                 <action id="0" name="Play" sid="277700087698585" type="Audio">
                     <param id="0" name="Audio file">(101) cuales seran listo_</param>
                     <param id="2" name="Loop">0</param>
@@ -52,6 +59,9 @@
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">Fredy</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9200306741544647" type="cursor">
+                    <param id="0" name="Instance variable">blockCursor</param>
                 </condition>
             </conditions>
             <actions>

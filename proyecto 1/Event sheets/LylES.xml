@@ -23,6 +23,9 @@
                 <condition id="7" inverted="1" name="Cursor is over object" sid="2967768977433405" type="Mouse">
                     <param id="0" name="Object">Lyl</param>
                 </condition>
+                <condition id="5" inverted="1" name="Is tag playing" sid="1695040990637021" type="Audio">
+                    <param id="0" name="Tag">&quot;Stexto&quot;</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="963168760913597" type="Lyl">
