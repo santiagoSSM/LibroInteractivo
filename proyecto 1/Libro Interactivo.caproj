@@ -720,7 +720,7 @@
                     </instance-variables>
                     <animation-folder>
                         <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4640476788045761" speed="0">
-                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\igu.jpg">
+                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (2)\igu.png">
                                 <collision-poly>
                                     <point x="0.161663" y="0.407272" />
                                     <point x="0.953811" y="0.552727" />
@@ -728,7 +728,7 @@
                                     <point x="0.152425" y="0.789091" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\igu A.jpg">
+                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (2)\igu A.png">
                                 <collision-poly>
                                     <point x="0.166282" y="0.392727" />
                                     <point x="0.963048" y="0.625454" />
@@ -736,7 +736,7 @@
                                     <point x="0.161663" y="0.730909" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\igu hb.png">
+                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (2)\igu hb.png">
                                 <collision-poly>
                                     <point x="0.30254" y="0.476364" />
                                     <point x="0.498845" y="0.48" />
@@ -748,7 +748,7 @@
                                     <point x="0.221709" y="0.498182" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\igu plag.jpg">
+                            <frame duration="1" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (2)\igu plag.png">
                                 <collision-poly>
                                     <point x="0.157044" y="0.407273" />
                                     <point x="0.967667" y="0.603636" />
@@ -758,7 +758,18 @@
                             </frame>
                         </animation>
                         <animation framecount="1" loop="0" name="Feliz" pingpong="0" repeatcount="1" repeatto="0" sid="9627376488354988" speed="5">
-                            <frame duration="5" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v13\cambios anim esc2\igu A.jpg" />
+                            <frame duration="5" hotspotX="0.501155" hotspotY="0.501818" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (2)\igu A.png">
+                                <collision-poly>
+                                    <point x="0.318707" y="0.501818" />
+                                    <point x="0.498845" y="0.48" />
+                                    <point x="0.630485" y="0.581818" />
+                                    <point x="0.531178" y="0.498182" />
+                                    <point x="0.817552" y="0.712727" />
+                                    <point x="0.498845" y="0.730909" />
+                                    <point x="0.212471" y="0.665455" />
+                                    <point x="0.244804" y="0.498182" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -771,7 +782,7 @@
                     </behaviors>
                     <animation-folder>
                         <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4456221909093947" speed="0">
-                            <frame duration="1" hotspotX="0.526316" hotspotY="0.512821" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag igu.jpg">
+                            <frame duration="1" hotspotX="0.526316" hotspotY="0.512821" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (2)\plag igu.png">
                                 <collision-poly>
                                     <point x="0.407895" y="0.298077" />
                                     <point x="0.5" y="0.230769" />
@@ -876,7 +887,17 @@
                     </behaviors>
                     <animation-folder>
                         <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7280173836974185" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag cab.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (2)\plag cab.png">
+                                <collision-poly>
+                                    <point x="0.46875" y="0.428571" />
+                                    <point x="0.53125" y="0.428571" />
+                                    <point x="0.84375" y="0.485714" />
+                                    <point x="0.875" y="0.885714" />
+                                    <point x="0.5" y="0.742857" />
+                                    <point x="0.3125" y="0.714286" />
+                                    <point x="0.125" y="0.485714" />
+                                </collision-poly>
+                            </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Gplag cab.png">
                                 <collision-poly>
                                     <point x="0.222222" y="0.0851064" />
@@ -999,7 +1020,18 @@
                     </instance-variables>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4851801768518758" speed="0">
-                            <frame duration="1" hotspotX="0.502242" hotspotY="0.506173" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\plag az rts.jpg" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.506173" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (2)\plag az rts.png">
+                                <collision-poly>
+                                    <point x="0.103139" y="0.283951" />
+                                    <point x="0.497758" y="0.160494" />
+                                    <point x="0.883408" y="0.320988" />
+                                    <point x="0.919282" y="0.493827" />
+                                    <point x="0.847534" y="0.580247" />
+                                    <point x="0.497758" y="0.950617" />
+                                    <point x="0.188341" y="0.481481" />
+                                    <point x="0.0941704" y="0.493827" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -1031,14 +1063,34 @@
             </object-folder>
             <object-type name="FondoES2" sid="7838875048674712">
                 <plugin id="TiledBg" />
-                <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\Interact v4\escena 2\fonde 2.jpg" />
+                <texture original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones\Fondo 2.jpg" />
             </object-type>
             <object-type name="gll" sid="3046526616191653">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6860492047627383" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\interact\interact\2 int imagenes\Gll.jpg" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Interact v2\2 int imagenes\Gll cnt.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones\Gll.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.517241" />
+                                <point x="0.928571" y="0.114943" />
+                                <point x="0.964286" y="0.494253" />
+                                <point x="0.821429" y="0.712644" />
+                                <point x="0.5" y="0.62069" />
+                                <point x="0.507143" y="0.494253" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones\Gll cnt.png">
+                            <collision-poly>
+                                <point x="0.0285714" y="0.045977" />
+                                <point x="0.5" y="0.183908" />
+                                <point x="0.928571" y="0.114943" />
+                                <point x="0.964286" y="0.494253" />
+                                <point x="0.821429" y="0.712644" />
+                                <point x="0.5" y="0.356322" />
+                                <point x="0.342857" y="0.448276" />
+                                <point x="0.0357143" y="0.494253" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1168,7 +1220,7 @@
                                 <point x="0.118421" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v6\Abi sr.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones\Abi sr.png">
                             <collision-poly>
                                 <point x="0.122807" y="0.168675" />
                                 <point x="0.5" y="0.0481928" />
@@ -1180,7 +1232,7 @@
                                 <point x="0.0350877" y="0.5" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v6\Abi A.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones\Abi A.png">
                             <collision-poly>
                                 <point x="0.122807" y="0.168675" />
                                 <point x="0.5" y="0.0542169" />
@@ -1783,7 +1835,7 @@
             <object-folder name="EsHist14">
                 <object-type name="EsHist14" sid="3173390609036103">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\22.jpg" />
+                    <texture original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (1)\14 cuadr-01.jpg" />
                 </object-type>
                 <object-type name="textoEH14" sid="3423392055511988">
                     <plugin id="Sprite" />
@@ -1910,7 +1962,7 @@
             <object-folder name="EsHist16">
                 <object-type name="EsHist16" sid="5171832201107481">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\24.jpg" />
+                    <texture original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (1)\sembrando café lit mejor-01.jpg" />
                 </object-type>
                 <object-type name="textoEH16" sid="6108426256822318">
                     <plugin id="Sprite" />
@@ -1956,7 +2008,7 @@
             <object-folder name="EsHist17">
                 <object-type name="EsHist17" sid="8090578317887941">
                     <plugin id="TiledBg" />
-                    <texture original-source="C:\Users\Usuario\OneDrive\SantiagoPC1\Desktop\Karol trabajos\interact v10\imagenes\26.jpg" />
+                    <texture original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (1)\sembrando café Brisa mejor.jpg" />
                 </object-type>
                 <object-type name="textoEH17" sid="5711937423865185">
                     <plugin id="Sprite" />
@@ -2172,7 +2224,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2675513752195615" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Downloads\interact v15\cuadr con home-09.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (3)\homes-02.png">
                             <collision-poly>
                                 <point x="0" y="0" />
                                 <point x="0.566667" y="0" />
@@ -2184,7 +2236,7 @@
                                 <point x="0" y="0.46" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Oscar\Downloads\interact v15\cuadr con home-08.png">
+                        <frame duration="1" hotspotX="0.515625" hotspotY="0.5" original-source="C:\Users\Google Drive\PC1\Desktop\karol correcciones\Fwd%3a_Para_correcciones (3)\homes-01.png">
                             <collision-poly>
                                 <point x="0.166667" y="0.192308" />
                                 <point x="0.5" y="0.0769231" />
